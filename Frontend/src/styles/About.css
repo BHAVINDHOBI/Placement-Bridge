@@ -1,0 +1,31 @@
+/* About Us */
+
+.about-main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: start;
+  gap: 50px;
+}
+
+.about-grid1 {
+  display: grid;
+  grid-template-rows: 1fr 3fr;
+  justify-content: center;
+}
+
+.about-grid1 h1 {
+  justify-self: center;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.about-grid1 p {
+  font-size: 20px;
+  text-align: justify;
+  width: 100%;
+  line-height: 30px;
+}
+
+.about-grid2 img {
+  margin-top: 50px;
+}

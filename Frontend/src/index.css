@@ -1,0 +1,174 @@
+/* Reset Browser Default Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #00ffff;
+  --light-primary: #98f3ef;
+  --icon-color: #1e8bf1;
+  --icon-dark: #067be7;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  background: none;
+  border: none;
+  font: inherit;
+  color: inherit;
+}
+
+hr {
+  border-width: 0;
+  margin: 100px 0;
+  background-color: #00ffff;
+  height: 2px;
+}
+
+/* Base Styles */
+
+body {
+  background-image: url("./assets/HomePage_Imgs/Background.png");
+  background-size: cover;
+  font-family: "Inter", sans-serif;
+}
+
+.top-bar__content {
+  height: 30px;
+  max-width: 100%;
+  padding: 0 30px;
+  margin: 0 70px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  color: #00ffff;
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+.btn {
+  color: #fff;
+  background-color: #0071e3;
+  padding: 8px 20px;
+  border-radius: 1000px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(28, 128, 228);
+}
+
+/* .bottom-bar {
+} */
+
+.bottom-bar__content {
+  min-height: 60px;
+  max-width: 100%;
+  padding: 0 100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  vertical-align: middle;
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+}
+
+.logo__text {
+  font-size: 23px;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+  margin-left: 20px;
+}
+
+.logo__img {
+  height: 130px;
+}
+
+.nav {
+  transition: all 0.3s ease-in-out;
+}
+
+.nav__list {
+  display: flex;
+  column-gap: 60px;
+}
+
+.nav__item {
+  color: #fff;
+}
+
+.nav__link {
+  color: rgb(255, 255, 225);
+  transition: all 0.2s;
+}
+
+.nav__link:hover,
+.nav__link:focus {
+  color: #00ffff;
+}
+
+.hamburger {
+  cursor: pointer;
+  display: none;
+}
+
+.bar {
+  height: 2px;
+  width: 27px;
+  background-color: #fff;
+  margin: 5px 0;
+  opacity: 0.8;
+  transition: all 0.3s ease-in-out;
+}
+
+/* For JS */
+.nav--open {
+  left: 50% !important;
+}
+
+.hamburger--open .bar:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+
+.hamburger--open .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger--open .bar:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+/* Body Content */
+.website-content {
+  padding: 0 100px;
+  margin-top: 50px;
+  padding-bottom: 100px;
+  color: #fff;
+}
+
+.website-content__inner {
+  padding: 0 100px;
+  color: #fff;
+}
