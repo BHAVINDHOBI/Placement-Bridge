@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../styles/Login.css";
+import image from "../assets/ImageUtility";
 
 const Login = () => {
   const [isLogin, setIsLogin] = useState(true);
@@ -9,14 +10,10 @@ const Login = () => {
   };
 
   return (
-    <div>
+    <div className="body">
       <header>
         <div className="logo-heading-container">
-          <img
-            src="../images/HomePage_Imgs/placement-bridge-logo.svg"
-            alt="Logo"
-            className="logo"
-          />
+          <img src={image.PlacementBridgeLogo} alt="Logo" className="logo" />
           <h1 className="heading">Placement Bridge</h1>
         </div>
         <h3 className="title">Welcome, Please enter your credentials!</h3>

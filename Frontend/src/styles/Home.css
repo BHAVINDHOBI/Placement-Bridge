@@ -49,3 +49,15 @@
 .learn-more-icon {
   margin-left: 10px;
 }
+
+.learn-more-btn img {
+  width: 15px;
+  height: 15px;
+}
+
+.learn-img {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}

@@ -17,21 +17,14 @@ const Contact = () => (
             <i className="fa-solid fa-mobile-screen-button"></i>
             <div>
               <h5>Phone Number</h5>
-              <p>(123) 456-7890</p>
+              <p>940926615</p>
             </div>
           </div>
           <div className="item">
             <i className="fa-regular fa-envelope"></i>
             <div className="mb-0">
               <h5>Email Address</h5>
-              <p>info@website.com</p>
-            </div>
-          </div>
-          <div className="item">
-            <i className="fa-solid fa-globe"></i>
-            <div className="mb-0">
-              <h5>Website</h5>
-              <p>example.com</p>
+              <p>shreykoradiya200310@gmail.com</p>
             </div>
           </div>
         </div>
