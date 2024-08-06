@@ -57,7 +57,8 @@ import CloudComputingLogo from "./LatestTechImages/cloud-computing.jpeg";
 import CyberSecurityLogo from "./LatestTechImages/cybersecurity.jpg";
 import IOTLogo from "./LatestTechImages/iot.png";
 import MLLogo from "./LatestTechImages/machine-learning.jpeg";
-
+import Youtube from "./LatestTechImages/youtube.svg";
+import Document from "./LatestTechImages/document.svg";
 const image = {
   AmazonLogo: AmazonLogo,
   GoogleLogo: GoogleLogo,
@@ -107,6 +108,8 @@ const image = {
   CyberSecurityLogo: CyberSecurityLogo,
   IOTLogo: IOTLogo,
   MLLogo: MLLogo,
+  Youtube: Youtube,
+  Document: Document,
 };
 
 export default image;

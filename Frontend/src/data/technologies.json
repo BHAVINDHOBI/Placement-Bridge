@@ -1,0 +1,58 @@
+[
+  {
+    "imageSrc": "/Frontend/src/assets/LatestTechImages/artificial-intelligence.jpeg",
+    "altText": "AI logo",
+    "title": "Artificial Intelligence",
+    "description": "Artificial Intelligence (AI) is a branch of computer science focused on creating systems that can perform tasks requiring human-like intelligence...",
+    "youtubeLink": "https://www.youtube.com/playlist?list=PLV8vIYTIdSnYsdt0Dh9KkD9WFEi7nVgbe",
+    "articleLink": "#"
+  },
+  {
+    "imageSrc": "../assets/LatestTechImages/cloud-computing.jpeg",
+    "altText": "Cloud Computing logo",
+    "title": "Cloud Computing",
+    "description": "Cloud computing refers to the delivery of computing services over the internet, offering resources such as storage, processing power, and applications on a pay-as-you-go basis...",
+    "youtubeLink": "#",
+    "articleLink": "#"
+  },
+  {
+    "imageSrc": "../assets/LatestTechImages/machine-learning.jpeg",
+    "altText": "Machine Learning logo",
+    "title": "Machine Learning",
+    "description": "Machine Learning (ML) is a subset of artificial intelligence (AI) that focuses on the development of algorithms and statistical models...",
+    "youtubeLink": "#",
+    "articleLink": "#"
+  },
+  {
+    "imageSrc": "../assets/LatestTechImages/iot.png",
+    "altText": "Internet Of Things logo",
+    "title": "Internet Of Things",
+    "description": "The Internet of Things (IoT) refers to the network of interconnected devices, objects, and systems embedded with sensors, software, and other technologies...",
+    "youtubeLink": "#",
+    "articleLink": "#"
+  },
+  {
+    "imageSrc": "../assets/LatestTechImages/blockchain.jpg",
+    "altText": "Blockchain logo",
+    "title": "Blockchain",
+    "description": "Blockchain is a decentralized, distributed ledger technology that enables secure, transparent, and tamper-resistant record-keeping of transactions across a network of computers...",
+    "youtubeLink": "#",
+    "articleLink": "#"
+  },
+  {
+    "imageSrc": "../assets/LatestTechImages/ar-vr.svg",
+    "altText": "Augmented Reality logo",
+    "title": "Augmented Reality(AR) & Virtual Reality(VR)",
+    "description": "Augmented Reality (AR) overlays digital information, such as images, videos, or 3D models, onto the real-world environment...",
+    "youtubeLink": "#",
+    "articleLink": "#"
+  },
+  {
+    "imageSrc": "../assets/LatestTechImages/cybersecurity.jpg",
+    "altText": "Cybersecurity logo",
+    "title": "Cybersecurity",
+    "description": "Cybersecurity entails the practice of protecting computer systems, networks, and data from unauthorized access, cyberattacks, or damage...",
+    "youtubeLink": "#",
+    "articleLink": "#"
+  }
+]

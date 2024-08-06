@@ -7,9 +7,8 @@ import {
   Routes,
   useNavigate,
 } from "react-router-dom";
-import Login from "./components/Login";
-import MainPage from "./components/MainPage";
 
+import CoreItSubjects from "./components/LatestTechnology";
 function App() {
   useEffect(() => {
     AOS.init();
@@ -19,8 +18,7 @@ function App() {
     <>
       <Router>
         <Routes>
-          <Route path="/login" Component={Login} />
-          <Route path="/" Component={MainPage} />
+          <Route path="/" Component={CoreItSubjects} />
         </Routes>
       </Router>
     </>
