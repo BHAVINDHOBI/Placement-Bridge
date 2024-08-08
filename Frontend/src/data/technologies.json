@@ -1,58 +1,66 @@
 [
   {
-    "imageSrc": "/Frontend/src/assets/LatestTechImages/artificial-intelligence.jpeg",
+    "imageSrc": "/src/assets/LatestTechImages/artificial-intelligence.jpeg",
     "altText": "AI logo",
     "title": "Artificial Intelligence",
-    "description": "Artificial Intelligence (AI) is a branch of computer science focused on creating systems that can perform tasks requiring human-like intelligence...",
+    "description": "Artificial Intelligence (AI) is a field of computer science that focuses on creating intelligent machines capable of performing tasks that typically require human intelligence. These tasks include speech recognition, decision-making, visual perception, and language translation. AI systems learn and adapt to new data, improving their performance over time.",
     "youtubeLink": "https://www.youtube.com/playlist?list=PLV8vIYTIdSnYsdt0Dh9KkD9WFEi7nVgbe",
-    "articleLink": "#"
+    "articleLink": "https://www.google.co.in/books/edition/Artificial_Intelligence_for_Students/ptq1EAAAQBAJ?hl=en&gbpv=1&dq=AI&printsec=frontcover"
   },
   {
-    "imageSrc": "../assets/LatestTechImages/cloud-computing.jpeg",
+    "imageSrc": "/src/assets/LatestTechImages/cloud-computing.jpeg",
     "altText": "Cloud Computing logo",
     "title": "Cloud Computing",
-    "description": "Cloud computing refers to the delivery of computing services over the internet, offering resources such as storage, processing power, and applications on a pay-as-you-go basis...",
-    "youtubeLink": "#",
-    "articleLink": "#"
+    "description": "Cloud Computing is the delivery of computing services over the internet, including storage, processing power, and software applications. It allows users to access and store data on remote servers rather than on local devices, providing scalability, flexibility, and cost-efficiency. Cloud services can be categorized into Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS).",
+    "youtubeLink": "https://youtube.com/playlist?list=PLYwpaL_SFmcCyQH0n9GHfwviu6KeJ46BV&si=ojrksTAJ6vly4Rq2",
+    "articleLink": "https://www.google.co.in/books/edition/Introduction_to_Cloud_Computing/IFIEEAAAQBAJ?hl=en&gbpv=1"
   },
   {
-    "imageSrc": "../assets/LatestTechImages/machine-learning.jpeg",
+    "imageSrc": "/src/assets/LatestTechImages/machine-learning.jpeg",
     "altText": "Machine Learning logo",
     "title": "Machine Learning",
-    "description": "Machine Learning (ML) is a subset of artificial intelligence (AI) that focuses on the development of algorithms and statistical models...",
-    "youtubeLink": "#",
-    "articleLink": "#"
+    "description": "Machine Learning (ML) is a subset of AI that involves the development of algorithms and statistical models that enable computers to perform tasks without explicit instructions. By analyzing patterns in data, ML systems can make predictions, recognize patterns, and improve their performance over time. Applications of ML include recommendation systems, image and speech recognition, and autonomous vehicles.",
+    "youtubeLink": "https://youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH&si=ppqaUECm_JBhsZFq",
+    "articleLink": "https://www.google.co.in/books/edition/Fundamentals_and_Methods_of_Machine_and/Acd6EAAAQBAJ?hl=en&gbpv=1&dq=machine+learning&printsec=frontcover"
   },
   {
-    "imageSrc": "../assets/LatestTechImages/iot.png",
+    "imageSrc": "/src/assets/LatestTechImages/iot.png",
     "altText": "Internet Of Things logo",
     "title": "Internet Of Things",
-    "description": "The Internet of Things (IoT) refers to the network of interconnected devices, objects, and systems embedded with sensors, software, and other technologies...",
-    "youtubeLink": "#",
-    "articleLink": "#"
+    "description": "The Internet of Things (IoT) refers to a network of interconnected devices embedded with sensors, software, and other technologies that enable them to collect and exchange data. IoT devices can range from everyday household items to complex industrial machinery. This connectivity allows for automation, remote monitoring, and data-driven decision-making, enhancing efficiency and convenience in various sectors such as healthcare, manufacturing, and smart homes.",
+    "youtubeLink": "https://youtube.com/playlist?list=PLYwpaL_SFmcB8fDd64B8SkJiPpEIzpCzC&si=Jxm8E4l76JVEWq7i",
+    "articleLink": "https://www.google.co.in/books/edition/Fundamentals_of_IoT/Yk_OEAAAQBAJ?hl=en&gbpv=1&dq=iot&printsec=frontcover"
   },
   {
-    "imageSrc": "../assets/LatestTechImages/blockchain.jpg",
+    "imageSrc": "/src/assets/LatestTechImages/blockchain.jpg",
     "altText": "Blockchain logo",
     "title": "Blockchain",
-    "description": "Blockchain is a decentralized, distributed ledger technology that enables secure, transparent, and tamper-resistant record-keeping of transactions across a network of computers...",
-    "youtubeLink": "#",
-    "articleLink": "#"
+    "description": "Blockchain is a decentralized and distributed ledger technology that provides a secure and transparent way to record transactions. Each transaction is stored in a block, which is linked to the previous block, forming a chain. This structure ensures data integrity and immutability. Blockchain is widely known for its role in cryptocurrencies like Bitcoin, but it also has applications in supply chain management, finance, and digital identity verification.",
+    "youtubeLink": "https://www.youtube.com/playlist?list=PLgPmWS2dQHW-BRQCQCNYgmHUfCN115pn0",
+    "articleLink": "https://www.google.co.in/books/edition/Blockchain_A_to_Z_Explained/cCNAEAAAQBAJ?hl=en&gbpv=1&dq=blockchain&printsec=frontcover"
   },
   {
-    "imageSrc": "../assets/LatestTechImages/ar-vr.svg",
+    "imageSrc": "/src/assets/LatestTechImages/ar-vr.svg",
     "altText": "Augmented Reality logo",
     "title": "Augmented Reality(AR) & Virtual Reality(VR)",
-    "description": "Augmented Reality (AR) overlays digital information, such as images, videos, or 3D models, onto the real-world environment...",
-    "youtubeLink": "#",
-    "articleLink": "#"
+    "description": "Augmented Reality (AR) enhances the real-world environment by overlaying digital information such as images, videos, and 3D models. Virtual Reality (VR), on the other hand, immerses users in a fully digital environment, often using headsets to simulate a different reality. Both technologies are used in various fields, including gaming, education, healthcare, and training, providing immersive and interactive experiences.",
+    "youtubeLink": "https://www.youtube.com/playlist?list=PLbMVogVj5nJSyt80VRXYC-YrAvQuUb6dh",
+    "articleLink": "https://www.google.co.in/books/edition/Complete_Virtual_Reality_and_Augmented_R/xEuTDwAAQBAJ?hl=en&gbpv=1&dq=ar/vr+for+developers&printsec=frontcover"
   },
   {
-    "imageSrc": "../assets/LatestTechImages/cybersecurity.jpg",
+    "imageSrc": "/src/assets/LatestTechImages/cybersecurity.jpg",
     "altText": "Cybersecurity logo",
     "title": "Cybersecurity",
-    "description": "Cybersecurity entails the practice of protecting computer systems, networks, and data from unauthorized access, cyberattacks, or damage...",
-    "youtubeLink": "#",
-    "articleLink": "#"
+    "description": "Cybersecurity involves the practice of protecting computer systems, networks, and data from unauthorized access, attacks, and damage. This includes implementing measures such as firewalls, encryption, and intrusion detection systems. With the increasing number of cyber threats, cybersecurity is crucial for safeguarding sensitive information and maintaining the integrity and availability of digital assets in both personal and professional settings.",
+    "youtubeLink": "https://www.youtube.com/playlist?list=PLEiEAq2VkUUJfPOj5nRounXvf3n17PCft",
+    "articleLink": "https://www.google.co.in/books/edition/Introduction_to_Cyber_Security/VLEcEAAAQBAJ?hl=en&gbpv=1&dq=cyber+security&printsec=frontcover"
+  },
+  {
+    "imageSrc": "/src/assets/LatestTechImages/Rust.png",
+    "altText": "Rust logo",
+    "title": "Rust",
+    "description": "Rust is a systems programming language that emphasizes safety, performance, and concurrency. It is designed to provide memory safety without using garbage collection and ensures thread safety. Rust is ideal for performance-critical applications and is used in operating systems, game engines, and web browsers.",
+    "youtubeLink": "https://www.youtube.com/playlist?list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8",
+    "articleLink": "https://www.google.co.in/books/edition/The_Rust_Programming_Language/lrgrDwAAQBAJ?hl=en&gbpv=1&dq=rust+programming+language&printsec=frontcover"
   }
 ]

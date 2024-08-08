@@ -35,7 +35,7 @@ const TechnologyCard = ({
             <a href={youtubeLink} id="fonts" target="blank">
               <img src={image.Youtube}></img>
             </a>
-            <a href={articleLink} id="fonts">
+            <a href={articleLink} id="fonts" target="blank">
               <img src={image.Document}></img>
             </a>
           </div>
