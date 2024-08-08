@@ -1,0 +1,46 @@
+[
+  {
+    "imageSrc": "../images/HackathonImages/HackSharks.svg",
+    "altText": "HackSharks",
+    "title": "HACKSHARKS 2.0",
+    "daysLeft": "Days Left",
+    "mode": "ONLINE",
+    "prize": "15000 in prizes",
+    "company": "Amazon",
+    "date": "Jan 09 - Mar 05, 2024",
+    "tags": ["Beginner Friendly", "Health", "Machine Learning"]
+  },
+  {
+    "imageSrc": "../images/HackathonImages/GlobalGamersChallenge.svg",
+    "altText": "Global Gamers Challenge",
+    "title": "Global Gamers Challenge",
+    "daysLeft": "Days Left",
+    "mode": "ONLINE",
+    "prize": "7500 in prizes",
+    "company": "Google",
+    "date": "Jan 29 - Mar 15, 2024",
+    "tags": ["Design", "Social Media"]
+  },
+  {
+    "imageSrc": "../images/HackathonImages/Gitlab.svg",
+    "altText": "Gitlab",
+    "title": "GitLab Innovation Pitch Competition",
+    "daysLeft": "Days Left",
+    "mode": "ONLINE",
+    "prize": "30000 in prizes",
+    "company": "GitLab",
+    "date": "Jan 16 - Feb 17, 2024",
+    "tags": ["Social Good", "DevOps", "Machine Learning"]
+  },
+  {
+    "imageSrc": "../images/HackathonImages/HackSharks.svg",
+    "altText": "HackSharks",
+    "title": "DevRev Forge",
+    "daysLeft": "Days Left",
+    "mode": "ONLINE",
+    "prize": "5000 in prizes",
+    "company": "DevRev Forge",
+    "date": "Feb 16 - Feb 25, 2024",
+    "tags": ["Machine Learning"]
+  }
+]

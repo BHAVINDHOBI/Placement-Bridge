@@ -1,0 +1,82 @@
+[
+  {
+    "image": "/assets/CoreIT-Subjects/c-language.svg",
+    "altText": "C logo",
+    "subject": "C",
+    "description": "C programming language is a versatile and widely used programming language known for its efficiency and flexibility. Developed by Dennis Ritchie in the early 1970s, C has since become one of the most influential programming languages, serving as the foundation for many other languages such as C++, Java, and Python. Its simplicity and close-to-hardware capabilities make it suitable for system programming, embedded systems, and developing operating systems. C is a procedural language with a rich set of built-in functions and operators, allowing for low-level manipulation of memory and hardware.",
+    "youtubeLink": "https://www.youtube.com/playlist?list=PLV8vIYTIdSnYsdt0Dh9KkD9WFEi7nVgbe",
+    "articleLink": "https://www.learn-c.org/"
+  },
+  {
+    "image": "/assets/CoreIT-Subjects/c-plus.svg",
+    "altText": "C++ logo",
+    "subject": "C++",
+    "description": "C++ is a versatile and powerful programming language known for its efficiency, flexibility, and performance. Originally developed as an extension of the C programming language, C++ introduces object-oriented programming (OOP) features such as classes and inheritance, enabling developers to organize and structure their code more effectively. C++ is widely used in various domains, including system software, game development, embedded systems, and high-performance applications. It provides low-level control over hardware resources while also offering high-level abstractions, making it suitable for both low-level programming tasks and complex software development projects.",
+    "youtubeLink": "https://youtube.com/playlist?list=PLu0W_9lII9agpFUAlPFe_VNSlXW5uE0YL&si=M930u6IaPRFdA5PV",
+    "articleLink": "https://www.learncpp.com/"
+  },
+  {
+    "image": "/assets/CoreIT-Subjects/Python.svg",
+    "altText": "Python logo",
+    "subject": "Python",
+    "description": "Python is a high-level, interpreted programming language renowned for its simplicity and readability. Created by Guido van Rossum and first released in 1991, Python emphasizes code readability and simplicity, making it an excellent choice for beginners and experienced programmers alike. Its syntax uses indentation to denote code blocks, rather than relying on curly braces or keywords, which enhances readability. Python supports multiple programming paradigms, including procedural, object-oriented, and functional programming. It boasts a vast standard library, facilitating tasks ranging from web development to data analysis and scientific computing.",
+    "youtubeLink": "https://www.youtube.com/watch?v=XKHEtdqhLK8",
+    "articleLink": "https://www.geeksforgeeks.org/python-programming-language-tutorial/"
+  },
+  {
+    "image": "/assets/CoreIT-Subjects/java.svg",
+    "altText": "Java logo",
+    "subject": "Java",
+    "description": "Java is a high-level, object-oriented programming language renowned for its platform independence and versatility. Developed by Sun Microsystems in 1995, it has since become one of the most popular languages for building enterprise-level applications, web services, and mobile applications. Java's key feature is its 'write once, run anywhere' capability, enabled by its bytecode compilation model, where code is compiled into platform-independent bytecode executed by the Java Virtual Machine (JVM). This portability has made Java a cornerstone of cross-platform development. Additionally, its robust standard library, strong community support, and extensive ecosystem of frameworks and tools contribute to its widespread adoption. Java's object-oriented nature allows for modular, reusable code, fostering maintainability and scalability in software projects.",
+    "youtubeLink": "https://www.youtube.com/playlist?list=PLu0W_9lII9agS67Uits0UnJyrYiXhDS6q",
+    "articleLink": "https://www.javatpoint.com/java-tutorial"
+  },
+  {
+    "image": "/assets/CoreIT-Subjects/database.svg",
+    "altText": "Database logo",
+    "subject": "Database",
+    "description": "A database management system (DBMS) is a software suite designed to efficiently store, manage, and retrieve data. It serves as an interface between users and the database, allowing users to interact with the data without needing to understand its underlying structure. DBMS provides functionalities such as data storage, data retrieval, data manipulation, and data security. It ensures data integrity by enforcing constraints and providing mechanisms for data backup and recovery. DBMS also supports concurrent access to the database by multiple users while maintaining data consistency. Popular examples of DBMS include MySQL, Oracle Database, Microsoft SQL Server, and PostgreSQL.",
+    "youtubeLink": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiFAN6I8CuViBuCdJgiOkT2Y",
+    "articleLink": "https://www.javatpoint.com/dbms-tutorial"
+  },
+  {
+    "image": "/assets/CoreIT-Subjects/dsa.svg",
+    "altText": "DSA logo",
+    "subject": "Data Structure and Algorithms",
+    "description": "Data structures and algorithms are foundational concepts in computer science essential for solving problems efficiently. Data structures refer to the way data is organized and stored in a computer's memory, providing efficient access and manipulation. Examples include arrays, linked lists, stacks, queues, trees, and graphs. Algorithms, on the other hand, are step-by-step procedures used to solve computational problems. They leverage various data structures to perform operations such as searching, sorting, and traversing data efficiently. Understanding data structures and algorithms enables programmers to design efficient solutions, optimize code performance, and tackle complex problems.",
+    "youtubeLink": "https://www.youtube.com/playlist?list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz",
+    "articleLink": "https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/"
+  },
+  {
+    "image": "/assets/CoreIT-Subjects/daa.svg",
+    "altText": "daa logo",
+    "subject": "Design Analysis and Algorithm",
+    "description": "Design analysis involves evaluating the design of a system or algorithm to determine its correctness, efficiency, and scalability. It encompasses techniques such as time complexity analysis, space complexity analysis, and algorithmic paradigms like divide and conquer, dynamic programming, and greedy algorithms. On the other hand, algorithms are step-by-step procedures or sets of rules used for solving a particular problem or accomplishing a task. They are essential in computer science for tasks ranging from sorting and searching to data compression and machine learning. Effective algorithm design considers factors such as input size, time complexity, space complexity, and the specific requirements of the problem at hand.",
+    "youtubeLink": "https://www.youtube.com/playlist?list=PLYwpaL_SFmcBOrMihdkd48kgs6_YP8taa",
+    "articleLink": "https://www.tutorialspoint.com/design_and_analysis_of_algorithms/index.htm"
+  },
+  {
+    "image": "/assets/CoreIT-Subjects/operating-system.svg",
+    "altText": "os logo",
+    "subject": "Operating Systems",
+    "description": "Operating systems (OS) is a foundational subject in computer science that deals with the management and coordination of hardware and software resources within a computing environment. Its primary role is to provide an interface between the user and the computer hardware, enabling the execution of applications and facilitating efficient utilization of resources such as memory, CPU, storage, and peripherals. Operating systems perform tasks such as process management, memory management, file system management, device management, and security enforcement. Additionally, they enable multitasking, allowing multiple processes to run concurrently, and provide mechanisms for communication and synchronization among processes.",
+    "youtubeLink": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRiVhbXDGLXDk_OQAeuVcp2O",
+    "articleLink": "https://applied-programming.github.io/Operating-Systems-Notes/"
+  },
+  {
+    "image": "/assets/CoreIT-Subjects/cn.svg",
+    "altText": "cn logo",
+    "subject": "Computer Networks",
+    "description": "Computer networks is a foundational subject in IT engineering, focusing on the study of interconnected computers and devices that communicate and share resources. This field encompasses the principles, protocols, technologies, and architectures used to enable communication and data exchange between these devices. Topics typically covered include network topologies, transmission media, networking protocols (such as TCP/IP), network hardware (routers, switches, etc.), network security, and network administration. Understanding computer networks is essential for designing, implementing, and maintaining modern information systems.",
+    "youtubeLink": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiGFBD2-2joCpWOLUrDLvVV_",
+    "articleLink": "https://www.javatpoint.com/computer-network-tutorial"
+  },
+  {
+    "image": "/assets/CoreIT-Subjects/toc.svg",
+    "altText": "toc logo",
+    "subject": "Theory Of Computation",
+    "description": "The theory of computation is a branch of computer science that investigates the capabilities and limitations of computational systems. It delves into the study of algorithms, their efficiency, and their computational complexity. At its core lies the study of abstract models of computation, such as Turing machines and finite automata, which serve as theoretical frameworks for understanding the capabilities and limitations of algorithms. Central to this field are concepts such as automata theory, formal languages, computability theory, and complexity theory. Together, these areas form the foundation of the theory of computation, providing insights into the fundamental principles of computation and guiding the design and analysis of algorithms and systems.",
+    "youtubeLink": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiFM9Lj5G9G_76adtyb4ef7i",
+    "articleLink": "https://www.geeksforgeeks.org/theory-of-computation-automata-tutorials/"
+  }
+]

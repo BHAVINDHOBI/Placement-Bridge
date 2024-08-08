@@ -30,6 +30,11 @@ import TwitterLogo from "./FooterImages/Twitter Logomark.svg";
 import GitLabLogo from "./HackathonImages/Gitlab.svg";
 import GlobalGamers from "./HackathonImages/GlobalGamersChallenge.svg";
 import HackSharks from "./HackathonImages/HackSharks.svg";
+import Rupee from "./HackathonImages/Rupee.svg";
+import Online from "./HackathonImages/Online.svg";
+import Flag from "./HackathonImages/Flag.svg";
+import Tag from "./HackathonImages/Tag.svg";
+import Calender from "./HackathonImages/Calender.svg";
 
 // HomePage Images
 import AboutBackground from "./HomePage_Imgs/AboutBackground.svg";
@@ -110,6 +115,11 @@ const image = {
   MLLogo: MLLogo,
   Youtube: Youtube,
   Document: Document,
+  Flag: Flag,
+  Tag: Tag,
+  Online: Online,
+  Calender: Calender,
+  Rupee: Rupee,
 };
 
 export default image;

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import TechnologyCard from "./LatestTechnologiesCard";
 import technologies from "../data/technologies.json";
-import "../styles/CoreItSubjects.css";
+import "../styles/LatestTechnology.css";
 import Pagination from "@mui/material/Pagination";
 import Stack from "@mui/material/Stack";
 

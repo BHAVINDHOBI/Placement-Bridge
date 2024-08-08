@@ -1,0 +1,308 @@
+.hackathon-container {
+  background-color: #fff;
+  color: #000;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  padding: 50px 40px;
+  border-radius: 5px;
+  transition: all 0.2s;
+}
+
+.hackathon-container:hover {
+  transform: scale(1.03);
+}
+
+.hack-grid1 {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 50px;
+  align-items: center;
+}
+
+.hackathon__img img {
+  border-radius: 5px;
+}
+
+.hack-details {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 50px;
+  margin-left: 20px;
+}
+
+.btn__mode {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.day-left__btn button {
+  background-color: var(--primary-color);
+  font-size: large;
+  font-weight: 600;
+  padding: 10px 25px;
+  border-radius: 20px;
+  transition: all 0.4s;
+}
+
+.day-left__btn:hover {
+  border: #4b4a4a 1px solid;
+  border-radius: 20px;
+  transform: scale(1.02);
+}
+
+.mode-of-hackathon {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.winner-prize {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.hack-grid2 {
+  display: flex;
+  position: relative;
+}
+
+.description {
+  display: grid;
+  grid-template-columns: auto;
+  margin: 0 20px;
+  gap: 20px;
+  position: relative;
+  padding-left: 20px;
+}
+
+.flag-company {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.flag-company button {
+  background-color: var(--light-primary);
+  padding: 8px 15px;
+  border-radius: 30px;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.flag-company :hover {
+  border: #4b4a4a 1px solid;
+  border-radius: 20px;
+  transform: scale(1.02);
+}
+
+.hackathon-date {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.hackathon-glimpses {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.hackathon-for {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.hackathon-for span {
+  background-color: var(--light-primary);
+  padding: 2px 7px;
+  border-radius: 5px;
+  transition: all 0.2s;
+}
+
+.hackathon-for :hover {
+  border: #4b4a4a 1px solid;
+  border-radius: 5px;
+  transform: scale(1);
+}
+
+.Price {
+  height: 17px;
+  width: 17px;
+}
+
+.vertical-line {
+  position: absolute;
+  left: -10px; /* Adjust this value to move the line horizontally */
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: aqua; /* Adjust the color as needed */
+  border: none;
+}
+
+.technology-container .header {
+  display: flex;
+  flex-direction: row;
+  column-gap: 760px;
+
+  margin-left: 35px;
+}
+
+.hackathons {
+  padding: 50px 40px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination .MuiPaginationItem-root {
+  color: white;
+}
+/* Tablet size */
+@media screen and (max-width: 750px) {
+  .hackathon-container {
+    grid-template-columns: 1fr;
+    padding: 30px 20px;
+  }
+
+  .hack-grid1 {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .hack-details {
+    gap: 30px;
+    margin-left: 0;
+  }
+
+  .btn__mode {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .day-left__btn button {
+    font-size: medium;
+    padding: 8px 20px;
+  }
+
+  .mode-of-hackathon {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .winner-prize {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hack-grid2 {
+    flex-direction: column;
+  }
+
+  .description {
+    margin: 0 10px;
+  }
+
+  .flag-company {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .flag-company button {
+    padding: 6px 12px;
+  }
+
+  .hackathon-date {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hackathon-glimpses {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hackathon-for span {
+    padding: 2px 5px;
+  }
+}
+
+/* Mobile size */
+@media screen and (max-width: 600px) {
+  .hackathon-container {
+    grid-template-columns: 1fr;
+    padding: 20px 10px;
+  }
+
+  .hack-grid1 {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .hack-details {
+    gap: 20px;
+    margin-left: 0;
+  }
+
+  .btn__mode {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .day-left__btn button {
+    font-size: small;
+    padding: 6px 15px;
+  }
+
+  .mode-of-hackathon {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .winner-prize {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hack-grid2 {
+    flex-direction: column;
+  }
+
+  .description {
+    margin: 0 5px;
+  }
+
+  .flag-company {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .flag-company button {
+    padding: 5px 10px;
+  }
+
+  .hackathon-date {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hackathon-glimpses {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hackathon-for {
+    gap: 5px;
+  }
+
+  .hackathon-for span {
+    padding: 2px 5px;
+  }
+}

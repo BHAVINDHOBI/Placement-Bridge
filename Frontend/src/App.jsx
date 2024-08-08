@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 
 import CoreItSubjects from "./components/LatestTechnology";
+import Hackathons from "./components/Hackathon";
 function App() {
   useEffect(() => {
     AOS.init();
@@ -19,6 +20,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" Component={CoreItSubjects} />
+          <Route path="/Hackathons" Component={Hackathons} />
         </Routes>
       </Router>
     </>
