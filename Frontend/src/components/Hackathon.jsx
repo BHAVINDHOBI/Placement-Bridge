@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import HackathonCard from "./HackathonCard";
 import "../styles/Hackathon.css";
-import hackathonsData from "../data/hackathons.json"; // Import the JSON file
+import hackathonsData from "../data/hackathons.json";
 import Pagination from "@mui/material/Pagination";
 import Stack from "@mui/material/Stack";
 

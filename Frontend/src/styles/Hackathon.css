@@ -21,6 +21,9 @@
 
 .hackathon__img img {
   border-radius: 5px;
+  height: 180px;
+  width: 180px;
+  margin-left: 25px;
 }
 
 .hack-details {

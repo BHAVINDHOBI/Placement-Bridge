@@ -1,59 +1,70 @@
 import React from "react";
+import { Link, useNavigate } from "react-router-dom";
 import "../styles/Header.css";
 import image from "../assets/ImageUtility";
 
-const Header = () => (
-  <header className="header">
-    <div className="top-bar">
-      <div className="top-bar__content">
-        <a href="../views/login.ejs" className="btn">
-          Sign in
-        </a>
-      </div>
-    </div>
+const Header = () => {
+  const navigate = useNavigate();
 
-    <div className="bottom-bar">
-      <div className="bottom-bar__content">
-        <a href="#" className="logo">
-          <img
-            src={image.PlacementBridgeLogo}
-            alt="logo"
-            className="logo__img"
-          />
-          <span className="logo__text">Placement Bridge</span>
-        </a>
-        <nav className="nav">
-          <ul className="nav__list">
-            <li className="nav__item">
-              <a href="index.html" className="nav__link">
-                Home
-              </a>
-            </li>
-            <li className="nav__item">
-              <a href="#aboutus" className="nav__link">
-                About
-              </a>
-            </li>
-            <li className="nav__item">
-              <a href="#Services" className="nav__link">
-                Our Services
-              </a>
-            </li>
-            <li className="nav__item">
-              <a href="#contact" className="nav__link">
-                Contact Us
-              </a>
-            </li>
-          </ul>
-        </nav>
-        <div className="hamburger">
-          <div className="bar"></div>
-          <div className="bar"></div>
-          <div className="bar"></div>
+  const handleSignInClick = () => {
+    navigate("/login");
+  };
+
+  return (
+    <header className="header">
+      <div className="top-bar">
+        <div
+          className="top-bar__content"
+          onClick={handleSignInClick}
+          style={{ cursor: "pointer" }}
+        >
+          <span className="btn">Sign in</span>
         </div>
       </div>
-    </div>
-  </header>
-);
+
+      <div className="bottom-bar">
+        <div className="bottom-bar__content">
+          <Link to="/" className="logo">
+            <img
+              src={image.PlacementBridgeLogo}
+              alt="logo"
+              className="logo__img"
+            />
+            <span className="logo__text">Placement Bridge</span>
+          </Link>
+          <nav className="nav">
+            <ul className="nav__list">
+              <li className="nav__item">
+                <Link to="/" className="nav__link">
+                  Home
+                </Link>
+              </li>
+              <li className="nav__item">
+                <Link to="" className="nav__link">
+                  About
+                </Link>
+              </li>
+              <li className="nav__item">
+                <Link to="#Services" className="nav__link">
+                  Our Services
+                </Link>
+              </li>
+              <li className="nav__item">
+                <Link to="#contact" className="nav__link">
+                  Contact Us
+                </Link>
+              </li>
+            </ul>
+          </nav>
+          <div className="hamburger">
+            <div className="bar"></div>
+            <div className="bar"></div>
+            <div className="bar"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+  );
+};
 
 export default Header;

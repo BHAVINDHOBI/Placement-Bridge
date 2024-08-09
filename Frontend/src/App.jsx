@@ -1,19 +1,15 @@
-import React, { useState, useEffect } from "react";
+// App.jsx
+import React, { useEffect } from "react";
 import "./App.css";
 import AOS from "aos";
-import {
-  BrowserRouter as Router,
-  Route,
-  Routes,
-  useNavigate,
-} from "react-router-dom";
-
-import CoreItSubjects from "./components/LatestTechnology";
-import Hackathons from "./components/Hackathon";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import MainPage from "./components/MainPage";
 import Login from "./components/Login";
 import Signin from "./components/Signin";
 import Subjects from "./components/Subjects";
-import MainPage from "./components/MainPage";
+import Hackathons from "./components/Hackathon";
+import LatestTechnology from "./components/LatestTechnology";
+
 function App() {
   useEffect(() => {
     AOS.init();
@@ -23,11 +19,12 @@ function App() {
     <>
       <Router>
         <Routes>
-          <Route path="/" Component={MainPage} />
-          <Route path="/Hackathons" Component={Hackathons} />
-          <Route path="/Login" Component={Login} />
-          <Route path="/Signin" Component={Signin} />
-          <Route path="/Subjects" Component={Subjects} />
+          <Route path="/" element={<MainPage />} />
+          <Route path="/Login" element={<Login />} />
+          <Route path="/Signin" element={<Signin />} />
+          <Route path="/subjects" element={<Subjects />} />
+          <Route path="/hackathons" element={<Hackathons />} />
+          <Route path="/technologies" element={<LatestTechnology />} />
         </Routes>
       </Router>
     </>

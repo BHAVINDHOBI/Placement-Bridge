@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useNavigate, Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import PlacementLogo from "../assets/HomePage_Imgs/placement-bridge-logo.svg";
 import GoogleLogo from "../assets/CoreIT-Subjects/Google.svg";
 import GitHubLogo from "../assets/CoreIT-Subjects/GitHub-Mark.png";
@@ -56,6 +56,10 @@ const Login = () => {
       setOpen(true);
     }
   }
+
+  const handleRegisterClick = () => {
+    navigate("/signin");
+  };
 
   return (
     <div className="LoginPage">
@@ -128,10 +132,8 @@ const Login = () => {
 
         <div className="NewUser">
           New User?{" "}
-          <span>
-            <Link to="/signin" className="RegisterURL">
-              Register
-            </Link>
+          <span onClick={handleRegisterClick} className="RegisterURL">
+            Register
           </span>
         </div>
       </div>
