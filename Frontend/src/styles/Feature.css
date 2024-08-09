@@ -1,0 +1,83 @@
+/* features */
+
+.features-main {
+  margin-top: 100px;
+}
+
+.features-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 160px;
+  max-width: 1500px;
+  justify-content: space-evenly;
+}
+
+.feature {
+  width: 500px;
+  height: 250px;
+  background: linear-gradient(
+    96deg,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(255, 255, 255, 0) 62%,
+    rgba(255, 255, 255, 0.2) 100%
+  );
+  border: 1px rgba(255, 255, 255, 0.4) solid;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px;
+  transition: all 0.2s;
+}
+
+.feature:hover {
+  transform: scale(1.02);
+}
+
+.content p {
+  font-size: 24px;
+  display: inline-block;
+  color: white;
+  font-weight: 500;
+  top: 10px;
+  right: -30px;
+}
+
+.view {
+  display: flex;
+  width: 120px;
+  height: 30px;
+  border-radius: 50px;
+  border: 1.5px rgba(250, 250, 250, 0.98) solid;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.061);
+  transition: all 0.2s;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+
+.view:hover,
+.learn-more-btn:hover {
+  transform: scale(1.08);
+}
+
+.feature-logo {
+  height: 60%;
+  width: 40%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.feature startup .new-logo {
+  position: absolute;
+  left: 0;
+  top: 10px;
+}

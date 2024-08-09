@@ -13,6 +13,7 @@ import Hackathons from "./components/Hackathon";
 import Login from "./components/Login";
 import Signin from "./components/Signin";
 import Subjects from "./components/Subjects";
+import MainPage from "./components/MainPage";
 function App() {
   useEffect(() => {
     AOS.init();
@@ -22,7 +23,7 @@ function App() {
     <>
       <Router>
         <Routes>
-          <Route path="/" Component={CoreItSubjects} />
+          <Route path="/" Component={MainPage} />
           <Route path="/Hackathons" Component={Hackathons} />
           <Route path="/Login" Component={Login} />
           <Route path="/Signin" Component={Signin} />
