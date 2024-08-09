@@ -35,6 +35,9 @@ import Online from "./HackathonImages/Online.svg";
 import Flag from "./HackathonImages/Flag.svg";
 import Tag from "./HackathonImages/Tag.svg";
 import Calender from "./HackathonImages/Calender.svg";
+import Location from "./HackathonImages/Location.svg";
+import Dollar from "./HackathonImages/Dollar.svg";
+import Link from "./HackathonImages/Link.svg";
 
 // HomePage Images
 import AboutBackground from "./HomePage_Imgs/AboutBackground.svg";
@@ -120,6 +123,9 @@ const image = {
   Online: Online,
   Calender: Calender,
   Rupee: Rupee,
+  Location: Location,
+  Dollar: Dollar,
+  Link: Link,
 };
 
 export default image;

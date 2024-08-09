@@ -7,7 +7,7 @@ import Stack from "@mui/material/Stack";
 
 const Hackathons = () => {
   const [page, setPage] = useState(1);
-  const itemsPerPage = 2; // Define how many items per page
+  const itemsPerPage = 7; // Define how many items per page
 
   const handleChange = (event, value) => {
     setPage(value);

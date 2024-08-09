@@ -1,5 +1,6 @@
 import React from "react";
 import image from "../assets/ImageUtility";
+
 const HackathonCard = ({
   imageSrc,
   altText,
@@ -10,7 +11,12 @@ const HackathonCard = ({
   company,
   date,
   tags,
+  link, // Added the link prop
 }) => {
+  const modeImage =
+    mode.toLowerCase() === "online" ? image.Online : image.Location;
+  const modeLabel = mode.toLowerCase() === "online" ? "Online" : "Offline";
+
   return (
     <div className="hackathon-container">
       <div className="hack-grid1">
@@ -24,16 +30,19 @@ const HackathonCard = ({
             <h2>{title}</h2>
           </div>
           <div className="btn__mode">
-            <div className="day-left__btn">
-              <button>{daysLeft}</button>
-            </div>
             <div className="mode-of-hackathon">
-              <img src={image.Online} alt="Online" />
-              <h3>{mode}</h3>
+              <img src={modeImage} alt={modeLabel} />
+              <h3>{modeLabel}</h3>
             </div>
           </div>
+          <div className="hack-link">
+            <a href={link} target="_blank" rel="noopener noreferrer">
+              <img src={image.Link} alt="Link Icon" />
+              <span>Link</span>
+            </a>
+          </div>
           <div className="winner-prize">
-            <img className="Price" src={image.Rupee} alt="Rupees" />
+            <img className="Price" src={image.Dollar} alt="Dollar" />
             <h4>{prize}</h4>
           </div>
         </div>
@@ -47,12 +56,12 @@ const HackathonCard = ({
           </div>
 
           <div className="hackathon-date">
-            <img className="desc-image" src={image.Calender} alt="Tag" />
+            <img className="desc-image" src={image.Calender} alt="Calendar" />
             <h3>{date}</h3>
           </div>
 
           <div className="hackathon-glimpses">
-            <img className="desc-image" src={image.Tag} alt="" />
+            <img className="desc-image" src={image.Tag} alt="Tag" />
             <div className="hackathon-for">
               {tags.map((tag, index) => (
                 <span key={index}>{tag}</span>
