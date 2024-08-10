@@ -1,19 +1,41 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import TechnologyCard from "./LatestTechnologiesCard";
 import technologies from "../data/technologies.json";
 import "../styles/LatestTechnology.css";
 import { Pagination, TextField, Box, Typography, Stack } from "@mui/material";
 
-const CoreItSubjects = () => {
+// Function to scroll to the top with a given duration
+const scrollToTop = (duration) => {
+  const scrollHeight = window.scrollY;
+  const startTime = performance.now();
+
+  const scrollStep = () => {
+    const elapsedTime = performance.now() - startTime;
+    const progress = Math.min(elapsedTime / duration, 1);
+    window.scrollTo(0, scrollHeight * (1 - progress));
+
+    if (progress < 1) {
+      requestAnimationFrame(scrollStep);
+    }
+  };
+
+  requestAnimationFrame(scrollStep);
+};
+
+const LatestTechnology = () => {
   const itemsPerPage = 5;
   const [page, setPage] = useState(1);
-  const [searchQuery, setSearchQuery] = useState(""); // State for search query
+  const [searchQuery, setSearchQuery] = useState("");
+
+  useEffect(() => {
+    // Scroll to the top with a fast speed (e.g., 200ms)
+    scrollToTop(200);
+  }, []);
 
   const handlePageChange = (event, value) => {
     setPage(value);
   };
 
-  // Function to handle search query change
   const handleSearchChange = (event) => {
     setSearchQuery(event.target.value);
     setPage(1); // Reset to first page when a new search is performed
@@ -25,7 +47,7 @@ const CoreItSubjects = () => {
 
   const indexOfLastItem = page * itemsPerPage;
   const indexOfFirstItem = indexOfLastItem - itemsPerPage;
-  const currentItems = technologies.slice(indexOfFirstItem, indexOfLastItem);
+  const currentItems = filteredTech.slice(indexOfFirstItem, indexOfLastItem);
 
   return (
     <div className="website-content">
@@ -72,4 +94,4 @@ const CoreItSubjects = () => {
   );
 };
 
-export default CoreItSubjects;
+export default LatestTechnology;

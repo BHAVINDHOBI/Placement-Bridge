@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Link as RouterLink, useNavigate } from "react-router-dom";
 import { Link as ScrollLink } from "react-scroll";
 import "../styles/Header.css";
@@ -6,9 +6,26 @@ import image from "../assets/ImageUtility";
 
 const Header = () => {
   const navigate = useNavigate();
+  const [isSignedIn, setIsSignedIn] = useState(false);
+
+  useEffect(() => {
+    // Check if the token exists in localStorage (or cookies)
+    const token = localStorage.getItem("token");
+    if (token) {
+      setIsSignedIn(true);
+    }
+  }, []);
 
   const handleSignInClick = () => {
+    // Navigate to the login page
     navigate("/login");
+  };
+
+  const handleSignOutClick = () => {
+    // Handle the sign-out process
+    localStorage.removeItem("token"); // Remove the token
+    setIsSignedIn(false);
+    navigate("/"); // Navigate to home page or another page
   };
 
   return (
@@ -16,10 +33,12 @@ const Header = () => {
       <div className="top-bar">
         <div
           className="top-bar__content"
-          onClick={handleSignInClick}
+          onClick={isSignedIn ? handleSignOutClick : handleSignInClick}
           style={{ cursor: "pointer" }}
         >
-          <span className="btn">Sign in</span>
+          <span className={isSignedIn ? "btn logout" : "btn login"}>
+            {isSignedIn ? "Logout" : "Login"}
+          </span>
         </div>
       </div>
 
@@ -40,7 +59,7 @@ const Header = () => {
                   to=""
                   smooth={true}
                   duration={200}
-                  offset={-70} // Adjust this value if you have a fixed header
+                  offset={-70}
                   className="nav__link"
                 >
                   Home
