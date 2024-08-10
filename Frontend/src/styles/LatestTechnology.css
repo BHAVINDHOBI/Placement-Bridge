@@ -24,6 +24,10 @@
   width: 300px;
   transition: all 0.2s;
 }
+.search-main .grid-2 #searchbar {
+  color: black;
+  background-color: #fff;
+}
 
 .grid-2:hover {
   transform: scale(1.03);
