@@ -43,14 +43,19 @@ const roadmapData = [
         title: "HTML",
         items: [
           {
-            text: "Learn the basics",
-            type: "roadmap.sh",
-            url: "https://example.com/learn-the-basics",
+            text: "HTML For Beginners The Easy Way",
+            type: "article",
+            url: "https://https://html.com/.com/learn-the-basics",
           },
           {
             text: "Writing Semantic HTML",
             type: "article",
-            url: "https://example.com/writing-semantic-html",
+            url: "https://www.w3schools.com/html/html5_semantic_elements.asp",
+          },
+          {
+            text: "Forms and Validations",
+            type: "article",
+            url: "https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation",
           },
           // Add more items as needed
         ],

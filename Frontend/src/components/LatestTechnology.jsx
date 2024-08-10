@@ -2,37 +2,46 @@ import React, { useState } from "react";
 import TechnologyCard from "./LatestTechnologiesCard";
 import technologies from "../data/technologies.json";
 import "../styles/LatestTechnology.css";
-import Pagination from "@mui/material/Pagination";
-import Stack from "@mui/material/Stack";
+import { Pagination, TextField, Box, Typography, Stack } from "@mui/material";
 
 const CoreItSubjects = () => {
   const itemsPerPage = 5;
-  const [currentPage, setCurrentPage] = useState(1);
+  const [page, setPage] = useState(1);
+  const [searchQuery, setSearchQuery] = useState(""); // State for search query
 
   const handlePageChange = (event, value) => {
-    setCurrentPage(value);
+    setPage(value);
   };
 
-  const indexOfLastItem = currentPage * itemsPerPage;
+  // Function to handle search query change
+  const handleSearchChange = (event) => {
+    setSearchQuery(event.target.value);
+    setPage(1); // Reset to first page when a new search is performed
+  };
+
+  const filteredTech = technologies.filter((tech) =>
+    tech.title.toLowerCase().includes(searchQuery.toLowerCase())
+  );
+
+  const indexOfLastItem = page * itemsPerPage;
   const indexOfFirstItem = indexOfLastItem - itemsPerPage;
   const currentItems = technologies.slice(indexOfFirstItem, indexOfLastItem);
 
   return (
     <div className="website-content">
       <section className="technology-container">
-        <div className="header">
-          <h1>Latest Technology</h1>
-          <div className="search-main">
-            <div className="grid-2">
-              <input
-                type="search"
-                name="search"
-                id="searchbar"
-                placeholder="Search Technologies"
-              />
-            </div>
-          </div>
-        </div>
+        <Box className="header-section">
+          <Typography variant="h4" component="h1" className="page-title">
+            Latest Technologies
+          </Typography>
+          <TextField
+            label="Search Tech"
+            variant="outlined"
+            value={searchQuery}
+            onChange={handleSearchChange}
+            className="search-bar"
+          />
+        </Box>
         <div className="main-container">
           {currentItems.map((tech, index) => (
             <React.Fragment key={index}>
@@ -52,8 +61,8 @@ const CoreItSubjects = () => {
         </div>
         <Stack spacing={2} sx={{ alignItems: "center", color: "white" }}>
           <Pagination
-            count={Math.ceil(technologies.length / itemsPerPage)}
-            page={currentPage}
+            count={Math.ceil(filteredTech.length / itemsPerPage)}
+            page={page}
             onChange={handlePageChange}
             sx={{ "& .MuiPaginationItem-root": { color: "white" } }}
           />
