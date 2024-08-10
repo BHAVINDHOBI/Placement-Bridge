@@ -1,0 +1,26 @@
+.job-detail {
+  margin-top: 20px;
+}
+
+.job-detail-paper {
+  padding: 20px;
+  text-align: left;
+}
+
+.company-logo {
+  width: 100px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.job-description {
+  margin-top: 10px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 5px;
+}

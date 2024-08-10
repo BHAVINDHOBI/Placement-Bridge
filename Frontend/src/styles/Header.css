@@ -65,6 +65,7 @@
 
 .nav__item {
   color: #fff;
+  cursor: pointer;
 }
 
 .nav__link {

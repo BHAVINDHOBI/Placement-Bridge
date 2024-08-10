@@ -1,5 +1,6 @@
 import React from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link as RouterLink, useNavigate } from "react-router-dom";
+import { Link as ScrollLink } from "react-scroll";
 import "../styles/Header.css";
 import image from "../assets/ImageUtility";
 
@@ -24,35 +25,59 @@ const Header = () => {
 
       <div className="bottom-bar">
         <div className="bottom-bar__content">
-          <Link to="/" className="logo">
+          <RouterLink to="/" className="logo">
             <img
               src={image.PlacementBridgeLogo}
               alt="logo"
               className="logo__img"
             />
             <span className="logo__text">Placement Bridge</span>
-          </Link>
+          </RouterLink>
           <nav className="nav">
             <ul className="nav__list">
               <li className="nav__item">
-                <Link to="/" className="nav__link">
+                <ScrollLink
+                  to=""
+                  smooth={true}
+                  duration={200}
+                  offset={-70} // Adjust this value if you have a fixed header
+                  className="nav__link"
+                >
                   Home
-                </Link>
+                </ScrollLink>
               </li>
               <li className="nav__item">
-                <Link to="" className="nav__link">
+                <ScrollLink
+                  to="About"
+                  smooth={true}
+                  duration={200}
+                  offset={-70}
+                  className="nav__link"
+                >
                   About
-                </Link>
+                </ScrollLink>
               </li>
               <li className="nav__item">
-                <Link to="#Services" className="nav__link">
+                <ScrollLink
+                  to="Services"
+                  smooth={true}
+                  duration={200}
+                  offset={-70}
+                  className="nav__link"
+                >
                   Our Services
-                </Link>
+                </ScrollLink>
               </li>
               <li className="nav__item">
-                <Link to="#contact" className="nav__link">
+                <ScrollLink
+                  to="contact"
+                  smooth={true}
+                  duration={200}
+                  offset={-70}
+                  className="nav__link"
+                >
                   Contact Us
-                </Link>
+                </ScrollLink>
               </li>
             </ul>
           </nav>

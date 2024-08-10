@@ -9,6 +9,10 @@ import Signin from "./components/Signin";
 import Subjects from "./components/Subjects";
 import Hackathons from "./components/Hackathon";
 import LatestTechnology from "./components/LatestTechnology";
+import JobList from "./components/JobList";
+import JobDetail from "./components/JobDetail";
+import jobData from "./data/CompaniesData";
+import Roadmap from "./components/Roadmaps/Roadmap";
 
 function App() {
   useEffect(() => {
@@ -25,6 +29,11 @@ function App() {
           <Route path="/subjects" element={<Subjects />} />
           <Route path="/hackathons" element={<Hackathons />} />
           <Route path="/technologies" element={<LatestTechnology />} />
+
+          {/* JobList routes */}
+          <Route path="/recruitments" element={<JobList jobs={jobData} />} />
+          <Route path="/job/:jobId" element={<JobDetail jobs={jobData} />} />
+          <Route path="/frontend-roadmap" element={<Roadmap />} />
         </Routes>
       </Router>
     </>

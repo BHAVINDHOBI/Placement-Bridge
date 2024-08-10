@@ -17,6 +17,7 @@ const Features = () => {
       <div className="features-container">
         <div
           className="feature recruitement"
+          data-aos="fade-down-right"
           onClick={() => navigate("/recruitments")}
         >
           <img

@@ -32,6 +32,8 @@
 .grid-2 input {
   border: 0;
   outline: none;
+  background-color: white;
+  color: black;
 }
 
 .grid-2 i {

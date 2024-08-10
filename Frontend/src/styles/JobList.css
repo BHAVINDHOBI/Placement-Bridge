@@ -1,0 +1,49 @@
+.job-list {
+  padding: 20px 0;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.page-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #00ffff;
+  padding: 30px 0;
+}
+
+.search-bar {
+  width: 300px;
+}
+
+.search-bar .MuiOutlinedInput-root {
+  color: #ffffff; /* Text color */
+}
+
+.search-bar .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+  border-color: #ffffff; /* Border color */
+}
+
+.search-bar
+  .MuiOutlinedInput-root.Mui-focused
+  .MuiOutlinedInput-notchedOutline {
+  border-color: #00bfff; /* Border color when focused */
+}
+
+.search-bar .MuiInputLabel-outlined {
+  color: #ffffff; /* Label color */
+}
+
+.search-bar .MuiInputLabel-outlined.Mui-focused {
+  color: #00bfff; /* Label color when focused */
+}
