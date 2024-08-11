@@ -50,8 +50,17 @@
   margin-left: 20px;
 }
 
+/* .logo__img {
+  height: 130px;
+} */
 .logo__img {
   height: 130px;
+  transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+}
+
+.logo__img:hover {
+  transform: rotate(360deg);
+  box-shadow: 0 0 20px #00ffff, 0 0 30px #00ffff, 0 0 40px #00ffff;
 }
 
 .nav {

@@ -42,7 +42,7 @@ hr {
 /* Base Styles */
 
 body {
-  background-image: url("./assets/HomePage_Imgs/Background.png");
+  /* background-image: url("./assets/HomePage_Imgs/Background.png"); */
   background-size: cover;
   font-family: "Inter", sans-serif;
 }
