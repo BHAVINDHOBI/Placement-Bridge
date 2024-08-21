@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import JobCard from "./JobCard";
 import {
   Container,
@@ -10,12 +10,34 @@ import {
 } from "@mui/material";
 import "../styles/JobList.css";
 
+const scrollToTop = (duration) => {
+  const scrollHeight = window.scrollY;
+  const startTime = performance.now();
+
+  const scrollStep = () => {
+    const elapsedTime = performance.now() - startTime;
+    const progress = Math.min(elapsedTime / duration, 1);
+    window.scrollTo(0, scrollHeight * (1 - progress));
+
+    if (progress < 1) {
+      requestAnimationFrame(scrollStep);
+    }
+  };
+
+  requestAnimationFrame(scrollStep);
+};
+
 const JobList = ({ jobs }) => {
   const [page, setPage] = useState(1);
   const [searchQuery, setSearchQuery] = useState(""); // State for search query
   const jobsPerPage = 6;
   const startIndex = (page - 1) * jobsPerPage;
   const endIndex = startIndex + jobsPerPage;
+
+  useEffect(() => {
+    // Scroll to the top with a fast speed (e.g., 200ms)
+    scrollToTop(200);
+  }, []);
 
   // Function to handle search query change
   const handleSearchChange = (event) => {
