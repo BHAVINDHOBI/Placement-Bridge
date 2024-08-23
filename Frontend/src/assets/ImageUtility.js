@@ -38,6 +38,7 @@ import Calender from "./HackathonImages/Calender.svg";
 import Location from "./HackathonImages/Location.svg";
 import Dollar from "./HackathonImages/Dollar.svg";
 import Link from "./HackathonImages/Link.svg";
+import Prize from "./HackathonImages/prize-badge-with-star-and-ribbon.png";
 
 // HomePage Images
 import AboutBackground from "./HomePage_Imgs/AboutBackground.svg";
@@ -126,6 +127,7 @@ const image = {
   Location: Location,
   Dollar: Dollar,
   Link: Link,
+  Prize: Prize,
 };
 
 export default image;

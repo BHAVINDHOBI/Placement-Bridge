@@ -42,7 +42,7 @@ const HackathonCard = ({
             </a>
           </div>
           <div className="winner-prize">
-            <img className="Price" src={image.Dollar} alt="Dollar" />
+            <img className="Price" src={image.Prize} alt="Dollar" />
             <h4>{prize}</h4>
           </div>
         </div>
