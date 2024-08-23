@@ -34,13 +34,8 @@ const SubjectCard = ({
   return (
     <Card
       sx={{
-        height: expanded
-          ? { xs: "750px", sm: "650px" }
-          : { xs: "450px", sm: "350px" },
         width: { xs: "95%", sm: "80%" }, // Responsive width
-        marginTop: "20px",
-        marginLeft: { xs: "auto", sm: "150px" }, // Centered on small screens
-        marginRight: "auto",
+        margin: "20px auto", // Centered on all screens
         display: "flex",
         flexDirection: "column",
         borderRadius: 2,
@@ -54,7 +49,7 @@ const SubjectCard = ({
           display: "flex",
           flexDirection: { xs: "column", sm: "row" }, // Stack vertically on small screens
           padding: 0,
-          height: "100%",
+          gap: 2,
         }}
       >
         <Box
@@ -83,8 +78,8 @@ const SubjectCard = ({
                 src={image}
                 alt={altText}
                 style={{
-                  width: "auto",
-                  height: "200px",
+                  width: "100%",
+                  height: "auto",
                   objectFit: "cover",
                   borderRadius: "13px",
                 }}
@@ -111,6 +106,7 @@ const SubjectCard = ({
                 color: "black",
                 overflow: "hidden",
                 textOverflow: "ellipsis",
+                textAlign: "center",
               }}
             >
               {title}
@@ -122,11 +118,7 @@ const SubjectCard = ({
           flexItem
           sx={{
             backgroundColor: "black",
-            display: { xs: "none", sm: "block" },
-            marginLeft: "auto",
-            marginRight: "auto",
-            marginTop: 2, // Adjust the space above the divider
-            marginBottom: 2, // Adjust the space below the divider
+            display: { xs: "none", sm: "block" }, // Hide on small screens
           }}
         />
         <Box
@@ -174,7 +166,7 @@ const SubjectCard = ({
               variant="body1"
               sx={{
                 textAlign: "justify",
-                fontSize: "16px",
+                fontSize: { xs: "14px", sm: "16px" }, // Adjust font size for small screens
                 fontFamily: "Roboto Serif",
               }}
             >
@@ -197,7 +189,7 @@ const SubjectCard = ({
               }}
               onClick={handleButtonClick}
             >
-              View Details
+              {expanded ? "Hide Details" : "View Details"}
             </Button>
           </Box>
         </Box>
@@ -209,18 +201,18 @@ const SubjectCard = ({
             sx={{
               backgroundColor: "black",
               width: "100%",
-              display: { xs: "block", sm: "none" },
+              display: { xs: "block", sm: "none" }, // Show horizontal on small screens
             }}
           />
           <Box
             sx={{
-              height: "300px",
               width: "100%",
               padding: 2,
               display: "flex",
               flexDirection: { xs: "column", sm: "row" }, // Stack vertically on small screens
               borderTop: "1px solid black",
               boxSizing: "border-box",
+              gap: 2,
             }}
           >
             <Box
@@ -248,6 +240,7 @@ const SubjectCard = ({
                     display: "list-item",
                     textAlign: "justify",
                     fontFamily: "Roboto Serif",
+                    paddingLeft: 0,
                   }}
                 >
                   <ListItemText
@@ -260,6 +253,7 @@ const SubjectCard = ({
                     display: "list-item",
                     textAlign: "justify",
                     fontFamily: "Roboto Serif",
+                    paddingLeft: 0,
                   }}
                 >
                   <ListItemText primary={Objective2} />
@@ -271,7 +265,7 @@ const SubjectCard = ({
               flexItem
               sx={{
                 backgroundColor: "black",
-                display: { xs: "none", sm: "block" },
+                display: { xs: "none", sm: "block" }, // Show vertical on larger screens
               }}
             />
             <Box
@@ -282,13 +276,12 @@ const SubjectCard = ({
                 alignItems: "flex-start",
                 justifyContent: "center",
                 padding: 2,
-                color: "white",
+                color: "black",
               }}
             >
               <Box
                 sx={{
                   fontFamily: "Roboto Serif",
-                  color: "black",
                   display: "flex",
                   alignItems: "center",
                   gap: 1,
@@ -302,7 +295,7 @@ const SubjectCard = ({
                   variant="h6"
                   sx={{
                     fontWeight: "bold",
-                    fontSize: { xs: "20px", sm: "22px" },
+                    fontSize: { xs: "16px", sm: "20px" },
                     fontFamily: "Roboto Serif",
                   }}
                 >
@@ -312,7 +305,6 @@ const SubjectCard = ({
               <Box
                 sx={{
                   fontFamily: "Roboto Serif",
-                  color: "black",
                   display: "flex",
                   alignItems: "center",
                   gap: 1,
@@ -326,7 +318,7 @@ const SubjectCard = ({
                   variant="h6"
                   sx={{
                     fontWeight: "bold",
-                    fontSize: { xs: "20px", sm: "22px" },
+                    fontSize: { xs: "16px", sm: "20px" },
                     fontFamily: "Roboto Serif",
                   }}
                 >
@@ -336,7 +328,6 @@ const SubjectCard = ({
               <Box
                 sx={{
                   fontFamily: "Roboto Serif",
-                  color: "black",
                   display: "flex",
                   alignItems: "center",
                   gap: 1,
@@ -349,7 +340,7 @@ const SubjectCard = ({
                   variant="h6"
                   sx={{
                     fontWeight: "bold",
-                    fontSize: { xs: "20px", sm: "22px" },
+                    fontSize: { xs: "16px", sm: "20px" },
                     fontFamily: "Roboto Serif",
                   }}
                 >
