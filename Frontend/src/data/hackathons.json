@@ -4,14 +4,14 @@
     "altText": "Smart India Hackathon 2024",
     "title": "Smart India Hackathon 2024",
     "mode": "Online",
-    "prize": "Varies by problem statement",
+    "prize": "Problem-specific",
     "company": "Government of India",
     "date": "Sep 12, 2024",
     "tags": ["Innovation", "National"],
     "link": "https://sih.gov.in"
   },
   {
-    "imageSrc": "src/assets/HackathonImages/Hackathons.png",
+    "imageSrc": "src/assets/HackathonImages/bhartiyaantirks.png",
     "altText": "Bharatiya Antariksh Hackathon 2024",
     "title": "Bharatiya Antariksh Hackathon 2024",
     "mode": "Online",
