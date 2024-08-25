@@ -1,16 +1,16 @@
 import React, { useState } from "react";
-import SubjectCard from "./SubjectCard";
-import subjects from "../data/subjects.json";
 import {
-  Pagination,
-  TextField,
   Box,
   Typography,
+  TextField,
+  Pagination,
   Stack,
   Divider,
 } from "@mui/material";
+import StartUpCard from "./StartUpCard";
+import StartUps from "../data/StartUp.json";
 
-const Subjects = () => {
+const StartUp = () => {
   const itemsPerPage = 5;
   const [currentPage, setCurrentPage] = useState(1);
   const [searchQuery, setSearchQuery] = useState("");
@@ -18,24 +18,26 @@ const Subjects = () => {
   const handlePageChange = (event, value) => {
     setCurrentPage(value);
   };
+
   const handleSearchChange = (event) => {
     setSearchQuery(event.target.value);
     setCurrentPage(1); // Reset to first page when a new search is performed
   };
 
-  const filteredSubjects = subjects.filter((sub) =>
-    sub.subject.toLowerCase().includes(searchQuery.toLowerCase())
+  const filteredStartUps = StartUps.filter((startup) =>
+    startup.Name.toLowerCase().includes(searchQuery.toLowerCase())
   );
+
   const indexOfLastItem = currentPage * itemsPerPage;
   const indexOfFirstItem = indexOfLastItem - itemsPerPage;
-  const currentItems = filteredSubjects.slice(
+  const currentItems = filteredStartUps.slice(
     indexOfFirstItem,
     indexOfLastItem
   );
 
   return (
     <div>
-      <section className="technology-container">
+      <section className="startup-container">
         <Box
           className="header-section"
           sx={{
@@ -55,7 +57,7 @@ const Subjects = () => {
             className="page-title"
             sx={{ marginRight: 2 }} // Add some space between title and search bar
           >
-            Core IT Subjects
+            StartUps
           </Typography>
           <TextField
             label="Search Subject"
@@ -67,18 +69,20 @@ const Subjects = () => {
           />
         </Box>
         <div className="main-container">
-          {currentItems.map((sub, index) => (
+          {currentItems.map((startup, index) => (
             <React.Fragment key={index}>
-              <SubjectCard
-                image={sub.image}
-                altText={sub.altText}
-                title={sub.subject}
-                description={sub.description}
-                projectLink={sub.projectLink}
-                youtubeLink={sub.youtubeLink}
-                articleLink={sub.articleLink}
-                Objective1={sub.Objective1}
-                Objective2={sub.Objective2}
+              <StartUpCard
+                imagesrc={startup.imagesrc}
+                altText={startup.altText}
+                Name={startup.Name}
+                Description={startup.Description}
+                WebsiteLink={startup.WebsiteLink}
+                Date={startup.Date}
+                CurrentlyHiring={startup.CurrentlyHiring}
+                HiringLink={startup.HiringLink}
+                Founder={startup.Founder}
+                ParentCompany={startup.ParentCompany}
+                IndustrySector={startup.IndustrySector}
               />
               <Divider
                 sx={{
@@ -100,7 +104,7 @@ const Subjects = () => {
           }}
         >
           <Pagination
-            count={Math.ceil(subjects.length / itemsPerPage)}
+            count={Math.ceil(filteredStartUps.length / itemsPerPage)}
             page={currentPage}
             onChange={handlePageChange}
             sx={{ "& .MuiPaginationItem-root": { color: "white" } }}
@@ -111,4 +115,4 @@ const Subjects = () => {
   );
 };
 
-export default Subjects;
+export default StartUp;

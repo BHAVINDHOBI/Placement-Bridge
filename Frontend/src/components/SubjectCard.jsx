@@ -34,7 +34,7 @@ const SubjectCard = ({
   return (
     <Card
       sx={{
-        width: { xs: "95%", sm: "80%" }, // Responsive width
+        width: { xs: "90%", sm: "75%" }, // Responsive width
         margin: "20px auto", // Centered on all screens
         display: "flex",
         flexDirection: "column",

@@ -44,7 +44,7 @@ const Hackathons = () => {
     hack.title.toLowerCase().includes(searchQuery.toLowerCase())
   );
 
-  const paginatedHackathons = hackathonsData.slice(
+  const paginatedHackathons = filteredTech.slice(
     (page - 1) * itemsPerPage,
     page * itemsPerPage
   );

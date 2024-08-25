@@ -11,13 +11,12 @@ import WiproLogo from "./CompaniesLogo/wipro.svg";
 import CLang from "./CoreIT-Subjects/c-language.svg";
 import CppLang from "./CoreIT-Subjects/c-plus.svg";
 import CN from "./CoreIT-Subjects/cn.svg";
-import DAA from "./CoreIT-Subjects/daa.svg";
+
 import DataBase from "./CoreIT-Subjects/database.svg";
 import DSA from "./CoreIT-Subjects/dsa.svg";
 import JavaLang from "./CoreIT-Subjects/java.svg";
-import OperatingSystem from "./CoreIT-Subjects/operating-system.svg";
+
 import PythonLang from "./CoreIT-Subjects/Python.svg";
-import TOC from "./CoreIT-Subjects/toc.svg";
 
 // Footer images
 import GithubLogo from "./FooterImages/GitHub Logomark.svg";
@@ -68,6 +67,15 @@ import IOTLogo from "./LatestTechImages/iot.png";
 import MLLogo from "./LatestTechImages/machine-learning.jpeg";
 import Youtube from "./LatestTechImages/youtube.svg";
 import Document from "./LatestTechImages/document.svg";
+
+//StartUp
+import Founded from "./StartUp/Founded.svg";
+import Founder from "./StartUp/Founder.svg";
+import ParentCompany from "./StartUp/ParentCompany.svg";
+import Role from "./StartUp/Role.svg";
+import Sector from "./StartUp/Sector.svg";
+import Website from "./StartUp/Webiste.svg";
+
 const image = {
   AmazonLogo: AmazonLogo,
   GoogleLogo: GoogleLogo,
@@ -79,13 +87,13 @@ const image = {
   CLang: CLang,
   CppLang: CppLang,
   CN: CN,
-  DAA: DAA,
+
   DataBase: DataBase,
   DSA: DSA,
   JavaLang: JavaLang,
-  OperatingSystem: OperatingSystem,
+
   PythonLang: PythonLang,
-  TOC: TOC,
+
   GithubLogo: GithubLogo,
   InstagramLogo: InstagramLogo,
   LinkedInLogo: LinkedInLogo,
@@ -128,6 +136,12 @@ const image = {
   Dollar: Dollar,
   Link: Link,
   Prize: Prize,
+  Founded: Founded,
+  Founder: Founder,
+  ParentCompany: ParentCompany,
+  Role: Role,
+  Sector: Sector,
+  Website: Website,
 };
 
 export default image;

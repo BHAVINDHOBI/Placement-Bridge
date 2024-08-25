@@ -55,7 +55,7 @@
     "Objective2": "After learning DBMS, you can pursue careers in database administration, data analysis, data engineering, and software development. DBMS skills are essential in industries like finance, healthcare, e-commerce, and any field that requires effective data management and processing."
   },
   {
-    "image": "/src/assets/CoreIT-Subjects/dsa.svg",
+    "image": "/src/assets/CoreIT-Subjects/DSA.webp",
     "altText": "DSA logo",
     "subject": "Data Structure and Algorithms",
     "description": "Data structures and algorithms are foundational concepts in computer science essential for solving problems efficiently. Data structures refer to the way data is organized and stored in a computer's memory, providing efficient access and manipulation. Examples include arrays, linked lists, stacks, queues, trees, and graphs. Algorithms, on the other hand, are step-by-step procedures used to solve computational problems. They leverage various data structures to perform operations such as searching, sorting, and traversing data efficiently. Understanding data structures and algorithms enables programmers to design efficient solutions, optimize code performance, and tackle complex problems.",
@@ -66,7 +66,7 @@
     "Objective2": "After learning DSA, you can pursue careers in software development, algorithm design, competitive programming, and system architecture. Proficiency in DSA is essential for roles in tech companies, especially in fields like artificial intelligence, machine learning, and high-performance computing."
   },
   {
-    "image": "/src/assets/CoreIT-Subjects/daa.svg",
+    "image": "/src/assets/CoreIT-Subjects/DAA.webp",
     "altText": "daa logo",
     "subject": "Design Analysis and Algorithm",
     "description": "Design analysis involves evaluating the design of a system or algorithm to determine its correctness, efficiency, and scalability. It encompasses techniques such as time complexity analysis, space complexity analysis, and algorithmic paradigms like divide and conquer, dynamic programming, and greedy algorithms. On the other hand, algorithms are step-by-step procedures or sets of rules used for solving a particular problem or accomplishing a task. They are essential in computer science for tasks ranging from sorting and searching to data compression and machine learning. Effective algorithm design considers factors such as input size, time complexity, space complexity, and the specific requirements of the problem at hand.",
@@ -77,7 +77,7 @@
     "Objective2": "After learning DAA, you can pursue careers in software development, algorithm engineering, research in computer science, and optimization problems. Skills in DAA are crucial for roles in industries like fintech, data science, cybersecurity, and areas requiring complex problem-solving and efficient computation."
   },
   {
-    "image": "/src/assets/CoreIT-Subjects/operating-system.svg",
+    "image": "/src/assets/CoreIT-Subjects/os.webp",
     "altText": "os logo",
     "subject": "Operating Systems",
     "description": "Operating systems (OS) is a foundational subject in computer science that deals with the management and coordination of hardware and software resources within a computing environment. Its primary role is to provide an interface between the user and the computer hardware, enabling the execution of applications and facilitating efficient utilization of resources such as memory, CPU, storage, and peripherals. Operating systems perform tasks such as process management, memory management, file system management, device management, and security enforcement. Additionally, they enable multitasking, allowing multiple processes to run concurrently, and provide mechanisms for communication and synchronization among processes.",
@@ -88,7 +88,7 @@
     "Objective2": "After learning OS, you can pursue careers in system programming, operating system development, cybersecurity, and embedded systems. Knowledge of OS is crucial for roles in fields like device driver development, cloud computing, and performance optimization in various industries."
   },
   {
-    "image": "/src/assets/CoreIT-Subjects/cn.svg",
+    "image": "/src/assets/CoreIT-Subjects/cn.webp",
     "altText": "cn logo",
     "subject": "Computer Networks",
     "description": "Computer networks is a foundational subject in IT engineering, focusing on the study of interconnected computers and devices that communicate and share resources. This field encompasses the principles, protocols, technologies, and architectures used to enable communication and data exchange between these devices. Topics typically covered include network topologies, transmission media, networking protocols (such as TCP/IP), network hardware (routers, switches, etc.), network security, and network administration. Understanding computer networks is essential for designing, implementing, and maintaining modern information systems.",
@@ -99,7 +99,7 @@
     "Objective2": "After learning CN, you can pursue careers in network engineering, cybersecurity, cloud computing, and IT infrastructure management. Expertise in CN is essential for roles in network administration, security analysis, and designing large-scale distributed systems in industries like telecommunications, finance, and tech companies."
   },
   {
-    "image": "/src/assets/CoreIT-Subjects/toc.svg",
+    "image": "/src/assets/CoreIT-Subjects/toc.webp",
     "altText": "toc logo",
     "subject": "Theory Of Computation",
     "description": "The theory of computation is a branch of computer science that investigates the capabilities and limitations of computational systems. It delves into the study of algorithms, their efficiency, and their computational complexity. At its core lies the study of abstract models of computation, such as Turing machines and finite automata, which serve as theoretical frameworks for understanding the capabilities and limitations of algorithms. Central to this field are concepts such as automata theory, formal languages, computability theory, and complexity theory. Together, these areas form the foundation of the theory of computation, providing insights into the fundamental principles of computation and guiding the design and analysis of algorithms and systems.",

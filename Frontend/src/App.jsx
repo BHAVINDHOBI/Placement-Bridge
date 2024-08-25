@@ -13,7 +13,7 @@ import JobList from "./components/JobList";
 import JobDetail from "./components/JobDetail";
 import jobData from "./data/CompaniesData";
 import Roadmap from "./components/Roadmaps/Roadmap";
-
+import StartUp from "./components/StartUp";
 function App() {
   useEffect(() => {
     AOS.init();
@@ -29,7 +29,7 @@ function App() {
           <Route path="/subjects" element={<Subjects />} />
           <Route path="/hackathons" element={<Hackathons />} />
           <Route path="/technologies" element={<LatestTechnology />} />
-
+          <Route path="/startup" element={<StartUp />} />
           {/* JobList routes */}
           <Route path="/recruitments" element={<JobList jobs={jobData} />} />
           <Route path="/job/:jobId" element={<JobDetail jobs={jobData} />} />

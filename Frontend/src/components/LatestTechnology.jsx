@@ -1,7 +1,14 @@
 import React, { useState } from "react";
 import TechnologyCard from "./LatestTechnologiesCard";
 import technologies from "../data/technologies.json";
-import { Pagination, TextField, Box, Typography, Stack } from "@mui/material";
+import {
+  Pagination,
+  TextField,
+  Box,
+  Typography,
+  Stack,
+  Divider,
+} from "@mui/material";
 
 const LatestTechnology = () => {
   const itemsPerPage = 5;
@@ -21,21 +28,39 @@ const LatestTechnology = () => {
   );
   const indexOfLastItem = page * itemsPerPage;
   const indexOfFirstItem = indexOfLastItem - itemsPerPage;
-  const currentItems = technologies.slice(indexOfFirstItem, indexOfLastItem);
+  const currentItems = filteredTech.slice(indexOfFirstItem, indexOfLastItem);
 
   return (
     <div>
       <section className="technology-container">
-        <Box className="header-section">
-          <Typography variant="h4" component="h1" className="page-title">
-            Latest Technologies
+        <Box
+          className="header-section"
+          sx={{
+            display: "flex",
+            flexDirection: "row",
+            alignItems: "center",
+            justifyContent: "center", // Center horizontally
+            margin: "0 auto",
+            maxWidth: "1200px", // Align with card width
+            padding: "0 20px", // Add some padding on the sides
+            marginBottom: "20px", // Space between header and cards
+          }}
+        >
+          <Typography
+            variant="h4"
+            component="h1"
+            className="page-title"
+            sx={{ marginRight: 2 }} // Add some space between title and search bar
+          >
+            Latest Technology
           </Typography>
           <TextField
-            label="Search Tech"
+            label="Search Subject"
             variant="outlined"
             value={searchQuery}
             onChange={handleSearchChange}
             className="search-bar"
+            sx={{ width: "400px" }} // Set a fixed width to the search bar
           />
         </Box>
         <div className="main-container">
@@ -50,6 +75,13 @@ const LatestTechnology = () => {
                 articleLink={tech.articleLink}
                 Objective1={tech.Objective1}
                 Objective2={tech.Objective2}
+              />
+              <Divider
+                sx={{
+                  width: { xs: "90%", sm: "75%" }, // Match card width
+                  margin: "80px auto", // Center horizontally and add vertical margin
+                  backgroundColor: "aqua", // Adjust color as needed
+                }}
               />
             </React.Fragment>
           ))}
