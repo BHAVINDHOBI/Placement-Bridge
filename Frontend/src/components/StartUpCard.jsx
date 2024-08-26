@@ -105,7 +105,9 @@ const StartUpCard = ({
           flexItem
           sx={{
             backgroundColor: "black",
-            display: { xs: "none", sm: "block" },
+            display: { xs: "none", sm: "block" }, // Hide on small screens
+            marginTop: 4, // Add space at the top
+            marginBottom: 2, // Add space at the bottom
           }}
         />
         <Box

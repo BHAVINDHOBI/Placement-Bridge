@@ -79,9 +79,10 @@ const TechnologyCard = ({
                 alt={altText}
                 style={{
                   width: "100%",
-                  height: "auto",
-                  objectFit: "cover",
+                  height: { xs: "auto", sm: "250px" },
+                  objectFit: "fit",
                   borderRadius: "13px",
+                  marginLeft: { xs: "0", sm: "10px" },
                 }}
               />
             </picture>
@@ -115,6 +116,9 @@ const TechnologyCard = ({
           sx={{
             backgroundColor: "black",
             display: { xs: "none", sm: "block" }, // Hide on small screens
+
+            marginTop: 4, // Add space at the top
+            marginBottom: 2, // Add space at the bottom
           }}
         />
         <Box
