@@ -75,6 +75,7 @@ import ParentCompany from "./StartUp/ParentCompany.svg";
 import Role from "./StartUp/Role.svg";
 import Sector from "./StartUp/Sector.svg";
 import Website from "./StartUp/Webiste.svg";
+import StartupLife from "./StartupImages/Startup_Life.svg";
 
 const image = {
   AmazonLogo: AmazonLogo,
@@ -142,6 +143,7 @@ const image = {
   Role: Role,
   Sector: Sector,
   Website: Website,
+  StartupLife: StartupLife,
 };
 
 export default image;
