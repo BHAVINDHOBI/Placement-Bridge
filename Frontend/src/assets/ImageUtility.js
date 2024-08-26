@@ -56,6 +56,7 @@ import RecruitmentLogo from "./HomePage_Imgs/recruitment.svg";
 import RightArrow from "./HomePage_Imgs/right_arrow.svg";
 import StartUpLogo from "./HomePage_Imgs/Startup Logo.svg";
 import SurveyLogo from "./HomePage_Imgs/Survey Logo.svg";
+import LogoutIcon from "./HomePage_Imgs/logout.svg";
 
 // Latest Technologies
 import ARVRLogo from "./LatestTechImages/ar-vr.svg";
@@ -144,6 +145,7 @@ const image = {
   Sector: Sector,
   Website: Website,
   StartupLife: StartupLife,
+  LogoutIcon: LogoutIcon,
 };
 
 export default image;

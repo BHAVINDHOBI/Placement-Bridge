@@ -71,6 +71,7 @@ const LatestTechnology = () => {
                 altText={tech.altText}
                 title={tech.subject}
                 description={tech.description}
+                projectLink={tech.projectLink}
                 youtubeLink={tech.youtubeLink}
                 articleLink={tech.articleLink}
                 Objective1={tech.Objective1}

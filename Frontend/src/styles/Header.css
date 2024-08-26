@@ -12,6 +12,9 @@
 }
 
 .btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
   background-color: #0071e3;
   padding: 8px 20px;
   border-radius: 1000px;
