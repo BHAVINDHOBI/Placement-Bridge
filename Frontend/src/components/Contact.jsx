@@ -31,7 +31,12 @@ const Contact = () => (
         <div className="form">
           <h6 className="section-subtitle">Available 24/7</h6>
           <h6 className="section-title mb-4">Get In Touch</h6>
-          <form>
+          <form action="https://api.web3forms.com/submit" method="POST">
+            <input
+              type="hidden"
+              name="access_key"
+              value="6869febd-c760-4109-9f95-96af79e394e1"
+            />
             <div className="form-group">
               <input
                 type="email"
@@ -44,10 +49,10 @@ const Contact = () => (
             </div>
             <div className="form-group">
               <input
-                type="password"
+                type="name"
                 className="form-control form-control-lg"
                 id="exampleInputPassword1"
-                placeholder="Password"
+                placeholder="Username"
                 required
               />
             </div>
