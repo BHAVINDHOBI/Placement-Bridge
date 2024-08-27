@@ -1,5 +1,9 @@
 /* Transparent Bar */
 
+.transparent-Bar {
+  font-family: "Montserrat", sans-serif;
+}
+
 .trans-bar {
   margin-top: 150px;
   background-image: url("../assets/HomePage_Imgs/AboutBackground.svg");

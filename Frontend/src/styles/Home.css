@@ -2,6 +2,9 @@
 
 /* .home {
 } */
+.home {
+  font-family: "Montserrat", sans-serif;
+}
 
 .welcome-text {
   margin-top: 100px;

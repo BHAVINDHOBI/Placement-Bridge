@@ -15,6 +15,10 @@ import jobData from "./data/CompaniesData";
 import Roadmap from "./components/Roadmaps/Roadmap";
 import StartUp from "./components/StartUp";
 import StartupFeature from "./components/StartupFeature";
+import "typeface-poppins";
+import "typeface-montserrat";
+import "typeface-raleway";
+
 function App() {
   useEffect(() => {
     AOS.init();

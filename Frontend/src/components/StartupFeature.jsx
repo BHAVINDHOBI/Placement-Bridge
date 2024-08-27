@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/StartupFeature.css";
 import image from "../assets/ImageUtility";
 import StartupForm from "./StartupForm";
+import "typeface-montserrat";
 
 const StartupBanner = () => {
   return (

@@ -1,3 +1,7 @@
+.MainContainer {
+  font-family: "Montserrat", sans-serif;
+}
+
 .startup-banner {
   background-image: url("../assets/StartupImages/image 26.svg");
   background-size: cover;

@@ -3,6 +3,7 @@ import { Link as RouterLink, useNavigate } from "react-router-dom";
 import { Link as ScrollLink } from "react-scroll";
 import "../styles/Header.css";
 import image from "../assets/ImageUtility";
+import "typeface-montserrat";
 
 const Header = () => {
   const navigate = useNavigate();

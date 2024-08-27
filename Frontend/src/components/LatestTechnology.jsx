@@ -9,6 +9,7 @@ import {
   Stack,
   Divider,
 } from "@mui/material";
+import "typeface-montserrat";
 
 const LatestTechnology = () => {
   const itemsPerPage = 5;
@@ -31,7 +32,7 @@ const LatestTechnology = () => {
   const currentItems = filteredTech.slice(indexOfFirstItem, indexOfLastItem);
 
   return (
-    <div>
+    <div className="main-technology">
       <section className="technology-container">
         <Box
           className="header-section"

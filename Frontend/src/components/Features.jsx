@@ -4,6 +4,7 @@ import "../styles/Feature.css";
 import image from "../assets/ImageUtility";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import "typeface-montserrat";
 
 const Features = () => {
   const navigate = useNavigate();

@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/About.css";
 import image from "../assets/ImageUtility";
+import "typeface-montserrat";
 
 const About = () => (
   <section className="about" id="About">

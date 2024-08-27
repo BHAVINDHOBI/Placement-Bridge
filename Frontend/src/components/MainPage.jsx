@@ -7,10 +7,11 @@ import Footer from "./Footer";
 import TransparentBar from "./TransparentBar";
 import Contact from "./Contact";
 import "../styles/MainPage.css";
+import "typeface-montserrat";
 
 const MainPage = () => {
   return (
-    <>
+    <div className="mainpage">
       <Header />
       <main className="website-content__inner">
         <Home />
@@ -23,7 +24,7 @@ const MainPage = () => {
         <Contact />
       </main>
       <Footer />
-    </>
+    </div>
   );
 };
 

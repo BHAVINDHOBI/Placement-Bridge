@@ -12,6 +12,10 @@ body::-webkit-scrollbar {
   background: transparent; /* Optional: just in case */
 }
 
+.website-content {
+  font-family: "Montserrat", sans-serif;
+}
+
 .hackathon-container {
   background-color: #fff;
   color: #000;

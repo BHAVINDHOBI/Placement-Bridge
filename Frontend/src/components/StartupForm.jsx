@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "../styles/StartupForm.css";
 import { IoMdPaperPlane } from "react-icons/io";
 import { IoReloadSharp } from "react-icons/io5";
+import "typeface-montserrat";
 
 const StartupForm = () => {
   const [formData, setFormData] = useState({

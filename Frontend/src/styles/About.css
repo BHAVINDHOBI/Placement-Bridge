@@ -1,3 +1,7 @@
+.about {
+  font-family: "Montserrat", sans-serif;
+}
+
 .about-main {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
