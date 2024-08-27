@@ -47,6 +47,10 @@
   margin-bottom: 3px;
 }
 
+input {
+  font-family: "Montserrat", sans-serif;
+}
+
 .contact-card .infos .item i {
   display: block;
   width: 30px;

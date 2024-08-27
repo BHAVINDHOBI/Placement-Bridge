@@ -38,6 +38,8 @@ import Location from "./HackathonImages/Location.svg";
 import Dollar from "./HackathonImages/Dollar.svg";
 import Link from "./HackathonImages/Link.svg";
 import Prize from "./HackathonImages/prize-badge-with-star-and-ribbon.png";
+import BackgroundHackathonImage from "./HackathonImages/BackgroundImage.jpg";
+import SecondaryHackathonImage from "./HackathonImages/SecondaryImage.svg";
 
 // HomePage Images
 import AboutBackground from "./HomePage_Imgs/AboutBackground.svg";
@@ -146,6 +148,8 @@ const image = {
   Website: Website,
   StartupLife: StartupLife,
   LogoutIcon: LogoutIcon,
+  BackgroundHackathonImage: BackgroundHackathonImage,
+  SecondaryHackathonImage: SecondaryHackathonImage,
 };
 
 export default image;

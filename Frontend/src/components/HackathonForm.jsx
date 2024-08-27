@@ -1,14 +1,13 @@
 import React, { useState } from "react";
-import "../styles/StartupForm.css";
+import "../styles/HackathonForm.css";
 import { IoMdPaperPlane } from "react-icons/io";
 import { IoReloadSharp } from "react-icons/io5";
 import "typeface-montserrat";
 
-const StartupForm = () => {
+const HackathonForm = () => {
   const initialFormData = {
     startupName: "",
     websiteLink: "",
-    abstract: "",
     cinNumber: "",
     founder: "",
     startupContact: "",
@@ -47,7 +46,7 @@ const StartupForm = () => {
         <div className="form-row">
           <div className="form-group">
             <label htmlFor="startupName">
-              Startup Name <span className="required">*</span>
+              Hackathon Name <span className="required">*</span>
             </label>
             <input
               type="text"
@@ -59,34 +58,24 @@ const StartupForm = () => {
             />
           </div>
           <div className="form-group">
-            <label htmlFor="websiteLink">Website Link</label>
+            <label htmlFor="websiteLink">
+              Registration Link <span className="required">*</span>
+            </label>
+
             <input
               type="text"
               id="websiteLink"
               name="websiteLink"
               value={formData.websiteLink}
               onChange={handleChange}
+              required
             />
           </div>
         </div>
 
-        <div className="form-group textarea-group">
-          <label htmlFor="abstract">
-            Abstract of Startup <span className="required">*</span>
-          </label>
-          <textarea
-            id="abstract"
-            name="abstract"
-            rows="6"
-            value={formData.abstract}
-            onChange={handleChange}
-            required
-          ></textarea>
-        </div>
-
         <div className="form-row">
           <div className="form-group">
-            <label htmlFor="cinNumber">CIN Number</label>
+            <label htmlFor="cinNumber">Mode</label>
             <input
               type="text"
               id="cinNumber"
@@ -96,7 +85,7 @@ const StartupForm = () => {
             />
           </div>
           <div className="form-group">
-            <label htmlFor="founder">Founder</label>
+            <label htmlFor="founder">Date</label>
             <input
               type="text"
               id="founder"
@@ -109,23 +98,52 @@ const StartupForm = () => {
 
         <div className="form-row">
           <div className="form-group">
-            <label htmlFor="startupContact">Startup Contact</label>
+            <label htmlFor="location">Location</label>
+            <input
+              type="text"
+              id="location"
+              name="location"
+              value={formData.location}
+              onChange={handleChange}
+            />
+          </div>
+          <div className="form-group">
+            <label htmlFor="prize">Prize</label>
+            <input
+              type="text"
+              id="prize"
+              name="prize"
+              value={formData.prize}
+              onChange={handleChange}
+            />
+          </div>
+        </div>
+
+        <div className="form-row">
+          <div className="form-group">
+            <label htmlFor="startupContact">
+              Organizing Team Contact <span className="required">*</span>
+            </label>
             <input
               type="text"
               id="startupContact"
               name="startupContact"
               value={formData.startupContact}
               onChange={handleChange}
+              required
             />
           </div>
           <div className="form-group">
-            <label htmlFor="userEmail">User's Email</label>
+            <label htmlFor="userEmail">
+              User's Email <span className="required">*</span>
+            </label>
             <input
               type="text"
               id="userEmail"
               name="userEmail"
               value={formData.userEmail}
               onChange={handleChange}
+              required
             />
           </div>
         </div>
@@ -143,4 +161,4 @@ const StartupForm = () => {
   );
 };
 
-export default StartupForm;
+export default HackathonForm;

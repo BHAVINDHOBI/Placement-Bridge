@@ -1,6 +1,6 @@
 .Form {
   font-family: "Montserrat", sans-serif;
-  height: 750px;
+  height: 680px;
   width: 900px;
   background-color: #f5f5f5;
   border-radius: 10px;
@@ -10,7 +10,7 @@
 
 .FormHeading {
   text-align: center;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 .form {
@@ -41,12 +41,12 @@ label {
 
 input,
 textarea {
-  font-family: "Montserrat", sans-serif;
   padding: 10px;
   border: 1px solid #000;
   border-radius: 4px;
   background-color: #f5f5f5;
   width: 65%;
+  font-family: "Montserrat", sans-serif;
 }
 
 input:focus,

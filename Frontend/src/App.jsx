@@ -18,6 +18,7 @@ import StartupFeature from "./components/StartupFeature";
 import "typeface-poppins";
 import "typeface-montserrat";
 import "typeface-raleway";
+import HackathonFeature from "./components/HackathonFeature";
 
 function App() {
   useEffect(() => {
@@ -36,6 +37,7 @@ function App() {
           <Route path="/technologies" element={<LatestTechnology />} />
           <Route path="/startup" element={<StartUp />} />
           <Route path="/startup-feature" element={<StartupFeature />} />
+          <Route path="/hackathon-feature" element={<HackathonFeature />} />
           {/* JobList routes */}
           <Route path="/recruitments" element={<JobList jobs={jobData} />} />
           <Route path="/job/:jobId" element={<JobDetail jobs={jobData} />} />

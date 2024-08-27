@@ -1,0 +1,42 @@
+.MainContainer {
+  font-family: "Montserrat", sans-serif;
+}
+
+.startup-banner {
+  background-image: url("../assets/StartupImages/image 26.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+  width: 175vh;
+  padding: 40px;
+  margin-top: 50px;
+}
+
+.startup-banner h1 {
+  color: aqua; /* Light blue color */
+  margin-bottom: 10px;
+  font-size: 50px;
+}
+.para {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  gap: 30px;
+}
+
+.para p {
+  color: white;
+  font-size: 27px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.SecondaryImage {
+  height: 550px;
+  width: 500px;
+}
+
+.FormContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
