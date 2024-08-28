@@ -1,0 +1,191 @@
+[
+  {
+    "id": "65dfcd520286158dc53f42bd877a359b4c40dbc0",
+    "companyLogo": "https://example.com/logo1.png",
+    "companyName": "TechWizards Pvt Ltd",
+    "dateRecruitment": "2024-08-01",
+    "salary": "₹10,00,000 - ₹15,00,000 per annum",
+    "jobTitle": "iOS Developer",
+    "description": "We are looking for a skilled iOS Developer to join our team. The ideal candidate will have a strong background in Swift and Objective-C, with experience in developing and deploying iOS applications. You will work closely with our product and design teams to create user-friendly, scalable, and high-performance apps. Experience with Core Data, RESTful APIs, and unit testing is a plus.",
+    "benefits": [
+      "Health insurance",
+      "Flexible working hours",
+      "Remote work options",
+      "Annual performance bonuses"
+    ],
+    "jobType": "Full-time",
+    "location": "Bengaluru, Karnataka",
+    "companyWebsiteLink": "https://www.tech-wizards.com/",
+    "linkedInLink": "https://www.linkedin.com/company/techwizardofficial/",
+    "companyDescription": "TechWizards Pvt Ltd is a leading software development company specializing in mobile and web applications. With a strong emphasis on innovation and quality, we have been delivering top-notch solutions to clients worldwide. Our team of over 500 professionals is dedicated to pushing the boundaries of technology to create impactful digital experiences. We value creativity, collaboration, and continuous learning.",
+    "totalEmployees": 550
+  },
+  {
+    "id": "1467159321c2f4ff9ea2eaac67a7ee9596c01d35",
+    "companyLogo": "https://example.com/logo2.png",
+    "companyName": "InnoTech Solutions",
+    "dateRecruitment": "2024-08-10",
+    "salary": "₹12,00,000 - ₹18,00,000 per annum",
+    "jobTitle": "iOS Developer",
+    "description": "InnoTech Solutions is seeking an experienced iOS Developer to join our mobile app team. The candidate will be responsible for designing and building applications for the iOS platform, collaborating with cross-functional teams to define, design, and ship new features. Proficiency in Swift, UIKit, and Xcode is required. The role also involves maintaining code quality and ensuring the best performance and responsiveness of the apps.",
+    "benefits": [
+      "Health and wellness programs",
+      "Paid time off",
+      "Professional development opportunities",
+      "Remote work options"
+    ],
+    "jobType": "Full-time",
+    "location": "Mumbai, Maharashtra",
+    "companyWebsiteLink": "https://innotech.com/",
+    "linkedInLink": "https://www.linkedin.com/company/innotechcompany/",
+    "companyDescription": "InnoTech Solutions is a technology-driven company providing cutting-edge software solutions for businesses worldwide. Our focus is on creating scalable, secure, and efficient mobile applications that meet the needs of our diverse clientele. With a team of over 300 experts, we pride ourselves on our ability to deliver innovative solutions that drive business success. Our work culture encourages continuous learning and professional growth.",
+    "totalEmployees": 320
+  },
+  {
+    "id": "d2ad75266a89c7db0a9627e570083a29c5ac20a5",
+    "companyLogo": "https://example.com/logo3.png",
+    "companyName": "AppMasters India Pvt Ltd",
+    "dateRecruitment": "2024-08-05",
+    "salary": "₹11,00,000 - ₹16,00,000 per annum",
+    "jobTitle": "iOS Developer",
+    "description": "Join our team as an iOS Developer at AppMasters India Pvt Ltd. You will be responsible for developing high-quality iOS applications and ensuring they are aligned with our business goals. The role requires excellent coding skills in Swift and Objective-C, along with experience in integrating third-party libraries and APIs. Strong problem-solving skills and a passion for mobile technology are essential.",
+    "benefits": [
+      "Comprehensive health insurance",
+      "Employee stock options",
+      "Flexible working hours",
+      "Work from home options"
+    ],
+    "jobType": "Full-time",
+    "location": "Pune, Maharashtra",
+    "companyWebsiteLink": "https://appmaster.io/",
+    "linkedInLink": "https://www.linkedin.com/company/appmasterio/",
+    "companyDescription": "AppMasters India Pvt Ltd is a leading mobile app development company with a global presence. We specialize in creating innovative and user-centric mobile applications for clients across various industries. With over 200 employees, our team of skilled developers, designers, and project managers work together to deliver exceptional mobile experiences. Our commitment to quality and customer satisfaction sets us apart in the industry.",
+    "totalEmployees": 210
+  },
+  {
+    "id": "fd2c691796f2af3576de214e54ee8849d45310ff",
+    "companyLogo": "https://example.com/logo4.png",
+    "companyName": "CodeCraft Technologies",
+    "dateRecruitment": "2024-08-15",
+    "salary": "₹13,00,000 - ₹19,00,000 per annum",
+    "jobTitle": "iOS Developer",
+    "description": "CodeCraft Technologies is looking for an iOS Developer to join our team of talented engineers. The ideal candidate will have extensive experience with Swift and Objective-C, and a deep understanding of iOS frameworks. You will be working on a variety of projects, including new app development and enhancements to existing apps. Familiarity with version control systems like Git and experience in Agile development environments are required.",
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Annual performance bonuses",
+      "Professional development courses"
+    ],
+    "jobType": "Full-time",
+    "location": "Hyderabad, Telangana",
+    "companyWebsiteLink": "https://www.codecrafttech.com/",
+    "linkedInLink": "https://www.linkedin.com/company/codecraft-technologies-private-limited/",
+    "companyDescription": "CodeCraft Technologies is a premier software development company that specializes in mobile and web application development. With a strong focus on innovation and quality, we deliver solutions that help businesses grow and thrive in the digital age. Our team of over 400 professionals is dedicated to providing exceptional service and building long-term relationships with our clients. We believe in fostering a collaborative and inclusive work environment where creativity and innovation are encouraged.",
+    "totalEmployees": 420
+  },
+  {
+    "id": "3e126449eb82d8b1ae72044246dcc308e39b46aa",
+    "companyLogo": "https://example.com/logo5.png",
+    "companyName": "Mobility Solutions Ltd.",
+    "dateRecruitment": "2024-08-12",
+    "salary": "₹14,00,000 - ₹20,00,000 per annum",
+    "jobTitle": "iOS Developer",
+    "description": "Mobility Solutions Ltd. is seeking a talented iOS Developer to join our growing team. The candidate will be responsible for developing and maintaining iOS applications, working closely with product and design teams to deliver seamless user experiences. Strong knowledge of Swift, Objective-C, and Xcode is essential, along with experience in debugging and performance tuning. The role also requires familiarity with RESTful APIs and cloud-based services.",
+    "benefits": [
+      "Health insurance",
+      "Flexible working hours",
+      "Remote work options",
+      "Employee wellness programs"
+    ],
+    "jobType": "Full-time",
+    "location": "Chennai, Tamil Nadu",
+    "companyWebsiteLink": "https://mobility-solutions.com/",
+    "linkedInLink": "NA",
+    "companyDescription": "Mobility Solutions Ltd. is a leading provider of mobile technology solutions, serving clients across various industries. Our expertise lies in developing high-performance mobile applications that meet the needs of our clients and their users. With a team of over 350 professionals, we are committed to delivering innovative solutions that drive business growth. Our work culture emphasizes collaboration, creativity, and continuous learning.",
+    "totalEmployees": 360
+  },
+  {
+    "id": "6b978d7a999dba1f5fd479f8dde6d3dafc92312f",
+    "companyLogo": "https://example.com/logo6.png",
+    "companyName": "NextGen Apps Pvt Ltd",
+    "dateRecruitment": "2024-08-18",
+    "salary": "₹15,00,000 - ₹22,00,000 per annum",
+    "jobTitle": "iOS Developer",
+    "description": "NextGen Apps Pvt Ltd is hiring an experienced iOS Developer to lead the development of cutting-edge mobile applications. The role involves working closely with cross-functional teams to design, develop, and maintain high-quality iOS apps. The ideal candidate should have a strong command of Swift, experience with Core Data and Core Animation, and a passion for creating intuitive and user-friendly interfaces.",
+    "benefits": [
+      "Comprehensive health insurance",
+      "Flexible working hours",
+      "Remote work options",
+      "Professional development opportunities"
+    ],
+    "jobType": "Full-time",
+    "location": "Delhi, Delhi",
+    "companyWebsiteLink": "https://nextgenapps.dev/",
+    "linkedInLink": "https://www.linkedin.com/company/nextgenapps/",
+    "companyDescription": "NextGen Apps Pvt Ltd is a forward-thinking mobile app development company that focuses on delivering innovative solutions to clients worldwide. With a team of over 250 experts, we specialize in creating custom mobile applications that meet the unique needs of our clients. Our work culture promotes creativity, collaboration, and continuous improvement, ensuring that our team remains at the forefront of mobile technology.",
+    "totalEmployees": 270
+  },
+  {
+    "id": "969f022e28f9dc06171c7eb37a7ff14fd7045645",
+    "companyLogo": "https://example.com/logo7.png",
+    "companyName": "App Innovators",
+    "dateRecruitment": "2024-08-20",
+    "salary": "₹12,00,000 - ₹17,00,000 per annum",
+    "jobTitle": "iOS Developer",
+    "description": "App Innovators is looking for a talented iOS Developer to join our development team. The role involves building and maintaining iOS applications, ensuring that they are optimized for performance and scalability. The ideal candidate should have a deep understanding of Swift, Objective-C, and iOS frameworks. Experience with third-party libraries and APIs, as well as knowledge of UI/UX principles, is highly desirable.",
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Performance bonuses",
+      "Employee stock options"
+    ],
+    "jobType": "Full-time",
+    "location": "Ahmedabad, Gujarat",
+    "companyWebsiteLink": "https://appinnovators.com/",
+    "linkedInLink": "https://www.linkedin.com/company/appinnovators/",
+    "companyDescription": "App Innovators is a dynamic software development company specializing in mobile and web applications. We are dedicated to creating innovative solutions that drive business success and enhance user experiences. Our team of over 200 professionals is committed to delivering high-quality products that meet the needs of our clients and their customers. We value creativity, collaboration, and continuous learning, and we strive to create an inclusive and supportive work environment.",
+    "totalEmployees": 220
+  },
+  {
+    "id": "2c0ae2558f8462b928b6304b7687f81477f3497f",
+    "companyLogo": "https://example.com/logo8.png",
+    "companyName": "FutureTech Solutions",
+    "dateRecruitment": "2024-08-22",
+    "salary": "₹13,00,000 - ₹18,00,000 per annum",
+    "jobTitle": "iOS Developer",
+    "description": "FutureTech Solutions is hiring an iOS Developer to join our innovative development team. The role involves designing, coding, and maintaining iOS applications, ensuring they are user-friendly and performant. The ideal candidate should have strong expertise in Swift, Xcode, and iOS SDKs, as well as experience with RESTful APIs and version control systems like Git.",
+    "benefits": [
+      "Health insurance",
+      "Remote work options",
+      "Annual performance bonuses",
+      "Professional development courses"
+    ],
+    "jobType": "Full-time",
+    "location": "Kolkata, West Bengal",
+    "companyWebsiteLink": "http://futuretechsolutions.co.in/",
+    "linkedInLink": "https://www.linkedin.com/company/futuretechsolutions/",
+    "companyDescription": "FutureTech Solutions is a leading technology company that specializes in mobile and web application development. Our mission is to create innovative and user-centric solutions that drive business growth and enhance the digital experience. With a team of over 300 professionals, we are committed to delivering high-quality products that meet the needs of our clients and their customers. We value creativity, collaboration, and continuous learning, and we strive to create a positive and inclusive work environment.",
+    "totalEmployees": 310
+  },
+  {
+    "id": "d14c45733236f36a9abb1d894f916f4adf42498f",
+    "companyLogo": "https://example.com/logo9.png",
+    "companyName": "MobileWave Solutions",
+    "dateRecruitment": "2024-08-25",
+    "salary": "₹11,00,000 - ₹16,00,000 per annum",
+    "jobTitle": "iOS Developer",
+    "description": "MobileWave Solutions is looking for a skilled iOS Developer to join our team. The role involves developing and maintaining high-quality iOS applications, working closely with product and design teams to deliver seamless user experiences. Strong knowledge of Swift, Objective-C, and Xcode is essential, along with experience in debugging and performance tuning. The ideal candidate should also be familiar with RESTful APIs and cloud-based services.",
+    "benefits": [
+      "Health insurance",
+      "Flexible working hours",
+      "Remote work options",
+      "Employee wellness programs"
+    ],
+    "jobType": "Full-time",
+    "location": "Bengaluru, Karnataka",
+    "companyWebsiteLink": "https://mobilewave.com/",
+    "linkedInLink": "https://www.linkedin.com/company/mobilewave-group-plc/about/",
+    "companyDescription": "MobileWave Solutions is a leading provider of mobile technology solutions, serving clients across various industries. Our expertise lies in developing high-performance mobile applications that meet the needs of our clients and their users. With a team of over 350 professionals, we are committed to delivering innovative solutions that drive business growth. Our work culture emphasizes collaboration, creativity, and continuous learning.",
+    "totalEmployees": 360
+  }
+]
