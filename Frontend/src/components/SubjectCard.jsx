@@ -13,6 +13,7 @@ import {
 import { PiNotepadFill } from "react-icons/pi";
 import { IoSparklesSharp, IoBookmarksSharp } from "react-icons/io5";
 import { MdOutlineOndemandVideo } from "react-icons/md";
+import "typeface-montserrat";
 
 const SubjectCard = ({
   image,
@@ -34,6 +35,7 @@ const SubjectCard = ({
   return (
     <Card
       sx={{
+        fontFamily: "Montserrat",
         width: { xs: "90%", sm: "75%" }, // Responsive width
         margin: "20px auto", // Centered on all screens
         display: "flex",

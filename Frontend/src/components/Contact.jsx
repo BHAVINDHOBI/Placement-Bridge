@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/Contact.css";
+import "typeface-montserrat";
 
 const Contact = () => (
   <section className="contact" id="contact">

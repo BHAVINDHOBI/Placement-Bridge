@@ -9,9 +9,10 @@ import {
 } from "@mui/material";
 import { IoMdPaperPlane } from "react-icons/io";
 import { IoReloadSharp } from "react-icons/io5";
+import "typeface-montserrat";
 
 const StartupForm = () => {
-  const [formData, setFormData] = useState({
+  const initialFormData = {
     startupName: "",
     websiteLink: "",
     abstract: "",
@@ -19,7 +20,9 @@ const StartupForm = () => {
     founder: "",
     startupContact: "",
     userEmail: "",
-  });
+  };
+
+  const [formData, setFormData] = useState(initialFormData);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -27,6 +30,10 @@ const StartupForm = () => {
       ...prevData,
       [name]: value,
     }));
+  };
+
+  const handleReset = () => {
+    setFormData(initialFormData);
   };
 
   return (

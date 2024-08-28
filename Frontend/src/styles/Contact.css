@@ -1,3 +1,7 @@
+.contact {
+  font-family: "Montserrat", sans-serif;
+}
+
 .contact-container {
   padding: 100px 80px;
   width: 100%;
@@ -41,6 +45,10 @@
 
 .contact-card .infos .item p {
   margin-bottom: 3px;
+}
+
+input {
+  font-family: "Montserrat", sans-serif;
 }
 
 .contact-card .infos .item i {

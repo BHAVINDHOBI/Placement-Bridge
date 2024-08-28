@@ -88,7 +88,9 @@ const StartUp = () => {
             textAlign: { xs: "center", sm: "center", md: "left" }, // Center text on extra-small and small screens, align left on medium and larger screens
           }}
         >
-          <Typography variant="h6">Add a Startup</Typography>
+          <Typography sx={{ marginRight: "10px" }} variant="h6">
+            Add a Startup{" "}
+          </Typography>
           <Fab
             color="primary"
             aria-label="add"

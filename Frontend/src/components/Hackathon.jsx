@@ -3,6 +3,7 @@ import HackathonCard from "./HackathonCard";
 import "../styles/Hackathon.css";
 import hackathonsData from "../data/hackathons.json";
 import { Pagination, TextField, Box, Typography, Stack } from "@mui/material";
+import "typeface-montserrat";
 
 const scrollToTop = (duration) => {
   const scrollHeight = window.scrollY;

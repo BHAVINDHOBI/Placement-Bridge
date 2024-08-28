@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/Footer.css";
+import "typeface-montserrat";
 
 const Footer = () => (
   <footer className="footer">

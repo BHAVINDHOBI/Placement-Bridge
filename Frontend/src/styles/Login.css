@@ -1,4 +1,4 @@
-.LoginPage {
+/* .LoginPage {
   height: 100%;
   margin: 0;
   display: flex;
@@ -58,6 +58,11 @@
   padding: 0 15px;
   font-size: 16px;
   transition: border-color 0.3s ease;
+  color: #262626;
+}
+
+.input-fields input:-internal-autofill-selected {
+  background-color: #e1e1e2;
 }
 
 .input-fields input:focus {
@@ -87,6 +92,7 @@ form {
   border-radius: 8px;
   cursor: pointer;
   text-align: center;
+  width: auto;
 }
 
 .LoginOptions {
@@ -232,6 +238,291 @@ form {
   }
 
   .Options {
+    width: 35px;
+    height: 35px;
+  }
+
+  .NewUser {
+    font-size: 16px;
+  }
+} */
+
+.LoginPage {
+  font-family: "Montserrat", sans-serif;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10vh 0;
+}
+
+.LoginContainer {
+  height: auto;
+  width: 80vh;
+  background-color: #262626;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  gap: 40px;
+  transition: 0.6s ease;
+  padding-bottom: 20px; /* Added padding for spacing from the bottom */
+}
+
+.LoginContainer:hover {
+  box-shadow: 0 0 20px rgba(138, 43, 226, 0.8);
+}
+
+.LogoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Adjusted for proper spacing between logo and text */
+  padding-top: 50px;
+}
+
+.LoginContainer .emblem {
+  height: 80px;
+}
+
+.LoginContainer .Logo {
+  height: 80px;
+}
+
+.title {
+  color: white;
+  font-size: 26px;
+}
+
+.input-fields {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  gap: 35px;
+}
+
+.input-fields input {
+  background-color: #e1e1e2;
+  height: 8vh;
+  width: 50vh;
+  padding: 0 15px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+  color: #262626;
+}
+
+.input-fields input:-internal-autofill-selected {
+  background-color: #e1e1e2;
+}
+
+.input-fields input:focus {
+  border-color: #cc7be5;
+  outline: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  align-items: center;
+  margin-top: 5vh;
+  display: flex;
+  align-self: center;
+}
+
+.LoginButton {
+  background: linear-gradient(90deg, #a86dff, #73c8ff);
+  color: white;
+  padding: 10px 20px;
+  align-self: center;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: center;
+  width: auto;
+}
+
+.LoginOptions {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+.Options {
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.Options img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.RegisterURL {
+  text-decoration: underline;
+  color: #369fff;
+  cursor: pointer;
+}
+
+.NewUser {
+  font-size: 20px;
+  padding-bottom: 35px; /* Adjusted padding to ensure spacing from bottom */
+  color: #e1e1e2;
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 66%;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.65);
+  position: relative;
+}
+
+.separator-text {
+  background-color: #262626;
+  padding: 0 10px;
+  color: rgb(255, 255, 255);
+  z-index: 1;
+}
+
+@media (max-width: 1080px) {
+  .LoginContainer {
+    width: 80vw;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .LogoContainer {
+    flex-direction: row; /* Ensure logo and text are side by side */
+  }
+
+  .LoginContainer .emblem,
+  .LoginContainer .Logo {
+    height: 70px;
+  }
+
+  .input-fields {
+    padding-top: 80px;
+    gap: 50px;
+  }
+
+  .input-fields input {
+    width: 27vh;
+    height: 6vh;
+  }
+
+  .Options {
+    width: 35px;
+    height: 35px;
+  }
+
+  .NewUser {
+    font-size: 25px;
+    padding-top: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .LoginContainer {
+    width: 80vw;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .LogoContainer {
+    flex-direction: row; /* Ensure logo and text are side by side */
+  }
+
+  .LoginContainer .emblem,
+  .LoginContainer .Logo {
+    height: 70px;
+  }
+
+  .input-fields {
+    padding-top: 70px;
+    gap: 30px;
+  }
+
+  .input-fields input {
+    width: 27vh;
+    height: 6vh;
+  }
+  .LoginButton {
+    margin-bottom: 10px;
+  }
+  .separator {
+    margin-top: 15px;
+  }
+  .separator-text {
+    margin-top: 2px;
+  }
+
+  .Options {
+    margin-top: 10px;
+    width: 35px;
+    height: 35px;
+  }
+
+  .NewUser {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .LoginContainer {
+    width: 85vw;
+    height: 70vh;
+    gap: 25px;
+  }
+
+  .LogoContainer {
+    flex-direction: row; /* Ensure logo and text are side by side */
+  }
+
+  .LoginContainer .emblem,
+  .LoginContainer .Logo {
+    height: 50px;
+  }
+
+  .input-fields {
+    padding-top: 30px;
+    gap: 30px;
+  }
+
+  .input-fields input {
+    width: 27vh;
+    height: 6vh;
+  }
+  .LoginButton {
+    margin-bottom: 10px;
+  }
+
+  .separator {
+    margin-top: 10px;
+  }
+  .separator-text {
+    margin-top: 2px;
+  }
+  .Options {
+    margin-top: 15px;
     width: 35px;
     height: 35px;
   }

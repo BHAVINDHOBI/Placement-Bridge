@@ -3,6 +3,8 @@ import { Container, Typography, Box, Grid } from "@mui/material";
 import image from "../assets/ImageUtility";
 import StartupForm from "./StartupForm";
 import backgroundImage from "../assets/StartupImages/image 26.svg";
+import "typeface-montserrat";
+
 const StartupBanner = () => {
   return (
     <Container className="MainContainer">

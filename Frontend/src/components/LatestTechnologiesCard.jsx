@@ -13,6 +13,7 @@ import {
 import { PiNotepadFill } from "react-icons/pi";
 import { IoSparklesSharp, IoBookmarksSharp } from "react-icons/io5";
 import { MdOutlineOndemandVideo } from "react-icons/md";
+import "typeface-montserrat";
 
 const TechnologyCard = ({
   imageSrc,
@@ -35,6 +36,7 @@ const TechnologyCard = ({
     <Card
       sx={{
         width: { xs: "90%", sm: "75%" }, // Responsive width
+        fontFamily: "Montserrat",
         margin: "20px auto", // Centered on all screens
         display: "flex",
         flexDirection: "column",
@@ -46,6 +48,7 @@ const TechnologyCard = ({
     >
       <CardContent
         sx={{
+          fontFamily: "Montserrat",
           display: "flex",
           flexDirection: { xs: "column", sm: "row" }, // Stack vertically on small screens
           padding: 0,
@@ -54,6 +57,7 @@ const TechnologyCard = ({
       >
         <Box
           sx={{
+            fontFamily: "Montserrat",
             width: { xs: "100%", sm: "40%" },
             display: "flex",
             flexDirection: "column",
@@ -65,6 +69,7 @@ const TechnologyCard = ({
         >
           <Box
             sx={{
+              fontFamily: "Montserrat",
               padding: 1,
               borderRadius: 1,
               display: "flex",
@@ -97,6 +102,7 @@ const TechnologyCard = ({
               variant="h6"
               component="h2"
               sx={{
+                fontFamily: "Montserrat",
                 fontWeight: "bold",
                 fontSize: { xs: "20px", sm: "24px" }, // Responsive font size
                 fontFamily: "Roboto Serif",
@@ -156,7 +162,7 @@ const TechnologyCard = ({
                 sx={{
                   fontWeight: "bold",
                   fontSize: { xs: "20px", sm: "22px" },
-                  fontFamily: "Roboto Serif",
+                  fontFamily: "Montserrat",
                 }}
               >
                 Description
@@ -167,7 +173,7 @@ const TechnologyCard = ({
               sx={{
                 textAlign: "justify",
                 fontSize: { xs: "14px", sm: "16px" }, // Adjust font size for small screens
-                fontFamily: "Roboto Serif",
+                fontFamily: "Montserrat",
               }}
             >
               {description}
@@ -179,7 +185,7 @@ const TechnologyCard = ({
                 color: "black",
                 border: "1px solid blue",
                 fontWeight: "bold",
-                fontFamily: "Roboto Serif",
+                fontFamily: "Montserrat",
                 "&:hover": {
                   backgroundColor: "#15DFD3",
                   borderColor: "darkblue",
@@ -229,7 +235,7 @@ const TechnologyCard = ({
                 sx={{
                   fontWeight: "bold",
                   fontSize: { xs: "20px", sm: "22px" },
-                  fontFamily: "Roboto Serif",
+                  fontFamily: "Montserrat",
                 }}
               >
                 Learning Outcomes
@@ -239,20 +245,20 @@ const TechnologyCard = ({
                   sx={{
                     display: "list-item",
                     textAlign: "justify",
-                    fontFamily: "Roboto Serif",
+                    fontFamily: "Montserrat",
                     paddingLeft: 0,
                   }}
                 >
                   <ListItemText
                     primary={Objective1}
-                    sx={{ fontFamily: "Roboto Serif" }}
+                    sx={{ fontFamily: "Montserrat" }}
                   />
                 </ListItem>
                 <ListItem
                   sx={{
                     display: "list-item",
                     textAlign: "justify",
-                    fontFamily: "Roboto Serif",
+                    fontFamily: "Montserrat",
                     paddingLeft: 0,
                   }}
                 >
@@ -281,7 +287,7 @@ const TechnologyCard = ({
             >
               <Box
                 sx={{
-                  fontFamily: "Roboto Serif",
+                  fontFamily: "Montserrat",
                   display: "flex",
                   alignItems: "center",
                   gap: 1,
@@ -304,7 +310,7 @@ const TechnologyCard = ({
               </Box>
               <Box
                 sx={{
-                  fontFamily: "Roboto Serif",
+                  fontFamily: "Montserrat",
                   display: "flex",
                   alignItems: "center",
                   gap: 1,
@@ -319,7 +325,7 @@ const TechnologyCard = ({
                   sx={{
                     fontWeight: "bold",
                     fontSize: { xs: "16px", sm: "20px" },
-                    fontFamily: "Roboto Serif",
+                    fontFamily: "Montserrat",
                   }}
                 >
                   Video Tutorial
@@ -327,7 +333,7 @@ const TechnologyCard = ({
               </Box>
               <Box
                 sx={{
-                  fontFamily: "Roboto Serif",
+                  fontFamily: "Montserrat",
                   display: "flex",
                   alignItems: "center",
                   gap: 1,
@@ -341,7 +347,7 @@ const TechnologyCard = ({
                   sx={{
                     fontWeight: "bold",
                     fontSize: { xs: "16px", sm: "20px" },
-                    fontFamily: "Roboto Serif",
+                    fontFamily: "Montserrat",
                   }}
                 >
                   Document

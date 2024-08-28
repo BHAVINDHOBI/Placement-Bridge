@@ -9,6 +9,7 @@ import {
   Typography,
 } from "@mui/material";
 import "../styles/JobList.css";
+import "typeface-montserrat";
 
 const scrollToTop = (duration) => {
   const scrollHeight = window.scrollY;
@@ -57,7 +58,7 @@ const JobList = ({ jobs }) => {
   };
 
   return (
-    <Container>
+    <Container className="jobHeader">
       {/* Search bar */}
       <Box className="header-section">
         <Typography variant="h4" component="h1" className="page-title">

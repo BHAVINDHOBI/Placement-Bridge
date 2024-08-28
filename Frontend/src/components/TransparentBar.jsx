@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/TransparentBar.css";
 import image from "../assets/ImageUtility";
+import "typeface-montserrat";
 
 const TransparentBar = () => (
   <section className="transparent-Bar">

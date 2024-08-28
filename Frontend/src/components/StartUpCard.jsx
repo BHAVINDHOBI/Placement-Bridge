@@ -9,6 +9,7 @@ import {
   Grid,
 } from "@mui/material";
 import image from "../assets/ImageUtility";
+import "typeface-montserrat";
 
 const StartUpCard = ({
   imagesrc,
@@ -32,6 +33,7 @@ const StartUpCard = ({
   return (
     <Card
       sx={{
+        fontFamily: "Montserrat",
         width: { xs: "90%", sm: "75%" },
         margin: "20px auto",
         display: "flex",
@@ -90,7 +92,7 @@ const StartUpCard = ({
             sx={{
               fontWeight: "Bold",
               fontSize: { xs: "20px", sm: "24px" },
-              fontFamily: "Roboto Serif",
+              fontFamily: "Montserrat",
               color: "black",
               overflow: "hidden",
               textOverflow: "ellipsis",
@@ -137,7 +139,7 @@ const StartUpCard = ({
               sx={{
                 fontWeight: "bold",
                 fontSize: { xs: "20px", sm: "22px" },
-                fontFamily: "Roboto Serif",
+                fontFamily: "Montserrat",
               }}
             >
               DESCRIPTION
@@ -147,7 +149,7 @@ const StartUpCard = ({
               sx={{
                 textAlign: "justify",
                 fontSize: { xs: "14px", sm: "16px" },
-                fontFamily: "Roboto Serif",
+                fontFamily: "Montserrat",
               }}
             >
               {Description}
@@ -159,7 +161,7 @@ const StartUpCard = ({
                 color: "black",
                 border: "1px solid blue",
                 fontWeight: "Bold",
-                fontFamily: "Roboto Serif",
+                fontFamily: "Montserrat",
                 "&:hover": {
                   backgroundColor: "#15DFD3",
                   borderColor: "darkblue",
@@ -217,7 +219,7 @@ const StartUpCard = ({
                     sx={{
                       fontWeight: "bold",
                       fontSize: { xs: "14px", sm: "16px" },
-                      fontFamily: "Roboto Serif",
+                      fontFamily: "Montserrat",
                       cursor: "pointer",
                     }}
                     onClick={() => window.open(WebsiteLink, "_blank")}
@@ -252,7 +254,7 @@ const StartUpCard = ({
                     sx={{
                       fontWeight: "bold",
                       fontSize: { xs: "14px", sm: "16px" },
-                      fontFamily: "Roboto Serif",
+                      fontFamily: "Montserrat",
                       textDecoration: "none",
                       color: "inherit",
                       "&:hover": {
@@ -287,7 +289,7 @@ const StartUpCard = ({
                     sx={{
                       fontWeight: "bold",
                       fontSize: { xs: "14px", sm: "16px" },
-                      fontFamily: "Roboto Serif",
+                      fontFamily: "Montserrat",
                     }}
                   >
                     Parent Company - {ParentCompany}
@@ -317,7 +319,7 @@ const StartUpCard = ({
                     sx={{
                       fontWeight: "bold",
                       fontSize: { xs: "14px", sm: "16px" },
-                      fontFamily: "Roboto Serif",
+                      fontFamily: "Montserrat",
                     }}
                   >
                     Established Year - {Date}
@@ -347,7 +349,7 @@ const StartUpCard = ({
                     sx={{
                       fontWeight: "bold",
                       fontSize: { xs: "14px", sm: "16px" },
-                      fontFamily: "Roboto Serif",
+                      fontFamily: "Montserrat",
                     }}
                   >
                     Founder of company - {Founder}
@@ -377,7 +379,7 @@ const StartUpCard = ({
                     sx={{
                       fontWeight: "bold",
                       fontSize: { xs: "14px", sm: "16px" },
-                      fontFamily: "Roboto Serif",
+                      fontFamily: "Montserrat",
                     }}
                   >
                     Industry Sector - {IndustrySector}

@@ -8,6 +8,7 @@ import {
   Button,
 } from "@mui/material";
 import "../styles/JobDetail.css";
+import "typeface-montserrat";
 
 const JobDetail = ({ jobs }) => {
   const { jobId } = useParams();

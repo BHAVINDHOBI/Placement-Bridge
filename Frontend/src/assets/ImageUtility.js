@@ -38,6 +38,8 @@ import Location from "./HackathonImages/Location.svg";
 import Dollar from "./HackathonImages/Dollar.svg";
 import Link from "./HackathonImages/Link.svg";
 import Prize from "./HackathonImages/prize-badge-with-star-and-ribbon.png";
+import BackgroundHackathonImage from "./HackathonImages/BackgroundImage.jpg";
+import SecondaryHackathonImage from "./HackathonImages/SecondaryImage.svg";
 
 // HomePage Images
 import AboutBackground from "./HomePage_Imgs/AboutBackground.svg";
@@ -56,6 +58,7 @@ import RecruitmentLogo from "./HomePage_Imgs/recruitment.svg";
 import RightArrow from "./HomePage_Imgs/right_arrow.svg";
 import StartUpLogo from "./HomePage_Imgs/Startup Logo.svg";
 import SurveyLogo from "./HomePage_Imgs/Survey Logo.svg";
+import LogoutIcon from "./HomePage_Imgs/logout.svg";
 
 // Latest Technologies
 import ARVRLogo from "./LatestTechImages/ar-vr.svg";
@@ -144,6 +147,9 @@ const image = {
   Sector: Sector,
   Website: Website,
   StartupLife: StartupLife,
+  LogoutIcon: LogoutIcon,
+  BackgroundHackathonImage: BackgroundHackathonImage,
+  SecondaryHackathonImage: SecondaryHackathonImage,
 };
 
 export default image;
