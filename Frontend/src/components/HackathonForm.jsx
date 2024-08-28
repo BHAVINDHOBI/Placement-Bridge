@@ -1,16 +1,25 @@
 import React, { useState } from "react";
-import "../styles/HackathonForm.css";
+import {
+  Container,
+  TextField,
+  Button,
+  Typography,
+  Grid,
+  Box,
+} from "@mui/material";
 import { IoMdPaperPlane } from "react-icons/io";
 import { IoReloadSharp } from "react-icons/io5";
 import "typeface-montserrat";
 
 const HackathonForm = () => {
   const initialFormData = {
-    startupName: "",
-    websiteLink: "",
-    cinNumber: "",
-    founder: "",
-    startupContact: "",
+    hackathonName: "",
+    registrationLink: "",
+    mode: "",
+    date: "",
+    location: "",
+    prize: "",
+    organizingTeamContact: "",
     userEmail: "",
   };
 
@@ -29,135 +38,277 @@ const HackathonForm = () => {
   };
 
   return (
-    <div className="Form">
-      <h1 className="FormHeading">Add Details</h1>
+    <Container
+      maxWidth="md"
+      sx={{
+        backgroundColor: "#f8f8f8",
+        padding: { xs: "20px", sm: "30px" },
+        borderRadius: "10px",
+        boxShadow: "0 5px 15px rgba(0,0,0,0.1)",
+        border: "1px solid #ccc",
+        width: { xs: "90%", sm: "80%", md: "70%" },
+        height: "700px",
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+        marginBottom: "20px",
+        marginTop: "20px",
+      }}
+    >
+      <Typography
+        variant="h4"
+        align="center"
+        gutterBottom
+        sx={{
+          color: "#000",
+          fontFamily: "Arial, sans-serif",
+          fontWeight: "bold",
+          fontSize: { xs: "1.5rem", sm: "2rem" },
+          marginBottom: "30px",
+        }}
+      >
+        ADD DETAILS
+      </Typography>
       <form
-        className="form"
         action="https://api.web3forms.com/submit"
         method="POST"
+        noValidate
+        autoComplete="off"
+        style={{ flexGrow: 1, display: "flex", flexDirection: "column" }}
       >
-        {/* Hidden input for access key */}
         <input
           type="hidden"
           name="access_key"
           value="6869febd-c760-4109-9f95-96af79e394e1"
         />
-
-        <div className="form-row">
-          <div className="form-group">
-            <label htmlFor="startupName">
-              Hackathon Name <span className="required">*</span>
-            </label>
-            <input
-              type="text"
-              id="startupName"
-              name="startupName"
-              value={formData.startupName}
+        <Grid container spacing={2} sx={{ flexGrow: 1 }}>
+          <Grid item xs={12} sm={6}>
+            <TextField
+              label="Hackathon Name"
+              name="hackathonName"
+              value={formData.hackathonName}
               onChange={handleChange}
+              fullWidth
               required
+              variant="outlined"
+              sx={{
+                "& .MuiOutlinedInput-root": {
+                  "& fieldset": {
+                    borderColor: "#ccc",
+                  },
+                  "&:hover fieldset": {
+                    borderColor: "#000",
+                  },
+                  "&.Mui-focused fieldset": {
+                    borderColor: "#000",
+                  },
+                },
+              }}
             />
-          </div>
-          <div className="form-group">
-            <label htmlFor="websiteLink">
-              Registration Link <span className="required">*</span>
-            </label>
-
-            <input
-              type="text"
-              id="websiteLink"
-              name="websiteLink"
-              value={formData.websiteLink}
+          </Grid>
+          <Grid item xs={12} sm={6}>
+            <TextField
+              label="Registration Link"
+              name="registrationLink"
+              value={formData.registrationLink}
               onChange={handleChange}
+              fullWidth
               required
+              variant="outlined"
+              sx={{
+                "& .MuiOutlinedInput-root": {
+                  "& fieldset": {
+                    borderColor: "#ccc",
+                  },
+                  "&:hover fieldset": {
+                    borderColor: "#000",
+                  },
+                  "&.Mui-focused fieldset": {
+                    borderColor: "#000",
+                  },
+                },
+              }}
             />
-          </div>
-        </div>
-
-        <div className="form-row">
-          <div className="form-group">
-            <label htmlFor="cinNumber">Mode</label>
-            <input
-              type="text"
-              id="cinNumber"
-              name="cinNumber"
-              value={formData.cinNumber}
+          </Grid>
+          <Grid item xs={12} sm={6}>
+            <TextField
+              label="Mode"
+              name="mode"
+              value={formData.mode}
               onChange={handleChange}
+              fullWidth
+              variant="outlined"
+              sx={{
+                "& .MuiOutlinedInput-root": {
+                  "& fieldset": {
+                    borderColor: "#ccc",
+                  },
+                  "&:hover fieldset": {
+                    borderColor: "#000",
+                  },
+                  "&.Mui-focused fieldset": {
+                    borderColor: "#000",
+                  },
+                },
+              }}
             />
-          </div>
-          <div className="form-group">
-            <label htmlFor="founder">Date</label>
-            <input
-              type="text"
-              id="founder"
-              name="founder"
-              value={formData.founder}
+          </Grid>
+          <Grid item xs={12} sm={6}>
+            <TextField
+              label="Date"
+              name="date"
+              value={formData.date}
               onChange={handleChange}
+              fullWidth
+              variant="outlined"
+              sx={{
+                "& .MuiOutlinedInput-root": {
+                  "& fieldset": {
+                    borderColor: "#ccc",
+                  },
+                  "&:hover fieldset": {
+                    borderColor: "#000",
+                  },
+                  "&.Mui-focused fieldset": {
+                    borderColor: "#000",
+                  },
+                },
+              }}
             />
-          </div>
-        </div>
-
-        <div className="form-row">
-          <div className="form-group">
-            <label htmlFor="location">Location</label>
-            <input
-              type="text"
-              id="location"
+          </Grid>
+          <Grid item xs={12} sm={6}>
+            <TextField
+              label="Location"
               name="location"
               value={formData.location}
               onChange={handleChange}
+              fullWidth
+              variant="outlined"
+              sx={{
+                "& .MuiOutlinedInput-root": {
+                  "& fieldset": {
+                    borderColor: "#ccc",
+                  },
+                  "&:hover fieldset": {
+                    borderColor: "#000",
+                  },
+                  "&.Mui-focused fieldset": {
+                    borderColor: "#000",
+                  },
+                },
+              }}
             />
-          </div>
-          <div className="form-group">
-            <label htmlFor="prize">Prize</label>
-            <input
-              type="text"
-              id="prize"
+          </Grid>
+          <Grid item xs={12} sm={6}>
+            <TextField
+              label="Prize"
               name="prize"
               value={formData.prize}
               onChange={handleChange}
+              fullWidth
+              variant="outlined"
+              sx={{
+                "& .MuiOutlinedInput-root": {
+                  "& fieldset": {
+                    borderColor: "#ccc",
+                  },
+                  "&:hover fieldset": {
+                    borderColor: "#000",
+                  },
+                  "&.Mui-focused fieldset": {
+                    borderColor: "#000",
+                  },
+                },
+              }}
             />
-          </div>
-        </div>
-
-        <div className="form-row">
-          <div className="form-group">
-            <label htmlFor="startupContact">
-              Organizing Team Contact <span className="required">*</span>
-            </label>
-            <input
-              type="text"
-              id="startupContact"
-              name="startupContact"
-              value={formData.startupContact}
+          </Grid>
+          <Grid item xs={12} sm={6}>
+            <TextField
+              label="Organizing Team Contact"
+              name="organizingTeamContact"
+              value={formData.organizingTeamContact}
               onChange={handleChange}
+              fullWidth
               required
+              variant="outlined"
+              sx={{
+                "& .MuiOutlinedInput-root": {
+                  "& fieldset": {
+                    borderColor: "#ccc",
+                  },
+                  "&:hover fieldset": {
+                    borderColor: "#000",
+                  },
+                  "&.Mui-focused fieldset": {
+                    borderColor: "#000",
+                  },
+                },
+              }}
             />
-          </div>
-          <div className="form-group">
-            <label htmlFor="userEmail">
-              User's Email <span className="required">*</span>
-            </label>
-            <input
-              type="text"
-              id="userEmail"
+          </Grid>
+          <Grid item xs={12} sm={6}>
+            <TextField
+              label="User's Email"
               name="userEmail"
               value={formData.userEmail}
               onChange={handleChange}
+              fullWidth
               required
+              variant="outlined"
+              sx={{
+                "& .MuiOutlinedInput-root": {
+                  "& fieldset": {
+                    borderColor: "#ccc",
+                  },
+                  "&:hover fieldset": {
+                    borderColor: "#000",
+                  },
+                  "&.Mui-focused fieldset": {
+                    borderColor: "#000",
+                  },
+                },
+              }}
             />
-          </div>
-        </div>
+          </Grid>
+        </Grid>
 
-        <div className="form-buttons">
-          <button type="submit" className="submit-btn">
-            <IoMdPaperPlane /> SUBMIT
-          </button>
-          <button type="button" className="reset-btn" onClick={handleReset}>
-            <IoReloadSharp /> RESET
-          </button>
-        </div>
+        <Box display="flex" justifyContent="center" mt={3} gap={2}>
+          <Button
+            type="submit"
+            variant="contained"
+            sx={{
+              backgroundColor: "#a0bacc",
+              color: "#000",
+              "&:hover": {
+                backgroundColor: "#8da2b3",
+              },
+              width: { xs: "100px", sm: "120px" },
+              fontSize: { xs: "0.8rem", sm: "1rem" },
+            }}
+            startIcon={<IoMdPaperPlane />}
+          >
+            SUBMIT
+          </Button>
+          <Button
+            type="button"
+            variant="contained"
+            onClick={handleReset}
+            sx={{
+              backgroundColor: "#a0bacc",
+              color: "#000",
+              "&:hover": {
+                backgroundColor: "#8da2b3",
+              },
+              width: { xs: "100px", sm: "120px" },
+              fontSize: { xs: "0.8rem", sm: "1rem" },
+            }}
+            startIcon={<IoReloadSharp />}
+          >
+            RESET
+          </Button>
+        </Box>
       </form>
-    </div>
+    </Container>
   );
 };
 

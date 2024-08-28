@@ -4,6 +4,8 @@ import "../styles/Hackathon.css";
 import hackathonsData from "../data/hackathons.json";
 import { Pagination, TextField, Box, Typography, Stack } from "@mui/material";
 import "typeface-montserrat";
+import { BsFillPlusCircleFill } from "react-icons/bs";
+import { useNavigate } from "react-router-dom";
 
 const scrollToTop = (duration) => {
   const scrollHeight = window.scrollY;
@@ -26,6 +28,7 @@ const Hackathons = () => {
   const [page, setPage] = useState(1);
   const itemsPerPage = 7; // Define how many items per page
   const [searchQuery, setSearchQuery] = useState("");
+  const navigate = useNavigate();
 
   useEffect(() => {
     // Scroll to the top with a fast speed (e.g., 200ms)
@@ -49,6 +52,9 @@ const Hackathons = () => {
     (page - 1) * itemsPerPage,
     page * itemsPerPage
   );
+  const handleFabClick = () => {
+    navigate("/add-hackathon"); // Navigate to the StartUpFeature route
+  };
 
   return (
     <div className="website-content">
@@ -66,6 +72,25 @@ const Hackathons = () => {
           />
         </Box>
       </section>
+      <Box
+        sx={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: { xs: "center", sm: "flex-end", md: "flex-end" },
+          marginBottom: { xs: "10px", sm: "15px", md: "20px" },
+          marginRight: { xs: "-215px", sm: "85px", md: "120px", lg: "45px" },
+        }}
+      >
+        <Typography sx={{ marginRight: "10px" }} variant="h6">
+          Add Hackathon{" "}
+        </Typography>
+        <BsFillPlusCircleFill
+          size={40}
+          color="aqua"
+          onClick={handleFabClick}
+          cursor="pointer"
+        />
+      </Box>
 
       <section className="hackathons">
         {paginatedHackathons.map((hackathon, index) => (

@@ -37,6 +37,7 @@ function App() {
           <Route path="/technologies" element={<LatestTechnology />} />
           <Route path="/startup" element={<StartUp />} />
           <Route path="/add-startup" element={<StartupFeature />} />
+          <Route path="/add-hackathon" element={<HackathonFeature />} />
           {/* JobList routes */}
           <Route path="/recruitments" element={<JobList jobs={jobData} />} />
           <Route path="/job/:jobId" element={<JobDetail jobs={jobData} />} />

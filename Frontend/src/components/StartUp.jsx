@@ -9,10 +9,11 @@ import {
   Button,
   Fab,
 } from "@mui/material";
-import AddIcon from "@mui/icons-material/Add";
+
 import { useNavigate } from "react-router-dom";
 import StartUpCard from "./StartUpCard";
 import StartUps from "../data/StartUp.json";
+import { BsFillPlusCircleFill } from "react-icons/bs";
 
 const StartUp = () => {
   const itemsPerPage = 5;
@@ -81,24 +82,20 @@ const StartUp = () => {
           sx={{
             display: "flex",
             alignItems: "center",
-            justifyContent: { xs: "center", sm: "flex-end", md: "flex-end" }, // Center on small screens, align to end on tablets and larger screens
-            marginBottom: { xs: "10px", sm: "15px", md: "20px" }, // Adjust margin for small, medium, and large screens
-            marginRight: { xs: "0", sm: "85px", md: "120px", lg: "180px" }, // Adjust margin for small, medium, and large screens
-            flexDirection: { xs: "column", sm: "row" }, // Stack items vertically on extra-small and small screens, row on medium and larger screens
-            textAlign: { xs: "center", sm: "center", md: "left" }, // Center text on extra-small and small screens, align left on medium and larger screens
+            justifyContent: { xs: "center", sm: "flex-end", md: "flex-end" },
+            marginBottom: { xs: "10px", sm: "15px", md: "20px" },
+            marginRight: { xs: "-215px", sm: "85px", md: "120px", lg: "180px" },
           }}
         >
           <Typography sx={{ marginRight: "10px" }} variant="h6">
-            Add a Startup{" "}
+            Add Startup{" "}
           </Typography>
-          <Fab
-            color="primary"
-            aria-label="add"
+          <BsFillPlusCircleFill
+            size={40}
+            color="aqua"
             onClick={handleFabClick}
-            sx={{ marginTop: { xs: "10px", sm: "10px", md: "0" } }} // Add space above Fab on small screens, no extra space on medium and larger screens
-          >
-            <AddIcon />
-          </Fab>
+            cursor="pointer"
+          />
         </Box>
 
         <div className="main-container">
