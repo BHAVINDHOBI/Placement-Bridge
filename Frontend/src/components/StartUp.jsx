@@ -6,7 +6,11 @@ import {
   Pagination,
   Stack,
   Divider,
+  Button,
+  Fab,
 } from "@mui/material";
+import AddIcon from "@mui/icons-material/Add";
+import { useNavigate } from "react-router-dom";
 import StartUpCard from "./StartUpCard";
 import StartUps from "../data/StartUp.json";
 
@@ -14,6 +18,7 @@ const StartUp = () => {
   const itemsPerPage = 5;
   const [currentPage, setCurrentPage] = useState(1);
   const [searchQuery, setSearchQuery] = useState("");
+  const navigate = useNavigate();
 
   const handlePageChange = (event, value) => {
     setCurrentPage(value);
@@ -34,6 +39,10 @@ const StartUp = () => {
     indexOfFirstItem,
     indexOfLastItem
   );
+
+  const handleFabClick = () => {
+    navigate("/add-startup"); // Navigate to the StartUpFeature route
+  };
 
   return (
     <div>
@@ -60,7 +69,7 @@ const StartUp = () => {
             StartUps
           </Typography>
           <TextField
-            label="Search Subject"
+            label="Search Startup"
             variant="outlined"
             value={searchQuery}
             onChange={handleSearchChange}
@@ -68,6 +77,28 @@ const StartUp = () => {
             sx={{ width: "400px" }} // Set a fixed width to the search bar
           />
         </Box>
+        <Box
+          sx={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: { xs: "center", sm: "flex-end", md: "flex-end" }, // Center on small screens, align to end on tablets and larger screens
+            marginBottom: { xs: "10px", sm: "15px", md: "20px" }, // Adjust margin for small, medium, and large screens
+            marginRight: { xs: "0", sm: "85px", md: "120px", lg: "180px" }, // Adjust margin for small, medium, and large screens
+            flexDirection: { xs: "column", sm: "row" }, // Stack items vertically on extra-small and small screens, row on medium and larger screens
+            textAlign: { xs: "center", sm: "center", md: "left" }, // Center text on extra-small and small screens, align left on medium and larger screens
+          }}
+        >
+          <Typography variant="h6">Add a Startup</Typography>
+          <Fab
+            color="primary"
+            aria-label="add"
+            onClick={handleFabClick}
+            sx={{ marginTop: { xs: "10px", sm: "10px", md: "0" } }} // Add space above Fab on small screens, no extra space on medium and larger screens
+          >
+            <AddIcon />
+          </Fab>
+        </Box>
+
         <div className="main-container">
           {currentItems.map((startup, index) => (
             <React.Fragment key={index}>

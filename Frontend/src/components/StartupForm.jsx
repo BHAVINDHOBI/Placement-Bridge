@@ -1,5 +1,12 @@
 import React, { useState } from "react";
-import "../styles/StartupForm.css";
+import {
+  Container,
+  TextField,
+  Button,
+  Typography,
+  Grid,
+  Box,
+} from "@mui/material";
 import { IoMdPaperPlane } from "react-icons/io";
 import { IoReloadSharp } from "react-icons/io5";
 
@@ -23,116 +30,255 @@ const StartupForm = () => {
   };
 
   return (
-    <div className="Form">
-      <h1 className="FormHeading">Add Details</h1>
+    <Container
+      maxWidth="md"
+      sx={{
+        backgroundColor: "#f8f8f8",
+        padding: { xs: "20px", sm: "30px" },
+        borderRadius: "10px",
+        boxShadow: "0 5px 15px rgba(0,0,0,0.1)",
+        border: "1px solid #ccc",
+        width: { xs: "90%", sm: "80%", md: "70%" }, // Adjust width to be responsive
+        height: "800px", // Let height adjust based on content
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+        marginBottom: "20px",
+        marginTop: "20px",
+      }}
+    >
+      <Typography
+        variant="h4"
+        align="center"
+        gutterBottom
+        sx={{
+          color: "#000",
+          fontFamily: "Arial, sans-serif",
+          fontWeight: "bold",
+          fontSize: { xs: "1.5rem", sm: "2rem" },
+        }}
+      >
+        ADD DETAILS
+      </Typography>
       <form
-        className="form"
         action="https://api.web3forms.com/submit"
         method="POST"
+        noValidate
+        autoComplete="off"
+        style={{ flexGrow: 1, display: "flex", flexDirection: "column" }}
       >
-        {/* Hidden input for access key */}
         <input
           type="hidden"
           name="access_key"
           value="6869febd-c760-4109-9f95-96af79e394e1"
         />
-
-        <div className="form-row">
-          <div className="form-group">
-            <label htmlFor="startupName">
-              Startup Name <span className="required">*</span>
-            </label>
-            <input
-              type="text"
-              id="startupName"
+        <Grid container spacing={2} sx={{ flexGrow: 1 }}>
+          <Grid item xs={12} sm={6}>
+            <TextField
+              label="Startup Name"
               name="startupName"
               value={formData.startupName}
               onChange={handleChange}
+              fullWidth
               required
+              variant="outlined"
+              sx={{
+                "& .MuiOutlinedInput-root": {
+                  "& fieldset": {
+                    borderColor: "#ccc",
+                  },
+                  "&:hover fieldset": {
+                    borderColor: "#000",
+                  },
+                  "&.Mui-focused fieldset": {
+                    borderColor: "#000",
+                  },
+                },
+              }}
             />
-          </div>
-          <div className="form-group">
-            <label htmlFor="websiteLink">Website Link</label>
-            <input
-              type="text"
-              id="websiteLink"
+          </Grid>
+          <Grid item xs={12} sm={6}>
+            <TextField
+              label="Website Link"
               name="websiteLink"
               value={formData.websiteLink}
               onChange={handleChange}
+              fullWidth
+              required
+              variant="outlined"
+              sx={{
+                "& .MuiOutlinedInput-root": {
+                  "& fieldset": {
+                    borderColor: "#ccc",
+                  },
+                  "&:hover fieldset": {
+                    borderColor: "#000",
+                  },
+                  "&.Mui-focused fieldset": {
+                    borderColor: "#000",
+                  },
+                },
+              }}
             />
-          </div>
-        </div>
-
-        <div className="form-group textarea-group">
-          <label htmlFor="abstract">
-            Abstract of Startup <span className="required">*</span>
-          </label>
-          <textarea
-            id="abstract"
-            name="abstract"
-            rows="6"
-            value={formData.abstract}
-            onChange={handleChange}
-            required
-          ></textarea>
-        </div>
-
-        <div className="form-row">
-          <div className="form-group">
-            <label htmlFor="cinNumber">CIN Number</label>
-            <input
-              type="text"
-              id="cinNumber"
+          </Grid>
+          <Grid item xs={12}>
+            <TextField
+              label="Abstract of Startup"
+              name="abstract"
+              value={formData.abstract}
+              onChange={handleChange}
+              fullWidth
+              required
+              multiline
+              rows={6}
+              variant="outlined"
+              sx={{
+                "& .MuiOutlinedInput-root": {
+                  "& fieldset": {
+                    borderColor: "#ccc",
+                  },
+                  "&:hover fieldset": {
+                    borderColor: "#000",
+                  },
+                  "&.Mui-focused fieldset": {
+                    borderColor: "#000",
+                  },
+                },
+              }}
+            />
+          </Grid>
+          <Grid item xs={12} sm={6}>
+            <TextField
+              label="CIN Number"
               name="cinNumber"
               value={formData.cinNumber}
               onChange={handleChange}
+              fullWidth
+              variant="outlined"
+              sx={{
+                "& .MuiOutlinedInput-root": {
+                  "& fieldset": {
+                    borderColor: "#ccc",
+                  },
+                  "&:hover fieldset": {
+                    borderColor: "#000",
+                  },
+                  "&.Mui-focused fieldset": {
+                    borderColor: "#000",
+                  },
+                },
+              }}
             />
-          </div>
-          <div className="form-group">
-            <label htmlFor="founder">Founder</label>
-            <input
-              type="text"
-              id="founder"
+          </Grid>
+          <Grid item xs={12} sm={6}>
+            <TextField
+              label="Founder"
               name="founder"
               value={formData.founder}
               onChange={handleChange}
+              fullWidth
+              variant="outlined"
+              sx={{
+                "& .MuiOutlinedInput-root": {
+                  "& fieldset": {
+                    borderColor: "#ccc",
+                  },
+                  "&:hover fieldset": {
+                    borderColor: "#000",
+                  },
+                  "&.Mui-focused fieldset": {
+                    borderColor: "#000",
+                  },
+                },
+              }}
             />
-          </div>
-        </div>
-
-        <div className="form-row">
-          <div className="form-group">
-            <label htmlFor="startupContact">Startup Contact</label>
-            <input
-              type="text"
-              id="startupContact"
+          </Grid>
+          <Grid item xs={12} sm={6}>
+            <TextField
+              label="Company Contact Info"
               name="startupContact"
               value={formData.startupContact}
               onChange={handleChange}
+              fullWidth
+              required
+              variant="outlined"
+              sx={{
+                "& .MuiOutlinedInput-root": {
+                  "& fieldset": {
+                    borderColor: "#ccc",
+                  },
+                  "&:hover fieldset": {
+                    borderColor: "#000",
+                  },
+                  "&.Mui-focused fieldset": {
+                    borderColor: "#000",
+                  },
+                },
+              }}
             />
-          </div>
-          <div className="form-group">
-            <label htmlFor="userEmail">User's Email</label>
-            <input
-              type="text"
-              id="userEmail"
+          </Grid>
+          <Grid item xs={12} sm={6}>
+            <TextField
+              label="Sender Email"
               name="userEmail"
               value={formData.userEmail}
               onChange={handleChange}
+              fullWidth
+              required
+              variant="outlined"
+              sx={{
+                "& .MuiOutlinedInput-root": {
+                  "& fieldset": {
+                    borderColor: "#ccc",
+                  },
+                  "&:hover fieldset": {
+                    borderColor: "#000",
+                  },
+                  "&.Mui-focused fieldset": {
+                    borderColor: "#000",
+                  },
+                },
+              }}
             />
-          </div>
-        </div>
+          </Grid>
+        </Grid>
 
-        <div className="form-buttons">
-          <button type="submit" className="submit-btn">
-            <IoMdPaperPlane /> SUBMIT
-          </button>
-          <button type="reset" className="reset-btn">
-            <IoReloadSharp /> RESET
-          </button>
-        </div>
+        <Box display="flex" justifyContent="center" mt={3} gap={2}>
+          <Button
+            type="submit"
+            variant="contained"
+            sx={{
+              backgroundColor: "#a0bacc",
+              color: "#000",
+              "&:hover": {
+                backgroundColor: "#8da2b3",
+              },
+              width: { xs: "100px", sm: "120px" },
+              fontSize: { xs: "0.8rem", sm: "1rem" },
+            }}
+            startIcon={<IoMdPaperPlane />}
+          >
+            SUBMIT
+          </Button>
+          <Button
+            type="reset"
+            variant="contained"
+            sx={{
+              backgroundColor: "#a0bacc",
+              color: "#000",
+              "&:hover": {
+                backgroundColor: "#8da2b3",
+              },
+              width: { xs: "100px", sm: "120px" },
+              fontSize: { xs: "0.8rem", sm: "1rem" },
+            }}
+            startIcon={<IoReloadSharp />}
+          >
+            RESET
+          </Button>
+        </Box>
       </form>
-    </div>
+    </Container>
   );
 };
 
