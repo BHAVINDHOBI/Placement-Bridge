@@ -1,23 +1,23 @@
 .job-detail {
   margin-top: 20px;
   display: flex;
-  justify-content: center; /* Center the job card */
+  justify-content: center;
   align-items: center;
 }
 
 .job-detail-paper {
   padding: 30px;
   text-align: left;
-  border-radius: 10px; /* Rounded corners */
-  background-color: white; /* Background color */
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15); /* Subtle shadow for depth */
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   animation: fadeIn 0.6s ease-in-out, float 3s ease-in-out infinite;
 }
 
 .job-detail-paper:hover {
-  transform: translateY(-5px); /* Lift effect on hover */
-  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
 }
 
 /* Fade-in and float animations */
@@ -46,20 +46,20 @@
   width: 100px;
   height: auto;
   margin-bottom: 20px;
-  cursor: pointer; /* Indicates the image is clickable */
-  border-radius: 50%; /* Circular logo */
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow around the logo */
+  cursor: pointer;
+  border-radius: 50%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
 
 .company-logo:hover {
-  transform: scale(1.1); /* Slight zoom on hover */
+  transform: scale(1.1);
 }
 
 .job-description {
   margin-top: 15px;
   text-align: justify;
-  line-height: 1.6; /* Improve readability */
+  line-height: 1.6;
 }
 
 ul {
@@ -75,10 +75,10 @@ ul li {
 /* Flexbox container for the links */
 .links {
   display: flex;
-  flex-direction: row; /* Align items in a single row */
+  flex-direction: row;
   justify-content: flex-start;
   align-content: flex-start;
-  gap: 15px; /* Adjust the gap between items */
+  gap: 15px;
   margin-top: 30px;
   margin-bottom: 10px;
 }
@@ -96,36 +96,36 @@ ul li {
 }
 
 .icon-link:hover {
-  background-color: #0077b5; /* Change to LinkedIn blue on hover */
+  background-color: #0077b5;
   transform: scale(1.1);
 }
 
 /* LinkedIn link styling */
 .linkedin-link {
   display: flex;
-  align-items: center; /* Align items vertically in the center */
-  color: #0077b5; /* LinkedIn blue */
+  align-items: center;
+  color: #0077b5;
   text-decoration: none;
   font-weight: 600;
   transition: color 0.3s ease;
-  margin-left: 10px; /* Adjust spacing from the logo if needed */
+  margin-left: 10px;
 }
 
 .linkedin-link:hover {
-  color: #005582; /* Darker LinkedIn blue on hover */
+  color: #005582;
 }
 
 /* Company logo styling */
 .companylogo {
   border-radius: 50%;
-  width: 50px; /* Adjust the size as needed */
-  height: 50px; /* Adjust the size as needed */
+  width: 50px;
+  height: 50px;
 }
 
 .button-container {
   display: flex;
-  justify-content: center; /* Center the button horizontally */
-  margin-top: 20px; /* Add some space above the button */
+  justify-content: center;
+  margin-top: 20px;
 }
 
 /* Button styling */
@@ -134,23 +134,23 @@ ul li {
   align-items: center;
   justify-content: center;
   padding: 10px 20px;
-  background-color: #0077b5; /* Initial background color */
-  color: white; /* Text color */
+  background-color: #0077b5;
+  color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.3s ease; /* Add transition for smooth effect */
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .button:hover {
-  background-color: #005582; /* Darker color on hover */
-  transform: scale(1.05); /* Slightly increase the size on hover */
+  background-color: #005582;
+  transform: scale(1.05);
 }
 
 /* Responsive design adjustments */
 @media (max-width: 1024px) {
   .links {
-    flex-direction: row; /* Horizontal alignment on tablets and larger screens */
+    flex-direction: row;
     align-items: center;
   }
 
@@ -165,13 +165,13 @@ ul li {
   }
 
   .button {
-    padding: 8px 16px; /* Slightly smaller padding for smaller screens */
+    padding: 8px 16px;
   }
 }
 
 @media (max-width: 768px) {
   .links {
-    flex-direction: row; /* Horizontal alignment on smaller screens */
+    flex-direction: row;
     gap: 15px;
   }
 
@@ -186,13 +186,13 @@ ul li {
   }
 
   .button {
-    padding: 7px 14px; /* Further reduce padding for smaller screens */
+    padding: 7px 14px;
   }
 }
 
 @media (max-width: 480px) {
   .links {
-    flex-direction: row; /* Horizontal alignment on the smallest screens */
+    flex-direction: row;
     gap: 10px;
   }
 
@@ -207,6 +207,6 @@ ul li {
   }
 
   .button {
-    padding: 6px 12px; /* Smallest padding for the smallest screens */
+    padding: 6px 12px;
   }
 }
