@@ -6,13 +6,18 @@
 }
 
 .job-detail-paper {
-  padding: 30px;
-  text-align: left;
-  border-radius: 10px;
-  background-color: white;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  min-height: 400px;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 15px;
+  background-color: rgb(158, 149, 149);
+  box-shadow: 0px 4px 10px rgba(67, 67, 67, 0.15);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  animation: fadeIn 0.6s ease-in-out, float 3s ease-in-out infinite;
 }
 
 .job-detail-paper:hover {
@@ -20,193 +25,126 @@
   box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
 }
 
-/* Fade-in and float animations */
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+.job-header {
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+  align-items: center;
+  justify-items: center;
+  width: 100%;
 }
 
-@keyframes float {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-5px);
-  }
-  100% {
-    transform: translateY(0);
-  }
+.job-title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
 }
 
 .company-logo {
-  width: 100px;
+  width: 130px;
   height: auto;
+  margin-top: 10px;
   margin-bottom: 20px;
+  padding: 10px;
+  background-color: rgba(72, 72, 72, 0.1);
+  border-radius: 10px;
   cursor: pointer;
-  border-radius: 50%;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
+  box-shadow: 0px 4px 8px rgba(35, 35, 35, 0.2);
+  transition: transform 0.3s ease-in;
 }
 
-.company-logo:hover {
-  transform: scale(1.1);
+.job-details-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
 }
 
-.job-description {
-  margin-top: 15px;
-  text-align: justify;
-  line-height: 1.6;
+.job-details-section,
+.job-details-salary {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
-ul {
-  padding-left: 20px;
-  text-align: justify;
-}
-
-ul li {
+.job-detail-item {
   margin-bottom: 10px;
+}
+
+.job-description-section {
+  margin-top: 20px;
   text-align: justify;
 }
 
+.benefits-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.benefit-chip {
+  background-color: #0077b5;
+  color: white;
+}
 /* Flexbox container for the links */
 .links {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-content: flex-start;
-  gap: 15px;
+  justify-items: center;
+  justify-content: center;
   margin-top: 30px;
-  margin-bottom: 10px;
+  gap: 10px;
+  margin-bottom: 5px;
 }
 
-/* Styling for icon links */
-.icon-link {
-  display: flex;
-  align-items: inherit;
-  justify-content: inherit;
-  background-color: #f0f0f0;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  transition: background-color 0.3s ease, transform 0.3s ease;
-}
-
-.icon-link:hover {
-  background-color: #0077b5;
-  transform: scale(1.1);
-}
-
-/* LinkedIn link styling */
+/* Styling for the icon links */
+.icon-link,
 .linkedin-link {
   display: flex;
-  align-items: center;
+  justify-content: center;
+  align-self: flex-start;
   color: #0077b5;
   text-decoration: none;
   font-weight: 600;
   transition: color 0.3s ease;
-  margin-left: 10px;
+  gap: 30px;
 }
 
+.icon-link:hover,
 .linkedin-link:hover {
   color: #005582;
 }
 
-/* Company logo styling */
-.companylogo {
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
+/* Company icon styling */
+.company-icon {
+  color: #888;
 }
 
+/* Styling for the visit text */
+.visit-here-text {
+  font-size: 16px;
+  font-weight: 600;
+  color: #0077b5;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+/* Button container styling */
 .button-container {
-  display: flex;
-  justify-content: center;
   margin-top: 20px;
+  text-align: center;
 }
 
 /* Button styling */
 .button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10px 20px;
+  padding: 10px 30px;
   background-color: #0077b5;
   color: white;
   border: none;
   border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .button:hover {
   background-color: #005582;
-  transform: scale(1.05);
-}
-
-/* Responsive design adjustments */
-@media (max-width: 1024px) {
-  .links {
-    flex-direction: row;
-    align-items: center;
-  }
-
-  .companylogo {
-    width: 50px;
-    height: 50px;
-  }
-
-  .icon-link {
-    width: 50px;
-    height: 50px;
-  }
-
-  .button {
-    padding: 8px 16px;
-  }
-}
-
-@media (max-width: 768px) {
-  .links {
-    flex-direction: row;
-    gap: 15px;
-  }
-
-  .companylogo {
-    width: 40px;
-    height: 40px;
-  }
-
-  .icon-link {
-    width: 40px;
-    height: 40px;
-  }
-
-  .button {
-    padding: 7px 14px;
-  }
-}
-
-@media (max-width: 480px) {
-  .links {
-    flex-direction: row;
-    gap: 10px;
-  }
-
-  .companylogo {
-    width: 35px;
-    height: 35px;
-  }
-
-  .icon-link {
-    width: 35px;
-    height: 35px;
-  }
-
-  .button {
-    padding: 6px 12px;
-  }
 }
