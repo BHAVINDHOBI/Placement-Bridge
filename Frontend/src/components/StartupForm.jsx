@@ -23,6 +23,7 @@ const StartupForm = () => {
   };
 
   const [formData, setFormData] = useState(initialFormData);
+  const [errors, setErrors] = useState({});
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -30,6 +31,17 @@ const StartupForm = () => {
       ...prevData,
       [name]: value,
     }));
+  };
+
+  const validateForm = () => {
+    let newErrors = {};
+    if (!formData.hackathonName) newErrors.hackathonName = "Required";
+    if (!formData.registrationLink) newErrors.registrationLink = "Required";
+    if (!formData.organizingTeamContact)
+      newErrors.organizingTeamContact = "Required";
+    if (!formData.userEmail) newErrors.userEmail = "Required";
+    setErrors(newErrors);
+    return Object.keys(newErrors).length === 0;
   };
 
   const handleReset = () => {
@@ -45,8 +57,8 @@ const StartupForm = () => {
         borderRadius: "10px",
         boxShadow: "0 5px 15px rgba(0,0,0,0.1)",
         border: "1px solid #ccc",
-        width: { xs: "90%", sm: "80%", md: "70%" }, // Adjust width to be responsive
-        height: "800px", // Let height adjust based on content
+        width: { xs: "90%", sm: "80%", md: "70%" },
+        height: "800px",
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",
@@ -70,8 +82,9 @@ const StartupForm = () => {
       <form
         action="https://api.web3forms.com/submit"
         method="POST"
-        noValidate
-        autoComplete="off"
+        // noValidate
+        // autoComplete="off"
+        // onSubmit={handleSubmit}
         style={{ flexGrow: 1, display: "flex", flexDirection: "column" }}
       >
         <input
@@ -88,6 +101,8 @@ const StartupForm = () => {
               onChange={handleChange}
               fullWidth
               required
+              error={!!errors.startupName}
+              helperText={errors.startupName}
               variant="outlined"
               sx={{
                 "& .MuiOutlinedInput-root": {
@@ -112,6 +127,8 @@ const StartupForm = () => {
               onChange={handleChange}
               fullWidth
               required
+              error={!!errors.websiteLink}
+              helperText={errors.websiteLink}
               variant="outlined"
               sx={{
                 "& .MuiOutlinedInput-root": {
@@ -136,6 +153,8 @@ const StartupForm = () => {
               onChange={handleChange}
               fullWidth
               required
+              error={!!errors.abstract}
+              helperText={errors.abstract}
               multiline
               rows={6}
               variant="outlined"
@@ -208,6 +227,8 @@ const StartupForm = () => {
               onChange={handleChange}
               fullWidth
               required
+              error={!!errors.startupContact}
+              helperText={errors.startupContact}
               variant="outlined"
               sx={{
                 "& .MuiOutlinedInput-root": {
@@ -232,6 +253,8 @@ const StartupForm = () => {
               onChange={handleChange}
               fullWidth
               required
+              error={!!errors.userEmail}
+              helperText={errors.userEmail}
               variant="outlined"
               sx={{
                 "& .MuiOutlinedInput-root": {
@@ -270,6 +293,7 @@ const StartupForm = () => {
           <Button
             type="reset"
             variant="contained"
+            onClick={handleReset}
             sx={{
               backgroundColor: "#a0bacc",
               color: "#000",

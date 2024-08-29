@@ -1,12 +1,33 @@
 import React from "react";
-import { Container, Typography, Box, Grid } from "@mui/material";
+import { Container, Typography, Box, Grid, IconButton } from "@mui/material";
+import { ArrowBack } from "@mui/icons-material";
+import { useNavigate } from "react-router-dom";
 import image from "../assets/ImageUtility";
 import HackathonForm from "./HackathonForm";
 import "typeface-montserrat";
 import backgroundimage from "../assets/HackathonImages/pexels-fauxels-3183150 1.svg";
 const HackathonFeature = () => {
+  const navigate = useNavigate();
+  const handleGoBack = () => {
+    navigate("/hackathons");
+  };
   return (
     <Container className="MainContainer">
+      <IconButton
+        sx={{
+          position: "absolute",
+          top: "20px",
+          left: "20px",
+          color: "#fff",
+          backgroundColor: "rgba(0, 0, 0, 0.5)", // Semi-transparent background for better visibility
+          "&:hover": {
+            backgroundColor: "rgba(0, 0, 0, 0.7)", // Darken background on hover
+          },
+        }}
+        onClick={handleGoBack} // Handle redirection when clicked
+      >
+        <ArrowBack />
+      </IconButton>
       <Box
         sx={{
           backgroundImage: `url(${backgroundimage})`,

@@ -24,6 +24,7 @@ const HackathonForm = () => {
   };
 
   const [formData, setFormData] = useState(initialFormData);
+  const [errors, setErrors] = useState({});
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -35,6 +36,18 @@ const HackathonForm = () => {
 
   const handleReset = () => {
     setFormData(initialFormData);
+    setErrors({});
+  };
+
+  const validateForm = () => {
+    let newErrors = {};
+    if (!formData.hackathonName) newErrors.hackathonName = "Required";
+    if (!formData.registrationLink) newErrors.registrationLink = "Required";
+    if (!formData.organizingTeamContact)
+      newErrors.organizingTeamContact = "Required";
+    if (!formData.userEmail) newErrors.userEmail = "Required";
+    setErrors(newErrors);
+    return Object.keys(newErrors).length === 0;
   };
 
   return (
@@ -70,17 +83,11 @@ const HackathonForm = () => {
         ADD DETAILS
       </Typography>
       <form
-        action="https://api.web3forms.com/submit"
-        method="POST"
-        noValidate
-        autoComplete="off"
+        // onSubmit={handleSubmit}
+        // noValidate
+        // autoComplete="off"
         style={{ flexGrow: 1, display: "flex", flexDirection: "column" }}
       >
-        <input
-          type="hidden"
-          name="access_key"
-          value="6869febd-c760-4109-9f95-96af79e394e1"
-        />
         <Grid container spacing={2} sx={{ flexGrow: 1 }}>
           <Grid item xs={12} sm={6}>
             <TextField
@@ -90,6 +97,8 @@ const HackathonForm = () => {
               onChange={handleChange}
               fullWidth
               required
+              error={!!errors.hackathonName}
+              helperText={errors.hackathonName}
               variant="outlined"
               sx={{
                 "& .MuiOutlinedInput-root": {
@@ -114,6 +123,8 @@ const HackathonForm = () => {
               onChange={handleChange}
               fullWidth
               required
+              error={!!errors.registrationLink}
+              helperText={errors.registrationLink}
               variant="outlined"
               sx={{
                 "& .MuiOutlinedInput-root": {
@@ -230,6 +241,8 @@ const HackathonForm = () => {
               onChange={handleChange}
               fullWidth
               required
+              error={!!errors.organizingTeamContact}
+              helperText={errors.organizingTeamContact}
               variant="outlined"
               sx={{
                 "& .MuiOutlinedInput-root": {
@@ -254,6 +267,8 @@ const HackathonForm = () => {
               onChange={handleChange}
               fullWidth
               required
+              error={!!errors.userEmail}
+              helperText={errors.userEmail}
               variant="outlined"
               sx={{
                 "& .MuiOutlinedInput-root": {

@@ -1,15 +1,38 @@
 import React from "react";
-import { Container, Typography, Box, Grid } from "@mui/material";
+import { Container, Typography, Box, Grid, IconButton } from "@mui/material";
+import { ArrowBack } from "@mui/icons-material";
+import { useNavigate } from "react-router-dom";
 import image from "../assets/ImageUtility";
 import StartupForm from "./StartupForm";
 import backgroundImage from "../assets/StartupImages/image 26.svg";
 import "typeface-montserrat";
 
 const StartupBanner = () => {
+  const navigate = useNavigate();
+  const handleGoBack = () => {
+    navigate("/startup");
+  };
+
   return (
     <Container className="MainContainer">
+      <IconButton
+        sx={{
+          position: "absolute",
+          top: "20px",
+          left: "20px",
+          color: "#fff",
+          backgroundColor: "rgba(0, 0, 0, 0.5)",
+          "&:hover": {
+            backgroundColor: "rgba(0, 0, 0, 0.7)",
+          },
+        }}
+        onClick={handleGoBack}
+      >
+        <ArrowBack />
+      </IconButton>
       <Box
         sx={{
+          position: "relative",
           backgroundImage: `url(${backgroundImage})`,
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
@@ -20,6 +43,7 @@ const StartupBanner = () => {
         <Typography variant="h2" color="aqua" gutterBottom align="center">
           Register Your Startup or Recommend One to Us
         </Typography>
+
         <Grid
           container
           spacing={4}
@@ -42,6 +66,7 @@ const StartupBanner = () => {
               the perfect team and unlock their true potential!
             </Typography>
           </Grid>
+
           <Grid item xs={12} md={6}>
             <Box
               component="img"
@@ -52,6 +77,7 @@ const StartupBanner = () => {
           </Grid>
         </Grid>
       </Box>
+
       <Box>
         <StartupForm />
       </Box>
