@@ -72,24 +72,27 @@ const JobDetail = ({ jobs }) => {
               alt={`${job.companyName} logo`}
               className="companylogo"
             />
-          </a>
-          <a
-            href={job.linkedInLink}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="linkedin-link"
-          >
-            <LinkedInIcon /> LinkedIn
+            <a
+              href={job.linkedInLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="linkedin-link"
+            >
+              <LinkedInIcon /> LinkedIn
+            </a>
           </a>
         </div>
         {job.jobTitle.toLowerCase() === "frontend developer" && (
-          <Button
-            variant="contained"
-            color="primary"
-            onClick={handleRoadmapClick}
-          >
-            View Frontend Developer Roadmap
-          </Button>
+          <div className="button-container">
+            <Button
+              variant="contained"
+              color="primary"
+              onClick={handleRoadmapClick}
+              className="button"
+            >
+              View Frontend Developer Roadmap
+            </Button>
+          </div>
         )}
       </Paper>
     </Container>
