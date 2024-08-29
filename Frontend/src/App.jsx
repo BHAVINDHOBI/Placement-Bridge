@@ -1,10 +1,18 @@
+// App.jsx
 import React, { useEffect } from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 import AOS from "aos";
-import Login from "./components/Login";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import MainPage from "./components/MainPage";
-import videoFile from "../public/vedios/Backgroundvedio.mp4";
+import Login from "./components/Login";
+import Signin from "./components/Signin";
+import Subjects from "./components/Subjects";
+import Hackathons from "./components/Hackathon";
+import LatestTechnology from "./components/LatestTechnology";
+import JobList from "./components/JobList";
+import JobDetail from "./components/JobDetail";
+import jobData from "./data/CompaniesData";
+import Roadmap from "./components/Roadmaps/Roadmap";
 
 function App() {
   useEffect(() => {
@@ -12,23 +20,23 @@ function App() {
   }, []);
 
   return (
-    <div className="app">
-      {/* Video Background */}
-      <video className="background-video" autoPlay loop muted>
-        <source src={videoFile} type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+    <>
+      <Router>
+        <Routes>
+          <Route path="/" element={<MainPage />} />
+          <Route path="/Login" element={<Login />} />
+          <Route path="/Signin" element={<Signin />} />
+          <Route path="/subjects" element={<Subjects />} />
+          <Route path="/hackathons" element={<Hackathons />} />
+          <Route path="/technologies" element={<LatestTechnology />} />
 
-      {/* Overlay Content */}
-      <div className="overlay">
-        <Router>
-          <Routes>
-            <Route path="/login" Component={Login} />
-            <Route path="/" Component={MainPage} />
-          </Routes>
-        </Router>
-      </div>
-    </div>
+          {/* JobList routes */}
+          <Route path="/recruitments" element={<JobList jobs={jobData} />} />
+          <Route path="/job/:jobId" element={<JobDetail jobs={jobData} />} />
+          <Route path="/frontend-roadmap" element={<Roadmap />} />
+        </Routes>
+      </Router>
+    </>
   );
 }
 

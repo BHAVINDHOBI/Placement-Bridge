@@ -8,18 +8,6 @@
   font-size: 50px;
   font-weight: 500;
 }
-.welcome-text {
-  animation: fadeOut 7s ease-in-out;
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 
 .info-text__img {
   display: flex;
@@ -35,136 +23,10 @@
   width: 70%;
   text-align: justify;
   line-height: 30px;
-
-  /* Applying the animation */
-  animation: fadeInUp 1.5s ease-in-out;
-}
-@keyframes fadeInUp {
-  0% {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-/* this making bulb glow but on box shadow 
-/* Wiggle, Blink, and Warm Glow with Yellow Color Change */
-@keyframes wiggle {
-  0%,
-  100% {
-    transform: rotate(0deg);
-  }
-  25% {
-    transform: rotate(-10deg);
-  }
-  50% {
-    transform: rotate(10deg);
-  }
-  75% {
-    transform: rotate(-10deg);
-  }
 }
 
-@keyframes blink {
-  0%,
-  100% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-}
-
-@keyframes warmGlow {
-  0%,
-  100% {
-    filter: brightness(1.2) blur(0px);
-  }
-  50% {
-    filter: brightness(3) blur(3px);
-  }
-}
-
-@keyframes glowRays {
-  0%,
-  100% {
-    filter: 0 0 10px 5px rgba(255, 255, 0, 0.5),
-      0 0 20px 10px rgba(255, 255, 0, 0.3), 0 0 30px 15px rgba(255, 255, 0, 0.1);
-  }
-  50% {
-    filter: 0 0 30px 10px rgba(255, 255, 0, 0.7),
-      0 0 50px 20px rgba(255, 255, 0, 0.5), 0 0 70px 30px rgba(255, 255, 0, 0.3);
-  }
-}
-
-/* Apply the animations to the bulb icon */
-.idea__img img {
-  animation: wiggle 1s ease-in-out infinite, blink 1.5s infinite 1s,
-    warmGlow 2s ease-in-out infinite, glowRays 3s infinite;
-  transition: all 0.5s;
-  filter: brightness(1.2);
-}
-
-/* Wiggle, Blink, and Warm Glow with Yellow Color Change */
-/* @keyframes wiggle {
-  0%,
-  100% {
-    transform: rotate(0deg);
-  }
-  25% {
-    transform: rotate(-10deg);
-  }
-  50% {
-    transform: rotate(10deg);
-  }
-  75% {
-    transform: rotate(-10deg);
-  }
-}
-
-@keyframes blink {
-  0%,
-  100% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-}
-
-@keyframes warmGlow {
-  0%,
-  100% {
-    filter: brightness(1.2);
-  }
-  50% {
-    filter: brightness(2.5);
-  }
-}
-
-@keyframes colorChange {
-  0%,
-  100% {
-    filter: hue-rotate(0deg);
-  }
-  50% {
-    filter: hue-rotate(50deg); /* Adjusts the color to a warmer yellow */
-/* } */
-/* } */
-
-/* Apply the animations to the bulb icon */
-/* .idea__img img {
-  animation: wiggle 1s ease-in-out infinite, blink 1.5s infinite 1s,
-    warmGlow 2s ease-in-out infinite, colorChange 3s infinite;
-  transition: all 0.5s;
-  filter: brightness(1.2);
-} */
-
-.idea__img img:hover {
-  transform: perspective(1000px) rotateY(10deg);
-  transition: transform 0.5s;
+.idea__img {
+  margin-top: 50px;
 }
 
 .learn-more-btn {
@@ -192,39 +54,10 @@
   width: 15px;
   height: 15px;
 }
-.learn-more-btn {
-  animation: pulse 2s infinite;
-}
-
-@keyframes pulse {
-  0% {
-    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.4);
-  }
-  70% {
-    box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
-  }
-  100% {
-    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
-  }
-}
 
 .learn-img {
   display: flex;
   gap: 10px;
   justify-content: center;
   align-items: center;
-}
-.floating-icon {
-  position: absolute;
-  animation: float 3s ease-in-out;
-}
-
-@keyframes float {
-  0%,
-  100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-10px);
-  }
 }

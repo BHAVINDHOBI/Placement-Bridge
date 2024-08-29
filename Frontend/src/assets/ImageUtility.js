@@ -30,6 +30,14 @@ import TwitterLogo from "./FooterImages/Twitter Logomark.svg";
 import GitLabLogo from "./HackathonImages/Gitlab.svg";
 import GlobalGamers from "./HackathonImages/GlobalGamersChallenge.svg";
 import HackSharks from "./HackathonImages/HackSharks.svg";
+import Rupee from "./HackathonImages/Rupee.svg";
+import Online from "./HackathonImages/Online.svg";
+import Flag from "./HackathonImages/Flag.svg";
+import Tag from "./HackathonImages/Tag.svg";
+import Calender from "./HackathonImages/Calender.svg";
+import Location from "./HackathonImages/Location.svg";
+import Dollar from "./HackathonImages/Dollar.svg";
+import Link from "./HackathonImages/Link.svg";
 
 // HomePage Images
 import AboutBackground from "./HomePage_Imgs/AboutBackground.svg";
@@ -57,7 +65,8 @@ import CloudComputingLogo from "./LatestTechImages/cloud-computing.jpeg";
 import CyberSecurityLogo from "./LatestTechImages/cybersecurity.jpg";
 import IOTLogo from "./LatestTechImages/iot.png";
 import MLLogo from "./LatestTechImages/machine-learning.jpeg";
-
+import Youtube from "./LatestTechImages/youtube.svg";
+import Document from "./LatestTechImages/document.svg";
 const image = {
   AmazonLogo: AmazonLogo,
   GoogleLogo: GoogleLogo,
@@ -107,6 +116,16 @@ const image = {
   CyberSecurityLogo: CyberSecurityLogo,
   IOTLogo: IOTLogo,
   MLLogo: MLLogo,
+  Youtube: Youtube,
+  Document: Document,
+  Flag: Flag,
+  Tag: Tag,
+  Online: Online,
+  Calender: Calender,
+  Rupee: Rupee,
+  Location: Location,
+  Dollar: Dollar,
+  Link: Link,
 };
 
 export default image;

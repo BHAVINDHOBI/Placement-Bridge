@@ -1,0 +1,24 @@
+.info-card {
+  margin-top: 10px;
+}
+
+.description {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+}
+
+.link {
+  margin-bottom: 5px;
+}
+
+.linkElement {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  line-height: 30px;
+}

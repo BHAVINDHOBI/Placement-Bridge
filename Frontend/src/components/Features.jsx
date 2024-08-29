@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import "../styles/Features.css";
+import "../styles/Feature.css";
 import image from "../assets/ImageUtility";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -8,13 +8,18 @@ import "aos/dist/aos.css";
 const Features = () => {
   const navigate = useNavigate();
 
-  const handleViewClick = (path) => {
-    navigate(path);
-  };
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <section className="features-main" id="Services">
       <div className="features-container">
-        <div className="feature recruitement" data-aos="fade-down-right">
+        <div
+          className="feature recruitement"
+          data-aos="fade-down-right"
+          onClick={() => navigate("/recruitments")}
+        >
           <img
             className="feature-logo"
             src={image.RecruitmentLogo}
@@ -22,17 +27,13 @@ const Features = () => {
           />
           <div className="content">
             <p>Recruitments</p>
-            <a href="./Html/Recruitments.html">
-              <button
-                className="view"
-                onClick={() => handleViewClick("/recruitments")}
-              >
-                View
-              </button>
-            </a>
           </div>
         </div>
-        <div className="feature coreitsub" data-aos="fade-down-left">
+        <div
+          className="feature coreitsub"
+          data-aos="fade-down-left"
+          onClick={() => navigate("/subjects")}
+        >
           <img
             className="feature-logo"
             src={image.CoreITIcon}
@@ -40,12 +41,13 @@ const Features = () => {
           />
           <div className="content">
             <p>Core IT Subjects</p>
-            <a href="./Html/subjects.html">
-              <button className="view">View</button>
-            </a>
           </div>
         </div>
-        <div className="feature hackathon" data-aos="fade-up-right">
+        <div
+          className="feature hackathon"
+          data-aos="fade-up-right"
+          onClick={() => navigate("/hackathons")}
+        >
           <img
             className="feature-logo"
             src={image.HackathonIcon}
@@ -53,12 +55,13 @@ const Features = () => {
           />
           <div className="content">
             <p>Hackathon Hub</p>
-            <a href="./Html/HackathonHub.html">
-              <button className="view">View</button>
-            </a>
           </div>
         </div>
-        <div className="feature latest-tech" data-aos="fade-up-left">
+        <div
+          className="feature latest-tech"
+          data-aos="fade-up-left"
+          onClick={() => navigate("/technologies")}
+        >
           <img
             className="feature-logo"
             src={image.LatesttechIcon}
@@ -66,12 +69,13 @@ const Features = () => {
           />
           <div className="content">
             <p>Latest Technologies</p>
-            <a href="./Html/technology.html">
-              <button className="view">View</button>
-            </a>
           </div>
         </div>
-        <div className="feature startup" data-aos="fade-up">
+        <div
+          className="feature startup"
+          data-aos="fade-up"
+          onClick={() => navigate("/startup")}
+        >
           <img
             className="feature-logo"
             src={image.StartUpLogo}
@@ -79,9 +83,6 @@ const Features = () => {
           />
           <div className="content">
             <p>StartUp</p>
-            <a href="./Html/Recruitments.html">
-              <button className="view">View</button>
-            </a>
           </div>
           <img className="new-logo" src={image.NewLogo} alt="new-logo" />
         </div>

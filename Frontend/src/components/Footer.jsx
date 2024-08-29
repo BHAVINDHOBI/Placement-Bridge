@@ -4,7 +4,7 @@ import "../styles/Footer.css";
 const Footer = () => (
   <footer className="footer">
     <div className="footer-container">
-      <p>&copy; 2023 Placement Bridge. All rights reserved.</p>
+      <p>&copy; 2024 Placement Bridge. All rights reserved.</p>
     </div>
   </footer>
 );

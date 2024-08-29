@@ -29,6 +29,7 @@
   align-items: center;
   padding: 0 25px;
   transition: all 0.2s;
+  cursor: pointer;
 }
 
 .feature:hover {

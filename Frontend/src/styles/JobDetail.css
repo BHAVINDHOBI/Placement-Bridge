@@ -1,0 +1,151 @@
+.job-detail {
+  margin-top: 20px;
+}
+
+.job-detail-paper {
+  padding: 20px;
+  text-align: left;
+}
+
+.company-logo {
+  width: 100px;
+  height: auto;
+  margin-bottom: 20px;
+  cursor: pointer; /* Indicates the image is clickable */
+}
+
+.companylogo {
+  width: 50px; /* Adjust the size as needed */
+  height: 50px; /* Adjust the size as needed */
+  border-radius: 50%; /* Rounded shape */
+}
+
+.job-description {
+  margin-top: 10px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+/* Flexbox container for the links */
+.links {
+  display: flex;
+  align-items: start;
+  justify-content: flex-start; /* Aligns items to the left */
+  margin-top: 30px;
+  gap: 20px;
+}
+
+/* LinkedIn link styling */
+.linkedin-link {
+  display: flex;
+  align-items: left;
+  color: #0077b5; /* LinkedIn blue */
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.linkedin-link:hover {
+  color: #005582; /* Darker LinkedIn blue on hover */
+}
+
+.linkedin-link svg {
+  margin-right: 5px;
+}
+
+/* Styling for icon links */
+.icon-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.icon-link:hover {
+  background-color: #0077b5; /* Change to LinkedIn blue on hover */
+  transform: scale(1.1);
+}
+
+/* Responsive design adjustments */
+@media (max-width: 1024px) {
+  .job-detail-paper {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .company-logo {
+    width: 100px;
+  }
+
+  .job-description {
+    font-size: 14px;
+  }
+
+  .links {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 768px) {
+  .job-detail-paper {
+    width: 95%;
+    padding: 15px;
+  }
+
+  .company-logo {
+    width: 80px;
+    margin-bottom: 15px;
+  }
+
+  .job-description {
+    font-size: 13px;
+  }
+
+  .links {
+    gap: 15px;
+  }
+
+  .icon-link {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .job-detail-paper {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .company-logo {
+    width: 60px;
+  }
+
+  .job-description {
+    font-size: 12px;
+  }
+
+  ul li {
+    margin-bottom: 8px;
+  }
+
+  .links {
+    gap: 10px;
+  }
+
+  .icon-link {
+    width: 35px;
+    height: 35px;
+  }
+}

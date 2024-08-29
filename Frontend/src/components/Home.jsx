@@ -18,9 +18,9 @@ const Home = () => (
       </div>
     </div>
     <div className="learn-more-btn">
-      <span>
+      <span className="learn-img">
         <span>Learn More</span>
-        <i className="fa-solid fa-arrow-right-long learn-more-icon"></i>
+        <img src={image.RightArrow}></img>
       </span>
     </div>
   </section>

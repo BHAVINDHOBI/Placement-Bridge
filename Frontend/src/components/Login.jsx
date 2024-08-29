@@ -1,83 +1,140 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import PlacementLogo from "../assets/HomePage_Imgs/placement-bridge-logo.svg";
+import GoogleLogo from "../assets/CoreIT-Subjects/Google.svg";
+import GitHubLogo from "../assets/CoreIT-Subjects/GitHub-Mark.png";
 import "../styles/Login.css";
-import image from "../assets/ImageUtility";
+import { Box, Alert, IconButton, Collapse } from "@mui/material";
+import CloseIcon from "@mui/icons-material/Close";
+
+const serverapiUrl = "http://localhost:8082";
+// const serverapiUrl = import.meta.env.VITE_API_URL;
 
 const Login = () => {
-  const [isLogin, setIsLogin] = useState(true);
+  const navigate = useNavigate();
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [open, setOpen] = useState(false);
+  const [alertMessage, setAlertMessage] = useState([]);
 
-  const toggleForm = () => {
-    setIsLogin(!isLogin);
+  const handleGoogleLogin = () => {
+    window.location.href = `${serverapiUrl}/auth/google`;
+  };
+
+  const handleGithubLogin = () => {
+    window.location.href = `${serverapiUrl}/auth/github`;
+  };
+
+  async function userLogin(e) {
+    e.preventDefault();
+    try {
+      const response = await fetch(`${serverapiUrl}/auth/login`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ email, password }),
+      });
+
+      const data = await response.json();
+      if (data.success && data.user) {
+        localStorage.setItem("token", data.user);
+        setAlertMessage([true, "Login successful"]);
+        setOpen(true);
+        setTimeout(() => {
+          navigate("/");
+        }, 2000);
+      } else {
+        setAlertMessage([
+          false,
+          data.message || "Internal error wait for sometime",
+        ]);
+        setOpen(true);
+      }
+    } catch (err) {
+      setAlertMessage([false, "Login failed: " + err.message]);
+      setOpen(true);
+    }
+  }
+
+  const handleRegisterClick = () => {
+    navigate("/signin");
   };
 
   return (
-    <div className="body">
-      <header>
-        <div className="logo-heading-container">
-          <img src={image.PlacementBridgeLogo} alt="Logo" className="logo" />
-          <h1 className="heading">Placement Bridge</h1>
+    <div className="LoginPage">
+      <Box sx={{ width: "80vh", marginBottom: "1vh" }}>
+        <Collapse in={open}>
+          <Alert
+            severity={alertMessage[0] ? "success" : "error"}
+            action={
+              <IconButton
+                aria-label="close"
+                color="inherit"
+                size="small"
+                onClick={() => {
+                  setOpen(false); // Closes the alert when close icon is clicked
+                }}
+              >
+                <CloseIcon fontSize="inherit" />
+              </IconButton>
+            }
+            sx={{ mb: 2 }} // Styling for spacing
+          >
+            {alertMessage[1]} {/* Displays alert message */}
+          </Alert>
+        </Collapse>
+      </Box>
+      <div className="LoginContainer">
+        <div className="LogoContainer">
+          <img src={PlacementLogo} alt="Placement Logo" className="Logo" />
+          <p className="title">Placement Bridge</p>
         </div>
-        <h3 className="title">Welcome, Please enter your credentials!</h3>
-      </header>
-      <div className="container">
-        <div
-          className="slider"
-          style={{ left: isLogin ? "100px" : "250px" }}
-        ></div>
-        <div className="btn">
-          <button className="login" onClick={() => setIsLogin(true)}>
-            Sign in
-          </button>
-          <button className="signup" onClick={() => setIsLogin(false)}>
-            Sign up
-          </button>
+        <form onSubmit={userLogin}>
+          <div className="input-fields">
+            <input
+              type="text"
+              name="email"
+              id="Email"
+              placeholder="Email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              required
+            />
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              required
+            />
+          </div>
+          <div className="button">
+            <input className="LoginButton" type="submit" value="Login" />
+          </div>
+        </form>
+
+        <div className="separator">
+          <span className="separator-text">OR</span>
         </div>
 
-        <div
-          className="form-section"
-          style={{ left: isLogin ? "0px" : "-500px" }}
-        >
-          {isLogin ? (
-            <div className="login-box">
-              <input type="email" className="email ele" placeholder="Email" />
-              <input
-                type="password"
-                className="password ele"
-                placeholder="Password"
-              />
-              <button className="clkbtn">Sign in</button>
-              <div className="separator">
-                <span className="separator-text">OR</span>
-              </div>
-              <div className="social-buttons">
-                <button className="google-btn">
-                  <i className="fab fa-google"></i>
-                </button>
-                <button className="github-btn">
-                  <i className="fab fa-github"></i>
-                </button>
-              </div>
-            </div>
-          ) : (
-            <div className="signup-box">
-              <input
-                type="text"
-                className="name ele"
-                placeholder="Enter your name"
-              />
-              <input type="email" className="email ele" placeholder="Email" />
-              <input
-                type="password"
-                className="password ele"
-                placeholder="Enter your Password"
-              />
-              <input
-                type="password"
-                className="password ele"
-                placeholder="Confirm Password"
-              />
-              <button className="clkbtn">Sign up</button>
-            </div>
-          )}
+        <div className="LoginOptions">
+          <div onClick={handleGoogleLogin}>
+            <img className="Options" src={GoogleLogo} alt="Google Login" />
+          </div>
+
+          <div onClick={handleGithubLogin}>
+            <img className="Options" src={GitHubLogo} alt="Github Login" />
+          </div>
+        </div>
+
+        <div className="NewUser">
+          New User?{" "}
+          <span onClick={handleRegisterClick} className="RegisterURL">
+            Register
+          </span>
         </div>
       </div>
     </div>

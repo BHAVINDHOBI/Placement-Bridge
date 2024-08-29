@@ -3,7 +3,7 @@ import "../styles/About.css";
 import image from "../assets/ImageUtility";
 
 const About = () => (
-  <section className="about">
+  <section className="about" id="About">
     <div className="about-main">
       <div
         className="about-grid1"
