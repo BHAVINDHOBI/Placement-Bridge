@@ -12,7 +12,7 @@
   align-items: center;
   width: 100%;
   min-height: 400px;
-  padding: 10px;
+  padding: 20px;
   margin: 20px;
   border-radius: 15px;
   background-color: rgb(158, 149, 149);
@@ -147,4 +147,34 @@
 
 .button:hover {
   background-color: #005582;
+}
+
+.modal-box {
+  position: relative;
+  max-width: 90%;
+  max-height: 90%;
+  margin: auto;
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  overflow: auto; /* Allows scrolling */
+  box-sizing: border-box;
+}
+
+.roadmap-image {
+  width: 100%;
+  height: auto;
+  object-fit: contain; /* Ensures the entire image is visible */
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.download-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  left: 5px;
 }

@@ -9,16 +9,35 @@
 }
 
 .left-section {
+  /* background-color: red; */
+  height: 300px;
   display: flex;
   align-items: center;
+  justify-content: center;
   padding: 10px;
 }
 
+.logo-and-name {
+  /* background-color: purple; */
+  height: 250px;
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 75px;
+}
+
 .company-logo {
-  width: 80px;
-  height: 80px;
+  margin-top: 20px;
+  height: 200px;
+  width: 150px;
   object-fit: contain;
-  margin-right: 15px;
+}
+
+.company-name {
+  margin-top: 10px; /* Add some space between the logo and the company name */
+  font-weight: bold;
+  color: #333;
 }
 
 .company-info {
