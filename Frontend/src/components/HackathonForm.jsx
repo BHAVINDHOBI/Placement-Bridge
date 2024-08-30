@@ -83,11 +83,18 @@ const HackathonForm = () => {
         ADD DETAILS
       </Typography>
       <form
+        action="https://api.web3forms.com/submit"
+        method="POST"
         // onSubmit={handleSubmit}
         // noValidate
         // autoComplete="off"
         style={{ flexGrow: 1, display: "flex", flexDirection: "column" }}
       >
+        <input
+          type="hidden"
+          name="access_key"
+          value="6869febd-c760-4109-9f95-96af79e394e1"
+        />
         <Grid container spacing={2} sx={{ flexGrow: 1 }}>
           <Grid item xs={12} sm={6}>
             <TextField

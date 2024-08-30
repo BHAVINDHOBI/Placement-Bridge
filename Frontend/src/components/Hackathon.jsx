@@ -2,9 +2,18 @@ import React, { useState, useEffect } from "react";
 import HackathonCard from "./HackathonCard";
 import "../styles/Hackathon.css";
 import hackathonsData from "../data/hackathons.json";
-import { Pagination, TextField, Box, Typography, Stack } from "@mui/material";
+import {
+  Pagination,
+  TextField,
+  Box,
+  Typography,
+  Stack,
+  IconButton,
+} from "@mui/material";
 import "typeface-montserrat";
 import { BsFillPlusCircleFill } from "react-icons/bs";
+
+import { ArrowBack } from "@mui/icons-material";
 import { useNavigate } from "react-router-dom";
 
 const scrollToTop = (duration) => {
@@ -29,6 +38,10 @@ const Hackathons = () => {
   const itemsPerPage = 7; // Define how many items per page
   const [searchQuery, setSearchQuery] = useState("");
   const navigate = useNavigate();
+
+  const handleGoBack = () => {
+    navigate("/");
+  };
 
   useEffect(() => {
     // Scroll to the top with a fast speed (e.g., 200ms)
@@ -59,6 +72,22 @@ const Hackathons = () => {
   return (
     <div className="website-content">
       <section className="technology-container">
+        <IconButton
+          sx={{
+            position: { xs: "fixed", sm: "absolute" },
+            top: { xs: "10px", sm: "20px" },
+            left: { xs: "10px", sm: "20px" },
+            color: "#fff",
+            backgroundColor: "rgba(0, 0, 0, 0.5)",
+            "&:hover": {
+              backgroundColor: "rgba(0, 0, 0, 0.7)",
+            },
+            zIndex: 1,
+          }}
+          onClick={handleGoBack}
+        >
+          <ArrowBack />
+        </IconButton>
         <Box className="header-section">
           <Typography variant="h4" component="h1" className="page-title">
             Hackathons

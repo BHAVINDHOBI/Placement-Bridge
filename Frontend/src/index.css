@@ -57,6 +57,7 @@ body {
   margin-top: 30px;
 }
 
+/* Button Styles */
 .btn {
   color: #fff;
   background-color: #0071e3;
@@ -65,20 +66,11 @@ body {
   font-size: 14px;
   font-weight: 500;
   cursor: pointer;
+  margin-top: 50px;
 }
 
 .btn:hover {
   background-color: rgb(28, 128, 228);
-}
-
-.bottom-bar__content {
-  min-height: 60px;
-  max-width: 100%;
-  padding: 0 100px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .logo {
@@ -123,6 +115,7 @@ body {
   color: #00ffff;
 }
 
+/* Hamburger Menu */
 .hamburger {
   cursor: pointer;
   display: none;
@@ -153,6 +146,7 @@ body {
   transform: translateY(-7px) rotate(-45deg);
 }
 
+/* Content Styles */
 .website-content {
   padding: 0 100px;
   margin-top: 50px;
@@ -163,4 +157,125 @@ body {
 .website-content__inner {
   padding: 0 100px;
   color: #fff;
+}
+
+/* Media Queries for Responsiveness */
+
+/* Mobile Devices */
+@media (max-width: 767px) {
+  .top-bar__content {
+    margin: 0 20px;
+    padding: 0 10px;
+    font-size: 12px;
+  }
+
+  .bottom-bar__content {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 20px;
+  }
+
+  .logo__text {
+    font-size: 18px;
+    margin-left: 10px;
+  }
+
+  .logo__img {
+    height: 100px;
+  }
+
+  .website-content {
+    padding: 0 20px;
+    margin-top: 30px;
+  }
+
+  .website-content__inner {
+    padding: 0 20px;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .nav__list {
+    display: none;
+  }
+
+  .nav--open .nav__list {
+    display: flex;
+  }
+}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .top-bar__content {
+    margin: 0 40px;
+    padding: 0 20px;
+    font-size: 13px;
+  }
+
+  .bottom-bar__content {
+    padding: 0 50px;
+  }
+
+  .logo__text {
+    font-size: 20px;
+  }
+
+  .logo__img {
+    height: 110px;
+  }
+
+  .nav__list {
+    column-gap: 40px;
+  }
+
+  .website-content {
+    padding: 0 50px;
+  }
+
+  .website-content__inner {
+    padding: 0 50px;
+  }
+
+  .hamburger {
+    display: none;
+  }
+}
+
+/* Laptops and Desktops */
+@media (min-width: 1024px) {
+  .top-bar__content {
+    margin: 0 70px;
+    padding: 0 30px;
+    font-size: 14px;
+  }
+
+  .bottom-bar__content {
+    padding: 0 100px;
+  }
+
+  .logo__text {
+    font-size: 23px;
+  }
+
+  .logo__img {
+    height: 130px;
+  }
+
+  .nav__list {
+    column-gap: 60px;
+  }
+
+  .website-content {
+    padding: 0 100px;
+  }
+
+  .website-content__inner {
+    padding: 0 100px;
+  }
+
+  .hamburger {
+    display: none;
+  }
 }

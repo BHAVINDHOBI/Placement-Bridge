@@ -3,9 +3,9 @@ import Header from "./Header";
 import Home from "./Home";
 import Features from "./Features";
 import About from "./About";
+import Contact from "./Contact";
 import Footer from "./Footer";
 import TransparentBar from "./TransparentBar";
-import Contact from "./Contact";
 import "../styles/MainPage.css";
 import "typeface-montserrat";
 
@@ -14,15 +14,33 @@ const MainPage = () => {
     <div className="mainpage">
       <Header />
       <main className="website-content__inner">
-        <Home />
-        <Features />
-        <hr id="aboutus" />
-        <About />
+        {/* Home Section */}
+        <section id="home">
+          <Home />
+        </section>
+
+        {/* Features Section */}
+        <section id="ourservices">
+          <Features />
+        </section>
+
+        {/* About Section */}
+        <section id="about">
+          <About />
+        </section>
       </main>
+
+      {/* Transparent Bar */}
       <TransparentBar />
+
       <main className="website-content__inner">
-        <Contact />
+        {/* Contact Section */}
+        <section id="contactus">
+          <Contact />
+        </section>
       </main>
+
+      {/* Footer */}
       <Footer />
     </div>
   );

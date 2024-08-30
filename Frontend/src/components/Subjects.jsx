@@ -8,12 +8,19 @@ import {
   Typography,
   Stack,
   Divider,
+  IconButton,
 } from "@mui/material";
+import { ArrowBack } from "@mui/icons-material";
+import { useNavigate } from "react-router-dom";
 
 const Subjects = () => {
   const itemsPerPage = 5;
   const [currentPage, setCurrentPage] = useState(1);
   const [searchQuery, setSearchQuery] = useState("");
+  const navigate = useNavigate();
+  const handleGoBack = () => {
+    navigate("/");
+  };
 
   const handlePageChange = (event, value) => {
     setCurrentPage(value);
@@ -36,6 +43,22 @@ const Subjects = () => {
   return (
     <div>
       <section className="technology-container">
+        <IconButton
+          sx={{
+            position: { xs: "fixed", sm: "absolute" },
+            top: { xs: "10px", sm: "20px" },
+            left: { xs: "10px", sm: "20px" },
+            color: "#fff",
+            backgroundColor: "rgba(0, 0, 0, 0.5)",
+            "&:hover": {
+              backgroundColor: "rgba(0, 0, 0, 0.7)",
+            },
+            zIndex: 1, // Ensure the button is above other content
+          }}
+          onClick={handleGoBack}
+        >
+          <ArrowBack />
+        </IconButton>
         <Box
           className="header-section"
           sx={{

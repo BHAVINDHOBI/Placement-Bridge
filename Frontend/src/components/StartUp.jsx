@@ -8,12 +8,14 @@ import {
   Divider,
   Button,
   Fab,
+  IconButton,
 } from "@mui/material";
 
-import { useNavigate } from "react-router-dom";
 import StartUpCard from "./StartUpCard";
 import StartUps from "../data/StartUp.json";
 import { BsFillPlusCircleFill } from "react-icons/bs";
+import { ArrowBack } from "@mui/icons-material";
+import { useNavigate } from "react-router-dom";
 
 const StartUp = () => {
   const itemsPerPage = 5;
@@ -45,9 +47,29 @@ const StartUp = () => {
     navigate("/add-startup"); // Navigate to the StartUpFeature route
   };
 
+  const handleGoBack = () => {
+    navigate("/");
+  };
+
   return (
     <div>
       <section className="startup-container">
+        <IconButton
+          sx={{
+            position: { xs: "fixed", sm: "absolute" },
+            top: { xs: "10px", sm: "20px" },
+            left: { xs: "10px", sm: "20px" },
+            color: "#fff",
+            backgroundColor: "rgba(0, 0, 0, 0.5)",
+            "&:hover": {
+              backgroundColor: "rgba(0, 0, 0, 0.7)",
+            },
+            zIndex: 1, // Ensure the button is above other content
+          }}
+          onClick={handleGoBack}
+        >
+          <ArrowBack />
+        </IconButton>
         <Box
           className="header-section"
           sx={{
