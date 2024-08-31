@@ -152,6 +152,7 @@ const companyData = [
     companyDescription:
       "iBoss Tech Solutions is a forward-thinking technology firm specializing in web and software development. Our team is dedicated to delivering high-quality digital solutions that enhance user experiences and drive business growth. We focus on innovation and excellence, leveraging the latest technologies to create scalable and efficient applications. With a collaborative work environment and a commitment to professional development, we aim to foster a culture of continuous improvement and success.",
     totalEmployees: 120,
+    Roadmap: "/src/assets/Roadmaps/FrontendRoadmap.drawio.svg",
     roadmap: roadmap.frontend,
   },
   {
@@ -1849,6 +1850,145 @@ const companyData = [
     companyDescription:
       "CodeMasters Solutions is a top-tier web development company specializing in creating high-quality web applications and solutions. We are dedicated to delivering exceptional user experiences through modern web technologies. Our team is passionate about innovation and committed to providing tailored solutions that meet our clients' specific needs. We offer a dynamic work environment where creativity and expertise thrive.",
     totalEmployees: "250",
+  },
+  {
+    id: "fd34d95953b020281f43581eaa1dd3f818893560",
+    jobTitle: "Game Creator",
+    companyLogo: companyImage.GamingInnovators,
+    companyName: "Gaming Innovators Pvt Ltd",
+    date_recruitment: "2024-08-01",
+    salary: "₹8,00,000 - ₹12,00,000 per annum",
+    description:
+      "We are seeking a talented Game Creator to join our team. The ideal candidate will be responsible for designing and developing engaging game mechanics, storylines, and characters. You will work closely with artists and programmers to bring your ideas to life.",
+    benefits: [
+      "Health insurance",
+      "Flexible working hours",
+      "Remote work options",
+      "Annual performance bonuses",
+    ],
+    jobType: "Full-time",
+    location: "Bengaluru, Karnataka",
+    company_website: "https://gaminginnovators.com",
+    linkedin_link: "https://www.linkedin.com/company/gaminginnovators",
+    companyDescription:
+      "Gaming Innovators Pvt Ltd is a pioneering company in the gaming industry, known for its creativity and innovation. We specialize in creating immersive and engaging games that captivate audiences. Our team of experts is dedicated to pushing the boundaries of game design and technology. We offer a collaborative and dynamic work environment that fosters creativity and growth.",
+    totalEmployees: "300",
+  },
+  {
+    id: "5757f641ef481c208a59a59fc1e81f295989fdbc",
+    jobTitle: "Game Creator",
+    companyLogo: companyImage.CreativeGames,
+    companyName: "Creative Games Ltd.",
+    date_recruitment: "2024-07-25",
+    salary: "₹7,00,000 - ₹10,00,000 per annum",
+    description:
+      "Join our team as a Game Creator. You will be responsible for conceptualizing, designing, and developing innovative game ideas. Experience with game development engines like Unity or Unreal Engine is preferred.",
+    benefits: [
+      "Health and wellness programs",
+      "Paid time off",
+      "Professional development opportunities",
+      "Work from home options",
+    ],
+    jobType: "Full-time",
+    location: "Mumbai, Maharashtra",
+    company_website: "https://www.creativegamesinc.com/",
+    linkedin_link: "https://www.linkedin.com/company/creative-games-inc/",
+    companyDescription:
+      "Creative Games Ltd. is a leading game development company renowned for its innovative and creative approach. We focus on designing and developing cutting-edge games that offer unique and engaging experiences. Our team is passionate about game development and dedicated to delivering high-quality products. We provide a supportive and flexible work environment that encourages creativity and professional growth.",
+    totalEmployees: "180",
+  },
+  {
+    id: "a8f15534cb50e6fadbe7c2ba696051237ae819f4",
+    jobTitle: "Game Creator",
+    companyLogo: companyImage.InnovatechGaming,
+    companyName: "Innovatech Gaming",
+    date_recruitment: "2024-08-10",
+    salary: "₹9,00,000 - ₹13,00,000 per annum",
+    description:
+      "Innovatech Gaming is looking for a Game Creator to design and develop high-quality games. You will be involved in all stages of game development, from concept to final release. Strong skills in game design and programming are required.",
+    benefits: [
+      "Medical insurance",
+      "Retirement benefits",
+      "Relocation assistance",
+      "Annual company retreats",
+    ],
+    jobType: "Full-time",
+    location: "Hyderabad, Telangana",
+    company_website: "https://innovatechgaming.com",
+    linkedin_link: "https://www.linkedin.com/company/innovatechgaming",
+    companyDescription:
+      "Innovatech Gaming is a forward-thinking company specializing in cutting-edge game development. We are dedicated to creating high-quality games that set new standards in the industry. Our team works on all aspects of game development, ensuring that every project is innovative and engaging. We offer a collaborative environment where creativity and technical excellence thrive.",
+    totalEmployees: "250",
+  },
+
+  {
+    id: "232a0685c4861e0545b04ca0f5566815cdd61f34",
+    jobTitle: "Game Creator",
+    companyLogo: companyImage.CodeCraftersGaming,
+    companyName: "CodeCrafters Gaming Pvt Ltd",
+    date_recruitment: "2024-08-20",
+    salary: "₹7,00,000 - ₹11,00,000 per annum",
+    description:
+      "Join our team as a Game Creator. You will be responsible for developing high-quality games, ensuring optimal performance and user experience. Experience with game development engines and programming languages is required.",
+    benefits: [
+      "Health insurance",
+      "Paid time off",
+      "Professional development",
+      "Work from home options",
+    ],
+    jobType: "Full-time",
+    location: "Kolkata, West Bengal",
+    company_website: "https://codecraftersgaming.com",
+    linkedin_link: "https://www.linkedin.com/company/codecraftersgaming",
+    companyDescription:
+      "CodeCrafters Gaming Pvt Ltd is a dynamic game development company focused on creating high-quality games that deliver exceptional user experiences. We leverage the latest technologies and creative strategies to develop engaging products. Our team thrives in a collaborative environment that encourages innovation and professional growth. We are committed to excellence in every project we undertake.",
+    totalEmployees: "210",
+  },
+  {
+    id: "0277d18527df2e30869cf03d7e69de6cc43c66fa",
+    jobTitle: "Game Creator",
+    companyLogo: companyImage.GameMasters,
+    companyName: "GameMasters Solutions",
+    date_recruitment: "2024-07-28",
+    salary: "₹8,00,000 - ₹12,00,000 per annum",
+    description:
+      "We are seeking a talented Game Creator to join our team. You will be responsible for designing and developing engaging game mechanics, storylines, and characters. You will work closely with artists and programmers to bring your ideas to life.",
+    benefits: [
+      "Health insurance",
+      "Flexible working hours",
+      "Remote work options",
+      "Annual performance bonuses",
+    ],
+    jobType: "Full-time",
+    location: "Ahmedabad, Gujarat",
+    company_website: "https://gamemasters.com",
+    linkedin_link: "https://www.linkedin.com/company/gamemasters",
+    companyDescription:
+      "GameMasters Solutions is a leading game development company known for its creative and innovative approach. We specialize in designing games that offer exceptional player experiences. Our team is committed to pushing the boundaries of game design and technology. We offer a supportive and flexible work environment that encourages creativity and growth.",
+    totalEmployees: "160",
+  },
+  {
+    id: "1c792d6e7e687e3d69878d7c07192d8d6d8a56df",
+    jobTitle: "Game Creator",
+    companyLogo: companyImage.NextGenGaming,
+    companyName: "NextGen Gaming",
+    date_recruitment: "2024-08-18",
+    salary: "₹9,50,000 - ₹14,50,000 per annum",
+    description:
+      "NextGen Gaming is looking for a Game Creator to design and develop high-quality games. You will be involved in all stages of game development, from concept to final release. Strong skills in game design and programming are required.",
+    benefits: [
+      "Medical insurance",
+      "Retirement benefits",
+      "Relocation assistance",
+      "Annual company retreats",
+    ],
+    jobType: "Full-time",
+    location: "Bengaluru, Karnataka",
+    company_website: "https://nextgengaming.com",
+    linkedin_link: "https://www.linkedin.com/company/nextgengaming",
+    companyDescription:
+      "NextGen Gaming is at the forefront of the gaming industry, dedicated to creating high-quality games with cutting-edge technology. We focus on all stages of game development, from initial concept to final release. Our team is committed to delivering innovative and engaging products. We offer a dynamic and collaborative work environment with opportunities for professional advancement.",
+    totalEmployees: "280",
     roadmap: roadmap.fullstack,
   },
   {
