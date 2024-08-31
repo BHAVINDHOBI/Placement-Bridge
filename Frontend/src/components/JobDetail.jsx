@@ -1,16 +1,29 @@
-import React from "react";
+import React, { useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import { Container, Typography, Paper, Button, Chip } from "@mui/material";
+import {
+  Container,
+  Typography,
+  Paper,
+  Button,
+  Chip,
+  Modal,
+  Backdrop,
+  Box,
+  IconButton,
+} from "@mui/material";
 import {
   LinkedIn as LinkedInIcon,
   Language as CompanyIcon,
+  Close as CloseIcon,
+  Download as DownloadIcon,
 } from "@mui/icons-material";
 import "../styles/JobDetail.css";
 
 const JobDetail = ({ jobs }) => {
   const { jobId } = useParams();
-  const job = jobs.find((job) => job.id === jobId);
+  const job = jobs.find((job) => job.id == jobId);
   const navigate = useNavigate();
+  const [openRoadmap, setOpenRoadmap] = useState(false);
 
   if (!job) {
     return <div>Job not found</div>;
@@ -25,7 +38,18 @@ const JobDetail = ({ jobs }) => {
       : [];
 
   const handleRoadmapClick = () => {
-    navigate("/frontend-roadmap");
+    setOpenRoadmap(true);
+  };
+
+  const handleClose = () => {
+    setOpenRoadmap(false);
+  };
+
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = job.Roadmap; // Assuming you have the roadmap image URL in the job object
+    link.download = "roadmap.png"; // You can set the name of the file here
+    link.click();
   };
 
   return (
@@ -117,6 +141,28 @@ const JobDetail = ({ jobs }) => {
             <strong>View Roadmap</strong>
           </Button>
         </div>
+
+        <Modal open={openRoadmap} onClose={handleClose}>
+          <Box className="modal-box">
+            <IconButton
+              aria-label="close"
+              onClick={handleClose}
+              className="close-button"
+            >
+              <CloseIcon />
+            </IconButton>
+            <Button
+              variant="contained"
+              color="primary"
+              startIcon={<DownloadIcon />}
+              onClick={handleDownload}
+              className="download-button"
+            >
+              Download
+            </Button>
+            <img src={job.Roadmap} alt="Roadmap" className="roadmap-image" />
+          </Box>
+        </Modal>
       </Paper>
     </Container>
   );

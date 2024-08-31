@@ -11,13 +11,13 @@ import Pay3 from "./companyImages/Frontend/pay3-logo.svg";
 import Intract from "./companyImages/Frontend/intract_inc_logo.jpg";
 
 // AI ML
-import AILab from "./companyImages/AI ML/ai-lab.png";
+import AILab from "./companyImages/AI ML/Aic.jpg";
 import AIWORKS from "./companyImages/AI ML/AI-WORKS.png";
 import AiExecellence from "./companyImages/AI ML/AiExecellence.png";
 import AIGEN from "./companyImages/AI ML/AIGEN.jpeg";
 import AINexus from "./companyImages/AI ML/AINexus.png";
 import ainexus1 from "./companyImages/AI ML/ainexus1.jpeg";
-import innovatechAI from "./companyImages/AI ML/innovatechAI.svg";
+import innovatechAI from "./companyImages/AI ML/innovtech.jpeg";
 import MachineLearningSolutionsLtd from "./companyImages/AI ML/Machine Learning Solutions Ltd.1.svg";
 import NextGenAI from "./companyImages/AI ML/NextGenAI.png";
 import ProAi from "./companyImages/AI ML/ProAi.jpeg";
@@ -33,7 +33,7 @@ import Hub2Technologies from "./companyImages/AndroidDev/Hub2Technologies.jpeg";
 import IBM from "./companyImages/AndroidDev/IBM.jpg";
 import JLKH from "./companyImages/AndroidDev/JLKH.jpg";
 import Octobit from "./companyImages/AndroidDev/Octobit.png";
-import SaffoSolutionTechnology from "./companyImages/AndroidDev/Saffo Solution Technology.jpeg";
+import SaffoSolutionTechnology from "./companyImages/AndroidDev/saffotechlogo.jpg";
 import Travitons from "./companyImages/AndroidDev/Travitons.jpg";
 
 // Backend
@@ -42,8 +42,7 @@ import Congnizant from "./companyImages/Backend/Congnizant.jpeg";
 import HCL from "./companyImages/Backend/HCL.png";
 import IBMAndroid from "./companyImages/Backend/IBM.jpg";
 import Infosys from "./companyImages/Backend/Infosys.png";
-import MINDTREE from "./companyImages/Backend/MINDTREE.png";
-import Mindtree1 from "./companyImages/Backend/Mindtree1.jpg";
+import MINDTREE from "./companyImages/Backend/ltimindtree_logo.jpeg";
 import Oracle from "./companyImages/Backend/Oracle.jpg";
 import TCS from "./companyImages/Backend/TCS.png";
 import TechMahindra from "./companyImages/Backend/TechMahindra.jpg";
@@ -52,14 +51,14 @@ import Wipro from "./companyImages/Backend/Wipro.png";
 // Cyber Security
 import CyberDefenders from "./companyImages/Cyber security/CyberDefenders Pvt Ltd.png";
 import cyberguard from "./companyImages/Cyber security/cyberguard.jpeg";
-import CyberProtect from "./companyImages/Cyber security/CyberProtect Pvt Ltd.jpg";
+import CyberProtect from "./companyImages/Cyber security/starhub_logo.jpeg";
 import CyberSafe from "./companyImages/Cyber security/CyberSafe Ltd..jpeg";
-import DataSafe from "./companyImages/Cyber security/DataSafe Solutions.jpeg";
+import DataSafe from "./companyImages/Cyber security/Datasafeonline.jpeg";
 import DefendTech from "./companyImages/Cyber security/DefendTech Solutions.jpeg";
 import InfosecInnovators from "./companyImages/Cyber security/Infosec Innovators.jpeg";
 import NetSecure from "./companyImages/Cyber security/NetSecure Technologies.png";
-import SafeNet from "./companyImages/Cyber security/SafeNet Pvt Ltd.svg";
-import SecureNet from "./companyImages/Cyber security/SecureNet Pvt Ltd.png";
+import SafeNet from "./companyImages/Cyber security/safenet_technologies_logo.jpeg";
+import SecureNet from "./companyImages/Cyber security/securenet_technologies_logo.jpeg";
 import securenet_systems from "./companyImages/Cyber security/securenet_systems.jpeg";
 import SecureTech from "./companyImages/Cyber security/SecureTech Solutions.png";
 import ShieldTech from "./companyImages/Cyber security/ShieldTech Ltd..png";
@@ -77,20 +76,6 @@ import SPGlobal from "./companyImages/DBA/S&P Global.png";
 import DBATCS from "./companyImages/DBA/TCS.png";
 import ThermoFisherScientific from "./companyImages/DBA/Thermo Fisher Scientific.png";
 
-// Game Developers
-import ByteBuildersGaming from "./companyImages/GameDevelopers/ByteBuilders Gaming Ltd..jpeg";
-import CodeCraftersGaming from "./companyImages/GameDevelopers/CodeCrafters Gaming Pvt Ltd.jpeg";
-import codemastergaming from "./companyImages/GameDevelopers/codemaster gaming.png";
-import CreativeGames from "./companyImages/GameDevelopers/Creative Games Ltd..jpeg";
-import GameGen from "./companyImages/GameDevelopers/GameGen Ltd..jpeg";
-import GameMasters from "./companyImages/GameDevelopers/GameMasters Solutions.png";
-import GameWorks from "./companyImages/GameDevelopers/GameWorks Pvt Ltd.jpeg";
-import GamingInnovators from "./companyImages/GameDevelopers/Gaming Innovators Pvt Ltd.png";
-import InnovatechGaming from "./companyImages/GameDevelopers/Innovatech Gaming.jpeg";
-import NextGenGaming from "./companyImages/GameDevelopers/NextGen Gaming.jpeg";
-import ProGameSolutions from "./companyImages/GameDevelopers/ProGame Solutions.jpeg";
-import TechWaveGaming from "./companyImages/GameDevelopers/TechWave Gaming Inc..png";
-
 // Java Developers
 import Arcadis from "./companyImages/JavaDevelopers/Arcadis.jpeg";
 import DXCTECHNOLOGY from "./companyImages/JavaDevelopers/DXC TECHNOLOGY.png";
@@ -106,7 +91,7 @@ import TelitCinterion from "./companyImages/JavaDevelopers/Telit Cinterion.png";
 // Web Developers
 import SiteMasters from "./companyImages/WebDevelopers/SiteMasters Solutions.jpeg";
 import NextGenTechnologies from "./companyImages/WebDevelopers/NextGen Technologies.jpeg";
-import TechInnovators from "./companyImages/WebDevelopers/Tech Innovators Pvt Ltd.jpg";
+import TechInnovators from "./companyImages/WebDevelopers/techinnovators_cover.jpeg";
 import CreativeSolutions from "./companyImages/WebDevelopers/Creative Solutions Ltd..jpeg";
 import InnovatechSystems from "./companyImages/WebDevelopers/Innovatech Systems.jpeg";
 import WebWorks from "./companyImages/WebDevelopers/WebWorks Pvt Ltd.jpeg";
@@ -114,9 +99,36 @@ import TechWave from "./companyImages/WebDevelopers/TechWave Inc..jpeg";
 import WebGen from "./companyImages/WebDevelopers/WebGen Ltd..png";
 import CodeCrafters from "./companyImages/WebDevelopers/CodeCrafters Pvt Ltd.jpeg";
 import ProWebSolutions from "./companyImages/WebDevelopers/ProWeb Solutions.png";
-import DevMasters from "./companyImages/WebDevelopers/DevMasters Pvt Ltd.png";
-import ByteBuilders from "./companyImages/WebDevelopers/ByteBuilders Ltd..jpeg";
+import DevMasters from "./companyImages/WebDevelopers/master.jpeg";
+import ByteBuilders from "./companyImages/WebDevelopers/bytebuilders_logo.jpeg";
 import CodeMasters from "./companyImages/WebDevelopers/CodeMasters Solutions.png";
+
+//ios developer
+import appinnovators from "./companyImages/IOS Developer/appinnovators_logo.jpeg";
+import appmaster from "./companyImages/IOS Developer/appmaster_logo.jpeg";
+import codecraft from "./companyImages/IOS Developer/codecraft_technologieslogo.jpeg";
+import futuretech from "./companyImages/IOS Developer/futuretechsoltiouns_logo.png";
+import innotech from "./companyImages/IOS Developer/innotech.jpeg";
+import mobility from "./companyImages/IOS Developer/MobilitySolutionLogo.webp";
+import nextgenapp from "./companyImages/IOS Developer/Nextgenapps_logo.jpeg";
+import techwizard from "./companyImages/IOS Developer/techwizardofficial_logo.jpeg";
+
+//dataanalyist
+import analitica from "./companyImages/Dataanalyist/analytica_india_lab_expo_logo.jpeg";
+import smartdata from "./companyImages/Dataanalyist/smart_data_solutions_logo.jpeg";
+import datavision from "./companyImages/Dataanalyist/datavision_logo.jpeg";
+import expertanalytics from "./companyImages/Dataanalyist/expertanalytics_logo.jpeg";
+import insight from "./companyImages/Dataanalyist/insightanalyist.jpeg";
+import tds from "./companyImages/Dataanalyist/techdatasolutions.jpeg";
+
+//datascientist
+import datainsights from "./companyImages/datascientist/data_insights_logo.jpeg";
+import dataminds from "./companyImages/datascientist/dataminds_a_s_logo.jpeg";
+import innovation from "./companyImages/datascientist/innovationsolutions.jpeg";
+import nextgensol from "./companyImages/datascientist/nextgensolutions.jpeg";
+import quantiphi from "./companyImages/datascientist/quantiphi_logo.jpeg";
+import smartanalytics from "./companyImages/datascientist/smartanalytics.jpeg";
+import techinnovations from "./companyImages/datascientist/techinnovators.png";
 
 const companyImage = {
   iBoss: iBoss,
@@ -154,7 +166,6 @@ const companyImage = {
   HCl: HCL,
   IBMAndroid: IBMAndroid,
   Infosys: Infosys,
-  Mindtree1: Mindtree1,
   MINDTREE: MINDTREE,
   Oracle: Oracle,
   TCS: TCS,
@@ -184,18 +195,6 @@ const companyImage = {
   SPGlobal: SPGlobal,
   DBATCS: DBATCS,
   ThermoFisherScientific: ThermoFisherScientific,
-  ByteBuildersGaming: ByteBuildersGaming,
-  CodeCraftersGaming: CodeCraftersGaming,
-  codemastergaming: codemastergaming,
-  CreativeGames: CreativeGames,
-  GameGen: GameGen,
-  GameMasters: GameMasters,
-  GameWorks: GameWorks,
-  GamingInnovators: GamingInnovators,
-  InnovatechGaming: InnovatechGaming,
-  NextGenGaming: NextGenGaming,
-  ProGameSolutions: ProGameSolutions,
-  TechWaveGaming: TechWaveGaming,
   Arcadis: Arcadis,
   DXCTECHNOLOGY: DXCTECHNOLOGY,
   HSBC: HSBC,
@@ -222,6 +221,27 @@ const companyImage = {
   DevMasters: DevMasters,
   ByteBuilders: ByteBuilders,
   CodeMasters: CodeMasters,
+  appinnovators: appinnovators,
+  techwizard: techwizard,
+  appmaster: appmaster,
+  nextgenapp: nextgenapp,
+  codecraft: codecraft,
+  innotech: innotech,
+  futuretech: futuretech,
+  mobility: mobility,
+  analitica: analitica,
+  expertanalytics: expertanalytics,
+  tds: tds,
+  insight: insight,
+  smartdata: smartdata,
+  datavision: datavision,
+  techinnovations: techinnovations,
+  dataminds: dataminds,
+  datainsights: datainsights,
+  nextgensol: nextgensol,
+  innovation: innovation,
+  quantiphi: quantiphi,
+  smartanalytics: smartanalytics,
 };
 
 export default companyImage;

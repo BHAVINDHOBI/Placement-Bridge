@@ -1,42 +1,7 @@
 import companyImage from "../assets/CompanyImages";
+import roadmap from "../assets/roadmap";
 
 const companyData = [
-  {
-    id: "a97d38526e8948d7719781b90ab6199ca51b0400",
-    jobTitle: "Frontend Developer",
-    companyLogo: companyImage.iBoss,
-    companyName: "iBoss Tech Solutions",
-    dateRecruitment: "Just posted",
-    salary: "₹5L – ₹7L",
-    description:
-      "You will work closely with designers, back-end developers, and product managers to build and maintain web applications. Strong problem-solving, logical, and analytical skills are required. Experience with HTML, CSS, JavaScript, and modern JavaScript frameworks is essential. You will be responsible for ensuring the technical feasibility of UI/UX designs and optimizing applications for maximum speed and scalability.",
-    benefits: "N/A",
-    jobType: "Full-time",
-    location: "Noida, Uttar Pradesh",
-    companyWebsiteLink: "https://www.ibosstechsolutions.com",
-    linkedInLink: "https://www.linkedin.com/company/iboss-tech-solutions",
-    companyDescription:
-      "iBoss Tech Solutions is a forward-thinking technology firm specializing in web and software development. Our team is dedicated to delivering high-quality digital solutions that enhance user experiences and drive business growth. We focus on innovation and excellence, leveraging the latest technologies to create scalable and efficient applications. With a collaborative work environment and a commitment to professional development, we aim to foster a culture of continuous improvement and success.",
-    totalEmployees: 120,
-  },
-  {
-    id: "9956c558fff9651ba27244287b2ec970dc3f4cda",
-    jobTitle: "Frontend Developer",
-    companyLogo: companyImage.trishik,
-    companyName: "Trishik",
-    dateRecruitment: "Active 8 days ago",
-    salary: "₹7L – ₹10L",
-    description:
-      "Responsibilities include collaborating with web designers and back-end developers to complete projects. Candidates should have experience with mobile app, web app, and website front-end design and development. Proficiency in HTML, CSS, and JavaScript is required. The role also involves testing and debugging code, ensuring cross-platform compatibility, and improving user experience.",
-    benefits: "N/A",
-    jobType: "Remote",
-    location: "Remote",
-    companyWebsiteLink: "https://www.trishik.com",
-    linkedInLink: "https://www.linkedin.com/company/trishik",
-    companyDescription:
-      "Trishik is an innovative company specializing in web and mobile app development. We are dedicated to creating cutting-edge digital solutions that meet the evolving needs of our clients. Our team of experts works remotely to deliver high-quality projects that enhance user experience and drive growth. We value creativity, collaboration, and continuous learning, providing our employees with the tools and opportunities to excel in a dynamic work environment.",
-    totalEmployees: 50,
-  },
   {
     id: "2f2b86068e747dbcc738ff947a794b4e2241e16d",
     jobTitle: "Backend Developer",
@@ -45,7 +10,7 @@ const companyData = [
     dateRecruitment: "Just posted",
     salary: "₹8L – ₹15L",
     description:
-      "You will be responsible for developing and maintaining server-side components. Strong understanding of RESTful APIs, databases, and server architecture is required. Experience with Java, Python, or Node.js is essential. You will work closely with front-end developers to integrate user-facing elements with server-side logic.",
+      "Tech Mahindra is seeking a skilled Backend Developer to join our dynamic team in Hyderabad, Telangana. In this role, you will be responsible for designing, developing, and maintaining server-side logic, ensuring the scalability and performance of our applications. The ideal candidate has strong experience with RESTful APIs, databases, and server architecture, and is proficient in programming languages such as Java, Python, or Node.js. You will work closely with our front-end team to ensure seamless integration of user-facing elements with back-end services. We're looking for a proactive team player with a passion for innovation and problem-solving. This is a full-time position offering a competitive salary package and excellent benefits, including health insurance and paid time off.",
     benefits: "Health insurance, Paid time off",
     jobType: "Full-time",
     location: "Hyderabad, Telangana",
@@ -54,6 +19,64 @@ const companyData = [
     companyDescription:
       "Tech Mahindra is a leading provider of IT services and solutions, focusing on delivering high-quality technology solutions and services globally. The company offers a wide range of services, including digital transformation, consulting, and business process outsourcing. With a strong emphasis on innovation and customer-centric solutions, Tech Mahindra is dedicated to driving growth and enhancing operational efficiency for its clients. The company values a collaborative work environment and invests in the continuous development of its employees.",
     totalEmployees: 150000,
+    roadmap: roadmap.backend,
+  },
+  {
+    id: "0ec9570cb5b6e8873a3af6f0608fbb47c53aa56a",
+    jobTitle: "Android Developer",
+    companyLogo: companyImage.Hub2Technologies,
+    companyName: "Hub2Technologies",
+    dateRecruitment: "2024-07-02",
+    salary: "₹9L – ₹14L",
+    description:
+      "Hub2Technologies is seeking a talented Android Developer to join our team in Mansarovar, Jaipur, Rajasthan. In this role, you will be responsible for designing and implementing new features for our mobile applications, ensuring they are high-performing, responsive, and user-friendly. You will collaborate closely with the development team to deliver high-quality, innovative solutions that meet the evolving needs of our users. The ideal candidate has a strong background in Android development, with a focus on delivering robust, efficient code. This is a full-time position with competitive pay and excellent benefits, including remote work options, health insurance, and performance bonuses.",
+    benefits: "Remote work options, Health insurance, Performance bonuses",
+    jobType: "Full-time",
+    location: "Mansarovar, Jaipur, Rajasthan",
+    companyWebsiteLink: "https://hub2technologies.com",
+    linkedInLink: "https://linkedin.com/company/hub2technologies",
+    companyDescription:
+      "Hub2Technologies is a dynamic technology company dedicated to developing innovative mobile and web solutions. Our team of experts is committed to delivering high-quality products that meet the needs of our clients. We foster a collaborative and inclusive work environment that encourages professional growth and continuous learning. At Hub2Technologies, we are passionate about technology and strive to stay ahead of industry trends, ensuring our clients receive the best possible solutions.",
+    totalEmployees: "250",
+    roadmap: roadmap.android,
+  },
+  {
+    id: "1f57bcc14a2e337f1155e161bd890d77185e34f0",
+    jobTitle: "Backend Developer",
+    companyLogo: companyImage.Congnizant,
+    companyName: "Cognizant",
+    dateRecruitment: "Active 10 days ago",
+    salary: "₹10L – ₹20L",
+    description:
+      "Responsible for server-side web application logic and integration of front-end components. Experience with Node.js, Python, or Ruby on Rails is preferred. Responsibilities include developing and maintaining web services, optimizing applications for speed, and ensuring security and scalability.",
+    benefits: "Health insurance, Performance bonus",
+    jobType: "Full-time",
+    location: "Pune, Maharashtra",
+    companyWebsiteLink: "https://www.cognizant.com",
+    linkedInLink: "https://www.linkedin.com/company/cognizant",
+    companyDescription:
+      "Cognizant is a leading provider of IT services and consulting, specializing in digital transformation, technology consulting, and business process outsourcing. The company helps clients drive innovation and operational efficiency through its expertise in areas such as cloud computing, AI, and analytics. Cognizant is committed to fostering a collaborative work environment and supporting employee growth and development. The company’s focus on customer-centric solutions and technological excellence drives its success in the global market.",
+    totalEmployees: 350000,
+    roadmap: roadmap.backend,
+  },
+  {
+    id: "a97d38526e8948d7719781b90ab6199ca51b0400",
+    jobTitle: "Frontend Developer",
+    companyLogo: companyImage.iBoss,
+    companyName: "iBoss Tech Solutions",
+    dateRecruitment: "Just posted",
+    salary: "₹5L – ₹7L",
+    description:
+      "iBoss Tech Solutions is looking for a Frontend Developer to join our team in Noida, Uttar Pradesh. As a Frontend Developer, you will work closely with designers, back-end developers, and product managers to build and maintain web applications that are both functional and aesthetically pleasing. The ideal candidate should have strong problem-solving skills and a deep understanding of HTML, CSS, JavaScript, and modern JavaScript frameworks. This role requires you to ensure the technical feasibility of UI/UX designs while optimizing applications for maximum speed and scalability. We offer a full-time position with a competitive salary.",
+    benefits: "N/A",
+    jobType: "Full-time",
+    location: "Noida, Uttar Pradesh",
+    companyWebsiteLink: "https://www.ibosstechsolutions.com",
+    linkedInLink: "https://www.linkedin.com/company/iboss-tech-solutions",
+    companyDescription:
+      "iBoss Tech Solutions is a forward-thinking technology firm specializing in web and software development. Our team is dedicated to delivering high-quality digital solutions that enhance user experiences and drive business growth. We focus on innovation and excellence, leveraging the latest technologies to create scalable and efficient applications. With a collaborative work environment and a commitment to professional development, we aim to foster a culture of continuous improvement and success.",
+    totalEmployees: 120,
+    roadmap: roadmap.frontend,
   },
   {
     id: "3d0018e940c16dde794a4f71043f5883a791f4de",
@@ -63,7 +86,7 @@ const companyData = [
     dateRecruitment: "Active 7 days ago",
     salary: "₹10L – ₹20L",
     description:
-      "The role involves building scalable and efficient backend services. Expertise in data structures, algorithms, and software design principles is required. Proficiency in programming languages such as Java, Python, or Go is essential. Responsibilities include designing database schemas, optimizing performance, and ensuring data security.",
+      "Wipro is hiring a Backend Developer to join our team in Bangalore, Karnataka. The role involves building scalable and efficient backend services, with a focus on high performance and reliability. The ideal candidate will have strong expertise in data structures, algorithms, and software design principles. Proficiency in programming languages such as Java, Python, or Go is essential. Your responsibilities will include designing database schemas, optimizing performance, and ensuring data security. We are looking for a proactive developer who can work effectively in a team environment. This full-time position offers a competitive salary and benefits, including flexible working hours and health insurance.",
     benefits: "Flexible working hours, Health insurance",
     jobType: "Full-time",
     location: "Bangalore, Karnataka",
@@ -72,6 +95,26 @@ const companyData = [
     companyDescription:
       "Wipro is a global leader in IT services and consulting, offering a broad range of solutions from cloud computing and cybersecurity to artificial intelligence and analytics. The company is committed to innovation and excellence, providing services that help clients navigate their digital transformation journeys. With a focus on sustainability and ethical business practices, Wipro aims to drive growth and operational efficiency while fostering a diverse and inclusive workplace.",
     totalEmployees: 250000,
+    roadmap: roadmap.backend,
+  },
+  {
+    id: "9956c558fff9651ba27244287b2ec970dc3f4cda",
+    jobTitle: "Frontend Developer",
+    companyLogo: companyImage.trishik,
+    companyName: "Trishik",
+    dateRecruitment: "Active 8 days ago",
+    salary: "₹7L – ₹10L",
+    description:
+      "Trishik is seeking a Frontend Developer to work remotely with our dynamic team. The role involves collaborating with web designers and back-end developers to complete projects efficiently. The ideal candidate should have experience in mobile app, web app, and website front-end design and development, with proficiency in HTML, CSS, and JavaScript. Responsibilities include testing and debugging code, ensuring cross-platform compatibility, and continuously improving user experience. This remote full-time position offers competitive pay and the opportunity to work in a flexible environment.",
+    benefits: "N/A",
+    jobType: "Remote",
+    location: "Remote",
+    companyWebsiteLink: "https://www.trishik.com",
+    linkedInLink: "https://www.linkedin.com/company/trishik",
+    companyDescription:
+      "Trishik is an innovative company specializing in web and mobile app development. We are dedicated to creating cutting-edge digital solutions that meet the evolving needs of our clients. Our team of experts works remotely to deliver high-quality projects that enhance user experience and drive growth. We value creativity, collaboration, and continuous learning, providing our employees with the tools and opportunities to excel in a dynamic work environment.",
+    totalEmployees: 50,
+    roadmap: roadmap.frontend,
   },
   {
     id: "98ea467d7457a6f4a7879fb56e6864cb7be49d9a",
@@ -90,132 +133,102 @@ const companyData = [
     companyDescription:
       "Agicent Technologies is a leading provider of technology solutions, focusing on software and web development. We are committed to delivering innovative and high-performance applications that cater to the needs of our diverse clientele. Our team of skilled developers and designers works collaboratively to create user-centric solutions, ensuring that we stay ahead of industry trends. We offer a dynamic work environment where creativity and technical excellence are highly valued.",
     totalEmployees: 200,
+    roadmap: roadmap.frontend,
   },
   {
-    id: "ed0c33790f6c1b540098b1e5de01a98ff9bfdf79",
-    jobTitle: "Software Developer",
-    companyLogo: companyImage.Infosys,
-    companyName: "Infosys",
+    id: "a97d38526e8948d7719781b90ab6199ca51b0400",
+    jobTitle: "Frontend Developer",
+    companyLogo: companyImage.iBoss,
+    companyName: "iBoss Tech Solutions",
+    dateRecruitment: "Just posted",
+    salary: "₹5L – ₹7L",
+    description:
+      "You will work closely with designers, back-end developers, and product managers to build and maintain web applications. Strong problem-solving, logical, and analytical skills are required. Experience with HTML, CSS, JavaScript, and modern JavaScript frameworks is essential. You will be responsible for ensuring the technical feasibility of UI/UX designs and optimizing applications for maximum speed and scalability.",
+    benefits: "N/A",
+    jobType: "Full-time",
+    location: "Noida, Uttar Pradesh",
+    companyWebsiteLink: "https://www.ibosstechsolutions.com",
+    linkedInLink: "https://www.linkedin.com/company/iboss-tech-solutions",
+    companyDescription:
+      "iBoss Tech Solutions is a forward-thinking technology firm specializing in web and software development. Our team is dedicated to delivering high-quality digital solutions that enhance user experiences and drive business growth. We focus on innovation and excellence, leveraging the latest technologies to create scalable and efficient applications. With a collaborative work environment and a commitment to professional development, we aim to foster a culture of continuous improvement and success.",
+    totalEmployees: 120,
+    roadmap: roadmap.frontend,
+  },
+  {
+    id: "9956c558fff9651ba27244287b2ec970dc3f4cda",
+    jobTitle: "Frontend Developer",
+    companyLogo: companyImage.trishik,
+    companyName: "Trishik",
+    dateRecruitment: "Active 8 days ago",
+    salary: "₹7L – ₹10L",
+    description:
+      "Responsibilities include collaborating with web designers and back-end developers to complete projects. Candidates should have experience with mobile app, web app, and website front-end design and development. Proficiency in HTML, CSS, and JavaScript is required. The role also involves testing and debugging code, ensuring cross-platform compatibility, and improving user experience.",
+    benefits: "N/A",
+    jobType: "Remote",
+    location: "Remote",
+    companyWebsiteLink: "https://www.trishik.com",
+    linkedInLink: "https://www.linkedin.com/company/trishik",
+    companyDescription:
+      "Trishik is an innovative company specializing in web and mobile app development. We are dedicated to creating cutting-edge digital solutions that meet the evolving needs of our clients. Our team of experts works remotely to deliver high-quality projects that enhance user experience and drive growth. We value creativity, collaboration, and continuous learning, providing our employees with the tools and opportunities to excel in a dynamic work environment.",
+    totalEmployees: 50,
+    roadmap: roadmap.frontend,
+  },
+  {
+    id: "2f2b86068e747dbcc738ff947a794b4e2241e16d",
+    jobTitle: "Backend Developer",
+    companyLogo: companyImage.TechMahindra,
+    companyName: "Tech Mahindra",
     dateRecruitment: "Just posted",
     salary: "₹8L – ₹15L",
     description:
-      "You will design, develop, and maintain software applications. Proficiency in programming languages such as Java, Python, or C# is essential. Responsibilities include writing clean, scalable code, collaborating with cross-functional teams, and troubleshooting and debugging applications to ensure optimal performance.",
-    benefits: "Health insurance, Paid time off, Retirement benefits",
-    jobType: "Full-time",
-    location: "Bangalore, Karnataka",
-    companyWebsiteLink: "https://www.infosys.com",
-    linkedInLink: "https://www.linkedin.com/company/infosys",
-    companyDescription:
-      "Infosys is a global leader in next-generation digital services and consulting. The company provides innovative solutions across various domains, including cloud computing, AI, and cybersecurity. Infosys focuses on helping businesses navigate digital transformation with cutting-edge technologies and industry expertise. Known for its strong commitment to client satisfaction and sustainability, Infosys fosters a collaborative work environment and promotes continuous learning and career growth for its employees.",
-    totalEmployees: 300000,
-  },
-  {
-    id: "c2cedd2ccec30affafb5083a2a5f97116e15bc01",
-    jobTitle: "Software Developer",
-    companyLogo: companyImage.Wipro,
-    companyName: "Wipro",
-    dateRecruitment: "Active 5 days ago",
-    salary: "₹10L – ₹20L",
-    description:
-      "Responsible for developing and maintaining software applications using modern development tools and practices. Strong knowledge of object-oriented programming, algorithms, and data structures is required. Experience with cloud services such as AWS or Azure is preferred.",
-    benefits: "Flexible working hours, Health insurance, Performance bonus",
+      "You will be responsible for developing and maintaining server-side components. Strong understanding of RESTful APIs, databases, and server architecture is required. Experience with Java, Python, or Node.js is essential. You will work closely with front-end developers to integrate user-facing elements with server-side logic.",
+    benefits: "Health insurance, Paid time off",
     jobType: "Full-time",
     location: "Hyderabad, Telangana",
+    companyWebsiteLink: "https://www.techmahindra.com",
+    linkedInLink: "https://www.linkedin.com/company/tech-mahindra",
+    companyDescription:
+      "Tech Mahindra is a leading provider of IT services and solutions, focusing on delivering high-quality technology solutions and services globally. The company offers a wide range of services, including digital transformation, consulting, and business process outsourcing. With a strong emphasis on innovation and customer-centric solutions, Tech Mahindra is dedicated to driving growth and enhancing operational efficiency for its clients. The company values a collaborative work environment and invests in the continuous development of its employees.",
+    totalEmployees: 150000,
+    roadmap: roadmap.backend,
+  },
+  {
+    id: "3d0018e940c16dde794a4f71043f5883a791f4de",
+    jobTitle: "Backend Developer",
+    companyLogo: companyImage.Wipro,
+    companyName: "Wipro",
+    dateRecruitment: "Active 7 days ago",
+    salary: "₹10L – ₹20L",
+    description:
+      "The role involves building scalable and efficient backend services. Expertise in data structures, algorithms, and software design principles is required. Proficiency in programming languages such as Java, Python, or Go is essential. Responsibilities include designing database schemas, optimizing performance, and ensuring data security.",
+    benefits: "Flexible working hours, Health insurance",
+    jobType: "Full-time",
+    location: "Bangalore, Karnataka",
     companyWebsiteLink: "https://www.wipro.com",
     linkedInLink: "https://www.linkedin.com/company/wipro",
     companyDescription:
-      "Wipro is a global IT services and consulting company, specializing in digital transformation, cloud computing, and cybersecurity. The company is known for its strong emphasis on innovation and customer satisfaction. Wipro provides comprehensive solutions to help organizations enhance their technology infrastructure and achieve their strategic goals. With a diverse and inclusive workplace, Wipro is committed to fostering employee growth and delivering high-quality services to its clients.",
+      "Wipro is a global leader in IT services and consulting, offering a broad range of solutions from cloud computing and cybersecurity to artificial intelligence and analytics. The company is committed to innovation and excellence, providing services that help clients navigate their digital transformation journeys. With a focus on sustainability and ethical business practices, Wipro aims to drive growth and operational efficiency while fostering a diverse and inclusive workplace.",
     totalEmployees: 250000,
+    roadmap: roadmap.backend,
   },
   {
-    id: "f21a6da7933a5e201cb7213a79bec2448eeef057",
-    jobTitle: "Frontend Developer Intern",
-    companyLogo: companyImage.parakh_online_logo,
-    companyName: "Parakh Online",
-    dateRecruitment: "Posted 2 days ago",
-    salary: "₹5,000 - ₹8,000 a month",
-    description:
-      "The role involves working with HTML, CSS, JavaScript, Bootstrap, Photoshop, and Dreamweaver to develop front-end interfaces. The candidate must possess good knowledge and practical experience with these tools and technologies. Responsibilities include creating and maintaining UI components, optimizing applications for speed, and ensuring cross-browser compatibility.",
-    benefits: "Stipend",
-    jobType: "Full-time",
-    location: "Remote",
-    companyWebsiteLink: "https://www.parakhonline.com",
-    linkedInLink: "https://www.linkedin.com/company/parakh-online",
-    companyDescription:
-      "Parakh Online is a prominent digital solutions provider specializing in web and application development. We focus on delivering high-quality, user-friendly interfaces and applications that meet the needs of our clients. Our team works remotely to ensure flexibility and efficiency, providing opportunities for growth and learning. We are dedicated to innovation and excellence, fostering a supportive environment for all our employees.",
-    totalEmployees: 30,
-  },
-  {
-    id: "b99f58f38aad8e790c996f8be545940abb81030e",
+    id: "98ea467d7457a6f4a7879fb56e6864cb7be49d9a",
     jobTitle: "Frontend Developer",
-    companyLogo: companyImage.DecoverAI,
-    companyName: "DecoverAI",
-    dateRecruitment: "Posted 2 months ago",
-    salary: "₹13L – ₹22L",
+    companyLogo: companyImage.Agicent,
+    companyName: "Agicent Technologies",
+    dateRecruitment: "Active 11 days ago",
+    salary: "N/A",
     description:
-      "DecoverAI is looking for a frontend developer to work on their advanced AI-powered platform for legal research. The role includes working with a tech stack that involves JavaScript, React, and other modern front-end frameworks. The candidate will develop and maintain UI components, ensure application performance, and collaborate with the back-end team to integrate APIs.",
-    benefits: "Equity: 0.05% – 0.2%",
-    jobType: "Full-time",
-    location: "Bangalore Urban",
-    companyWebsiteLink: "https://www.decoverai.com",
-    linkedInLink: "https://www.linkedin.com/company/decoverai",
-    companyDescription:
-      "DecoverAI is at the forefront of AI-powered legal research, offering innovative solutions that transform the legal industry. We leverage advanced technologies to create powerful tools that enhance efficiency and accuracy. Our team is composed of experts in AI and software development, working together to push the boundaries of what's possible. We value creativity, technical excellence, and a commitment to delivering exceptional products and services.",
-    totalEmployees: 80,
-  },
-  {
-    id: "03eddeb1242a0561d92747076b59b5be3099246a",
-    jobTitle: "Frontend Developer",
-    companyLogo: companyImage.Houseware,
-    companyName: "Houseware",
-    dateRecruitment: "Posted 3 days ago",
-    salary: "₹20L – ₹40L",
-    description:
-      "The frontend developer will contribute to Houseware's AI-first Digital Experience Platform, working with technologies such as JavaScript, React, and other front-end frameworks. The role demands a high level of proficiency in these areas, with responsibilities including UI/UX design implementation, performance optimization, and ensuring cross-platform compatibility.",
-    benefits: "Equity: 0.0% – 0.05%",
-    jobType: "Full-time",
-    location: "Bengaluru (Remote possible)",
-    companyWebsiteLink: "https://www.houseware.io",
-    linkedInLink: "https://www.linkedin.com/company/houseware",
-    companyDescription:
-      "Houseware is a leading innovator in AI-driven digital experiences, providing cutting-edge solutions for modern businesses. Our platform is designed to optimize user engagement and performance through advanced technologies. We are committed to fostering a culture of innovation, where our team can thrive and contribute to impactful projects. With a focus on excellence and growth, we offer a dynamic work environment and comprehensive benefits.",
-    totalEmployees: 150,
-  },
-  {
-    id: "99acf33014451751376f676dda683f64574f28ca",
-    jobTitle: "Frontend Developer",
-    companyLogo: companyImage.Richpanel,
-    companyName: "Richpanel",
-    dateRecruitment: "Posted 1 week ago",
-    salary: "₹20L – ₹40L",
-    description:
-      "As a frontend developer, you will work on automating customer support with AI agents. The role involves developing and maintaining the user interface of the platform using modern front-end technologies. Responsibilities include collaborating with product and design teams, ensuring UI/UX consistency, and optimizing application performance.",
+      "As a frontend developer, you will debug code and front-end web applications. You need a good eye for detail and excellent knowledge of front-end technologies including HTML, CSS, JavaScript, and relevant frameworks. The role involves collaborating with UI/UX designers to implement attractive, responsive designs and ensuring the best performance across different devices and browsers.",
     benefits: "N/A",
     jobType: "Full-time",
-    location: "Bengaluru",
-    companyWebsiteLink: "https://www.richpanel.com",
-    linkedInLink: "https://www.linkedin.com/company/richpanel",
+    location: "Noida, Uttar Pradesh",
+    companyWebsiteLink: "https://www.agicent.com",
+    linkedInLink: "https://www.linkedin.com/company/agicent-technologies",
     companyDescription:
-      "Richpanel specializes in AI-driven customer support solutions, aiming to enhance user interactions through automation. Our platform integrates cutting-edge technology to streamline support processes and improve efficiency. We are passionate about innovation and excellence, providing our team with the resources and opportunities to excel in a fast-paced environment. Our goal is to deliver superior products and services that meet the needs of our clients.",
-    totalEmployees: 90,
-  },
-  {
-    id: "2495cdfa4b9dcad24d732f4ac90b8de8ec1cb488",
-    jobTitle: "Frontend Developer",
-    companyLogo: companyImage.zania,
-    companyName: "Zania",
-    dateRecruitment: "Posted 1 month ago",
-    salary: "₹10L – ₹15L",
-    description:
-      "This position involves working on Zania's autonomous AI agents for security. The role requires experience with front-end development using JavaScript, React, and related frameworks. Proficiency in these technologies is necessary. Responsibilities include developing and maintaining UI components, ensuring security features integration, and optimizing the user experience.",
-    benefits: "Equity: 0.0% – 0.1%",
-    jobType: "Full-time",
-    location: "Remote possible",
-    companyWebsiteLink: "https://zania.ai/",
-    linkedInLink: "https://www.linkedin.com/company/zania",
-    companyDescription:
-      "Zania is a pioneer in the development of autonomous AI agents for security applications. We focus on creating advanced solutions that enhance security and protect against emerging threats. Our team is dedicated to innovation and technical excellence, working to deliver high-quality products that meet the demands of a rapidly evolving industry. We offer a supportive and dynamic work environment where employees can thrive and contribute to groundbreaking projects.",
-    totalEmployees: 70,
+      "Agicent Technologies is a leading provider of technology solutions, focusing on software and web development. We are committed to delivering innovative and high-performance applications that cater to the needs of our diverse clientele. Our team of skilled developers and designers works collaboratively to create user-centric solutions, ensuring that we stay ahead of industry trends. We offer a dynamic work environment where creativity and technical excellence are highly valued.",
+    totalEmployees: 200,
+    roadmap: roadmap.frontend,
   },
   {
     id: "51f4ee312ce3d0944818ab57c7553ae0d186e144",
@@ -234,6 +247,7 @@ const companyData = [
     companyDescription:
       "Pay3 is a leader in instant payment solutions, dedicated to providing fast and secure financial transactions. Our platform leverages the latest technologies to deliver a seamless user experience and high performance. We are committed to innovation and excellence, offering our team a dynamic environment where creativity and technical skills are highly valued. Our goal is to drive the future of payments through advanced solutions and exceptional service.",
     totalEmployees: 60,
+    roadmap: roadmap.frontend,
   },
   {
     id: "8f4cd9f2fefca8bd484ae16134e31a497f8de288",
@@ -252,8 +266,8 @@ const companyData = [
     companyDescription:
       "Intract is at the forefront of web3 technology, offering innovative solutions for decentralized applications. We specialize in creating high-performance platforms that leverage modern frameworks and technologies. Our team is passionate about pushing the boundaries of web development and delivering exceptional user experiences. We provide a collaborative and creative work environment where technical excellence and innovation are key to our success.",
     totalEmployees: 40,
+    roadmap: roadmap.frontend,
   },
-
   {
     id: "fe61fc1bb72eb7ac4b14011cfab1002303f28de5",
     jobTitle: "Backend Developer",
@@ -271,6 +285,7 @@ const companyData = [
     companyDescription:
       "Infosys is a global leader in next-generation digital services and consulting, providing innovative solutions to help businesses transform and navigate the complexities of the digital era. The company specializes in various domains including cloud, AI, and cybersecurity. Infosys is dedicated to delivering exceptional client outcomes through its robust technology and industry expertise. With a focus on innovation and sustainable practices, Infosys is committed to fostering a dynamic work environment and continuous employee development.",
     totalEmployees: 300000,
+    roadmap: roadmap.backend,
   },
   {
     id: "fe61fc1bb72eb7ac4b14011cfab1002303f28de5",
@@ -289,6 +304,45 @@ const companyData = [
     companyDescription:
       "Tata Consultancy Services (TCS) is a global leader in IT services, consulting, and business solutions, offering a wide range of services to help organizations achieve their digital transformation goals. TCS is known for its commitment to innovation, customer satisfaction, and sustainability. With a strong global presence and a focus on technology-driven solutions, TCS helps clients navigate complex challenges and achieve their strategic objectives. The company fosters a collaborative and inclusive work environment, supporting continuous learning and career growth.",
     totalEmployees: 600000,
+    roadmap: roadmap.backend,
+  },
+  {
+    id: "ef22a51512fc6e1b4b94939b8782c58a93ea6340",
+    jobTitle: "Backend Developer",
+    companyLogo: companyImage.Capgemini,
+    companyName: "Capgemini",
+    dateRecruitment: "Posted 2 weeks ago",
+    salary: "₹11L – ₹22L",
+    description:
+      "You will be responsible for the server-side web application logic as well as the integration of the front-end part. Strong understanding of RESTful services, databases, and server architecture is required. Experience with Java, Python, or Node.js is essential.",
+    benefits: "Health insurance, Paid time off",
+    jobType: "Full-time",
+    location: "Hyderabad, Telangana",
+    companyWebsiteLink: "https://www.capgemini.com",
+    linkedInLink: "https://www.linkedin.com/company/capgemini",
+    companyDescription:
+      "Capgemini is a global leader in consulting, technology services, and digital transformation. The company provides a wide range of services, including IT consulting, systems integration, and application development. Capgemini is committed to innovation and excellence, leveraging its expertise to help clients achieve their strategic objectives. With a focus on collaborative solutions and customer satisfaction, Capgemini supports a dynamic work environment and continuous professional growth for its employees.",
+    totalEmployees: 300000,
+    roadmap: roadmap.backend,
+  },
+  {
+    id: "e452ddca34c9fe83f9c261546792921643a12780",
+    jobTitle: "Software Developer",
+    companyLogo: companyImage.IBM,
+    companyName: "IBM",
+    dateRecruitment: "Posted 2 days ago",
+    salary: "₹14L – ₹28L",
+    description:
+      "Develop and maintain server-side logic, design and maintain databases, and ensure high performance and responsiveness. Experience with cloud platforms like AWS or Azure is preferred. Proficiency in server-side languages such as Node.js, Ruby, or PHP is essential.",
+    benefits: "Flexible working hours, Health insurance, Stock options",
+    jobType: "Full-time",
+    location: "Bangalore, Karnataka",
+    companyWebsiteLink: "https://www.ibm.com",
+    linkedInLink: "https://www.linkedin.com/company/ibm",
+    companyDescription:
+      "IBM is a global technology and consulting company, known for its innovation in cloud computing, AI, and enterprise solutions. The company provides a wide range of services designed to help organizations transform their operations and achieve their strategic objectives. IBM promotes a collaborative and inclusive work environment, offering continuous learning and career development opportunities. The company values its employees and supports their professional growth in a rapidly evolving technology landscape.",
+    totalEmployees: 350000,
+    roadmap: roadmap.fullstack,
   },
   {
     id: "cb1c7d06c439bccf14b73985b6967ef08f8d3e4d",
@@ -310,27 +364,7 @@ const companyData = [
     companyDescription:
       "Travitons Technologies is a cutting-edge software development company specializing in creating high-quality mobile applications and web solutions. Our team consists of highly skilled engineers and designers who are dedicated to delivering innovative and scalable solutions for our clients. We emphasize a collaborative and dynamic work environment, ensuring continuous learning and professional growth for our employees. With a focus on excellence and customer satisfaction, we have established ourselves as a trusted partner in the tech industry.",
     totalEmployees: "200",
-  },
-  {
-    id: "24d89f8bc0ff107b80b8dbffc8b01f2be0fc597f",
-    jobTitle: "Android Developer",
-    companyLogo: companyImage.SaffoSolutionTechnology,
-    companyName: "Saffo Solution Technology",
-    date_recruitment: "2024-07-01",
-    salary: "₹12L – ₹18L",
-    description:
-      "Saffo Solution Technology seeks an Android Developer to develop and maintain mobile applications. The role involves working on new features and improving existing functionalities, ensuring seamless user experiences.",
-    benefits:
-      "Comprehensive health insurance, remote work flexibility, and career growth opportunities.",
-    jobType: "Full-time",
-    job_detail:
-      "Develop and maintain Android applications, collaborate with designers and other developers, and optimize applications for maximum speed.",
-    location: "Remote",
-    company_website_link: "https://saffosolutions.com",
-    linkedin_link: "https://linkedin.com/company/saffo-solution-technology",
-    companyDescription:
-      "Saffo Solution Technology is a renowned provider of innovative software solutions, specializing in mobile application development and digital transformation services. Our team is dedicated to delivering cutting-edge technology solutions that meet the evolving needs of our clients. We pride ourselves on our collaborative culture and commitment to professional development, providing ample opportunities for career growth. With a strong focus on customer satisfaction and technological excellence, we have built a reputation as a reliable and forward-thinking tech company.",
-    totalEmployees: "150",
+    roadmap: roadmap.android,
   },
   {
     id: "e5b2e2d95980ed5b6df32adfeeba7283b4cebaf8",
@@ -349,6 +383,70 @@ const companyData = [
     companyDescription:
       "HCL Technologies is a global IT services and consulting company, providing a wide range of services including application development, infrastructure management, and engineering services. Known for its strong focus on innovation and customer satisfaction, HCL Technologies helps businesses optimize their technology investments and achieve their strategic goals. The company promotes a culture of collaboration, continuous learning, and career advancement, offering a dynamic work environment for its employees.",
     totalEmployees: 220000,
+    roadmap: roadmap.backend,
+  },
+  {
+    id: "24d89f8bc0ff107b80b8dbffc8b01f2be0fc597f",
+    jobTitle: "Android Developer",
+    companyLogo: companyImage.SaffoSolutionTechnology,
+    companyName: "Saffo Solution Technology",
+    date_recruitment: "2024-07-01",
+    salary: "₹12L – ₹18L",
+    description:
+      "Saffo Solution Technology seeks an Android Developer to develop and maintain mobile applications. The role involves working on new features and improving existing functionalities, ensuring seamless user experiences.",
+    benefits:
+      "Comprehensive health insurance, remote work flexibility, and career growth opportunities.",
+    jobType: "Full-time",
+    job_detail:
+      "Develop and maintain Android applications, collaborate with designers and other developers, and optimize applications for maximum speed.",
+    location: "Remote",
+    company_website_link: "https://www.saffotech.com/",
+    linkedin_link: "https://linkedin.com/company/saffo-solution-technology",
+    companyDescription:
+      "Saffo Solution Technology is a renowned provider of innovative software solutions, specializing in mobile application development and digital transformation services. Our team is dedicated to delivering cutting-edge technology solutions that meet the evolving needs of our clients. We pride ourselves on our collaborative culture and commitment to professional development, providing ample opportunities for career growth. With a strong focus on customer satisfaction and technological excellence, we have built a reputation as a reliable and forward-thinking tech company.",
+    totalEmployees: "150",
+    roadmap: roadmap.android,
+  },
+  {
+    id: "e5b2e2d95980ed5b6df32adfeeba7283b4cebaf8",
+    jobTitle: "Backend Developer",
+    companyLogo: companyImage.HCl,
+    companyName: "HCL Technologies",
+    dateRecruitment: "Posted 1 week ago",
+    salary: "₹8L – ₹16L",
+    description:
+      "You will be part of a team that develops server-side logic, database management, and ensuring high performance. Experience with Node.js, Express, and MongoDB is required. Responsibilities include collaborating with front-end developers, designing RESTful APIs, and optimizing server-side applications.",
+    benefits: "Paid time off, Health insurance",
+    jobType: "Full-time",
+    location: "Chennai, Tamil Nadu",
+    companyWebsiteLink: "https://www.hcltech.com",
+    linkedInLink: "https://www.linkedin.com/company/hcl-technologies",
+    companyDescription:
+      "HCL Technologies is a global IT services and consulting company, providing a wide range of services including application development, infrastructure management, and engineering services. Known for its strong focus on innovation and customer satisfaction, HCL Technologies helps businesses optimize their technology investments and achieve their strategic goals. The company promotes a culture of collaboration, continuous learning, and career advancement, offering a dynamic work environment for its employees.",
+    totalEmployees: 220000,
+    roadmap: roadmap.backend,
+  },
+  {
+    id: "18054a2b4dd540a25628ebae3b4d0311b9043815",
+    jobTitle: "Java Developer",
+    companyLogo: companyImage.LTIMindtree,
+    companyName: "LTIMindtree",
+    date_recruitment: "2024-08-01",
+    salary: "₹1,300,000 - ₹1,800,000 per annum",
+    description:
+      "We are actively looking for an experienced Java developer with 5 to 8 years of experience. You will be responsible for designing, developing, testing, and deploying Java applications.",
+    benefits:
+      "Health insurance, Flexible working hours, Professional growth opportunities",
+    jobType: "Full-time",
+    job_detail:
+      "Design and develop Java applications. Must have strong technical knowledge and excellent communication skills.",
+    location: "Chennai, India",
+    company_website: "https://www.ltimindtree.com",
+    linkedin_link: "https://www.linkedin.com/company/ltimindtree",
+    companyDescription:
+      "LTIMindtree is a global technology consulting and digital solutions company that helps enterprises across industries achieve their business transformation goals. With a deep industry knowledge and a strong focus on customer success, we deliver innovative solutions that drive efficiency and growth. Our team of experts collaborates closely with clients to address their unique challenges and create value through technology.",
+    totalEmployees: "46000",
+    roadmap: roadmap.java,
   },
   {
     id: "b074357cbdf481736821f21c6380250f94881ee2",
@@ -362,11 +460,96 @@ const companyData = [
     benefits: "Flexible working hours, Health insurance",
     jobType: "Full-time",
     location: "Bangalore, Karnataka",
-    companyWebsiteLink: "https://www.mindtree.com",
-    linkedInLink: "https://www.linkedin.com/company/mindtree",
+    companyWebsiteLink: "https://www.ltimindtree.com/",
+    linkedInLink: "https://www.linkedin.com/company/ltimindtree/",
     companyDescription:
       "Mindtree is a global technology consulting and services company, specializing in digital transformation, cloud computing, and analytics. The company is known for its customer-centric approach and innovative solutions that drive business growth. Mindtree fosters a collaborative work environment and is dedicated to employee development and career progression. With a focus on agility and excellence, Mindtree helps clients achieve their digital goals and navigate the complexities of the technology landscape.",
     totalEmployees: 30000,
+    roadmap: roadmap.backend,
+  },
+  {
+    id: "f6749c4927d2885f54be9845bb7cf513e52a1db",
+    jobTitle: "Data Scientist",
+    companyLogo: companyImage.nextgensol,
+    companyName: "NextGen Solution",
+    dateRecruitment: "2024-09-07",
+    salary: "₹14,00,000 - ₹19,00,000 per annum",
+    description:
+      "As a Data Scientist at NextGen Data, you will work on projects that involve large-scale data processing and analysis. You will be responsible for developing models that can be deployed in real-time environments to provide immediate insights.",
+    benefits: "Health insurance, Paid time off, Flexible hours",
+    jobType: "Full-time",
+    location: "Gurgaon, Haryana",
+    companyWebsiteLink: "http://www.nextgendata.in/",
+    linkedInLink:
+      "https://www.linkedin.com/company/nextgen-data-technologies/?originalSubdomain=in",
+    companyDescription:
+      "NextGen Data is a cutting-edge data analytics company that specializes in real-time data processing. We help businesses make faster, more informed decisions by providing them with the insights they need when they need them. Our team of 400 employees is dedicated to pushing the boundaries of what's possible with data.",
+    totalEmployees: 400,
+    roadmap: roadmap.datascientist,
+  },
+
+  {
+    id: "cb1c7d06c439bccf14b73985b6967ef08f8d3e4d",
+    jobTitle: "Android Developer",
+    companyLogo: companyImage.Travitons,
+    companyName: "Travitons Technologies",
+    date_recruitment: "2024-07-05",
+    salary: "₹10L – ₹15L",
+    description:
+      "As an Android Developer, you will be responsible for designing and developing innovative mobile applications for the Android platform. You will work closely with a dynamic team of engineers and designers to create high-quality, scalable applications.",
+    benefits:
+      "Health insurance, remote work options, performance bonuses, and learning opportunities.",
+    jobType: "Full-time",
+    job_detail:
+      "Design and develop Android applications, collaborate with cross-functional teams, and ensure performance and quality.",
+    location: "Remote",
+    company_website_link: "https://travitons.com",
+    linkedin_link: "https://linkedin.com/company/travitons",
+    companyDescription:
+      "Travitons Technologies is a cutting-edge software development company specializing in creating high-quality mobile applications and web solutions. Our team consists of highly skilled engineers and designers who are dedicated to delivering innovative and scalable solutions for our clients. We emphasize a collaborative and dynamic work environment, ensuring continuous learning and professional growth for our employees. With a focus on excellence and customer satisfaction, we have established ourselves as a trusted partner in the tech industry.",
+    totalEmployees: "200",
+    roadmap: roadmap.android,
+  },
+  {
+    id: "24d89f8bc0ff107b80b8dbffc8b01f2be0fc597f",
+    jobTitle: "Android Developer",
+    companyLogo: companyImage.SaffoSolutionTechnology,
+    companyName: "Saffo Solution Technology",
+    date_recruitment: "2024-07-01",
+    salary: "₹12L – ₹18L",
+    description:
+      "Saffo Solution Technology seeks an Android Developer to develop and maintain mobile applications. The role involves working on new features and improving existing functionalities, ensuring seamless user experiences.",
+    benefits:
+      "Comprehensive health insurance, remote work flexibility, and career growth opportunities.",
+    jobType: "Full-time",
+    job_detail:
+      "Develop and maintain Android applications, collaborate with designers and other developers, and optimize applications for maximum speed.",
+    location: "Remote",
+    company_website_link: "https://www.saffotech.com/",
+    linkedin_link: "https://linkedin.com/company/saffo-solution-technology",
+    companyDescription:
+      "Saffo Solution Technology is a renowned provider of innovative software solutions, specializing in mobile application development and digital transformation services. Our team is dedicated to delivering cutting-edge technology solutions that meet the evolving needs of our clients. We pride ourselves on our collaborative culture and commitment to professional development, providing ample opportunities for career growth. With a strong focus on customer satisfaction and technological excellence, we have built a reputation as a reliable and forward-thinking tech company.",
+    totalEmployees: "150",
+    roadmap: roadmap.android,
+  },
+  {
+    id: "b074357cbdf481736821f21c6380250f94881ee2",
+    jobTitle: "Backend Developer",
+    companyLogo: companyImage.MINDTREE,
+    companyName: "Mindtree",
+    dateRecruitment: "Posted 4 days ago",
+    salary: "₹9L – ₹17L",
+    description:
+      "The role involves developing and managing server-side logic, designing and maintaining databases, and ensuring high performance and scalability. Experience with Java, Python, or Ruby on Rails is essential. You will work closely with front-end developers to integrate user-facing elements.",
+    benefits: "Flexible working hours, Health insurance",
+    jobType: "Full-time",
+    location: "Bangalore, Karnataka",
+    companyWebsiteLink: "https://www.ltimindtree.com/",
+    linkedInLink: "https://www.linkedin.com/company/ltimindtree/",
+    companyDescription:
+      "Mindtree is a global technology consulting and services company, specializing in digital transformation, cloud computing, and analytics. The company is known for its customer-centric approach and innovative solutions that drive business growth. Mindtree fosters a collaborative work environment and is dedicated to employee development and career progression. With a focus on agility and excellence, Mindtree helps clients achieve their digital goals and navigate the complexities of the technology landscape.",
+    totalEmployees: 30000,
+    roadmap: roadmap.backend,
   },
   {
     id: "ef22a51512fc6e1b4b94939b8782c58a93ea6340",
@@ -385,6 +568,7 @@ const companyData = [
     companyDescription:
       "Capgemini is a global leader in consulting, technology services, and digital transformation. The company provides a wide range of services, including IT consulting, systems integration, and application development. Capgemini is committed to innovation and excellence, leveraging its expertise to help clients achieve their strategic objectives. With a focus on collaborative solutions and customer satisfaction, Capgemini supports a dynamic work environment and continuous professional growth for its employees.",
     totalEmployees: 300000,
+    roadmap: roadmap.backend,
   },
   {
     id: "1f57bcc14a2e337f1155e161bd890d77185e34f0",
@@ -403,481 +587,7 @@ const companyData = [
     companyDescription:
       "Cognizant is a leading provider of IT services and consulting, specializing in digital transformation, technology consulting, and business process outsourcing. The company helps clients drive innovation and operational efficiency through its expertise in areas such as cloud computing, AI, and analytics. Cognizant is committed to fostering a collaborative work environment and supporting employee growth and development. The company’s focus on customer-centric solutions and technological excellence drives its success in the global market.",
     totalEmployees: 350000,
-  },
-  {
-    id: "0221d7535caa514e62a780820e0798d740d4141b",
-    jobTitle: "Backend Developer",
-    companyLogo: companyImage.Oracle,
-    companyName: "Oracle",
-    dateRecruitment: "Posted 2 days ago",
-    salary: "₹12L – ₹25L",
-    description:
-      "You will design and implement server-side logic, ensure high performance and responsiveness, and maintain databases. Experience with cloud platforms like AWS or Azure is preferred. Proficiency in server-side languages such as Node.js, Ruby, or PHP is essential.",
-    benefits: "Health insurance, Stock options",
-    jobType: "Full-time",
-    location: "Bangalore, Karnataka",
-    companyWebsiteLink: "https://www.oracle.com",
-    linkedInLink: "https://www.linkedin.com/company/oracle",
-    companyDescription:
-      "Oracle Corporation is a global leader in database software and technology, cloud solutions, and enterprise software products. The company offers a comprehensive suite of solutions to help businesses manage and analyze their data effectively. Known for its innovation and commitment to technology excellence, Oracle supports a collaborative and dynamic work environment. The company values continuous learning and development, providing its employees with opportunities to advance their careers in a rapidly evolving industry.",
-    totalEmployees: 150000,
-  },
-
-  {
-    id: "31cab63a97b5746b46e21d513e533317662555e9",
-    jobTitle: "Backend Developer",
-    companyLogo: companyImage.IBM,
-    companyName: "IBM",
-    dateRecruitment: "Posted 3 days ago",
-    salary: "₹14L – ₹28L",
-    description:
-      "IBM is looking for a backend developer to build and maintain server-side logic for web applications. Proficiency in Java, Python, or Go is essential. Responsibilities include designing database schemas, optimizing performance, and ensuring data security. Experience with cloud platforms like AWS or Azure is preferred.",
-    benefits: "Flexible working hours, Health insurance",
-    jobType: "Full-time",
-    location: "Mumbai, Maharashtra",
-    companyWebsiteLink: "https://www.ibm.com",
-    linkedInLink: "https://www.linkedin.com/company/ibm",
-    companyDescription:
-      "IBM is a global technology and consulting company, offering a broad range of services including cloud computing, AI, and enterprise solutions. The company is known for its innovation and leadership in technology, helping organizations transform their operations and achieve their strategic goals. IBM provides a collaborative and inclusive work environment, promoting continuous learning and professional growth. The company values its employees and is committed to supporting their career development in a dynamic and ever-evolving industry.",
-    totalEmployees: 350000,
-  },
-  {
-    id: "b1459ac83b7336d8a6a3d1a6ff39a1f46cea9bed",
-    jobTitle: "Software Developer",
-    companyLogo: companyImage.TCS,
-    companyName: "Tata Consultancy Services",
-    dateRecruitment: "Active 7 days ago",
-    salary: "₹12L – ₹25L",
-    description:
-      "You will develop software solutions by studying information needs, conferring with users, and studying systems flow, data usage, and work processes. Proficiency in languages such as Java, Python, or .NET is essential. Experience with full software development lifecycle and agile methodologies is preferred.",
-    benefits: "Health insurance, Paid time off, Retirement benefits",
-    jobType: "Full-time",
-    location: "Pune, Maharashtra",
-    companyWebsiteLink: "https://www.tcs.com",
-    linkedInLink: "https://www.linkedin.com/company/tata-consultancy-services",
-    companyDescription:
-      "Tata Consultancy Services (TCS) is a global leader in IT services, consulting, and business solutions. TCS offers a wide range of services to help organizations with digital transformation, technology integration, and business optimization. Known for its innovation and client-centric approach, TCS helps businesses leverage emerging technologies to drive growth and efficiency. The company promotes a collaborative work environment and supports career development through continuous learning and professional advancement.",
-    totalEmployees: 600000,
-  },
-  {
-    id: "15432130d5e465ab8e358f318c761e651131ca5b",
-    jobTitle: "Software Developer",
-    companyLogo: companyImage.HCl,
-    companyName: "HCL Technologies",
-    dateRecruitment: "Posted 3 days ago",
-    salary: "₹10L – ₹18L",
-    description:
-      "Develop and implement new software programs, maintain and improve existing software, and ensure code quality and performance. Experience with Java, C++, or Python is required. Responsibilities include participating in code reviews, collaborating with cross-functional teams, and staying updated with industry trends.",
-    benefits: "Paid time off, Health insurance, Retirement benefits",
-    jobType: "Full-time",
-    location: "Chennai, Tamil Nadu",
-    companyWebsiteLink: "https://www.hcltech.com",
-    linkedInLink: "https://www.linkedin.com/company/hcl-technologies",
-    companyDescription:
-      "HCL Technologies is a global IT services and consulting company, offering a diverse range of services including application development, infrastructure management, and engineering solutions. The company is known for its innovative approach and focus on customer satisfaction. HCL Technologies helps businesses optimize their technology investments and drive digital transformation. With a strong emphasis on employee development and career growth, HCL fosters a dynamic and collaborative work environment.",
-    totalEmployees: 220000,
-  },
-  {
-    id: "0a07c18898b4e1720d576efc0211962aee061d4f",
-    jobTitle: "Software Developer",
-    companyLogo: companyImage.Capgemini,
-    companyName: "Capgemini",
-    dateRecruitment: "Posted 4 days ago",
-    salary: "₹8L – ₹16L",
-    description:
-      "Design, develop, and test software applications. Proficiency in programming languages such as Java, Python, or C# is essential. Responsibilities include writing clean, efficient code, participating in code reviews, and working with other developers and stakeholders to understand and meet project requirements.",
-    benefits: "Health insurance, Paid time off, Flexible working hours",
-    jobType: "Full-time",
-    location: "Bangalore, Karnataka",
-    companyWebsiteLink: "https://www.capgemini.com",
-    linkedInLink: "https://www.linkedin.com/company/capgemini",
-    companyDescription:
-      "Capgemini is a global leader in consulting, technology services, and digital transformation. The company provides end-to-end services to help organizations improve their technology and business processes. Capgemini is known for its expertise in digital transformation and innovation. The company fosters a collaborative work environment and supports professional development through continuous learning and growth opportunities. Capgemini’s focus is on delivering high-value solutions to clients while maintaining a strong commitment to sustainability and ethical practices.",
-    totalEmployees: 300000,
-  },
-  {
-    id: "fa4540a80bc11bac18e99e9070027cce6719bfe6",
-    jobTitle: "Software Developer",
-    companyLogo: companyImage.Congnizant,
-    companyName: "Cognizant",
-    dateRecruitment: "Posted 2 weeks ago",
-    salary: "₹10L – ₹20L",
-    description:
-      "Develop and maintain software applications, ensuring high performance and responsiveness. Experience with web technologies, cloud platforms, and containerization tools is preferred. Proficiency in languages such as Java, Python, or Go is required. Responsibilities include troubleshooting and debugging software issues, collaborating with cross-functional teams, and implementing best practices for software development.",
-    benefits: "Health insurance, Performance bonus, Paid time off",
-    jobType: "Full-time",
-    location: "Hyderabad, Telangana",
-    companyWebsiteLink: "https://www.cognizant.com",
-    linkedInLink: "https://www.linkedin.com/company/cognizant",
-    companyDescription:
-      "Cognizant is a global leader in IT services and consulting, providing a range of solutions that drive digital transformation and operational efficiency. The company specializes in areas such as cloud computing, AI, and analytics. Cognizant is committed to delivering high-quality services and fostering a collaborative work environment. With a strong focus on innovation and customer satisfaction, Cognizant supports continuous learning and career development for its employees.",
-    totalEmployees: 350000,
-  },
-  {
-    id: "7c62046a719b49bf5f312265de3951d4e2b98f0a",
-    jobTitle: "Software Developer",
-    companyLogo: companyImage.Oracle,
-    companyName: "Oracle",
-    dateRecruitment: "Active 10 days ago",
-    salary: "₹12L – ₹25L",
-    description:
-      "Design, develop, and maintain software applications. Experience with Java, Python, or C# is essential. Responsibilities include writing clean, scalable code, collaborating with cross-functional teams, and ensuring code quality through regular code reviews and testing.",
-    benefits: "Health insurance, Stock options, Paid time off",
-    jobType: "Full-time",
-    location: "Mumbai, Maharashtra",
-    companyWebsiteLink: "https://www.oracle.com",
-    linkedInLink: "https://www.linkedin.com/company/oracle",
-    companyDescription:
-      "Oracle Corporation is a global leader in database software, cloud solutions, and enterprise software products. The company is known for its comprehensive suite of solutions that help businesses manage and analyze their data. Oracle is committed to innovation and technology excellence, providing a collaborative and dynamic work environment. The company offers continuous learning and career development opportunities for its employees, supporting them in achieving their professional goals.",
-    totalEmployees: 150000,
-  },
-  {
-    id: "e452ddca34c9fe83f9c261546792921643a12780",
-    jobTitle: "Software Developer",
-    companyLogo: companyImage.IBM,
-    companyName: "IBM",
-    dateRecruitment: "Posted 2 days ago",
-    salary: "₹14L – ₹28L",
-    description:
-      "Develop and maintain server-side logic, design and maintain databases, and ensure high performance and responsiveness. Experience with cloud platforms like AWS or Azure is preferred. Proficiency in server-side languages such as Node.js, Ruby, or PHP is essential.",
-    benefits: "Flexible working hours, Health insurance, Stock options",
-    jobType: "Full-time",
-    location: "Bangalore, Karnataka",
-    companyWebsiteLink: "https://www.ibm.com",
-    linkedInLink: "https://www.linkedin.com/company/ibm",
-    companyDescription:
-      "IBM is a global technology and consulting company, known for its innovation in cloud computing, AI, and enterprise solutions. The company provides a wide range of services designed to help organizations transform their operations and achieve their strategic objectives. IBM promotes a collaborative and inclusive work environment, offering continuous learning and career development opportunities. The company values its employees and supports their professional growth in a rapidly evolving technology landscape.",
-    totalEmployees: 350000,
-  },
-  {
-    id: "1d254e814a6322fbd2dde5e0db2f0e792e23fa61",
-    jobTitle: "Software Developer",
-    companyLogo: companyImage.MINDTREE,
-    companyName: "Mindtree",
-    dateRecruitment: "Posted 3 days ago",
-    salary: "₹11L – ₹22L",
-    description:
-      "Responsible for developing and maintaining software applications using modern development tools and practices. Strong knowledge of object-oriented programming, algorithms, and data structures is required. Experience with cloud services such as AWS or Azure is preferred.",
-    benefits: "Flexible working hours, Health insurance, Performance bonus",
-    jobType: "Full-time",
-    location: "Mumbai, Maharashtra",
-    companyWebsiteLink: "https://www.mindtree.com",
-    linkedInLink: "https://www.linkedin.com/company/mindtree",
-    companyDescription:
-      "Mindtree is a global technology consulting and services company, specializing in digital transformation and IT solutions. The company provides a range of services including application development, cloud computing, and analytics. Mindtree focuses on delivering innovative solutions to help clients achieve their business goals. With a strong emphasis on collaboration and employee growth, Mindtree fosters a dynamic work environment and supports career advancement through continuous learning opportunities.",
-    totalEmployees: 200000,
-  },
-  {
-    id: "394bb5f0ecc7464e01706b410ee46e8c8d48c99c",
-    jobTitle: "Software Developer",
-    companyLogo: companyImage.TechMahindra,
-    companyName: "Tech Mahindra",
-    dateRecruitment: "Posted 1 week ago",
-    salary: "₹13L – ₹26L",
-    description:
-      "You will design, develop, and maintain software applications. Proficiency in programming languages such as Java, Python, or C# is essential. Responsibilities include writing clean, scalable code, collaborating with cross-functional teams, and troubleshooting and debugging applications to ensure optimal performance.",
-    benefits: "Health insurance, Paid time off, Retirement benefits",
-    jobType: "Full-time",
-    location: "Hyderabad, Telangana",
-    companyWebsiteLink: "https://www.techmahindra.com",
-    linkedInLink: "https://www.linkedin.com/company/tech-mahindra",
-    companyDescription:
-      "Tech Mahindra is a leading provider of IT services and solutions, focusing on digital transformation and innovation. The company offers a broad range of services including application development, cloud computing, and IT consulting. Tech Mahindra is known for its customer-centric approach and commitment to delivering high-quality solutions. The company provides a collaborative work environment and supports employee development through various learning and career growth opportunities.",
-    totalEmployees: 150000,
-  },
-
-  {
-    id: "5606d8c6dfa19a3f0234f303e4f32ab158534897",
-    jobTitle: "Android Developer",
-    companyLogo: companyImage.DuplexTechnologiesAdobe,
-    companyName: "Duplex Technologies",
-    date_recruitment: "2024-07-30",
-    salary: "₹8L – ₹12L",
-    description:
-      "Duplex Technologies is looking for an Android Developer with 1-3 years of experience. The role involves developing high-quality applications and working closely with product managers and other developers.",
-    benefits:
-      "Health benefits, flexible work hours, and opportunities for professional development.",
-    jobType: "Full-time",
-    job_detail:
-      "Develop and maintain Android applications, work closely with the product team, and participate in code reviews.",
-    location: "Lucknow, Uttar Pradesh",
-    company_website_link: "https://duplextech.com",
-    linkedin_link: "https://linkedin.com/company/duplex-technologies",
-    companyDescription:
-      "Duplex Technologies is a leading software development company that specializes in creating high-quality mobile and web applications. With a strong focus on innovation and customer satisfaction, our team works diligently to deliver solutions that meet the unique needs of each client. Our collaborative environment fosters creativity and professional growth, making Duplex Technologies a great place to build a career. We are committed to excellence and continuously strive to improve our processes and technologies.",
-    totalEmployees: "300",
-  },
-  {
-    id: "9b8e8bf9281249dd346d3632890a4a4b5127a24c",
-    jobTitle: "Java Developer",
-    companyLogo: companyImage.reflectionsit_logo,
-    companyName: "Reflections Info Systems",
-    date_recruitment: "2024-08-01",
-    salary: "₹1,200,000 - ₹1,800,000 per annum",
-    description:
-      "We are looking for Pune based candidates with 5+ years of experience. Must have strong proficiency in Core Java, Spring Framework, and Spring Boot. Good problem-solving skills and understanding of software architecture and design patterns are essential.",
-    benefits: "Health insurance, Paid time off, Remote working options",
-    jobType: "Full-time",
-    job_detail:
-      "Responsible for developing high-quality applications using Core Java and Spring Boot. Experience with Hibernate and Microservices is a plus.",
-    location: "Pune, India",
-    company_website: "https://www.reflectionsinfos.com",
-    linkedin_link: "https://www.linkedin.com/company/reflections-info-systems",
-    companyDescription:
-      "Reflections Info Systems is a technology company that specializes in delivering innovative software solutions. With a focus on quality and client satisfaction, we strive to provide cutting-edge technology services across various industries. Our team is composed of highly skilled professionals dedicated to driving success through digital transformation. We foster a collaborative and inclusive work environment, encouraging continuous learning and growth.",
-    totalEmployees: "500",
-  },
-  {
-    id: "e07e453a0a0d1881b701154381c10c25b6cf8d5e",
-    jobTitle: "Java Developer",
-    companyLogo: companyImage.TelitCinterion,
-    companyName: "Telit Cinterion",
-    date_recruitment: "2024-08-03",
-    salary: "₹1,500,000 - ₹2,000,000 per annum",
-    description:
-      "We are seeking a Java Developer with experience in building high-performing, scalable, enterprise-grade applications. You will manage Java/Java EE application development while providing expertise in the full software development lifecycle.",
-    benefits:
-      "Flexible working hours, Health insurance, Professional development",
-    jobType: "Full-time",
-    job_detail:
-      "Responsible for Java/Java EE application development, from concept to testing. Strong understanding of design patterns and architectural concepts required.",
-    location: "Bangalore, India",
-    company_website: "https://www.telit.com",
-    linkedin_link: "https://www.linkedin.com/company/telit",
-    companyDescription:
-      "Telit Cinterion is a global leader in IoT solutions, providing advanced technologies and services to connect devices and applications. We specialize in wireless communication modules, platforms, and connectivity services. Our solutions enable businesses to achieve operational efficiencies, improve customer experiences, and drive innovation. With a strong commitment to quality and reliability, Telit Cinterion empowers industries to harness the power of IoT.",
-    totalEmployees: "1500",
-  },
-  {
-    id: "0ec9570cb5b6e8873a3af6f0608fbb47c53aa56a",
-    jobTitle: "Android Developer",
-    companyLogo: companyImage.Hub2Technologies,
-    companyName: "Hub2Technologies",
-    date_recruitment: "2024-07-02",
-    salary: "₹9L – ₹14L",
-    description:
-      "Hub2Technologies is hiring an Android Developer to work on new features and functionalities for their mobile applications. The role includes collaborating with the development team to ensure high performance and responsiveness.",
-    benefits: "Remote work options, health insurance, and performance bonuses.",
-    jobType: "Full-time",
-    job_detail:
-      "Design and implement new features, ensure the quality of the code, and collaborate with other team members.",
-    location: "Mansarovar, Jaipur, Rajasthan",
-    company_website_link: "https://hub2technologies.com",
-    linkedin_link: "https://linkedin.com/company/hub2technologies",
-    companyDescription:
-      "Hub2Technologies is a dynamic technology company dedicated to developing innovative mobile and web solutions. Our team of experts is committed to delivering high-quality products that meet the needs of our clients. We foster a collaborative and inclusive work environment that encourages professional growth and continuous learning. At Hub2Technologies, we are passionate about technology and strive to stay ahead of industry trends, ensuring our clients receive the best possible solutions.",
-    totalEmployees: "250",
-  },
-  {
-    id: "282b6f5a9e6dd657eca770d9725539efc603ea12",
-    jobTitle: "Android Developer",
-    companyLogo: companyImage.JLKH,
-    companyName: "JKHL VISION",
-    date_recruitment: "2024-07-27",
-    salary: "₹7L – ₹10L",
-    description:
-      "JKHL VISION is looking for an Android Developer to optimize mobile applications for low latency and real-time data processing. The role involves collaborating with various teams to deliver high-quality solutions.",
-    benefits:
-      "Health insurance, flexible working conditions, and continuous learning opportunities.",
-    jobType: "Full-time, Part-time",
-    job_detail:
-      "Develop and maintain Android applications, optimize for performance, and collaborate with cross-functional teams.",
-    location: "Noida, Uttar Pradesh",
-    company_website_link: "https://jkhlvision.com",
-    linkedin_link: "https://linkedin.com/company/jkhlvision",
-    companyDescription:
-      "JKHL VISION is a forward-thinking technology company specializing in developing high-performance mobile applications and software solutions. Our team is dedicated to creating products that deliver exceptional user experiences and meet the specific needs of our clients. We prioritize a collaborative and flexible work environment that supports professional development and continuous learning. At JKHL VISION, we are committed to innovation and excellence, making us a trusted partner in the tech industry.",
-    totalEmployees: "180",
-  },
-  {
-    id: "a6317d5a421dbf512f8e4b5f4e7813106e114f9c",
-    jobTitle: "Android Developer",
-    companyLogo: companyImage.constams_ai,
-    companyName: "Constems-AI",
-    date_recruitment: "2024-07-04",
-    salary: "₹6L – ₹9L",
-    description:
-      "Constems-AI is hiring an Android Developer intern to design and develop innovative Android applications. The role includes mentoring junior developers and working on REST API integration.",
-    benefits:
-      "Mentorship, career growth opportunities, and hands-on experience in mobile development.",
-    jobType: "Internship",
-    job_detail:
-      "Develop Android applications, integrate with REST APIs, and assist in guiding junior developers.",
-    location: "Noida, Uttar Pradesh",
-    company_website_link: "https://constemsai.com",
-    linkedin_link: "https://linkedin.com/company/constemsai",
-    companyDescription:
-      "Constems-AI is a cutting-edge technology company specializing in artificial intelligence and machine learning solutions. Our team is passionate about innovation and dedicated to developing advanced AI applications that drive business success. We provide a collaborative and supportive work environment that fosters professional growth and continuous learning. At Constems-AI, we are committed to excellence and strive to stay at the forefront of technological advancements, making a significant impact in the industry.",
-    totalEmployees: "100",
-  },
-  {
-    id: "5f8023037402a3938f6a6b06923959fecc29b768",
-    jobTitle: "Android Developer",
-    companyLogo: companyImage.Octobit,
-    companyName: "Octobit",
-    date_recruitment: "2024-07-03",
-    salary: "₹9L – ₹12L",
-    description:
-      "Octobit seeks an Android Developer to create high-quality mobile applications that provide excellent user experiences. The role involves working closely with designers and developers to deliver robust solutions.",
-    benefits:
-      "Health benefits, flexible work hours, and opportunities for professional growth.",
-    jobType: "Full-time",
-    job_detail:
-      "Collaborate with designers and developers, create high-quality applications, and ensure excellent user experiences.",
-    location: "Varanasi, Uttar Pradesh",
-    company_website_link: "https://octobit.com",
-    linkedin_link: "https://linkedin.com/company/octobit",
-    companyDescription:
-      "Octobit is a leading software development company specializing in mobile and web application development. Our team is dedicated to delivering high-quality solutions that enhance user experiences and meet the unique needs of our clients. We foster a collaborative and innovative work environment that supports professional growth and continuous learning. At Octobit, we are committed to excellence and strive to stay ahead of industry trends, making us a trusted partner in the tech industry.",
-    totalEmployees: "220",
-  },
-  {
-    id: "c2154fd80227b123ff9180f2c63591fde75c805e",
-    jobTitle: "Android Developer",
-    companyLogo: companyImage.IBM,
-    companyName: "IBM",
-    date_recruitment: "2024-07-20",
-    salary: "Competitive",
-    description:
-      "IBM is hiring an Application Developer for mobile platforms, including Android. The role involves working in the IBM Consulting Client Innovation Centers to deliver high-quality software solutions.",
-    benefits:
-      "Comprehensive health insurance, retirement plans, and professional development opportunities.",
-    jobType: "Full-time",
-    job_detail:
-      "Develop mobile applications, collaborate with global teams, and contribute to innovative solutions.",
-    location: "Mumbai, India",
-    company_website_link: "https://ibm.com",
-    linkedin_link: "https://linkedin.com/company/ibm",
-    companyDescription:
-      "IBM is a global technology and consulting company that provides a wide range of services and solutions to clients worldwide. With a focus on innovation and technological advancement, IBM is committed to helping businesses and organizations transform and succeed in the digital era. Our team of experts works across various domains, including AI, cloud computing, and cybersecurity, to deliver high-quality solutions that meet the diverse needs of our clients. At IBM, we foster a collaborative and inclusive work environment that encourages professional growth and continuous learning.",
-    totalEmployees: "350000",
-  },
-  {
-    id: "03318fb0c03cc90992da9f28a8345a437127d67b",
-    jobTitle: "Android Developer",
-    companyLogo: companyImage.Adobe,
-    companyName: "Adobe",
-    date_recruitment: "2024-07-15",
-    salary: "Competitive",
-    description:
-      "Adobe is looking for a Computer Scientist with experience in Java and Android development. The role involves adding new features to existing Android applications and enhancing their functionalities.",
-    benefits:
-      "Health insurance, paid time off, performance bonuses, and continuous learning opportunities.",
-    jobType: "Full-time",
-    job_detail:
-      "Enhance existing Android applications, add new features, and collaborate with cross-functional teams.",
-    location: "Noida, India",
-    company_website_link: "https://adobe.com",
-    linkedin_link: "https://linkedin.com/company/adobe",
-    companyDescription:
-      "Adobe is a multinational software company known for its creative and digital marketing solutions. With a focus on innovation and customer satisfaction, Adobe delivers a range of products and services that empower individuals and businesses to create, communicate, and collaborate effectively. Our team of highly skilled professionals is dedicated to pushing the boundaries of technology and design, making Adobe a leader in the industry. We foster a culture of creativity, inclusivity, and continuous learning, providing ample opportunities for career growth.",
-    totalEmployees: "28000",
-  },
-  {
-    id: "ec734b77a7cf12fad6f363b1970687091bbce87f",
-    companyLogo: companyImage.AiExecellence,
-    companyName: "AI Excellence Ltd.",
-    date_recruitment: "2024-08-08",
-    salary: "₹12,50,000 - ₹17,00,000 per annum",
-    description:
-      "Join our team as an AI ML Engineer. You will be responsible for developing advanced machine learning models, optimizing algorithms, and creating AI solutions for various applications. Experience with Python, TensorFlow, and data analysis is required.",
-    benefits: [
-      "Health insurance",
-      "Paid time off",
-      "Professional development",
-      "Work from home options",
-    ],
-    jobType: "Full-time",
-    jobTitle: "AI ML Engineer",
-    location: "Chennai, Tamil Nadu",
-    company_website: "https://aiexcellence.com",
-    linkedin_link: "https://www.linkedin.com/company/aiexcellence",
-    companyDescription:
-      "AI Excellence Ltd. is dedicated to pushing the boundaries of artificial intelligence through advanced research and development. Our team is committed to delivering innovative AI solutions that enhance business operations and drive success. We offer a supportive work environment that encourages creativity, professional growth, and collaboration.",
-    totalEmployees: "160",
-  },
-  {
-    id: "526c8d03a9534a838c46779765dad92b757527eb",
-    jobTitle: "Senior Android Developer",
-    companyLogo: companyImage.Freshwork,
-    companyName: "Freshworks",
-    date_recruitment: "2024-07-25",
-    salary: "Competitive",
-    description:
-      "Freshworks is hiring a Senior Demo Engineer with experience in mobile application development, including Android. The role involves creating demos and working closely with product teams to showcase the company's products.",
-    benefits:
-      "Health insurance, flexible working conditions, and career growth opportunities.",
-    jobType: "Full-time",
-    job_detail:
-      "Create product demos, develop mobile applications, and collaborate with product teams.",
-    location: "Chennai, India",
-    company_website_link: "https://freshworks.com",
-    linkedin_link: "https://linkedin.com/company/freshworks",
-    companyDescription:
-      "Freshworks is a leading provider of customer engagement software, offering a range of products designed to improve customer experiences and business outcomes. Our innovative solutions are used by businesses of all sizes, across various industries, to manage customer relationships, support, and engagement. With a strong focus on user-friendly design and seamless integration, Freshworks empowers companies to deliver exceptional customer service. Our collaborative and inclusive work environment fosters creativity and professional growth, making Freshworks a great place to build a career.",
-    totalEmployees: "4500",
-  },
-
-  {
-    id: "cbd38119242212ca58fdb7ac655ad281f83c44a3",
-    jobTitle: "Java Developer",
-    companyLogo: companyImage.STCS,
-    companyName: "STCS",
-    date_recruitment: "2024-08-05",
-    salary: "₹1,400,000 - ₹1,900,000 per annum",
-    description:
-      "We are looking for experienced Java developers with 5 to 10 years of experience. Proficiency in Core Java, Java Beans, XSLT, Kafka, and HPE OSS Assurance products is required.",
-    benefits: "Health insurance, Paid time off, Work from home options",
-    jobType: "Full-time",
-    job_detail:
-      "Develop and maintain applications using Core Java and related technologies. Must have experience with automation using Java and understanding of Kafka.",
-    location: "Bangalore/Gurugram/Chennai, India",
-    company_website: "https://www.stcs.com",
-    linkedin_link: "https://www.linkedin.com/company/stcs",
-    companyDescription:
-      "STCS is a leading provider of IT services and solutions, offering a wide range of services including application development, systems integration, and IT consulting. With a focus on innovation and excellence, we deliver high-quality solutions that help businesses achieve their goals. Our team of experts is dedicated to providing reliable and efficient services, ensuring customer satisfaction and long-term success.",
-    totalEmployees: "800",
-  },
-  {
-    id: "a2a35d1df95c0185752ae19e5d9998112651e238",
-    jobTitle: "Java Developer",
-    companyLogo: companyImage.Arcadis,
-    companyName: "Arcadis",
-    date_recruitment: "2024-08-02",
-    salary: "₹1,600,000 - ₹2,100,000 per annum",
-    description:
-      "As a senior Java developer, you will be working on international projects. You will take ownership and guarantee the quality of the software, working closely with product owners, other developers, and testers.",
-    benefits:
-      "Health insurance, Remote working options, Professional development",
-    jobType: "Full-time",
-    job_detail:
-      "Involved in preparation of new stories, refinements, planning, and design meetings. Must have strong proficiency in Java and ability to work in an agile environment.",
-    location: "Hyderabad, India",
-    company_website: "https://www.arcadis.com",
-    linkedin_link: "https://www.linkedin.com/company/arcadis",
-    companyDescription:
-      "Arcadis is a global design, engineering, and consulting firm that delivers sustainable solutions across the built and natural environments. With a focus on quality and innovation, Arcadis works on complex projects around the world, helping clients achieve their goals. Our team of professionals is dedicated to delivering exceptional results and creating a positive impact on communities and the environment.",
-    totalEmployees: "27000",
-  },
-  {
-    id: "588544f9d10c7bff7912eaa410483e505f8f4ffd",
-    jobTitle: "Database Administrator",
-    companyLogo: companyImage.Cubic,
-    companyName: "Cubic Corporation",
-    date_recruitment: "2024-08-01",
-    salary: "₹1,200,000 - ₹1,800,000 per annum",
-    description:
-      "Cubic Corporation is seeking a skilled Database Administrator to manage our database systems. Responsibilities include database design, coding, and documentation. Must be proficient in SQL and Oracle database technologies.",
-    benefits: "Health insurance, Remote work options, Professional development",
-    jobType: "Full-time",
-    job_detail:
-      "Responsible for database management, optimization, and maintenance. Experience in Oracle and SQL databases is essential.",
-    location: "India",
-    company_website: "https://www.cubic.com",
-    linkedin_link: "https://www.linkedin.com/company/cubic-corporation",
-    companyDescription:
-      "Cubic Corporation provides innovative solutions for transportation and defense markets worldwide. With a commitment to enhancing operational efficiency, Cubic delivers integrated systems for transportation, defense, and training. We strive to create smarter solutions for a connected world, ensuring reliability and performance in critical missions.",
-    totalEmployees: "6000",
+    roadmap: roadmap.backend,
   },
   {
     id: "9ba4903ae551f1e6056f0888bf015857ea42db84",
@@ -901,25 +611,376 @@ const companyData = [
     totalEmployees: "500",
   },
   {
-    id: "18054a2b4dd540a25628ebae3b4d0311b9043815",
-    jobTitle: "Java Developer",
-    companyLogo: companyImage.LTIMindtree,
-    companyName: "LTIMindtree",
-    date_recruitment: "2024-08-01",
-    salary: "₹1,300,000 - ₹1,800,000 per annum",
+    id: "0221d7535caa514e62a780820e0798d740d4141b",
+    jobTitle: "Backend Developer",
+    companyLogo: companyImage.Oracle,
+    companyName: "Oracle",
+    dateRecruitment: "Posted 2 days ago",
+    salary: "₹12L – ₹25L",
     description:
-      "We are actively looking for an experienced Java developer with 5 to 8 years of experience. You will be responsible for designing, developing, testing, and deploying Java applications.",
+      "You will design and implement server-side components and web services. Proficiency in Java, Python, or C++ is required. Responsibilities include designing database schemas, optimizing queries, and working closely with front-end developers to integrate user-facing elements.",
+    benefits: "Flexible working hours, Health insurance",
+    jobType: "Full-time",
+    location: "Bangalore, Karnataka",
+    companyWebsiteLink: "https://www.oracle.com",
+    linkedInLink: "https://www.linkedin.com/company/oracle",
+    companyDescription:
+      "Oracle is a global technology company, renowned for its database software and cloud solutions. The company offers a wide range of services, including enterprise software, cloud computing, and IT consulting. Oracle is known for its commitment to innovation, helping businesses harness the power of data to achieve their goals. The company fosters a culture of excellence, providing opportunities for professional development and career growth. With a focus on cutting-edge technology and customer satisfaction, Oracle remains a leader in the tech industry.",
+    totalEmployees: 140000,
+    roadmap: roadmap.backend,
+  },
+
+  {
+    id: "1d254e814a6322fbd2dde5e0db2f0e792e23fa61",
+    jobTitle: "Software Developer",
+    companyLogo: companyImage.MINDTREE,
+    companyName: "Mindtree",
+    dateRecruitment: "Posted 3 days ago",
+    salary: "₹11L – ₹22L",
+    description:
+      "Responsible for developing and maintaining software applications using modern development tools and practices. Strong knowledge of object-oriented programming, algorithms, and data structures is required. Experience with cloud services such as AWS or Azure is preferred.",
+    benefits: "Flexible working hours, Health insurance, Performance bonus",
+    jobType: "Full-time",
+    location: "Mumbai, Maharashtra",
+    companyWebsiteLink: "https://www.ltimindtree.com/",
+    linkedInLink: "https://www.linkedin.com/company/ltimindtree/",
+    companyDescription:
+      "Mindtree is a global technology consulting and services company, specializing in digital transformation and IT solutions. The company provides a range of services including application development, cloud computing, and analytics. Mindtree focuses on delivering innovative solutions to help clients achieve their business goals. With a strong emphasis on collaboration and employee growth, Mindtree fosters a dynamic work environment and supports career advancement through continuous learning opportunities.",
+    totalEmployees: 200000,
+    roadmap: roadmap.fullstack,
+  },
+  {
+    id: "394bb5f0ecc7464e01706b410ee46e8c8d48c99c",
+    jobTitle: "Software Developer",
+    companyLogo: companyImage.TechMahindra,
+    companyName: "Tech Mahindra",
+    dateRecruitment: "Posted 1 week ago",
+    salary: "₹13L – ₹26L",
+    description:
+      "You will design, develop, and maintain software applications. Proficiency in programming languages such as Java, Python, or C# is essential. Responsibilities include writing clean, scalable code, collaborating with cross-functional teams, and troubleshooting and debugging applications to ensure optimal performance.",
+    benefits: "Health insurance, Paid time off, Retirement benefits",
+    jobType: "Full-time",
+    location: "Hyderabad, Telangana",
+    companyWebsiteLink: "https://www.techmahindra.com",
+    linkedInLink: "https://www.linkedin.com/company/tech-mahindra",
+    companyDescription:
+      "Tech Mahindra is a leading provider of IT services and solutions, focusing on digital transformation and innovation. The company offers a broad range of services including application development, cloud computing, and IT consulting. Tech Mahindra is known for its customer-centric approach and commitment to delivering high-quality solutions. The company provides a collaborative work environment and supports employee development through various learning and career growth opportunities.",
+    totalEmployees: 150000,
+    roadmap: roadmap.fullstack,
+  },
+  {
+    id: "5606d8c6dfa19a3f0234f303e4f32ab158534897",
+    jobTitle: "Android Developer",
+    companyLogo: companyImage.DuplexTechnologiesAdobe,
+    companyName: "Duplex Technologies",
+    dateRecruitment: "2024-07-30",
+    salary: "₹8L – ₹12L",
+    description:
+      "Duplex Technologies is looking for an Android Developer with 1-3 years of experience. The role involves developing high-quality applications and working closely with product managers and other developers.",
     benefits:
-      "Health insurance, Flexible working hours, Professional growth opportunities",
+      "Health benefits, flexible work hours, and opportunities for professional development.",
+    jobType: "Full-time",
+    jobDetail:
+      "Develop and maintain Android applications, work closely with the product team, and participate in code reviews.",
+    location: "Lucknow, Uttar Pradesh",
+    companyWebsiteLink: "https://duplextech.com",
+    linkedInLink: "https://linkedin.com/company/duplex-technologies",
+    companyDescription:
+      "Duplex Technologies is a leading software development company that specializes in creating high-quality mobile and web applications. With a strong focus on innovation and customer satisfaction, our team works diligently to deliver solutions that meet the unique needs of each client. Our collaborative environment fosters creativity and professional growth, making Duplex Technologies a great place to build a career. We are committed to excellence and continuously strive to improve our processes and technologies.",
+    totalEmployees: "300",
+    roadmap: roadmap.android,
+  },
+  {
+    id: "9b8e8bf9281249dd346d3632890a4a4b5127a24c",
+    jobTitle: "Java Developer",
+    companyLogo: companyImage.reflectionsit_logo,
+    companyName: "Reflections Info Systems",
+    dateRecruitment: "2024-08-01",
+    salary: "₹1,200,000 - ₹1,800,000 per annum",
+    description:
+      "We are looking for Pune based candidates with 5+ years of experience. Must have strong proficiency in Core Java, Spring Framework, and Spring Boot. Good problem-solving skills and understanding of software architecture and design patterns are essential.",
+    benefits: "Health insurance, Paid time off, Remote working options",
+    jobType: "Full-time",
+    jobDetail:
+      "Responsible for developing high-quality applications using Core Java and Spring Boot. Experience with Hibernate and Microservices is a plus.",
+    location: "Pune, India",
+    companyWebsiteLink: "https://reflectionsglobal.com/",
+    linkedInLink: "https://www.linkedin.com/company/reflectionsit/",
+    companyDescription:
+      "Reflections Info Systems is a technology company that specializes in delivering innovative software solutions. With a focus on quality and client satisfaction, we strive to provide cutting-edge technology services across various industries. Our team is composed of highly skilled professionals dedicated to driving success through digital transformation. We foster a collaborative and inclusive work environment, encouraging continuous learning and growth.",
+    totalEmployees: "500",
+    roadmap: roadmap.java,
+  },
+  {
+    id: "e07e453a0a0d1881b701154381c10c25b6cf8d5e",
+    jobTitle: "Java Developer",
+    companyLogo: companyImage.TelitCinterion,
+    companyName: "Telit Cinterion",
+    dateRecruitment: "2024-08-03",
+    salary: "₹1,500,000 - ₹2,000,000 per annum",
+    description:
+      "We are seeking a Java Developer with experience in building high-performing, scalable, enterprise-grade applications. You will manage Java/Java EE application development while providing expertise in the full software development lifecycle.",
+    benefits:
+      "Flexible working hours, Health insurance, Professional development",
+    jobType: "Full-time",
+    jobDetail:
+      "Responsible for Java/Java EE application development, from concept to testing. Strong understanding of design patterns and architectural concepts required.",
+    location: "Bangalore, India",
+    companyWebsiteLink: "https://www.telit.com",
+    linkedInLink: "https://www.linkedin.com/company/telit",
+    companyDescription:
+      "Telit Cinterion is a global leader in IoT solutions, providing advanced technologies and services to connect devices and applications. We specialize in wireless communication modules, platforms, and connectivity services. Our solutions enable businesses to achieve operational efficiencies, improve customer experiences, and drive innovation. With a strong commitment to quality and reliability, Telit Cinterion empowers industries to harness the power of IoT.",
+    totalEmployees: "1500",
+    roadmap: roadmap.java,
+  },
+  {
+    id: "282b6f5a9e6dd657eca770d9725539efc603ea12",
+    jobTitle: "Android Developer",
+    companyLogo: companyImage.JLKH,
+    companyName: "JKHL VISION",
+    date_recruitment: "2024-07-27",
+    salary: "₹7L – ₹10L",
+    description:
+      "JKHL VISION is looking for an Android Developer to optimize mobile applications for low latency and real-time data processing. The role involves collaborating with various teams to deliver high-quality solutions.",
+    benefits:
+      "Health insurance, flexible working conditions, and continuous learning opportunities.",
+    jobType: "Full-time, Part-time",
+    job_detail:
+      "Develop and maintain Android applications, optimize for performance, and collaborate with cross-functional teams.",
+    location: "Noida, Uttar Pradesh",
+    company_website_link: "https://jkhlvision.com",
+    linkedin_link:
+      "https://www.linkedin.com/in/jkhl-vision-a4794421a/?originalSubdomain=in",
+    companyDescription:
+      "JKHL VISION is a forward-thinking technology company specializing in developing high-performance mobile applications and software solutions. Our team is dedicated to creating products that deliver exceptional user experiences and meet the specific needs of our clients. We prioritize a collaborative and flexible work environment that supports professional development and continuous learning. At JKHL VISION, we are committed to innovation and excellence, making us a trusted partner in the tech industry.",
+    totalEmployees: "180",
+    roadmap: roadmap.android,
+  },
+  {
+    id: "a6317d5a421dbf512f8e4b5f4e7813106e114f9c",
+    jobTitle: "Android Developer",
+    companyLogo: companyImage.constams_ai,
+    companyName: "Constems-AI",
+    date_recruitment: "2024-07-04",
+    salary: "₹6L – ₹9L",
+    description:
+      "Constems-AI is hiring an Android Developer intern to design and develop innovative Android applications. The role includes mentoring junior developers and working on REST API integration.",
+    benefits:
+      "Mentorship, career growth opportunities, and hands-on experience in mobile development.",
+    jobType: "Internship",
+    job_detail:
+      "Develop Android applications, integrate with REST APIs, and assist in guiding junior developers.",
+    location: "Noida, Uttar Pradesh",
+    company_website_link: "https://constems-ai.com/",
+    linkedin_link:
+      "https://www.linkedin.com/company/constams-ai/?originalSubdomain=in",
+    companyDescription:
+      "Constems-AI is a cutting-edge technology company specializing in artificial intelligence and machine learning solutions. Our team is passionate about innovation and dedicated to developing advanced AI applications that drive business success. We provide a collaborative and supportive work environment that fosters professional growth and continuous learning. At Constems-AI, we are committed to excellence and strive to stay at the forefront of technological advancements, making a significant impact in the industry.",
+    totalEmployees: "100",
+    roadmap: roadmap.android,
+  },
+  {
+    id: "5f8023037402a3938f6a6b06923959fecc29b768",
+    jobTitle: "Android Developer",
+    companyLogo: companyImage.Octobit,
+    companyName: "Octobit",
+    date_recruitment: "2024-07-03",
+    salary: "₹9L – ₹12L",
+    description:
+      "Octobit seeks an Android Developer to create high-quality mobile applications that provide excellent user experiences. The role involves working closely with designers and developers to deliver robust solutions.",
+    benefits:
+      "Health benefits, flexible work hours, and opportunities for professional growth.",
     jobType: "Full-time",
     job_detail:
-      "Design and develop Java applications. Must have strong technical knowledge and excellent communication skills.",
-    location: "Chennai, India",
-    company_website: "https://www.ltimindtree.com",
-    linkedin_link: "https://www.linkedin.com/company/ltimindtree",
+      "Collaborate with designers and developers, create high-quality applications, and ensure excellent user experiences.",
+    location: "Varanasi, Uttar Pradesh",
+    company_website_link: "https://octobit.com/",
+    linkedin_link:
+      "https://www.linkedin.com/company/octobit/?originalSubdomain=hr",
     companyDescription:
-      "LTIMindtree is a global technology consulting and digital solutions company that helps enterprises across industries achieve their business transformation goals. With a deep industry knowledge and a strong focus on customer success, we deliver innovative solutions that drive efficiency and growth. Our team of experts collaborates closely with clients to address their unique challenges and create value through technology.",
-    totalEmployees: "46000",
+      "Octobit is a leading software development company specializing in mobile and web application development. Our team is dedicated to delivering high-quality solutions that enhance user experiences and meet the unique needs of our clients. We foster a collaborative and innovative work environment that supports professional growth and continuous learning. At Octobit, we are committed to excellence and strive to stay ahead of industry trends, making us a trusted partner in the tech industry.",
+    totalEmployees: "220",
+    roadmap: roadmap.android,
+  },
+  {
+    id: "c2154fd80227b123ff9180f2c63591fde75c805e",
+    jobTitle: "Android Developer",
+    companyLogo: companyImage.IBM,
+    companyName: "IBM",
+    date_recruitment: "2024-07-20",
+    salary: "Competitive",
+    description:
+      "IBM is hiring an Application Developer for mobile platforms, including Android. The role involves working in the IBM Consulting Client Innovation Centers to deliver high-quality software solutions.",
+    benefits:
+      "Comprehensive health insurance, retirement plans, and professional development opportunities.",
+    jobType: "Full-time",
+    job_detail:
+      "Develop mobile applications, collaborate with global teams, and contribute to innovative solutions.",
+    location: "Mumbai, India",
+    company_website_link: "https://ibm.com",
+    linkedin_link: "https://linkedin.com/company/ibm",
+    companyDescription:
+      "IBM is a global technology and consulting company that provides a wide range of services and solutions to clients worldwide. With a focus on innovation and technological advancement, IBM is committed to helping businesses and organizations transform and succeed in the digital era. Our team of experts works across various domains, including AI, cloud computing, and cybersecurity, to deliver high-quality solutions that meet the diverse needs of our clients. At IBM, we foster a collaborative and inclusive work environment that encourages professional growth and continuous learning.",
+    totalEmployees: "350000",
+    roadmap: roadmap.android,
+  },
+  {
+    id: "03318fb0c03cc90992da9f28a8345a437127d67b",
+    jobTitle: "Android Developer",
+    companyLogo: companyImage.Adobe,
+    companyName: "Adobe",
+    date_recruitment: "2024-07-15",
+    salary: "Competitive",
+    description:
+      "Adobe is looking for a Computer Scientist with experience in Java and Android development. The role involves adding new features to existing Android applications and enhancing their functionalities.",
+    benefits:
+      "Health insurance, paid time off, performance bonuses, and continuous learning opportunities.",
+    jobType: "Full-time",
+    job_detail:
+      "Enhance existing Android applications, add new features, and collaborate with cross-functional teams.",
+    location: "Noida, India",
+    company_website_link: "https://adobe.com",
+    linkedin_link: "https://linkedin.com/company/adobe",
+    companyDescription:
+      "Adobe is a multinational software company known for its creative and digital marketing solutions. With a focus on innovation and customer satisfaction, Adobe delivers a range of products and services that empower individuals and businesses to create, communicate, and collaborate effectively. Our team of highly skilled professionals is dedicated to pushing the boundaries of technology and design, making Adobe a leader in the industry. We foster a culture of creativity, inclusivity, and continuous learning, providing ample opportunities for career growth.",
+    totalEmployees: "28000",
+    roadmap: roadmap.android,
+  },
+  {
+    id: "ec734b77a7cf12fad6f363b1970687091bbce87f",
+    companyLogo: companyImage.AiExecellence,
+    companyName: "AI Excellence Ltd.",
+    date_recruitment: "2024-08-08",
+    salary: "₹12,50,000 - ₹17,00,000 per annum",
+    description:
+      "Join our team as an AI ML Engineer. You will be responsible for developing advanced machine learning models, optimizing algorithms, and creating AI solutions for various applications. Experience with Python, TensorFlow, and data analysis is required.",
+    benefits: [
+      "Health insurance",
+      "Paid time off",
+      "Professional development",
+      "Work from home options",
+    ],
+    jobType: "Full-time",
+    jobTitle: "AI ML Engineer",
+    location: "Chennai, Tamil Nadu",
+    company_website: "https://aiexcellence.com",
+    linkedin_link: "https://www.linkedin.com/company/aiexcellence",
+    companyDescription:
+      "AI Excellence Ltd. is dedicated to pushing the boundaries of artificial intelligence through advanced research and development. Our team is committed to delivering innovative AI solutions that enhance business operations and drive success. We offer a supportive work environment that encourages creativity, professional growth, and collaboration.",
+    totalEmployees: "160",
+    roadmap: roadmap.dataanalyst,
+  },
+  {
+    id: "526c8d03a9534a838c46779765dad92b757527eb",
+    jobTitle: "Senior Android Developer",
+    companyLogo: companyImage.Freshwork,
+    companyName: "Freshworks",
+    date_recruitment: "2024-07-25",
+    salary: "Competitive",
+    description:
+      "Freshworks is hiring a Senior Demo Engineer with experience in mobile application development, including Android. The role involves creating demos and working closely with product teams to showcase the company's products.",
+    benefits:
+      "Health insurance, flexible working conditions, and career growth opportunities.",
+    jobType: "Full-time",
+    job_detail:
+      "Create product demos, develop mobile applications, and collaborate with product teams.",
+    location: "Chennai, India",
+    company_website_link: "https://freshworks.com",
+    linkedin_link: "https://linkedin.com/company/freshworks",
+    companyDescription:
+      "Freshworks is a leading provider of customer engagement software, offering a range of products designed to improve customer experiences and business outcomes. Our innovative solutions are used by businesses of all sizes, across various industries, to manage customer relationships, support, and engagement. With a strong focus on user-friendly design and seamless integration, Freshworks empowers companies to deliver exceptional customer service. Our collaborative and inclusive work environment fosters creativity and professional growth, making Freshworks a great place to build a career.",
+    totalEmployees: "4500",
+    roadmap: roadmap.android,
+  },
+  {
+    id: "43a3ea1a63927e240648ecd73fa05f21135fd62a",
+    jobTitle: "Cybersecurity Analyst",
+    companyLogo: companyImage.SecureTech,
+    companyName: "SecureTech Solutions",
+    date_recruitment: "2024-08-01",
+    salary: "₹10,00,000 - ₹15,00,000 per annum",
+    description:
+      "We are seeking a skilled Cybersecurity Analyst to join our team. The ideal candidate will be responsible for protecting our systems and networks from cyber threats, conducting regular security assessments, and implementing robust security measures. You will also be required to stay up-to-date with the latest security trends and technologies.",
+    benefits: [
+      "Health insurance",
+      "Flexible working hours",
+      "Remote work options",
+      "Annual performance bonuses",
+    ],
+    jobType: "Full-time",
+    location: "Bengaluru, Karnataka",
+    company_website: "https://www.securetechsolutions.biz/pages/Home",
+    linkedin_link: "https://www.linkedin.com/company/securetechsolutions/",
+    companyDescription:
+      "SecureTech Solutions is a premier cybersecurity firm specializing in advanced security solutions for businesses. Our mission is to safeguard digital assets and provide unparalleled protection against cyber threats. We offer cutting-edge technology and expert consultation to help organizations achieve their security goals. With a focus on innovation and client satisfaction, we deliver top-tier security solutions tailored to specific needs. Our team comprises highly skilled professionals dedicated to maintaining the highest security standards.",
+    totalEmployees: "500",
+    roadmap: roadmap.cybersecurity,
+  },
+
+  {
+    id: "cbd38119242212ca58fdb7ac655ad281f83c44a3",
+    jobTitle: "Java Developer",
+    companyLogo: companyImage.STCS,
+    companyName: "STCS",
+    date_recruitment: "2024-08-05",
+    salary: "₹1,400,000 - ₹1,900,000 per annum",
+    description:
+      "We are looking for experienced Java developers with 5 to 10 years of experience. Proficiency in Core Java, Java Beans, XSLT, Kafka, and HPE OSS Assurance products is required.",
+    benefits: "Health insurance, Paid time off, Work from home options",
+    jobType: "Full-time",
+    job_detail:
+      "Develop and maintain applications using Core Java and related technologies. Must have experience with automation using Java and understanding of Kafka.",
+    location: "Bangalore/Gurugram/Chennai, India",
+    company_website: "https://www.stcsindia.com/",
+    linkedin_link:
+      "https://www.linkedin.com/company/stcsindia/?originalSubdomain=in",
+    companyDescription:
+      "STCS is a leading provider of IT services and solutions, offering a wide range of services including application development, systems integration, and IT consulting. With a focus on innovation and excellence, we deliver high-quality solutions that help businesses achieve their goals. Our team of experts is dedicated to providing reliable and efficient services, ensuring customer satisfaction and long-term success.",
+    totalEmployees: "800",
+    roadmap: roadmap.java,
+  },
+  {
+    id: "a2a35d1df95c0185752ae19e5d9998112651e238",
+    jobTitle: "Java Developer",
+    companyLogo: companyImage.Arcadis,
+    companyName: "Arcadis",
+    date_recruitment: "2024-08-02",
+    salary: "₹1,600,000 - ₹2,100,000 per annum",
+    description:
+      "As a senior Java developer, you will be working on international projects. You will take ownership and guarantee the quality of the software, working closely with product owners, other developers, and testers.",
+    benefits:
+      "Health insurance, Remote working options, Professional development",
+    jobType: "Full-time",
+    job_detail:
+      "Involved in preparation of new stories, refinements, planning, and design meetings. Must have strong proficiency in Java and ability to work in an agile environment.",
+    location: "Hyderabad, India",
+    company_website: "https://www.arcadis.com",
+    linkedin_link: "https://www.linkedin.com/company/arcadis",
+    companyDescription:
+      "Arcadis is a global design, engineering, and consulting firm that delivers sustainable solutions across the built and natural environments. With a focus on quality and innovation, Arcadis works on complex projects around the world, helping clients achieve their goals. Our team of professionals is dedicated to delivering exceptional results and creating a positive impact on communities and the environment.",
+    totalEmployees: "27000",
+    roadmap: roadmap.java,
+  },
+  {
+    id: "588544f9d10c7bff7912eaa410483e505f8f4ffd",
+    jobTitle: "Database Administrator",
+    companyLogo: companyImage.Cubic,
+    companyName: "Cubic Corporation",
+    date_recruitment: "2024-08-01",
+    salary: "₹1,200,000 - ₹1,800,000 per annum",
+    description:
+      "Cubic Corporation is seeking a skilled Database Administrator to manage our database systems. Responsibilities include database design, coding, and documentation. Must be proficient in SQL and Oracle database technologies.",
+    benefits: "Health insurance, Remote work options, Professional development",
+    jobType: "Full-time",
+    job_detail:
+      "Responsible for database management, optimization, and maintenance. Experience in Oracle and SQL databases is essential.",
+    location: "India",
+    company_website: "https://www.cubic.com",
+    linkedin_link: "https://www.linkedin.com/company/cubic/",
+    companyDescription:
+      "Cubic Corporation provides innovative solutions for transportation and defense markets worldwide. With a commitment to enhancing operational efficiency, Cubic delivers integrated systems for transportation, defense, and training. We strive to create smarter solutions for a connected world, ensuring reliability and performance in critical missions.",
+    totalEmployees: "6000",
+    roadmap: roadmap.dataanalyst,
   },
   {
     id: "6788685f678f185a3a7bc1510041a8d7cae5cd7d",
@@ -940,6 +1001,7 @@ const companyData = [
     companyDescription:
       "Infogain is a leading provider of technology solutions and services, specializing in digital transformation and software engineering. Our solutions help businesses enhance customer experiences, improve operational efficiency, and drive innovation. With a strong commitment to quality and client satisfaction, Infogain delivers cutting-edge technology solutions that meet the evolving needs of our clients.",
     totalEmployees: "5000",
+    roadmap: roadmap.java,
   },
   {
     id: "8227587be6993757d3644ace101ba426c736412f",
@@ -961,6 +1023,7 @@ const companyData = [
     companyDescription:
       "SAP is a global leader in enterprise software, providing solutions that enable businesses to streamline operations and achieve their strategic goals. Our innovative technologies help organizations manage complex business processes, drive growth, and gain competitive advantage. With a commitment to sustainability and social responsibility, SAP is dedicated to making the world run better and improving people's lives.",
     totalEmployees: "102400",
+    roadmap: roadmap.java,
   },
   {
     id: "63c0c071c4eb4456cb4ed375423b399640b90957",
@@ -982,6 +1045,7 @@ const companyData = [
     companyDescription:
       "DXC Technology is a global IT services company that delivers mission-critical technology solutions to businesses across various industries. With a focus on innovation and customer success, DXC helps clients achieve their strategic objectives through a range of services including digital transformation, cloud services, and IT modernization. Our team of experts works closely with clients to deliver high-quality, scalable solutions.",
     totalEmployees: "130000",
+    roadmap: roadmap.java,
   },
   {
     id: "63f94155eebb2503a8c7fbb3698ec5f4c2cac1a2",
@@ -1003,6 +1067,7 @@ const companyData = [
     companyDescription:
       "HSBC is one of the world's largest banking and financial services organizations, providing a comprehensive range of financial products and services to individuals, businesses, and institutions. With a presence in over 60 countries, HSBC is committed to helping customers achieve their financial goals. Our team of dedicated professionals is focused on delivering exceptional service and innovative solutions.",
     totalEmployees: "220000",
+    roadmap: roadmap.java,
   },
   {
     id: "e8d809a63b6467cb526fb6b8d4b86b63708d5d81",
@@ -1024,6 +1089,7 @@ const companyData = [
     companyDescription:
       "Morgan Stanley is a leading global financial services firm providing investment banking, securities, wealth management, and investment management services. With offices in more than 41 countries, Morgan Stanley connects people, ideas, and capital to help clients achieve their financial objectives. Our team of professionals is dedicated to delivering superior service and innovative solutions.",
     totalEmployees: "75000",
+    roadmap: roadmap.java,
   },
 
   {
@@ -1045,6 +1111,7 @@ const companyData = [
     companyDescription:
       "Agilent Technologies is a global leader in life sciences, diagnostics, and applied chemical markets. Our innovative solutions enable scientists to conduct groundbreaking research, improve diagnostics, and enhance productivity. We are committed to sustainability and ethical practices, ensuring our products and services contribute to a better world.",
     totalEmployees: "17200",
+    roadmap: roadmap.dataanalyst,
   },
   {
     id: "f8df0bd62447f199377c42ae9b4fdcd39b5066a2",
@@ -1066,6 +1133,7 @@ const companyData = [
     companyDescription:
       "Thermo Fisher Scientific is the world leader in serving science, with a mission to enable our customers to make the world healthier, cleaner, and safer. We support a range of industries including pharmaceuticals, biotechnology, and healthcare with innovative solutions that advance scientific research and patient care.",
     totalEmployees: "100000",
+    roadmap: roadmap.dataanalyst,
   },
   {
     id: "b9fe582bd5d791c8f2baddc6e41c25b6bc59433b",
@@ -1084,11 +1152,12 @@ const companyData = [
     ],
     jobType: "Full-time",
     location: "Pune, Maharashtra",
-    company_website: "https://cyberguardinc.com",
-    linkedin_link: "https://www.linkedin.com/company/cyberguardinc",
+    company_website: "https://cyberguard.co/",
+    linkedin_link: "https://www.linkedin.com/company/cyberguardadvisory/",
     companyDescription:
       "CyberGuard Inc. specializes in designing and implementing advanced cybersecurity solutions for enterprises. Our expertise lies in developing robust security architectures, protecting critical data, and ensuring compliance with industry regulations. We focus on creating comprehensive security frameworks that address emerging threats and vulnerabilities. Our team of architects and engineers is dedicated to delivering innovative solutions that enhance our clients' security posture and resilience against cyber attacks.",
     totalEmployees: "300",
+    roadmap: roadmap.cybersecurity,
   },
   {
     id: "9fa7ff779a9fea0d276c27ca83a4f5e159f0f031",
@@ -1107,34 +1176,12 @@ const companyData = [
     ],
     jobType: "Full-time",
     location: "Delhi, Delhi",
-    company_website: "https://shieldtechltd.com",
-    linkedin_link: "https://www.linkedin.com/company/shieldtechltd",
+    company_website: "http://www.shieldtechinc.com/",
+    linkedin_link: "https://www.linkedin.com/company/shieldtech-inc/",
     companyDescription:
       "ShieldTech Ltd. is a cybersecurity company committed to providing state-of-the-art security solutions to protect businesses from cyber threats. We offer a range of services including threat detection, incident response, and security assessments. Our goal is to ensure that our clients' systems are secure, resilient, and compliant with industry standards. With a team of experienced professionals, we focus on delivering effective and scalable security solutions tailored to meet specific business needs.",
     totalEmployees: "550",
-  },
-  {
-    id: "43a3ea1a63927e240648ecd73fa05f21135fd62a",
-    jobTitle: "Cybersecurity Analyst",
-    companyLogo: companyImage.SecureTech,
-    companyName: "SecureTech Solutions",
-    date_recruitment: "2024-08-01",
-    salary: "₹10,00,000 - ₹15,00,000 per annum",
-    description:
-      "We are seeking a skilled Cybersecurity Analyst to join our team. The ideal candidate will be responsible for protecting our systems and networks from cyber threats, conducting regular security assessments, and implementing robust security measures. You will also be required to stay up-to-date with the latest security trends and technologies.",
-    benefits: [
-      "Health insurance",
-      "Flexible working hours",
-      "Remote work options",
-      "Annual performance bonuses",
-    ],
-    jobType: "Full-time",
-    location: "Bengaluru, Karnataka",
-    company_website: "https://securetechsolutions.com",
-    linkedin_link: "https://www.linkedin.com/company/securetechsolutions",
-    companyDescription:
-      "SecureTech Solutions is a premier cybersecurity firm specializing in advanced security solutions for businesses. Our mission is to safeguard digital assets and provide unparalleled protection against cyber threats. We offer cutting-edge technology and expert consultation to help organizations achieve their security goals. With a focus on innovation and client satisfaction, we deliver top-tier security solutions tailored to specific needs. Our team comprises highly skilled professionals dedicated to maintaining the highest security standards.",
-    totalEmployees: "500",
+    roadmap: roadmap.cybersecurity,
   },
   {
     id: "88b55563abf2253aa89b907c9f6861ee85b6e0ae",
@@ -1153,11 +1200,12 @@ const companyData = [
     ],
     jobType: "Full-time",
     location: "Mumbai, Maharashtra",
-    company_website: "https://cybersafeltd.com",
-    linkedin_link: "https://www.linkedin.com/company/cybersafeltd",
+    company_website: "https://www.cybersafesolutions.com/",
+    linkedin_link: "https://www.linkedin.com/company/cyber-safe-solutions-llc/",
     companyDescription:
       "CyberSafe Ltd. is a leading provider of comprehensive cybersecurity solutions, focusing on protecting organizations from evolving cyber threats. Our services include advanced threat detection, incident response, and risk management. We are committed to delivering innovative security solutions that ensure the safety and integrity of our clients' digital assets. Our team of experts works diligently to stay ahead of emerging threats, providing proactive and effective security measures tailored to meet diverse business needs.",
     totalEmployees: "750",
+    roadmap: roadmap.cybersecurity,
   },
   {
     id: "a3de645d2f119b7117ef272b5261312015d523f7",
@@ -1175,10 +1223,11 @@ const companyData = [
       "Optimize and maintain database systems. Experience in SQL and database management is essential.",
     location: "India",
     company_website: "https://www.globalpayments.com",
-    linkedin_link: "https://www.linkedin.com/company/global-payments-inc",
+    linkedin_link: "https://www.linkedin.com/company/global-payments/",
     companyDescription:
       "Global Payments Inc is a leading provider of payment technology services that enable merchants, enterprises, and financial institutions to operate more efficiently. We offer a wide range of payment solutions and innovative technologies to support business growth and customer satisfaction globally.",
     totalEmployees: "24000",
+    roadmap: roadmap.dataanalyst,
   },
   {
     id: "7cc857cb6b7d87fa32587deef2629fd763f44212",
@@ -1200,6 +1249,7 @@ const companyData = [
     companyDescription:
       "Franklin Templeton is a global investment management organization dedicated to delivering exceptional asset management services. Our mission is to help clients achieve their financial goals by providing innovative investment solutions, in-depth research, and personalized service.",
     totalEmployees: "9700",
+    roadmap: roadmap.dataanalyst,
   },
   {
     id: "3ca791b6f4997809148d5fbeddf25fc2a4087c97",
@@ -1217,10 +1267,11 @@ const companyData = [
       "Build and maintain PostgreSQL databases. Strong proficiency in database management and performance optimization required.",
     location: "India",
     company_website: "https://www.spglobal.com",
-    linkedin_link: "https://www.linkedin.com/company/sp-global",
+    linkedin_link: "https://www.linkedin.com/company/spglobal/",
     companyDescription:
       "S&P Global provides essential intelligence for businesses and financial markets. With data, research, and analytics, we help our customers make informed decisions and achieve growth. Our commitment to excellence drives our mission to deliver transparent and insightful information to the world.",
     totalEmployees: "22000",
+    roadmap: roadmap.dataanalyst,
   },
   {
     id: "ffcbf62803d1554e1bc5d4bf8ba1846a0be631c4",
@@ -1242,6 +1293,7 @@ const companyData = [
     companyDescription:
       "Couchbase is a leading provider of NoSQL database technology, enabling enterprises to build highly scalable, high-performance applications. Our solutions support a wide range of use cases, from web and mobile applications to big data analytics, ensuring seamless data management across platforms.",
     totalEmployees: "700",
+    roadmap: roadmap.dataanalyst,
   },
   {
     id: "ce3344616bfa2176a65ebfba4a42f53d653545d7",
@@ -1262,6 +1314,8 @@ const companyData = [
     linkedin_link: "https://www.linkedin.com/company/infosys",
     companyDescription:
       "Infosys is a global leader in next-generation digital services and consulting. We enable clients in 46 countries to navigate their",
+    totalEmployees: "700",
+    roadmap: roadmap.dataanalyst,
   },
 
   {
@@ -1281,11 +1335,12 @@ const companyData = [
     ],
     jobType: "Full-time",
     location: "Hyderabad, Telangana",
-    company_website: "https://infosecinnovators.com",
-    linkedin_link: "https://www.linkedin.com/company/infosecinnovators",
+    company_website: "https://www.infosecinnovations.com/",
+    linkedin_link: "https://www.linkedin.com/company/infosec-innovations/",
     companyDescription:
       "Infosec Innovators provides leading-edge cybersecurity solutions tailored to protect businesses from complex cyber threats. Our focus is on delivering comprehensive security strategies, including threat intelligence, security assessments, and incident response. We leverage the latest technologies and industry best practices to ensure robust protection for our clients. Our team of seasoned professionals is dedicated to safeguarding sensitive data and maintaining high standards of security excellence.",
     totalEmployees: "600",
+    roadmap: roadmap.cybersecurity,
   },
   {
     id: "645c1d270430cbf8550c8ff4b4c2fb3dfcb45ba6",
@@ -1304,11 +1359,12 @@ const companyData = [
     ],
     jobType: "Full-time",
     location: "Chennai, Tamil Nadu",
-    company_website: "https://securenetpvtltd.com",
-    linkedin_link: "https://www.linkedin.com/company/securenetpvtltd",
+    company_website: "https://www.securenettech.com/",
+    linkedin_link: "https://www.linkedin.com/company/securenet-technologies/",
     companyDescription:
       "SecureNet Pvt Ltd is dedicated to offering expert cybersecurity consulting services. Our goal is to assist clients in fortifying their digital infrastructure against cyber threats. We provide tailored security assessments, risk management, and strategic recommendations to enhance our clients' security posture. With a focus on innovation and best practices, we help organizations build resilient security frameworks to safeguard their critical assets. Our team is composed of experienced consultants committed to delivering high-quality solutions.",
     totalEmployees: "400",
+    roadmap: roadmap.cybersecurity,
   },
 
   {
@@ -1328,11 +1384,12 @@ const companyData = [
     ],
     jobType: "Full-time",
     location: "Kolkata, West Bengal",
-    company_website: "https://cyberdefenders.com",
+    company_website: "https://cyberdefenders.org/",
     linkedin_link: "https://www.linkedin.com/company/cyberdefenders",
     companyDescription:
       "CyberDefenders Pvt Ltd is a prominent provider of cybersecurity solutions, specializing in safeguarding organizations against a wide range of cyber threats. We offer a suite of services including threat detection, security assessments, and incident response. Our mission is to deliver effective and proactive security solutions that ensure the integrity and confidentiality of our clients' data. With a focus on innovation and customer satisfaction, we strive to stay ahead of emerging threats and provide exceptional security services.",
     totalEmployees: "450",
+    roadmap: roadmap.cybersecurity,
   },
   {
     id: "aa9590d67526f75a7c183fbbe63c61b53c23b62f",
@@ -1351,11 +1408,12 @@ const companyData = [
     ],
     jobType: "Full-time",
     location: "Ahmedabad, Gujarat",
-    company_website: "https://datasafesolutions.com",
-    linkedin_link: "https://www.linkedin.com/company/datasafesolutions",
+    company_website: "https://www.datasafe.com.my/",
+    linkedin_link: "https://www.linkedin.com/company/datasafe-online-sdn-bhd/",
     companyDescription:
       "DataSafe Solutions is dedicated to providing comprehensive cybersecurity services to protect organizations from digital threats. Our offerings include security assessments, vulnerability management, and policy development. We focus on ensuring our clients' data and systems are secure through innovative solutions and expert guidance. Our team of professionals is committed to delivering high-quality security services and staying ahead of emerging threats to safeguard our clients' digital assets.",
     totalEmployees: "350",
+    roadmap: roadmap.cybersecurity,
   },
   {
     id: "26dd173b1c2245708dcd27006812267e58894271",
@@ -1374,11 +1432,12 @@ const companyData = [
     ],
     jobType: "Full-time",
     location: "Bengaluru, Karnataka",
-    company_website: "https://netsecuretechnologies.com",
+    company_website: "http://netsecuretechnologies.com/",
     linkedin_link: "https://www.linkedin.com/company/netsecuretechnologies",
     companyDescription:
       "NetSecure Technologies provides expert cybersecurity consulting services to help organizations enhance their security posture. We offer comprehensive audits, risk assessments, and strategic guidance to protect against cyber threats. Our approach is centered around delivering customized solutions that address specific security needs and ensuring compliance with industry standards. With a team of skilled consultants, we are committed to helping our clients achieve robust and effective security measures.",
     totalEmployees: "550",
+    roadmap: roadmap.cybersecurity,
   },
   {
     id: "686338a48a90dbd583077fe733ce1f12b11f4c9e",
@@ -1397,11 +1456,12 @@ const companyData = [
     ],
     jobType: "Full-time",
     location: "Mumbai, Maharashtra",
-    company_website: "https://safenetpvtltd.com",
-    linkedin_link: "https://www.linkedin.com/company/safenetpvtltd",
+    company_website: "https://www.safenet.tech/",
+    linkedin_link: "https://www.linkedin.com/company/safenet-technologies/",
     companyDescription:
       "SafeNet Pvt Ltd specializes in providing advanced cybersecurity solutions to safeguard businesses from digital threats. We focus on designing and implementing security architectures that address complex security challenges. Our services include security framework development, system monitoring, and incident response. With a commitment to innovation and excellence, our team works to ensure that our clients' digital environments are secure and resilient against emerging threats.",
     totalEmployees: "400",
+    roadmap: roadmap.cybersecurity,
   },
   {
     id: "e6f20a5ff20c1f4fe848d7bf6efb66891f42d171",
@@ -1425,6 +1485,7 @@ const companyData = [
     companyDescription:
       "DefendTech Solutions is a leading provider of cybersecurity services, specializing in protecting organizations from a wide range of cyber threats. We offer services such as threat analysis, incident response, and security assessments. Our mission is to provide comprehensive security solutions that meet the evolving needs of our clients. Our experienced team is dedicated to delivering effective and scalable security measures to ensure the safety and integrity of our clients' digital assets.",
     totalEmployees: "500",
+    roadmap: roadmap.cybersecurity,
   },
   {
     id: "e41ca9e8801886abde04071ef92d469dcf76cfd4",
@@ -1443,11 +1504,12 @@ const companyData = [
     ],
     jobType: "Full-time",
     location: "Pune, Maharashtra",
-    company_website: "https://securenetsystems.com",
+    company_website: "https://www.securenetsystems.net/",
     linkedin_link: "https://www.linkedin.com/company/securenetsystems",
     companyDescription:
       "SecureNet Systems is at the forefront of providing cybersecurity solutions designed to protect organizations from evolving digital threats. Our expertise includes designing security measures, managing threats, and ensuring compliance with industry standards. We are dedicated to delivering robust security solutions that address our clients' specific needs. Our team of skilled engineers is committed to maintaining high security standards and safeguarding critical information.",
     totalEmployees: "350",
+    roadmap: roadmap.cybersecurity,
   },
   {
     id: "4c756a0264f4a70d892902599406e9b6480fe7ce",
@@ -1466,11 +1528,12 @@ const companyData = [
     ],
     jobType: "Full-time",
     location: "Ahmedabad, Gujarat",
-    company_website: "https://sitemasters.com",
+    company_website: "https://sitemasters.nl/",
     linkedin_link: "https://www.linkedin.com/company/sitemasters",
     companyDescription:
       "SiteMasters Solutions is a leading provider of web development services, known for our expertise in creating high-quality web applications. We are committed to delivering exceptional digital solutions that enhance user experiences and drive business success. Our team works closely with clients to understand their needs and deliver customized solutions that exceed expectations.",
     totalEmployees: "180",
+    roadmap: roadmap.fullstack,
   },
   {
     id: "2ca874a0522fbca535bc946287a1e9704b5f4fea",
@@ -1489,17 +1552,18 @@ const companyData = [
     ],
     jobType: "Full-time",
     location: "Bengaluru, Karnataka",
-    company_website: "https://nextgen.com",
-    linkedin_link: "https://www.linkedin.com/company/nextgen",
+    company_website: "https://nextgentechinc.com/",
+    linkedin_link: "https://www.linkedin.com/company/nextgen-technologies-inc/",
     companyDescription:
       "NextGen Technologies is at the forefront of web development and digital solutions. We specialize in creating scalable and high-performance web applications that meet the diverse needs of our clients. Our team is dedicated to leveraging the latest technologies to deliver superior results. We offer a collaborative work environment that fosters creativity and professional growth.",
     totalEmployees: "350",
+    roadmap: roadmap.fullstack,
   },
   {
     id: "20b0927b57afdb361494ae2ebc0e4f5bbd61cbf7",
     jobTitle: "Cybersecurity Specialist",
     companyLogo: companyImage.CyberProtect,
-    companyName: "CyberProtect Pvt Ltd",
+    companyName: "CyberProtect By Starhub",
     date_recruitment: "2024-07-29",
     salary: "₹9,50,000 - ₹13,50,000 per annum",
     description:
@@ -1512,11 +1576,13 @@ const companyData = [
     ],
     jobType: "Full-time",
     location: "Chennai, Tamil Nadu",
-    company_website: "https://cyberprotectpvtltd.com",
-    linkedin_link: "https://www.linkedin.com/company/cyberprotectpvtltd",
+    company_website:
+      "https://cyberprotectpvtltd.comhttps://www.starhub.com/personal/mobile/mobile-phones-plans/value-added-services/cyberprotect.html",
+    linkedin_link: "https://www.linkedin.com/company/starhub/",
     companyDescription:
       "CyberProtect Pvt Ltd is a dedicated cybersecurity firm focused on protecting companies from various digital threats. We offer services including vulnerability assessments, security policy development, and incident response. Our goal is to ensure the safety and integrity of our clients' data through innovative and effective security solutions. Our experienced team works tirelessly to stay ahead of emerging threats and provide top-notch security services.",
     totalEmployees: "600",
+    roadmap: roadmap.cybersecurity,
   },
   {
     id: "b387d06bfd8f6031ff8ea4f08f5a9883eb643872",
@@ -1535,11 +1601,12 @@ const companyData = [
     ],
     jobType: "Full-time",
     location: "Bengaluru, Karnataka",
-    company_website: "https://techinnovators.com",
+    company_website: "https://techinnovators.co.in/",
     linkedin_link: "https://www.linkedin.com/company/techinnovators",
     companyDescription:
       "Tech Innovators Pvt Ltd is a leading tech company specializing in developing cutting-edge web solutions. We focus on creating innovative digital experiences for our clients through robust web applications. Our team of experts is dedicated to pushing the boundaries of technology, ensuring that our clients receive top-notch services and solutions tailored to their needs. We prioritize fostering a collaborative and dynamic work environment to drive creativity and excellence.",
     totalEmployees: "300",
+    roadmap: roadmap.fullstack,
   },
   {
     id: "6c79e4b5d254851566b3e1652035e57942b724fb",
@@ -1558,11 +1625,12 @@ const companyData = [
     ],
     jobType: "Full-time",
     location: "Mumbai, Maharashtra",
-    company_website: "https://creativesolutions.com",
-    linkedin_link: "https://www.linkedin.com/company/creativesolutions",
+    company_website: "https://www.creative-sols.com/",
+    linkedin_link: "https://www.linkedin.com/company/creative-sols/",
     companyDescription:
       "Creative Solutions Ltd. is a prominent digital agency that excels in delivering innovative web development and design services. Our mission is to help businesses create impactful online presences through customized web solutions. We combine creativity with technology to build responsive and user-friendly web applications. Our talented team thrives on collaboration and innovation, making us a leader in providing exceptional digital experiences.",
     totalEmployees: "250",
+    roadmap: roadmap.fullstack,
   },
   {
     id: "d110bcad79ef7e90da8db18264175a160f9b24ab",
@@ -1581,11 +1649,12 @@ const companyData = [
     ],
     jobType: "Full-time",
     location: "Hyderabad, Telangana",
-    company_website: "https://innovatechsystems.com",
-    linkedin_link: "https://www.linkedin.com/company/innovatechsystems",
+    company_website: "https://innovatech.in/",
+    linkedin_link: "https://www.linkedin.com/company/-innovatech-/",
     companyDescription:
       "Innovatech Systems is a forward-thinking technology company dedicated to delivering innovative web solutions and services. We focus on building scalable and efficient web applications that drive business success. Our team is committed to embracing the latest technologies and methodologies to meet the evolving needs of our clients. We offer a dynamic work environment where creativity and technical excellence are at the core of everything we do.",
     totalEmployees: "400",
+    roadmap: roadmap.fullstack,
   },
   {
     id: "a85284e3f7206e0ecf6912cddbe1e2a2282c595e",
@@ -1604,11 +1673,13 @@ const companyData = [
     ],
     jobType: "Full-time",
     location: "Chennai, Tamil Nadu",
-    company_website: "https://webworks.com",
-    linkedin_link: "https://www.linkedin.com/company/webworks",
+    company_website: "https://webworkssolution.com/",
+    linkedin_link:
+      "https://www.linkedin.com/company/webworks-solution/?originalSubdomain=in",
     companyDescription:
       "WebWorks Pvt Ltd is a leading provider of web development services, known for our commitment to building responsive and high-performing web applications. We specialize in delivering tailored web solutions that meet our clients' unique needs. Our team of experts works closely with clients to ensure their vision is realized through innovative technology and design. We value creativity, collaboration, and continuous learning in our dynamic work environment.",
     totalEmployees: "350",
+    roadmap: roadmap.fullstack,
   },
   {
     id: "d73e0d6885133d68187b66e26256e768540134ad",
@@ -1628,10 +1699,11 @@ const companyData = [
     jobType: "Full-time",
     location: "Pune, Maharashtra",
     company_website: "https://techwave.com",
-    linkedin_link: "https://www.linkedin.com/company/techwave",
+    linkedin_link: "https://www.linkedin.com/company/techwave-consulting-inc/",
     companyDescription:
       "TechWave Inc. is a technology company specializing in creating innovative web solutions and applications. We focus on delivering high-quality user interfaces and ensuring the optimal performance of our web applications. Our team is passionate about using the latest technology to build scalable and efficient digital products. We offer a collaborative work environment that encourages professional growth and development.",
     totalEmployees: "500",
+    roadmap: roadmap.fullstack,
   },
   {
     id: "ece7709d2a615c2bd3162f561b6ff9481cb65130",
@@ -1650,11 +1722,12 @@ const companyData = [
     ],
     jobType: "Full-time",
     location: "Delhi, Delhi",
-    company_website: "https://webgen.com",
-    linkedin_link: "https://www.linkedin.com/company/webgen",
+    company_website: "https://www.webgentechnologies.com/",
+    linkedin_link: "https://www.linkedin.com/company/webgen-technologies/",
     companyDescription:
       "WebGen Ltd. is dedicated to providing high-quality web development services and solutions. Our focus is on creating responsive and user-friendly web applications that meet the needs of our clients. We leverage the latest technologies and industry best practices to deliver exceptional digital experiences. Our team of professionals is committed to continuous learning and innovation to stay ahead in the ever-evolving web development landscape.",
     totalEmployees: "300",
+    roadmap: roadmap.fullstack,
   },
   {
     id: "1b5b7a401b9dbbd3c7401cec66c3409bdeefc115",
@@ -1673,11 +1746,13 @@ const companyData = [
     ],
     jobType: "Full-time",
     location: "Kolkata, West Bengal",
-    company_website: "https://codecrafters.com",
-    linkedin_link: "https://www.linkedin.com/company/codecrafters",
+    company_website: "https://www.codecrafttech.com/",
+    linkedin_link:
+      "https://www.linkedin.com/company/codecraft-technologies-private-limited/",
     companyDescription:
       "CodeCrafters Pvt Ltd is a renowned company specializing in high-quality web development services. Our mission is to craft exceptional web applications that deliver outstanding performance and user experience. We focus on using modern technologies and best practices to create scalable solutions. Our team is passionate about innovation and dedicated to providing superior results for our clients.",
     totalEmployees: "200",
+    roadmap: roadmap.fullstack,
   },
 
   {
@@ -1697,17 +1772,18 @@ const companyData = [
     ],
     jobType: "Full-time",
     location: "Chennai, Tamil Nadu",
-    company_website: "https://prowebsolutions.com",
-    linkedin_link: "https://www.linkedin.com/company/prowebsolutions",
+    company_website: "https://proweb.solutions/",
+    linkedin_link: "https://www.linkedin.com/company/proweb-solutions/",
     companyDescription:
       "ProWeb Solutions is dedicated to providing high-quality web development and design services. We focus on creating responsive web applications that deliver exceptional user experiences. Our team of professionals works closely with clients to understand their needs and deliver tailored solutions. We foster a collaborative work environment that encourages innovation and continuous learning.",
     totalEmployees: "280",
+    roadmap: roadmap.fullstack,
   },
   {
     id: "3100968f4b62dfc67c9c98ae5a8fc91984bd5fe7",
     jobTitle: "Web Developer",
     companyLogo: companyImage.DevMasters,
-    companyName: "DevMasters Pvt Ltd",
+    companyName: "Masters Pvt Ltd",
     date_recruitment: "2024-08-07",
     salary: "₹8,00,000 - ₹12,00,000 per annum",
     description:
@@ -1720,11 +1796,12 @@ const companyData = [
     ],
     jobType: "Full-time",
     location: "Hyderabad, Telangana",
-    company_website: "https://devmasters.com",
-    linkedin_link: "https://www.linkedin.com/company/devmasters",
+    company_website: "https://frontendmasters.com/",
+    linkedin_link: "https://www.linkedin.com/company/frontend-masters/",
     companyDescription:
       "DevMasters Pvt Ltd is a prominent web development company specializing in creating high-performance web applications. We are dedicated to delivering exceptional user interfaces and ensuring the optimal performance of web solutions. Our team employs the latest technologies to build scalable and innovative digital products. We offer a supportive work environment that promotes professional growth and creativity.",
     totalEmployees: "450",
+    roadmap: roadmap.fullstack,
   },
   {
     id: "a829d0807296faa10909e78b00028081a5a0a4c1",
@@ -1748,75 +1825,7 @@ const companyData = [
     companyDescription:
       "ByteBuilders Ltd. is a leading provider of web development services with a focus on creating high-quality, responsive websites and applications. We are committed to delivering innovative solutions that meet our clients' needs and exceed their expectations. Our team of experts works collaboratively to ensure the best results, using the latest technologies and best practices in the industry.",
     totalEmployees: "220",
-  },
-  {
-    id: "2c0086d70790dd2b8a781f4b5aae4db9265003ce",
-    jobTitle: "Game Creator",
-    companyLogo: companyImage.GameWorks,
-    companyName: "GameWorks Pvt Ltd",
-    date_recruitment: "2024-08-05",
-    salary: "₹8,50,000 - ₹12,50,000 per annum",
-    description:
-      "We are hiring a talented Game Creator to join our dynamic team. You will work on developing and maintaining engaging games using the latest technologies. Collaboration with artists and developers is essential for delivering high-quality products.",
-    benefits: [
-      "Health insurance",
-      "Flexible working hours",
-      "Professional development",
-      "Work from home options",
-    ],
-    jobType: "Full-time",
-    location: "Chennai, Tamil Nadu",
-    company_website: "https://gameworks.com",
-    linkedin_link: "https://www.linkedin.com/company/gameworks",
-    companyDescription:
-      "GameWorks Pvt Ltd is a prominent game development company known for its engaging and innovative games. We focus on leveraging the latest technologies to create high-quality gaming experiences. Our team of creative professionals works collaboratively to deliver exceptional products. We offer a flexible and dynamic work environment that supports both personal and professional growth.",
-    totalEmployees: "220",
-  },
-  {
-    id: "e837b50a748aec475756fb69272734d8498352e5",
-    jobTitle: "Game Creator",
-    companyLogo: companyImage.TechWaveGaming,
-    companyName: "TechWave Gaming Inc.",
-    date_recruitment: "2024-07-30",
-    salary: "₹9,00,000 - ₹14,00,000 per annum",
-    description:
-      "TechWave Gaming Inc. is seeking a Game Creator to join our team. You will be responsible for developing and implementing innovative game mechanics and storylines. Experience with game development engines like Unity or Unreal Engine is required.",
-    benefits: [
-      "Health insurance",
-      "Paid time off",
-      "Remote work options",
-      "Performance bonuses",
-    ],
-    jobType: "Full-time",
-    location: "Pune, Maharashtra",
-    company_website: "https://techwavegaming.com",
-    linkedin_link: "https://www.linkedin.com/company/techwavegaming",
-    companyDescription:
-      "TechWave Gaming Inc. is a leading name in the gaming industry, known for its innovative approach to game development. We focus on creating high-quality games with engaging mechanics and compelling storylines. Our team of skilled professionals works in a collaborative environment to deliver outstanding gaming experiences. We offer competitive benefits and opportunities for professional development.",
-    totalEmployees: "350",
-  },
-  {
-    id: "b8968caa641b13b2c85128a335185aa5a271f5f2",
-    jobTitle: "Game Creator",
-    companyLogo: companyImage.GameGen,
-    companyName: "GameGen Ltd.",
-    date_recruitment: "2024-08-15",
-    salary: "₹8,50,000 - ₹12,00,000 per annum",
-    description:
-      "We are looking for a skilled Game Creator to join our team. You will be responsible for building and maintaining engaging games. Strong knowledge of game design principles and familiarity with game development engines is required.",
-    benefits: [
-      "Health insurance",
-      "Flexible working hours",
-      "Professional development opportunities",
-      "Remote work options",
-    ],
-    jobType: "Full-time",
-    location: "Delhi, Delhi",
-    company_website: "https://gamegen.com",
-    linkedin_link: "https://www.linkedin.com/company/gamegen",
-    companyDescription:
-      "GameGen Ltd. is a renowned game development company with a focus on delivering engaging and innovative gaming experiences. Our team of experts excels in designing and developing high-quality games that captivate players. We offer a dynamic work environment that promotes creativity and technical excellence. Our goal is to push the boundaries of game design and provide exceptional products.",
-    totalEmployees: "190",
+    roadmap: roadmap.fullstack,
   },
   {
     id: "c975b5a5a1b480f6b626d08e1ae8dfaeaa25e9e7",
@@ -1835,150 +1844,12 @@ const companyData = [
     ],
     jobType: "Full-time",
     location: "Kolkata, West Bengal",
-    company_website: "https://codemasters.com",
+    company_website: "https://www.ea.com/ea-studios/codemasters",
     linkedin_link: "https://www.linkedin.com/company/codemasters",
     companyDescription:
       "CodeMasters Solutions is a top-tier web development company specializing in creating high-quality web applications and solutions. We are dedicated to delivering exceptional user experiences through modern web technologies. Our team is passionate about innovation and committed to providing tailored solutions that meet our clients' specific needs. We offer a dynamic work environment where creativity and expertise thrive.",
     totalEmployees: "250",
-  },
-  {
-    id: "fd34d95953b020281f43581eaa1dd3f818893560",
-    jobTitle: "Game Creator",
-    companyLogo: companyImage.GamingInnovators,
-    companyName: "Gaming Innovators Pvt Ltd",
-    date_recruitment: "2024-08-01",
-    salary: "₹8,00,000 - ₹12,00,000 per annum",
-    description:
-      "We are seeking a talented Game Creator to join our team. The ideal candidate will be responsible for designing and developing engaging game mechanics, storylines, and characters. You will work closely with artists and programmers to bring your ideas to life.",
-    benefits: [
-      "Health insurance",
-      "Flexible working hours",
-      "Remote work options",
-      "Annual performance bonuses",
-    ],
-    jobType: "Full-time",
-    location: "Bengaluru, Karnataka",
-    company_website: "https://gaminginnovators.com",
-    linkedin_link: "https://www.linkedin.com/company/gaminginnovators",
-    companyDescription:
-      "Gaming Innovators Pvt Ltd is a pioneering company in the gaming industry, known for its creativity and innovation. We specialize in creating immersive and engaging games that captivate audiences. Our team of experts is dedicated to pushing the boundaries of game design and technology. We offer a collaborative and dynamic work environment that fosters creativity and growth.",
-    totalEmployees: "300",
-  },
-  {
-    id: "5757f641ef481c208a59a59fc1e81f295989fdbc",
-    jobTitle: "Game Creator",
-    companyLogo: companyImage.CreativeGames,
-    companyName: "Creative Games Ltd.",
-    date_recruitment: "2024-07-25",
-    salary: "₹7,00,000 - ₹10,00,000 per annum",
-    description:
-      "Join our team as a Game Creator. You will be responsible for conceptualizing, designing, and developing innovative game ideas. Experience with game development engines like Unity or Unreal Engine is preferred.",
-    benefits: [
-      "Health and wellness programs",
-      "Paid time off",
-      "Professional development opportunities",
-      "Work from home options",
-    ],
-    jobType: "Full-time",
-    location: "Mumbai, Maharashtra",
-    company_website: "https://creativegames.com",
-    linkedin_link: "https://www.linkedin.com/company/creativegames",
-    companyDescription:
-      "Creative Games Ltd. is a leading game development company renowned for its innovative and creative approach. We focus on designing and developing cutting-edge games that offer unique and engaging experiences. Our team is passionate about game development and dedicated to delivering high-quality products. We provide a supportive and flexible work environment that encourages creativity and professional growth.",
-    totalEmployees: "180",
-  },
-  {
-    id: "a8f15534cb50e6fadbe7c2ba696051237ae819f4",
-    jobTitle: "Game Creator",
-    companyLogo: companyImage.InnovatechGaming,
-    companyName: "Innovatech Gaming",
-    date_recruitment: "2024-08-10",
-    salary: "₹9,00,000 - ₹13,00,000 per annum",
-    description:
-      "Innovatech Gaming is looking for a Game Creator to design and develop high-quality games. You will be involved in all stages of game development, from concept to final release. Strong skills in game design and programming are required.",
-    benefits: [
-      "Medical insurance",
-      "Retirement benefits",
-      "Relocation assistance",
-      "Annual company retreats",
-    ],
-    jobType: "Full-time",
-    location: "Hyderabad, Telangana",
-    company_website: "https://innovatechgaming.com",
-    linkedin_link: "https://www.linkedin.com/company/innovatechgaming",
-    companyDescription:
-      "Innovatech Gaming is a forward-thinking company specializing in cutting-edge game development. We are dedicated to creating high-quality games that set new standards in the industry. Our team works on all aspects of game development, ensuring that every project is innovative and engaging. We offer a collaborative environment where creativity and technical excellence thrive.",
-    totalEmployees: "250",
-  },
-
-  {
-    id: "232a0685c4861e0545b04ca0f5566815cdd61f34",
-    jobTitle: "Game Creator",
-    companyLogo: companyImage.CodeCraftersGaming,
-    companyName: "CodeCrafters Gaming Pvt Ltd",
-    date_recruitment: "2024-08-20",
-    salary: "₹7,00,000 - ₹11,00,000 per annum",
-    description:
-      "Join our team as a Game Creator. You will be responsible for developing high-quality games, ensuring optimal performance and user experience. Experience with game development engines and programming languages is required.",
-    benefits: [
-      "Health insurance",
-      "Paid time off",
-      "Professional development",
-      "Work from home options",
-    ],
-    jobType: "Full-time",
-    location: "Kolkata, West Bengal",
-    company_website: "https://codecraftersgaming.com",
-    linkedin_link: "https://www.linkedin.com/company/codecraftersgaming",
-    companyDescription:
-      "CodeCrafters Gaming Pvt Ltd is a dynamic game development company focused on creating high-quality games that deliver exceptional user experiences. We leverage the latest technologies and creative strategies to develop engaging products. Our team thrives in a collaborative environment that encourages innovation and professional growth. We are committed to excellence in every project we undertake.",
-    totalEmployees: "210",
-  },
-  {
-    id: "0277d18527df2e30869cf03d7e69de6cc43c66fa",
-    jobTitle: "Game Creator",
-    companyLogo: companyImage.GameMasters,
-    companyName: "GameMasters Solutions",
-    date_recruitment: "2024-07-28",
-    salary: "₹8,00,000 - ₹12,00,000 per annum",
-    description:
-      "We are seeking a talented Game Creator to join our team. You will be responsible for designing and developing engaging game mechanics, storylines, and characters. You will work closely with artists and programmers to bring your ideas to life.",
-    benefits: [
-      "Health insurance",
-      "Flexible working hours",
-      "Remote work options",
-      "Annual performance bonuses",
-    ],
-    jobType: "Full-time",
-    location: "Ahmedabad, Gujarat",
-    company_website: "https://gamemasters.com",
-    linkedin_link: "https://www.linkedin.com/company/gamemasters",
-    companyDescription:
-      "GameMasters Solutions is a leading game development company known for its creative and innovative approach. We specialize in designing games that offer exceptional player experiences. Our team is committed to pushing the boundaries of game design and technology. We offer a supportive and flexible work environment that encourages creativity and growth.",
-    totalEmployees: "160",
-  },
-  {
-    id: "1c792d6e7e687e3d69878d7c07192d8d6d8a56df",
-    jobTitle: "Game Creator",
-    companyLogo: companyImage.NextGenGaming,
-    companyName: "NextGen Gaming",
-    date_recruitment: "2024-08-18",
-    salary: "₹9,50,000 - ₹14,50,000 per annum",
-    description:
-      "NextGen Gaming is looking for a Game Creator to design and develop high-quality games. You will be involved in all stages of game development, from concept to final release. Strong skills in game design and programming are required.",
-    benefits: [
-      "Medical insurance",
-      "Retirement benefits",
-      "Relocation assistance",
-      "Annual company retreats",
-    ],
-    jobType: "Full-time",
-    location: "Bengaluru, Karnataka",
-    company_website: "https://nextgengaming.com",
-    linkedin_link: "https://www.linkedin.com/company/nextgengaming",
-    companyDescription:
-      "NextGen Gaming is at the forefront of the gaming industry, dedicated to creating high-quality games with cutting-edge technology. We focus on all stages of game development, from initial concept to final release. Our team is committed to delivering innovative and engaging products. We offer a dynamic and collaborative work environment with opportunities for professional advancement.",
-    totalEmployees: "280",
+    roadmap: roadmap.fullstack,
   },
   {
     id: "2b4c879ab72e150b2d3410b8c32885271cfb9486",
@@ -2002,80 +1873,12 @@ const companyData = [
     companyDescription:
       "TechWave AI Inc. is an innovative company dedicated to harnessing the power of artificial intelligence to solve real-world problems. We focus on developing advanced AI solutions that drive efficiency and create new opportunities for businesses. Our team is passionate about technology and committed to excellence. We offer a collaborative environment that supports career growth and encourages cutting-edge research and development.",
     totalEmployees: "220",
-  },
-  {
-    id: "d0f6b8a4754ca8a523dae41a2d5d69eddb305724",
-    jobTitle: "Game Creator",
-    companyLogo: companyImage.ProGameSolutions,
-    companyName: "ProGame Solutions",
-    date_recruitment: "2024-07-22",
-    salary: "₹8,50,000 - ₹12,50,000 per annum",
-    description:
-      "We are hiring a talented Game Creator to join our dynamic team. You will work on developing and maintaining engaging games using the latest technologies. Collaboration with artists and developers is essential for delivering high-quality products.",
-    benefits: [
-      "Health insurance",
-      "Flexible working hours",
-      "Professional development",
-      "Work from home options",
-    ],
-    jobType: "Full-time",
-    location: "Chennai, Tamil Nadu",
-    company_website: "https://progamesolutions.com",
-    linkedin_link: "https://www.linkedin.com/company/progamesolutions",
-    companyDescription:
-      "ProGame Solutions is a dynamic game development company that specializes in creating engaging and innovative gaming experiences. We utilize the latest technologies to deliver high-quality products that resonate with players. Our team works collaboratively in a flexible environment that fosters creativity and professional growth.",
-    totalEmployees: "230",
-  },
-  {
-    id: "fe2fe6b7cba69bcc571238078651150d238a8a99",
-    jobTitle: "Game Creator",
-    companyLogo: companyImage.ByteBuildersGaming,
-    companyName: "ByteBuilders Gaming Ltd.",
-    date_recruitment: "2024-07-31",
-    salary: "₹8,50,000 - ₹12,00,000 per annum",
-    description:
-      "We are looking for a skilled Game Creator to join our team. You will be responsible for building and maintaining engaging games. Strong knowledge of game design principles and familiarity with game development engines is required.",
-    benefits: [
-      "Health insurance",
-      "Flexible working hours",
-      "Professional development opportunities",
-      "Remote work options",
-    ],
-    jobType: "Full-time",
-    location: "Delhi, Delhi",
-    company_website: "https://thebytebuilders.net/",
-    linkedin_link: "https://www.linkedin.com/company/bytebuildersgaming",
-    companyDescription:
-      "ByteBuilders Gaming Ltd. is a prominent game development company known for its innovative and engaging games. We specialize in designing and building high-quality games that offer exceptional player experiences. Our team is dedicated to excellence and works in a collaborative environment that encourages growth and creativity.",
-    totalEmployees: "150",
-  },
-  {
-    id: "c5d883daa5f0720300e35c4bb5201284f1da8dfe",
-    jobTitle: "Game Creator",
-    companyLogo: companyImage.codemastergaming,
-    companyName: "CodeMasters Gaming Solutions",
-    date_recruitment: "2024-08-12",
-    salary: "₹8,00,000 - ₹12,50,000 per annum",
-    description:
-      "Join our team as a Game Creator. You will be responsible for developing high-quality games, ensuring optimal performance and user experience. Experience with game development engines and programming languages is required.",
-    benefits: [
-      "Health insurance",
-      "Paid time off",
-      "Professional development",
-      "Work from home options",
-    ],
-    jobType: "Full-time",
-    location: "Kolkata, West Bengal",
-    company_website: "https://www.ea.com/ea-studios/codemasters",
-    linkedin_link: "https://www.linkedin.com/company/codemastersgaming",
-    companyDescription:
-      "CodeMasters Gaming Solutions is a leading game development company recognized for its commitment to creating high-quality games. We focus on delivering engaging and immersive experiences through innovative design and technology. Our team thrives in a collaborative environment that supports creativity and professional growth.",
-    totalEmployees: "170",
+    roadmap: "#",
   },
   {
     id: "cd855413f6b65ca2226faeb46b3c59734c09b029",
     companyLogo: companyImage.AILab,
-    companyName: "AI Innovators Pvt Ltd",
+    companyName: "AI Innovators community",
     date_recruitment: "2024-08-01",
     salary: "₹12,00,000 - ₹18,00,000 per annum",
     description:
@@ -2089,11 +1892,12 @@ const companyData = [
     jobType: "Full-time",
     jobTitle: "AI ML Engineer",
     location: "Bengaluru, Karnataka",
-    company_website: "https://aiinnovationlabs.net/",
-    linkedin_link: "https://www.linkedin.com/company/aiinnovators",
+    company_website: "https://ai-innovators.com/",
+    linkedin_link: "https://www.linkedin.com/company/ai-innovators-community/",
     companyDescription:
       "AI Innovators Pvt Ltd is a pioneering company specializing in advanced AI and machine learning solutions. We focus on leveraging cutting-edge technologies to create innovative products that drive business success. Our team consists of highly skilled professionals dedicated to pushing the boundaries of AI research and application. We offer a collaborative work environment that encourages continuous learning and professional growth.",
     totalEmployees: "250",
+    roadmap: "#",
   },
   {
     id: "fa77ac072bb2953ba6bb2d969264cbfa0620def9",
@@ -2117,6 +1921,7 @@ const companyData = [
     companyDescription:
       "Machine Learning Solutions Ltd. is at the forefront of AI and machine learning innovation. We specialize in developing advanced algorithms and models that enhance business operations and decision-making processes. Our company thrives on a culture of creativity and problem-solving, offering employees opportunities to work on impactful projects. We provide a supportive environment that fosters professional development and innovation.",
     totalEmployees: "180",
+    roadmap: "#",
   },
   {
     id: "41232ea107bdb9237f8edd532bf6f934b35859e5",
@@ -2135,11 +1940,12 @@ const companyData = [
     jobType: "Full-time",
     jobTitle: "AI ML Engineer",
     location: "Hyderabad, Telangana",
-    company_website: "https://innovatechai.com",
+    company_website: "https://www.inteligenciacr.com/",
     linkedin_link: "https://www.linkedin.com/company/innovatechai",
     companyDescription:
       "Innovatech AI is a leader in the AI industry, committed to developing cutting-edge machine learning solutions that address complex challenges. Our team of experts works on a diverse range of AI projects, utilizing advanced technologies to drive innovation. We value creativity, collaboration, and continuous learning, providing a dynamic work environment where employees can thrive and make a significant impact.",
     totalEmployees: "300",
+    roadmap: "#",
   },
 
   {
@@ -2160,10 +1966,11 @@ const companyData = [
     jobTitle: "AI ML Engineer",
     location: "Delhi, Delhi",
     company_website: "https://aigen.com",
-    linkedin_link: "https://www.linkedin.com/company/aigen/",
+    linkedin_link: "-",
     companyDescription:
       "AIGen Ltd. is a forward-thinking company specializing in AI and machine learning technologies. We are dedicated to developing sophisticated solutions that advance our clients' businesses and drive technological progress. Our work environment is dynamic and collaborative, providing ample opportunities for professional growth. We value innovation and encourage our team to explore new ideas and technologies.",
     totalEmployees: "170",
+    roadmap: "#",
   },
   {
     id: "29651ab2c601950140d440ffaab7ef07e5403c72",
@@ -2182,11 +1989,12 @@ const companyData = [
     jobType: "Full-time",
     jobTitle: "AI ML Engineer",
     location: "Bengaluru, Karnataka",
-    company_website: "https://www.spark.ai/",
+    company_website: "https://www.sparkai.ca/",
     linkedin_link: "https://www.linkedin.com/company/sparkai-ca/",
     companyDescription:
       "Spark AI is a cutting-edge company focused on leveraging artificial intelligence to drive innovation and improve business outcomes. Our team is engaged in developing advanced AI models and solutions for a wide range of applications. We foster a creative and supportive work environment where employees can explore new technologies and contribute to meaningful projects. Our commitment to excellence drives our success in the AI industry.",
     totalEmployees: "280",
+    roadmap: "#",
   },
   {
     id: "7ad13e8c6ac29778f258dd9fba3ea4b7f67a35af",
@@ -2210,6 +2018,7 @@ const companyData = [
     companyDescription:
       "ProAI Solutions is an industry leader in providing innovative AI and machine learning solutions. Our team works on a variety of projects that utilize advanced algorithms and technologies to solve complex problems. We are dedicated to fostering a collaborative and inclusive work environment that supports professional development and encourages innovation.",
     totalEmployees: "230",
+    roadmap: "#",
   },
   {
     id: "f5d055e8ad372b54c0842c859ba94631b57a7023",
@@ -2229,10 +2038,456 @@ const companyData = [
     jobTitle: "AI ML Engineer",
     location: "Hyderabad, Telangana",
     company_website: "https://www.ainexus.com/",
-    linkedin_link: "https://www.linkedin.com/company/ainexus",
+    linkedin_link: "https://www.linkedin.com/company/ai-nexus/",
     companyDescription:
       "AI Nexus Pvt Ltd is a forward-thinking company dedicated to advancing the field of artificial intelligence. We focus on developing innovative machine learning solutions that address industry-specific challenges. Our work environment is collaborative and encourages continuous learning and growth. We are committed to providing our team with opportunities to make a meaningful impact through their work.",
     totalEmployees: "210",
+    roadmap: "#",
+  },
+  {
+    id: "65dfcd520286158dc53f42bd877a359b4c40dbc0",
+    companyLogo: companyImage.techwizard,
+    companyName: "TechWizards Pvt Ltd",
+    dateRecruitment: "2024-08-01",
+    salary: "₹10,00,000 - ₹15,00,000 per annum",
+    jobTitle: "iOS Developer",
+    description:
+      "We are looking for a skilled iOS Developer to join our team. The ideal candidate will have a strong background in Swift and Objective-C, with experience in developing and deploying iOS applications. You will work closely with our product and design teams to create user-friendly, scalable, and high-performance apps. Experience with Core Data, RESTful APIs, and unit testing is a plus.",
+    benefits: [
+      "Health insurance",
+      "Flexible working hours",
+      "Remote work options",
+      "Annual performance bonuses",
+    ],
+    jobType: "Full-time",
+    location: "Bengaluru, Karnataka",
+    companyWebsiteLink: "https://www.tech-wizards.com/",
+    linkedInLink: "https://www.linkedin.com/company/techwizardofficial/",
+    companyDescription:
+      "TechWizards Pvt Ltd is a leading software development company specializing in mobile and web applications. With a strong emphasis on innovation and quality, we have been delivering top-notch solutions to clients worldwide. Our team of over 500 professionals is dedicated to pushing the boundaries of technology to create impactful digital experiences. We value creativity, collaboration, and continuous learning.",
+    totalEmployees: 550,
+    roadmap: roadmap.ios,
+  },
+  {
+    id: "1467159321c2f4ff9ea2eaac67a7ee9596c01d35",
+    companyLogo: companyImage.innotech,
+    companyName: "InnoTech Solutions",
+    dateRecruitment: "2024-08-10",
+    salary: "₹12,00,000 - ₹18,00,000 per annum",
+    jobTitle: "iOS Developer",
+    description:
+      "InnoTech Solutions is seeking an experienced iOS Developer to join our mobile app team. The candidate will be responsible for designing and building applications for the iOS platform, collaborating with cross-functional teams to define, design, and ship new features. Proficiency in Swift, UIKit, and Xcode is required. The role also involves maintaining code quality and ensuring the best performance and responsiveness of the apps.",
+    benefits: [
+      "Health and wellness programs",
+      "Paid time off",
+      "Professional development opportunities",
+      "Remote work options",
+    ],
+    jobType: "Full-time",
+    location: "Mumbai, Maharashtra",
+    companyWebsiteLink: "https://innotech.com/",
+    linkedInLink: "https://www.linkedin.com/company/innotechcompany/",
+    companyDescription:
+      "InnoTech Solutions is a technology-driven company providing cutting-edge software solutions for businesses worldwide. Our focus is on creating scalable, secure, and efficient mobile applications that meet the needs of our diverse clientele. With a team of over 300 experts, we pride ourselves on our ability to deliver innovative solutions that drive business success. Our work culture encourages continuous learning and professional growth.",
+    totalEmployees: 320,
+    roadmap: roadmap.ios,
+  },
+  {
+    id: "d2ad75266a89c7db0a9627e570083a29c5ac20a5",
+    companyLogo: companyImage.appmaster,
+    companyName: "AppMasters India Pvt Ltd",
+    dateRecruitment: "2024-08-05",
+    salary: "₹11,00,000 - ₹16,00,000 per annum",
+    jobTitle: "iOS Developer",
+    description:
+      "Join our team as an iOS Developer at AppMasters India Pvt Ltd. You will be responsible for developing high-quality iOS applications and ensuring they are aligned with our business goals. The role requires excellent coding skills in Swift and Objective-C, along with experience in integrating third-party libraries and APIs. Strong problem-solving skills and a passion for mobile technology are essential.",
+    benefits: [
+      "Comprehensive health insurance",
+      "Employee stock options",
+      "Flexible working hours",
+      "Work from home options",
+    ],
+    jobType: "Full-time",
+    location: "Pune, Maharashtra",
+    companyWebsiteLink: "https://appmaster.io/",
+    linkedInLink: "https://www.linkedin.com/company/appmasterio/",
+    companyDescription:
+      "AppMasters India Pvt Ltd is a leading mobile app development company with a global presence. We specialize in creating innovative and user-centric mobile applications for clients across various industries. With over 200 employees, our team of skilled developers, designers, and project managers work together to deliver exceptional mobile experiences. Our commitment to quality and customer satisfaction sets us apart in the industry.",
+    totalEmployees: 210,
+    roadmap: roadmap.ios,
+  },
+  {
+    id: "fd2c691796f2af3576de214e54ee8849d45310ff",
+    companyLogo: companyImage.codecraft,
+    companyName: "CodeCraft Technologies",
+    dateRecruitment: "2024-08-15",
+    salary: "₹13,00,000 - ₹19,00,000 per annum",
+    jobTitle: "iOS Developer",
+    description:
+      "CodeCraft Technologies is looking for an iOS Developer to join our team of talented engineers. The ideal candidate will have extensive experience with Swift and Objective-C, and a deep understanding of iOS frameworks. You will be working on a variety of projects, including new app development and enhancements to existing apps. Familiarity with version control systems like Git and experience in Agile development environments are required.",
+    benefits: [
+      "Health insurance",
+      "Remote work options",
+      "Annual performance bonuses",
+      "Professional development courses",
+    ],
+    jobType: "Full-time",
+    location: "Hyderabad, Telangana",
+    companyWebsiteLink: "https://www.codecrafttech.com/",
+    linkedInLink:
+      "https://www.linkedin.com/company/codecraft-technologies-private-limited/",
+    companyDescription:
+      "CodeCraft Technologies is a premier software development company that specializes in mobile and web application development. With a strong focus on innovation and quality, we deliver solutions that help businesses grow and thrive in the digital age. Our team of over 400 professionals is dedicated to providing exceptional service and building long-term relationships with our clients. We believe in fostering a collaborative and inclusive work environment where creativity and innovation are encouraged.",
+    totalEmployees: 420,
+    roadmap: roadmap.ios,
+  },
+  {
+    id: "3e126449eb82d8b1ae72044246dcc308e39b46aa",
+    companyLogo: companyImage.mobility,
+    companyName: "Mobility Solutions Ltd.",
+    dateRecruitment: "2024-08-12",
+    salary: "₹14,00,000 - ₹20,00,000 per annum",
+    jobTitle: "iOS Developer",
+    description:
+      "Mobility Solutions Ltd. is seeking a talented iOS Developer to join our growing team. The candidate will be responsible for developing and maintaining iOS applications, working closely with product and design teams to deliver seamless user experiences. Strong knowledge of Swift, Objective-C, and Xcode is essential, along with experience in debugging and performance tuning. The role also requires familiarity with RESTful APIs and cloud-based services.",
+    benefits: [
+      "Health insurance",
+      "Flexible working hours",
+      "Remote work options",
+      "Employee wellness programs",
+    ],
+    jobType: "Full-time",
+    location: "Chennai, Tamil Nadu",
+    companyWebsiteLink: "https://mobility-solutions.com/",
+    linkedInLink: "NA",
+    companyDescription:
+      "Mobility Solutions Ltd. is a leading provider of mobile technology solutions, serving clients across various industries. Our expertise lies in developing high-performance mobile applications that meet the needs of our clients and their users. With a team of over 350 professionals, we are committed to delivering innovative solutions that drive business growth. Our work culture emphasizes collaboration, creativity, and continuous learning.",
+    totalEmployees: 360,
+    roadmap: roadmap.ios,
+  },
+  {
+    id: "6b978d7a999dba1f5fd479f8dde6d3dafc92312f",
+    companyLogo: companyImage.nextgenapp,
+    companyName: "NextGen Apps Pvt Ltd",
+    dateRecruitment: "2024-08-18",
+    salary: "₹15,00,000 - ₹22,00,000 per annum",
+    jobTitle: "iOS Developer",
+    description:
+      "NextGen Apps Pvt Ltd is hiring an experienced iOS Developer to lead the development of cutting-edge mobile applications. The role involves working closely with cross-functional teams to design, develop, and maintain high-quality iOS apps. The ideal candidate should have a strong command of Swift, experience with Core Data and Core Animation, and a passion for creating intuitive and user-friendly interfaces.",
+    benefits: [
+      "Comprehensive health insurance",
+      "Flexible working hours",
+      "Remote work options",
+      "Professional development opportunities",
+    ],
+    jobType: "Full-time",
+    location: "Delhi, Delhi",
+    companyWebsiteLink: "https://nextgenapps.dev/",
+    linkedInLink: "https://www.linkedin.com/company/nextgenapps/",
+    companyDescription:
+      "NextGen Apps Pvt Ltd is a forward-thinking mobile app development company that focuses on delivering innovative solutions to clients worldwide. With a team of over 250 experts, we specialize in creating custom mobile applications that meet the unique needs of our clients. Our work culture promotes creativity, collaboration, and continuous improvement, ensuring that our team remains at the forefront of mobile technology.",
+    totalEmployees: 270,
+    roadmap: roadmap.ios,
+  },
+  {
+    id: "969f022e28f9dc06171c7eb37a7ff14fd7045645",
+    companyLogo: companyImage.appinnovators,
+    companyName: "App Innovators",
+    dateRecruitment: "2024-08-20",
+    salary: "₹12,00,000 - ₹17,00,000 per annum",
+    jobTitle: "iOS Developer",
+    description:
+      "App Innovators is looking for a talented iOS Developer to join our development team. The role involves building and maintaining iOS applications, ensuring that they are optimized for performance and scalability. The ideal candidate should have a deep understanding of Swift, Objective-C, and iOS frameworks. Experience with third-party libraries and APIs, as well as knowledge of UI/UX principles, is highly desirable.",
+    benefits: [
+      "Health insurance",
+      "Remote work options",
+      "Performance bonuses",
+      "Employee stock options",
+    ],
+    jobType: "Full-time",
+    location: "Ahmedabad, Gujarat",
+    companyWebsiteLink: "https://appinnovators.com/",
+    linkedInLink: "https://www.linkedin.com/company/appinnovators/",
+    companyDescription:
+      "App Innovators is a dynamic software development company specializing in mobile and web applications. We are dedicated to creating innovative solutions that drive business success and enhance user experiences. Our team of over 200 professionals is committed to delivering high-quality products that meet the needs of our clients and their customers. We value creativity, collaboration, and continuous learning, and we strive to create an inclusive and supportive work environment.",
+    totalEmployees: 220,
+    roadmap: roadmap.ios,
+  },
+  {
+    id: "2c0ae2558f8462b928b6304b7687f81477f3497f",
+    companyLogo: companyImage.futuretech,
+    companyName: "FutureTech Solutions",
+    dateRecruitment: "2024-08-22",
+    salary: "₹13,00,000 - ₹18,00,000 per annum",
+    jobTitle: "iOS Developer",
+    description:
+      "FutureTech Solutions is hiring an iOS Developer to join our innovative development team. The role involves designing, coding, and maintaining iOS applications, ensuring they are user-friendly and performant. The ideal candidate should have strong expertise in Swift, Xcode, and iOS SDKs, as well as experience with RESTful APIs and version control systems like Git.",
+    benefits: [
+      "Health insurance",
+      "Remote work options",
+      "Annual performance bonuses",
+      "Professional development courses",
+    ],
+    jobType: "Full-time",
+    location: "Kolkata, West Bengal",
+    companyWebsiteLink: "http://futuretechsolutions.co.in/",
+    linkedInLink: "https://www.linkedin.com/company/futuretechsolutions/",
+    companyDescription:
+      "FutureTech Solutions is a leading technology company that specializes in mobile and web application development. Our mission is to create innovative and user-centric solutions that drive business growth and enhance the digital experience. With a team of over 300 professionals, we are committed to delivering high-quality products that meet the needs of our clients and their customers. We value creativity, collaboration, and continuous learning, and we strive to create a positive and inclusive work environment.",
+    totalEmployees: 310,
+    roadmap: roadmap.ios,
+  },
+  {
+    id: "0be2debdeca8a69c4c99cdecf2f9ce83746c547e",
+    jobTitle: "Data Analyst",
+    companyLogo: companyImage.insight,
+    companyName: "Insight Analytics Pvt Ltd",
+    dateRecruitment: "2024-09-05",
+    salary: "₹8,00,000 - ₹12,00,000 per annum",
+    description:
+      "As a Data Analyst at Insight Analytics, you will be responsible for collecting, processing, and performing statistical analyses on large datasets. Your work will involve generating reports that help in making data-driven decisions across various departments.",
+    benefits: "Health insurance, Paid time off, Learning opportunities",
+    jobType: "Full-time",
+    location: "Bangalore, Karnataka",
+    companyWebsiteLink: "https://iaonline.com.mx/",
+    linkedInLink: "https://www.linkedin.com/company/insight-analytics/about/",
+    companyDescription:
+      "Insight Analytics Pvt Ltd is a leading analytics firm that specializes in turning data into actionable insights. We help businesses unlock the potential of their data through advanced analytics techniques. Our team of 500 employees is dedicated to providing top-notch analytics solutions.",
+    totalEmployees: 500,
+    roadmap: roadmap.dataanalyst,
+  },
+  {
+    id: "79383d7c186c9e39be6394b4a692bb36381342ca",
+    jobTitle: "Junior Data Analyst",
+    companyLogo: companyImage.datavision,
+    companyName: "DataVision",
+    dateRecruitment: "2024-09-01",
+    salary: "₹6,00,000 - ₹9,00,000 per annum",
+    description:
+      "Join DataVision Solutions as a Junior Data Analyst where you will work with senior analysts to extract and analyze data that provides actionable insights. This role will involve learning various data analysis tools and techniques.",
+    benefits: "Health insurance, Work from home, Paid time off",
+    jobType: "Full-time",
+    location: "Mumbai, Maharashtra",
+    companyWebsiteLink: "https://www.datavsn.com/",
+    linkedInLink: "https://www.linkedin.com/company/datavsnofficial/",
+    companyDescription:
+      "DataVision Solutions is a rapidly growing data analytics firm that provides end-to-end data services. We help businesses make informed decisions by providing them with the insights they need. Our 400 employees are experts in data processing, visualization, and analysis.",
+    totalEmployees: 400,
+    roadmap: roadmap.dataanalyst,
+  },
+  {
+    id: "39c8d4237c545f132250bee1a2ad3b99d5258764",
+    jobTitle: "Senior Data Analyst",
+    companyLogo: companyImage.analitica,
+    companyName: "Analytica India",
+    dateRecruitment: "2024-08-20",
+    salary: "₹10,00,000 - ₹15,00,000 per annum",
+    description:
+      "As a Senior Data Analyst at Analytica India, you will lead data analysis projects that provide strategic insights to the company. You will work with cross-functional teams to ensure that data insights are aligned with business goals.",
+    benefits: "Health insurance, Stock options, Flexible working hours",
+    jobType: "Full-time",
+    location: "Delhi, Delhi",
+    companyWebsiteLink: "https://www.indialabexpo.com/",
+    linkedInLink:
+      "https://www.linkedin.com/company/india-lab-expo/?originalSubdomain=in",
+    companyDescription:
+      "Analytica India is a premier data analytics company that provides innovative solutions to complex business problems. With over 700 employees, we are committed to excellence in the field of data analytics and aim to help businesses make data-driven decisions.",
+    totalEmployees: 700,
+    roadmap: roadmap.dataanalyst,
+  },
+  {
+    id: "4580071e3c0d4bcc61cca7d64dda411f803737d6",
+    jobTitle: "Data Analyst",
+    companyLogo: companyImage.smartdata,
+    companyName: "Smart Data Solutions",
+    dateRecruitment: "2024-09-10",
+    salary: "₹7,00,000 - ₹11,00,000 per annum",
+    description:
+      "As a Data Analyst at Smart Data Solutions, you will be responsible for analyzing data from various sources to provide insights that improve business performance. You will collaborate with different teams to understand their data needs and deliver reports that meet those needs.",
+    benefits: "Health insurance, Paid time off, Gym membership",
+    jobType: "Full-time",
+    location: "Pune, Maharashtra",
+    companyWebsiteLink: "https://sdata.us/",
+    linkedInLink: "https://www.linkedin.com/company/smart-data-solutions/",
+    companyDescription:
+      "Smart Data Solutions is a data analytics company that helps businesses improve their performance through data-driven insights. Our team of 450 employees is committed to providing accurate and actionable data insights to our clients across various industries.",
+    totalEmployees: 450,
+    roadmap: roadmap.dataanalyst,
+  },
+  {
+    id: "0c6950333ac8ffc885d974b143dfb2b4a86e3680",
+    jobTitle: "Data Analyst",
+    companyLogo: companyImage.expertanalytics,
+    companyName: "Analytics Experts",
+    dateRecruitment: "2024-08-15",
+    salary: "₹8,50,000 - ₹12,50,000 per annum",
+    description:
+      "At Analytics Experts, you will work as a Data Analyst to provide insights that drive business growth. You will be involved in the entire data lifecycle, from data collection to reporting, ensuring that insights are aligned with business objectives.",
+    benefits: "Health insurance, Paid time off, Flexible hours",
+    jobType: "Full-time",
+    location: "Gurgaon, Haryana",
+    companyWebsiteLink: "https://expertanalytics.com/",
+    linkedInLink: "https://www.linkedin.com/company/expertanalytics/",
+    companyDescription:
+      "Analytics Experts is a renowned data analytics firm that provides comprehensive data solutions to businesses. With a team of 600 professionals, we specialize in delivering actionable insights that help our clients achieve their goals.",
+    totalEmployees: 600,
+    roadmap: roadmap.dataanalyst,
+  },
+  {
+    id: "f3272420556d01449556a44f5bc5268f3e17685f",
+    jobTitle: "Data Analyst",
+    companyLogo: companyImage.tds,
+    companyName: "Tech Data Solutions",
+    dateRecruitment: "2024-08-28",
+    salary: "₹7,50,000 - ₹11,00,000 per annum",
+    description:
+      "As a Data Analyst at Tech Data Solutions, you will analyze large datasets to provide insights that enhance business processes. You will work with data teams to ensure that insights are actionable and contribute to business growth.",
+    benefits: "Health insurance, Work from home, Learning opportunities",
+    jobType: "Full-time",
+    location: "Bangalore, Karnataka",
+    companyWebsiteLink: "https://www.techdatasolution.co.in/",
+    linkedInLink: "https://www.linkedin.com/in/techdata-solutions-84b3801a1/",
+    companyDescription:
+      "Tech Data Solutions is an industry leader in data analytics, helping companies make informed decisions through data-driven insights. Our team of 550 employees is focused on delivering high-quality analytics services to a diverse client base.",
+    totalEmployees: 550,
+    roadmap: roadmap.dataanalyst,
+  },
+  {
+    id: "e8522e020a585ed19003bbf20dcfdf8fb5481f12",
+    jobTitle: "Data Scientist",
+    companyLogo: companyImage.techinnovations,
+    companyName: "Tech Innovators Pvt Ltd",
+    dateRecruitment: "2024-09-01",
+    salary: "₹15,00,000 - ₹20,00,000 per annum",
+    description:
+      "As a Data Scientist at Tech Innovators, you will work on cutting-edge AI and ML models, analyzing large datasets to provide actionable insights for various business operations. You will collaborate with our engineering team to deploy models into production and monitor their performance.",
+    benefits: "Health insurance, Paid time off, Flexible working hours",
+    jobType: "Full-time",
+    location: "Bangalore, Karnataka",
+    companyWebsiteLink: "https://techinnovators.co.in/",
+    linkedInLink:
+      "https://www.linkedin.com/company/techinnovators/?originalSubdomain=in",
+    companyDescription:
+      "Tech Innovators Pvt Ltd is a leading tech company in India focused on AI and ML solutions. We are dedicated to driving innovation in the tech space by providing our clients with the most advanced technology solutions. Our team comprises over 1,000 talented professionals who work tirelessly to push the boundaries of technology.",
+    totalEmployees: 1200,
+    roadmap: roadmap.datascientist,
+  },
+  {
+    id: "7c8e3b0bf90cee3239c555a694d5e75247777f0c",
+    jobTitle: "Senior Data Scientist",
+    companyLogo: companyImage.datainsights,
+    companyName: "Data Insights Ltd",
+    dateRecruitment: "2024-08-15",
+    salary: "₹18,00,000 - ₹22,00,000 per annum",
+    description:
+      "In this role, you will lead a team of data scientists to develop predictive models and uncover hidden patterns in large datasets. You will be responsible for designing and implementing advanced analytics projects, working closely with stakeholders to ensure that insights drive key business decisions.",
+    benefits: "Health insurance, Paid time off, Stock options",
+    jobType: "Full-time",
+    location: "Mumbai, Maharashtra",
+    companyWebsiteLink: "https://datainsights.mystrikingly.com/",
+    linkedInLink: "https://linkedin.com/company/data-insights",
+    companyDescription:
+      "Data Insights Ltd is a premier data analytics firm with a global presence. We specialize in transforming data into strategic assets that drive business success. With over 800 employees worldwide, we are committed to delivering excellence in every project we undertake.",
+    totalEmployees: 850,
+    roadmap: roadmap.datascientist,
+  },
+  {
+    id: "025c5e5b91cea8926d3217ace098d3bf5925019f",
+    jobTitle: "Junior Data Scientist",
+    companyLogo: companyImage.quantiphi,
+    companyName: "Quantify Analytics",
+    dateRecruitment: "2024-08-25",
+    salary: "₹10,00,000 - ₹14,00,000 per annum",
+    description:
+      "Join Quantify Analytics as a Junior Data Scientist and gain hands-on experience in data analysis and machine learning. You will work alongside experienced data scientists to develop models and algorithms that drive business insights.",
+    benefits: "Health insurance, Gym membership, Learning opportunities",
+    jobType: "Full-time",
+    location: "Chennai, Tamil Nadu",
+    companyWebsiteLink: "https://quantiphi.com/",
+    linkedInLink:
+      "https://www.linkedin.com/company/quantiphi/?originalSubdomain=in",
+    companyDescription:
+      "Quantify Analytics is a data-driven company that provides actionable insights to businesses across various industries. With a strong focus on innovation and quality, our 300 employees work on cutting-edge projects that help our clients stay ahead of the competition.",
+    totalEmployees: 300,
+    roadmap: roadmap.datascientist,
+  },
+  {
+    id: "61450586bd6e7cd302c3ccf4a5b5c92c0014bafb",
+    jobTitle: "Lead Data Scientist",
+    companyLogo: companyImage.innovation,
+    companyName: "Innovations Solutions",
+    dateRecruitment: "2024-09-05",
+    salary: "₹20,00,000 - ₹25,00,000 per annum",
+    description:
+      "As the Lead Data Scientist, you will be responsible for overseeing the data science team and ensuring that all projects meet the highest standards. You will work closely with senior management to align data science initiatives with business goals.",
+    benefits: "Health insurance, Paid time off, Performance bonuses",
+    jobType: "Full-time",
+    location: "Delhi, Delhi",
+    companyWebsiteLink: "https://innovativesolutions.com/",
+    linkedInLink:
+      "https://www.linkedin.com/showcase/kent-nutrition-group-innovative-solutions/",
+    companyDescription:
+      "Innovative Solutions is a leading provider of technology and data solutions, helping businesses achieve their goals through cutting-edge innovation. With over 1,500 employees, we are dedicated to delivering high-quality services that drive results.",
+    totalEmployees: 1500,
+    roadmap: roadmap.datascientist,
+  },
+  {
+    id: "693053ebb5faa0ab91034de85f6a59470abcd9bc",
+    jobTitle: "Data Scientist",
+    companyLogo: companyImage.dataminds,
+    companyName: "DataMinds Consulting",
+    dateRecruitment: "2024-09-12",
+    salary: "₹13,00,000 - ₹18,00,000 per annum",
+    description:
+      "At DataMinds Consulting, you will be working on complex data science projects that require a deep understanding of statistical analysis and machine learning. You will be expected to develop models that can be deployed across various business units.",
+    benefits: "Health insurance, Paid time off, Work from home",
+    jobType: "Full-time",
+    location: "Pune, Maharashtra",
+    companyWebsiteLink: "https://www.dataminds.com/",
+    linkedInLink:
+      "https://www.linkedin.com/company/dataminds-a-s/?viewAsMember=true",
+    companyDescription:
+      "DataMinds Consulting is a top-tier consulting firm specializing in data science and analytics. We work with clients from various industries to provide insights that drive business growth. Our team of 700 employees is passionate about data and committed to excellence.",
+    totalEmployees: 700,
+    roadmap: roadmap.datascientist,
+  },
+  {
+    id: "b6eacb2770fb4f1dbe7bcb7241766006602279a3",
+    jobTitle: "Data Scientist",
+    companyLogo: companyImage.smartanalytics,
+    companyName: "Smart Analytics",
+    dateRecruitment: "2024-08-20",
+    salary: "₹12,00,000 - ₹16,00,000 per annum",
+    description:
+      "As a Data Scientist at Smart Analytics, you will be responsible for developing and deploying machine learning models that provide actionable insights to our clients. You will work closely with our engineering team to ensure that models are scalable and efficient.",
+    benefits: "Health insurance, Paid time off, Gym membership",
+    jobType: "Full-time",
+    location: "Kolkata, West Bengal",
+    companyWebsiteLink: "https://www.smartanalytics.com.au/",
+    linkedInLink: "https://www.linkedin.com/company/smart-analytics/",
+    companyDescription:
+      "Smart Analytics is a leader in the field of data analytics, providing businesses with the tools they need to succeed in today's competitive market. With a team of 500 employees, we are dedicated to delivering high-quality services that help our clients make data-driven decisions.",
+    totalEmployees: 500,
+    roadmap: roadmap.datascientist,
+  },
+  {
+    id: "2495cdfa4b9dcad24d732f4ac90b8de8ec1cb488",
+    jobTitle: "Frontend Developer",
+    companyLogo: companyImage.zania,
+    companyName: "Zania",
+    dateRecruitment: "Posted 1 month ago",
+    salary: "₹10L – ₹15L",
+    description:
+      "This position involves working on Zania's autonomous AI agents for security. The role requires experience with front-end development using JavaScript, React, and related frameworks. Proficiency in these technologies is necessary. Responsibilities include developing and maintaining UI components, ensuring security features integration, and optimizing the user experience.",
+    benefits: "Equity: 0.0% – 0.1%",
+    jobType: "Full-time",
+    location: "Remote possible",
+    companyWebsiteLink: "https://zania.ai/",
+    linkedInLink: "https://www.linkedin.com/company/zania",
+    companyDescription:
+      "Zania is a pioneer in the development of autonomous AI agents for security applications. We focus on creating advanced solutions that enhance security and protect against emerging threats. Our team is dedicated to innovation and technical excellence, working to deliver high-quality products that meet the demands of a rapidly evolving industry. We offer a supportive and dynamic work environment where employees can thrive and contribute to groundbreaking projects.",
+    totalEmployees: 70,
+    roadmap: roadmap.frontend,
   },
 ];
 
