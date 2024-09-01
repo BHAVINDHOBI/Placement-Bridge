@@ -24,6 +24,18 @@
   transform: translateY(-5px);
   box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
 }
+.job-description ul {
+  list-style-type: disc;
+  padding-left: 20px; /* Adjust the padding as needed */
+}
+
+.job-description li {
+  margin-bottom: 8px; /* Spacing between list items */
+}
+
+.job-description strong {
+  font-size: 1.2em; /* Increase the font size for headings */
+}
 
 .job-header {
   display: flex;

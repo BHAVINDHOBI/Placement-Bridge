@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
+import ReactMarkdown from "react-markdown";
 import {
   Container,
   Typography,
@@ -7,7 +8,6 @@ import {
   Button,
   Chip,
   Modal,
-  Backdrop,
   Box,
   IconButton,
 } from "@mui/material";
@@ -52,6 +52,11 @@ const JobDetail = ({ jobs }) => {
     link.click();
   };
 
+  // Split description into an array of strings separated by line breaks or bullet points
+  const descriptionSections = job.description
+    .split("\n")
+    .filter((section) => section.trim() !== "");
+
   return (
     <Container className="job-detail">
       <Paper className="job-detail-paper">
@@ -89,24 +94,31 @@ const JobDetail = ({ jobs }) => {
         </div>
 
         <div className="job-description-section">
-          <Typography variant="h5">
-            <strong>Job Description:</strong>
+          <Typography
+            variant="h5"
+            style={{ marginBottom: "16px", fontWeight: "bold" }}
+          >
+            Job Description:
           </Typography>
-          <Typography variant="body1" className="job-description">
-            {job.description}
-          </Typography>
+          <ul style={{ paddingLeft: "20px" }}>
+            {descriptionSections.map((section, index) => (
+              <li key={index} style={{ marginBottom: "8px" }}>
+                {section}
+              </li>
+            ))}
+          </ul>
 
-          <Typography variant="h5">
-            <strong>Benefits:</strong>
+          <Typography
+            variant="h5"
+            style={{ marginTop: "24px", fontWeight: "bold" }}
+          >
+            Benefits:
           </Typography>
           <div className="benefits-section">
-            {benefits.length > 0 ? (
+            {benefits.length > 0 &&
               benefits.map((benefit, index) => (
                 <Chip key={index} label={benefit} className="benefit-chip" />
-              ))
-            ) : (
-              <Typography variant="body2">No benefits listed</Typography>
-            )}
+              ))}
           </div>
         </div>
 

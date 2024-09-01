@@ -9,8 +9,8 @@ import dataanalyst from "../assets/Roadmaps/Data Analyst.drawio.svg";
 import datascientist from "../assets/Roadmaps/Data Scientist.drawio.svg";
 import cybersecurity from "../assets/Roadmaps/Cybersecurity.drawio.svg";
 import AIml from "../assets/Roadmaps/AIML.drawio.svg";
-import dba from "../assets/Roadmaps/AIML.drawio.svg";
-import software from "../assets/Roadmaps/AIML.drawio.svg";
+import dba from "../assets/Roadmaps/DatabaseAdminRoadmap.drawio.svg";
+import software from "../assets/Roadmaps/SoftwareDevRoadmap.drawio.svg";
 
 const roadmap = {
   frontend: frontend,
