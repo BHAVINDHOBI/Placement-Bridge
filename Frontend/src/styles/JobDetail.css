@@ -1,27 +1,132 @@
 .job-detail {
-  margin-top: 20px;
-  font-family: "Montserrat", sans-serif;
+  padding: 25px 0;
 }
 
 .job-detail-paper {
-  padding: 20px;
-  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  min-height: 400px;
+  padding: 35px;
+  border-radius: 15px;
+  background-color: rgb(158, 149, 149);
+}
+
+.job-header {
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+  align-items: center;
+  justify-items: center;
+  width: 100%;
+}
+
+.job-title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  border-radius: 12px;
+  margin: 24px 0;
 }
 
 .company-logo {
-  width: 100px;
-  height: auto;
-  margin-bottom: 20px;
+  width: 150px;
+  height: 150px;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
-.job-description {
+.job-details-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.job-details-section,
+.job-details-salary {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.job-detail-item {
+  margin-bottom: 10px;
+}
+
+.job-description-section {
+  margin-top: 20px;
+  text-align: justify;
+}
+
+.benefits-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
   margin-top: 10px;
 }
 
-ul {
-  padding-left: 20px;
+.benefit-chip {
+  background-color: #0077b5;
+  color: white;
+}
+/* Flexbox container for the links */
+
+/* Company icon styling */
+.company-icon {
+  color: #888;
 }
 
-ul li {
-  margin-bottom: 5px;
+/* Styling for the visit text */
+.visit-here-text {
+  font-size: 16px;
+  font-weight: 600;
+  color: #0077b5;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+/* Button container styling */
+.button-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: #005582;
+}
+
+.modal-box {
+  position: relative;
+  max-width: 90%;
+  max-height: 90%;
+  margin: auto;
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  overflow: auto; /* Allows scrolling */
+  box-sizing: border-box;
+}
+
+.roadmap-image {
+  width: 100%;
+  height: auto;
+  object-fit: contain; /* Ensures the entire image is visible */
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.download-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  left: 5px;
 }

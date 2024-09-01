@@ -18,14 +18,20 @@ const JobCard = ({ job }) => {
         <Grid container spacing={2} alignItems="center">
           {/* Left Section: Company Logo and Info */}
           <Grid item xs={12} sm={4} md={3} className="left-section">
-            <img
-              src={job.companyLogo}
-              alt={`${job.companyName} logo`}
-              className="company-logo"
-            />
-            <Box className="company-info">
-              {/* Company Name and Rating */}
-              <Typography variant="h6">{job.companyName}</Typography>
+            <Box className="logo-and-name">
+              <img
+                src={job.companyLogo}
+                alt={`${job.companyName} logo`}
+                className="company-logo"
+                sx={{ height: 200, width: 150 }}
+              />
+              <Typography
+                variant="h6"
+                className="company-name"
+                sx={{ fontWeight: "Bold" }}
+              >
+                {job.companyName}
+              </Typography>
             </Box>
           </Grid>
 
@@ -33,17 +39,29 @@ const JobCard = ({ job }) => {
           <Divider
             orientation="vertical"
             flexItem
-            style={{ marginLeft: "20px", borderColor: "#00ffff" }}
+            style={{
+              marginLeft: "20px",
+              borderColor: "#000",
+              marginTop: "20px",
+            }}
           />
 
           {/* Right Section: Job Details */}
           <Grid item xs={12} sm={7} md={8} className="right-section">
             {/* Job Title */}
-            <Typography variant="h6" className="job-title">
-              Recruitment for - {job.jobTitle}
+            <Typography
+              variant="h6"
+              className="job-title"
+              sx={{ fontWeight: "Bold" }}
+            >
+              Recruiting for - {job.jobTitle}
             </Typography>
             <Box className="space-between-sections" />
-            <Typography variant="h6" className="description-title">
+            <Typography
+              variant="h6"
+              className="description-title"
+              sx={{ fontWeight: "Bold" }}
+            >
               Description
             </Typography>
             <Typography variant="body2" className="description-text">
@@ -67,7 +85,7 @@ const JobCard = ({ job }) => {
             </Grid>
 
             {/* View Details Button */}
-            <Box display="flex" justifyContent="flex-end" mt={2}>
+            <Box display="flex" justifyContent="flex-start" mt={2}>
               <Link to={`/job/${job.id}`} className="view-details-link">
                 <Button variant="contained" color="primary">
                   View Details

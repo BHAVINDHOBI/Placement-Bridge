@@ -9,16 +9,43 @@
 }
 
 .left-section {
+  /* background-color: red; */
+  height: 300px;
+  /* background-color: red; */
+  height: 300px;
   display: flex;
   align-items: center;
+  justify-content: center;
+  justify-content: center;
   padding: 10px;
 }
 
+.logo-and-name {
+  height: 250px;
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 75px;
+}
+
 .company-logo {
-  width: 80px;
-  height: 80px;
+  margin-top: 20px;
+  height: 200px;
+  width: 150px;
+  margin-top: 20px;
+  height: 200px;
+  width: 150px;
   object-fit: contain;
-  margin-right: 15px;
+  box-shadow: 3px 3px 15px #bebebe, -3px -3px 15px #ffffff;
+}
+
+.company-name {
+  margin-top: 10px; /* Add some space between the logo and the company name */
+  font-weight: bold;
+  color: #333;
+  text-align: center;
 }
 
 .company-info {
@@ -49,6 +76,7 @@
 
 .description-text {
   margin-bottom: 15px;
+  text-align: justify;
   color: #333;
 }
 

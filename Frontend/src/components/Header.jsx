@@ -163,7 +163,8 @@ const Header = () => {
           marginBottom: 2, // Add margin bottom
         }}
       >
-        <Toolbar>
+        <Toolbar sx={{ justifyContent: "space-between", alignItems: "center" }}>
+          {/* Logo on the left */}
           <RouterLink
             to="/"
             style={{
@@ -171,7 +172,6 @@ const Header = () => {
               color: "inherit",
               display: "flex",
               alignItems: "center",
-              flexGrow: 1,
             }}
           >
             <img
@@ -185,8 +185,15 @@ const Header = () => {
               }}
             />
           </RouterLink>
+
+          {/* Navigation items centered */}
           <Box
-            sx={{ display: { xs: "none", md: "flex" }, alignItems: "center" }}
+            sx={{
+              display: { xs: "none", md: "flex" },
+              alignItems: "center",
+              justifyContent: "center",
+              flexGrow: 1, // This allows the nav items to occupy the center space
+            }}
           >
             {navItems.map((text) => (
               <Button
@@ -195,20 +202,20 @@ const Header = () => {
                   color: "white",
                   textTransform: "none",
                   fontSize: 16,
-                  marginX: 1,
+                  marginX: 2,
                   position: "relative",
                   "&::after": {
                     content: '""',
                     position: "absolute",
                     bottom: -2,
                     left: 0,
-                    width: "0%", // Start with no width
+                    width: "0%",
                     height: "2px",
                     backgroundColor: "white",
-                    transition: "width 0.3s ease", // Add transition
+                    transition: "width 0.3s ease",
                   },
                   "&:hover::after": {
-                    width: "100%", // Expand to full width on hover
+                    width: "100%",
                   },
                 }}
               >
@@ -223,28 +230,32 @@ const Header = () => {
                 </ScrollLink>
               </Button>
             ))}
-            <Button
-              variant="contained"
-              color="primary"
-              onClick={handleSignOutClick}
-              startIcon={
-                <img
-                  src={image.LogoutIcon}
-                  alt="Logout Icon"
-                  style={{ height: 20 }}
-                />
-              }
-              sx={{
-                textTransform: "none",
-                fontSize: 16,
-                marginLeft: 1.5,
-                padding: "8px 24px",
-                borderRadius: 25,
-              }}
-            >
-              Logout
-            </Button>
           </Box>
+
+          {/* Logout button on the right */}
+          <Button
+            variant="contained"
+            color="primary"
+            onClick={handleSignOutClick}
+            startIcon={
+              <img
+                src={image.LogoutIcon}
+                alt="Logout Icon"
+                style={{ height: 20 }}
+              />
+            }
+            sx={{
+              textTransform: "none",
+              fontSize: 16,
+              marginLeft: 1.5,
+              padding: "8px 24px",
+              borderRadius: 25,
+            }}
+          >
+            Logout
+          </Button>
+
+          {/* Menu icon for mobile view */}
           <IconButton
             color="inherit"
             edge="end"
