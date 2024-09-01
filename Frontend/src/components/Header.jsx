@@ -26,13 +26,28 @@ const Header = () => {
   const [appBarBackground, setAppBarBackground] = useState("transparent");
 
   const handleSignOutClick = () => {
-    localStorage.removeItem("token"); // Remove the token
-    window.location.href = "/Login"; // Navigate to login page
+    localStorage.removeItem("token");
+    window.location.href = "/Login";
   };
 
   const handleDrawerToggle = () => {
     setMobileOpen(!mobileOpen);
   };
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setAppBarBackground("rgba(0, 0, 0, 0.3)");
+      } else {
+        setAppBarBackground("transparent");
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   const drawer = (
     <Box
@@ -89,7 +104,7 @@ const Header = () => {
               to={text.replace(/\s+/g, "").toLowerCase()}
               smooth={true}
               duration={500}
-              offset={-70} // Adjust this offset based on header height
+              offset={-70}
               style={{ textDecoration: "none", width: "100%" }}
               onClick={handleDrawerToggle}
             >
@@ -99,6 +114,9 @@ const Header = () => {
                   textAlign: "center",
                   color: "white",
                   fontSize: 18,
+                  "&:hover": {
+                    textDecoration: "underline",
+                  },
                 }}
               />
             </ScrollLink>
@@ -133,12 +151,16 @@ const Header = () => {
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar
-        position="static" // Changed from fixed to static
+        position="fixed"
+        elevation={0} // Remove the shadow
         sx={{
+          top: 0,
           backgroundColor: appBarBackground,
           transition: "background-color 0.3s ease",
-          boxShadow: "none",
-          paddingY: 2,
+          zIndex: (theme) => theme.zIndex.drawer + 1,
+          width: "100%", // Ensure full width
+          borderBottom: "none", // Remove border
+          marginBottom: 2, // Add margin bottom
         }}
       >
         <Toolbar>
@@ -155,7 +177,7 @@ const Header = () => {
             <img
               src={image.PlacementBridgeLogo}
               alt="Placement Bridge Logo"
-              style={{ height: 90, marginRight: 10 }} // Reduced marginRight
+              style={{ height: 90, marginRight: 10 }}
             />
             <Typography
               variant="h6"
@@ -178,14 +200,26 @@ const Header = () => {
                   color: "white",
                   textTransform: "none",
                   fontSize: 16,
-                  marginX: 1, // Reduced marginX
+                  marginX: 1,
+                  position: "relative",
+                  "&:hover": {
+                    "&::after": {
+                      content: '""',
+                      position: "absolute",
+                      bottom: -2,
+                      left: 0,
+                      right: 0,
+                      height: "2px",
+                      backgroundColor: "white",
+                    },
+                  },
                 }}
               >
                 <ScrollLink
                   to={text.replace(/\s+/g, "").toLowerCase()}
                   smooth={true}
                   duration={500}
-                  offset={-70} // Adjust this offset based on header height
+                  offset={-70}
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
                   {text}
@@ -206,7 +240,7 @@ const Header = () => {
               sx={{
                 textTransform: "none",
                 fontSize: 16,
-                marginLeft: 1.5, // Reduced marginLeft
+                marginLeft: 1.5,
                 padding: "8px 24px",
                 borderRadius: 25,
               }}
@@ -224,7 +258,6 @@ const Header = () => {
           </IconButton>
         </Toolbar>
       </AppBar>
-      <Toolbar /> {/* This toolbar pushes content below the fixed AppBar */}
       <Drawer
         anchor="left"
         open={mobileOpen}
@@ -243,6 +276,7 @@ const Header = () => {
       >
         {drawer}
       </Drawer>
+      <Box sx={{ marginTop: "50px", padding: "40px" }}></Box>
     </Box>
   );
 };
