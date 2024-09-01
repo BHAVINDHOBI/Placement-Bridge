@@ -151,7 +151,7 @@ const Header = () => {
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar
-        position="fixed"
+        position={mobileOpen ? "static" : "fixed"} // Make AppBar static when drawer is open
         elevation={0} // Remove the shadow
         sx={{
           top: 0,
@@ -177,18 +177,13 @@ const Header = () => {
             <img
               src={image.PlacementBridgeLogo}
               alt="Placement Bridge Logo"
-              style={{ height: 90, marginRight: 10 }}
-            />
-            <Typography
-              variant="h6"
-              sx={{
-                color: "white",
-                fontWeight: 500,
-                fontSize: 28,
+              style={{
+                height: 75,
+                marginLeft: 18,
+                marginTop: 10,
+                marginBottom: 10,
               }}
-            >
-              Placement Bridge
-            </Typography>
+            />
           </RouterLink>
           <Box
             sx={{ display: { xs: "none", md: "flex" }, alignItems: "center" }}
@@ -202,16 +197,18 @@ const Header = () => {
                   fontSize: 16,
                   marginX: 1,
                   position: "relative",
-                  "&:hover": {
-                    "&::after": {
-                      content: '""',
-                      position: "absolute",
-                      bottom: -2,
-                      left: 0,
-                      right: 0,
-                      height: "2px",
-                      backgroundColor: "white",
-                    },
+                  "&::after": {
+                    content: '""',
+                    position: "absolute",
+                    bottom: -2,
+                    left: 0,
+                    width: "0%", // Start with no width
+                    height: "2px",
+                    backgroundColor: "white",
+                    transition: "width 0.3s ease", // Add transition
+                  },
+                  "&:hover::after": {
+                    width: "100%", // Expand to full width on hover
                   },
                 }}
               >
@@ -276,7 +273,12 @@ const Header = () => {
       >
         {drawer}
       </Drawer>
-      <Box sx={{ marginTop: "50px", padding: "40px" }}></Box>
+      <Box
+        sx={{
+          marginTop: { xs: "50px", md: 0 }, // Apply marginTop only on mobile (xs)
+          padding: { xs: "40px", md: 0 }, // Apply padding only on mobile (xs)
+        }}
+      ></Box>
     </Box>
   );
 };

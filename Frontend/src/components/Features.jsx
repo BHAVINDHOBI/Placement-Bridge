@@ -6,56 +6,64 @@ import {
   Card,
   CardContent,
   Typography,
-  CardMedia,
   Divider,
 } from "@mui/material";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import image from "../assets/ImageUtility";
 
 const Features = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
     AOS.init();
+
+    // Load the Lottie Player script
+    const script = document.createElement("script");
+    script.src =
+      "https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs";
+    script.type = "module";
+    document.body.appendChild(script);
+
+    return () => {
+      document.body.removeChild(script);
+    };
   }, []);
 
   const featureData = [
     {
       title: "Recruitments",
-      image: image.RecruitmentLogo,
-      alt: "recruitment_logo",
+      lottieSrc:
+        "https://lottie.host/7c053bef-c225-4608-94f5-c425dbe3c056/5xNz1X3V9O.json",
       link: "/recruitments",
       aos: "fade-down-right",
     },
     {
       title: "Core IT Subjects",
-      image: image.CoreITIcon,
-      alt: "core_it_icon",
+      lottieSrc:
+        "https://lottie.host/15963366-c0da-4168-9111-557d601f7661/REMgN97oS8.json",
       link: "/subjects",
       aos: "fade-down-left",
     },
     {
       title: "Hackathon Hub",
-      image: image.HackathonIcon,
-      alt: "hackathon_icon",
+      lottieSrc:
+        "https://lottie.host/1dcd1131-9ef2-4105-800a-4b889cecf2b5/q61RXt9z37.json", // Replace with the actual Lottie URL
       link: "/hackathons",
       aos: "fade-up-right",
     },
     {
       title: "Latest Technologies",
-      image: image.LatesttechIcon,
-      alt: "latest_tech_icon",
+      lottieSrc:
+        "https://lottie.host/bb790e49-6113-49d2-b81c-bd93c8fa381d/pNiXhqrFbn.json", // Replace with the actual Lottie URL
       link: "/technologies",
       aos: "fade-up-left",
     },
     {
       title: "StartUp",
-      image: image.StartUpLogo,
-      alt: "startup_logo",
+      lottieSrc:
+        "https://lottie.host/c509f265-946c-43b2-946a-3f35f8c526e8/QGTFSp8IwQ.json", // Replace with the actual Lottie URL
       link: "/startup",
       aos: "fade-up",
-      newLogo: image.NewLogo,
     },
   ];
 
@@ -86,16 +94,18 @@ const Features = () => {
               data-aos={feature.aos}
               onClick={() => navigate(feature.link)}
             >
-              <CardMedia
-                component="img"
+              <Box
                 sx={{
                   width: "50%",
                   height: "100%",
-                  objectFit: "contain",
                   marginRight: 2,
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
                 }}
-                image={feature.image}
-                alt={feature.alt}
+                dangerouslySetInnerHTML={{
+                  __html: `<dotlottie-player src="${feature.lottieSrc}" background="transparent" speed="1" style="width: 100%; height: 100%;" loop autoplay></dotlottie-player>`,
+                }}
               />
 
               <CardContent
@@ -107,36 +117,25 @@ const Features = () => {
                   padding: "0",
                 }}
               >
-                <Typography variant="h6" color="white" sx={{ fontWeight: 500 }}>
+                <Typography
+                  variant="h6"
+                  color="white"
+                  sx={{ fontWeight: 500, fontSize: 25, marginTop: 3 }}
+                >
                   {feature.title}
                 </Typography>
               </CardContent>
-              {feature.newLogo && (
-                <Box
-                  component="img"
-                  src={feature.newLogo}
-                  alt="new-logo"
-                  sx={{
-                    position: "absolute",
-                    top: 10,
-                    left: 10,
-                    width: "30px",
-                    height: "30px",
-                  }}
-                />
-              )}
             </Card>
           </Grid>
         ))}
       </Grid>
 
-      {/* Add a horizontal divider below the cards */}
       <Divider
         sx={{
           my: {
-            xs: 8, // Small margin for extra small screens
-            sm: 10, // Medium margin for small screens
-            lg: 20, // Even larger margin for large screens
+            xs: 8,
+            sm: 10,
+            lg: 20,
           },
           borderColor: "rgba(255, 255, 255, 0.3)",
         }}
