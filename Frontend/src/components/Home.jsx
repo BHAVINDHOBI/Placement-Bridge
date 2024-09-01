@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { Box, Typography } from "@mui/material";
+import StarryBackground from "./StarryBackground";
 
 const Home = () => {
   useEffect(() => {
@@ -17,72 +18,74 @@ const Home = () => {
   }, []);
 
   return (
-    <Box
-      component="section"
-      sx={{
-        display: "flex",
-        justifyContent: "space-between",
-        alignItems: "center",
-        flexDirection: { xs: "column", md: "row" },
-        minHeight: "100vh",
-        backgroundColor: "transparent",
-        color: "#fff",
-        padding: { xs: 2, md: 4 }, // Added padding for better spacing
-      }}
-    >
+    <StarryBackground>
       <Box
+        component="section"
         sx={{
-          flex: 1,
-          textAlign: { xs: "center", md: "left" },
-          marginBottom: { xs: 4, md: 0 },
-          paddingLeft: { md: 1 },
-          paddingRight: { md: 19 }, // Add space between text and image
-        }}
-      >
-        <Typography
-          variant="h2" // Increased text size
-          component="div"
-          sx={{
-            fontWeight: "bold",
-            marginBottom: 2, // Adjusted space below the heading
-            textAlign: { xs: "center", md: "left" }, // Justify text alignment
-          }}
-        >
-          Get a job at your dream company!
-        </Typography>
-        <Typography
-          variant="h5" // Increased text size
-          component="p"
-          sx={{
-            fontSize: "1.5rem",
-            color: "#00d3e8",
-            textAlign: { xs: "center", md: "left" }, // Justify text alignment
-            marginTop: { xs: 3, md: 10 }, // Added space above the paragraph
-          }}
-        >
-          We offer top-notch information that fits you and helps you get closer
-          to your dream job while giving you the perfect expertise for your job
-          needs.
-        </Typography>
-      </Box>
-      <Box
-        sx={{
-          flex: 1,
           display: "flex",
-          justifyContent: "center",
+          justifyContent: "space-between",
           alignItems: "center",
+          flexDirection: { xs: "column", md: "row" },
+          minHeight: "100vh",
+          backgroundColor: "transparent",
+          color: "#fff",
+          padding: { xs: 2, md: 4 }, // Added padding for better spacing
         }}
       >
-        <dotlottie-player
-          src="https://lottie.host/38f47193-a037-47c4-b9fa-77d344d92875/RDcqvzDyO3.json"
-          background="transparent"
-          speed="1"
-          style={{ width: "100%", maxWidth: "700px", height: "auto" }}
-          loop
-          autoplay
-        ></dotlottie-player>
+        <Box
+          sx={{
+            flex: 1,
+            textAlign: { xs: "center", md: "left" },
+            marginBottom: { xs: 4, md: 0 },
+            paddingLeft: { md: 1 },
+            paddingRight: { md: 19 }, // Add space between text and image
+          }}
+        >
+          <Typography
+            variant="h2" // Increased text size
+            component="div"
+            sx={{
+              fontWeight: "bold",
+              marginBottom: 2, // Adjusted space below the heading
+              textAlign: { xs: "center", md: "left" }, // Justify text alignment
+            }}
+          >
+            Get a job at your dream company!
+          </Typography>
+          <Typography
+            variant="h5" // Increased text size
+            component="p"
+            sx={{
+              fontSize: "1.5rem",
+              color: "#00d3e8",
+              textAlign: { xs: "center", md: "left" }, // Justify text alignment
+              marginTop: { xs: 3, md: 10 }, // Added space above the paragraph
+            }}
+          >
+            We offer top-notch information that fits you and helps you get
+            closer to your dream job while giving you the perfect expertise for
+            your job needs.
+          </Typography>
+        </Box>
+        <Box
+          sx={{
+            flex: 1,
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <dotlottie-player
+            src="https://lottie.host/38f47193-a037-47c4-b9fa-77d344d92875/RDcqvzDyO3.json"
+            background="transparent"
+            speed="1"
+            style={{ width: "100%", maxWidth: "700px", height: "auto" }}
+            loop
+            autoplay
+          ></dotlottie-player>
+        </Box>
       </Box>
-    </Box>
+    </StarryBackground>
   );
 };
 
