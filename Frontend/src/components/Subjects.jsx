@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import SubjectCard from "./SubjectCard";
-import subjects from "../data/subjects.json";
+import subjects from "../data/subjects";
 import {
   Pagination,
   TextField,
