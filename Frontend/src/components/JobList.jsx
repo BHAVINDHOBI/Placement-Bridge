@@ -81,7 +81,7 @@ const JobList = ({ jobs }) => {
             flexDirection: "row",
             alignItems: "center",
             width: "100%",
-            maxWidth: "1200px",
+            maxWidth: "1536px",
             left: "50%",
             transform: "translateX(-50%)",
             padding: "0px 10px",
@@ -119,6 +119,7 @@ const JobList = ({ jobs }) => {
               className="page-title"
               sx={{
                 marginLeft: 1,
+                marginRight: { xs: 3, md: 2 },
                 fontSize: {
                   xs: "1.4rem", // Font size for extra-small devices (mobile)
                   sm: "1.7rem", // Font size for small devices (tablets)
@@ -130,10 +131,10 @@ const JobList = ({ jobs }) => {
             </Typography>
             <Box
               sx={{
-                width: { xs: "40px", sm: "50px", md: "60px" }, // Adjust the width for different screen sizes
-                height: { xs: "40px", sm: "50px", md: "60px" },
+                width: { xs: "40px", sm: "50px", md: "70px" }, // Adjust the width for different screen sizes
+                height: { xs: "40px", sm: "50px", md: "70px" },
 
-                marginRight: { xs: 2.5 },
+                marginRight: { xs: 10, md: 7 },
               }}
             >
               <dotlottie-player

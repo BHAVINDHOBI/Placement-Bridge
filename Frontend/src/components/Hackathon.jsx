@@ -85,7 +85,7 @@ const Hackathons = () => {
               flexDirection: "row",
               alignItems: "center",
               width: "100%",
-              maxWidth: "1200px",
+              maxWidth: "1536px",
               left: "50%",
               transform: "translateX(-50%)",
               padding: "0px 10px",
@@ -100,6 +100,7 @@ const Hackathons = () => {
                 : "none",
               transition:
                 "background-color 0.3s ease, border-radius 0.3s ease, border 0.3s ease",
+              zIndex: 10,
             }}
           >
             <IconButton
@@ -127,6 +128,7 @@ const Hackathons = () => {
                 className="page-title"
                 sx={{
                   marginLeft: 1,
+                  marginRight: { xs: 3, md: 2 },
                   fontSize: {
                     xs: "1.4rem", // Font size for extra-small devices (mobile)
                     sm: "1.7rem", // Font size for small devices (tablets)
@@ -141,7 +143,7 @@ const Hackathons = () => {
                   width: { xs: "40px", sm: "50px", md: "60px" }, // Adjust the width for different screen sizes
                   height: { xs: "40px", sm: "50px", md: "60px" },
 
-                  marginRight: { xs: 2.5 },
+                  marginRight: { xs: 10, md: 7 },
                 }}
               >
                 <dotlottie-player
@@ -167,7 +169,7 @@ const Hackathons = () => {
           <Box
             sx={{
               marginTop: { xs: "50px", md: "50px" }, // Apply marginTop only on mobile (xs)
-              padding: { xs: "40px", md: "40px" }, // Apply padding only on mobile (xs)
+              padding: { xs: "50px", md: "40px" }, // Apply padding only on mobile (xs)
             }}
           ></Box>
         </section>

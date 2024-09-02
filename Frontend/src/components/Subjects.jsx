@@ -79,7 +79,7 @@ const Subjects = () => {
               flexDirection: "row",
               alignItems: "center",
               width: "100%",
-              maxWidth: "1200px",
+              maxWidth: "1536px",
               left: "50%",
               transform: "translateX(-50%)",
               padding: "0px 10px",
@@ -132,9 +132,9 @@ const Subjects = () => {
               </Typography>
               <Box
                 sx={{
-                  width: { xs: "40px", sm: "50px", md: "60px" }, // Adjust the width for different screen sizes
-                  height: { xs: "40px", sm: "50px", md: "60px" },
-
+                  width: { xs: "40px", sm: "50px", md: "70px" }, // Adjust the width for different screen sizes
+                  height: { xs: "40px", sm: "50px", md: "70px" },
+                  ml: { md: 2 },
                   marginRight: { xs: 2.5 },
                 }}
               >
