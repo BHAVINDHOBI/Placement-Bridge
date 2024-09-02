@@ -13,6 +13,7 @@ import {
 import { ArrowBack } from "@mui/icons-material";
 import { useNavigate } from "react-router-dom";
 import StarryBackground from "./StarryBackground";
+import "typeface-montserrat";
 
 const Subjects = () => {
   const itemsPerPage = 5;
@@ -121,6 +122,7 @@ const Subjects = () => {
                 className="page-title"
                 sx={{
                   marginLeft: 1,
+                  fontFamily: "Montserrat, sans-serif",
                   fontSize: {
                     xs: "1.4rem", // Font size for extra-small devices (mobile)
                     sm: "1.7rem", // Font size for small devices (tablets)

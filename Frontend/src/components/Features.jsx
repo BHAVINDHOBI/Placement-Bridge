@@ -10,6 +10,7 @@ import {
 } from "@mui/material";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import "typeface-montserrat";
 
 const Features = () => {
   const navigate = useNavigate();
@@ -68,7 +69,10 @@ const Features = () => {
   ];
 
   return (
-    <Box sx={{ mt: 10, px: 2 }} id="Services">
+    <Box
+      sx={{ mt: 10, px: 2, fontFamily: "Montserrat, sans-serif" }}
+      id="Services"
+    >
       <Grid container spacing={6} justifyContent="center">
         {featureData.map((feature, index) => (
           <Grid item xs={11} sm={6} md={4.5} key={index}>
@@ -120,7 +124,12 @@ const Features = () => {
                 <Typography
                   variant="h6"
                   color="white"
-                  sx={{ fontWeight: 500, fontSize: 25, marginTop: 3 }}
+                  sx={{
+                    fontWeight: 500,
+                    fontSize: 25,
+                    marginTop: 3,
+                    fontFamily: "Montserrat, sans-serif",
+                  }}
                 >
                   {feature.title}
                 </Typography>

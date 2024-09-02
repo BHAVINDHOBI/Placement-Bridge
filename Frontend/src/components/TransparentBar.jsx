@@ -31,6 +31,7 @@ const TransparentBar = () => (
       data-aos="fade-right"
       data-aos-duration="700"
       sx={{
+        fontFamily: "Montserrat, sans-serif",
         fontSize: { xs: "24px", sm: "28px", md: "35px" }, // Adjusted font size for sm screens
         color: "#00FFF0",
         textAlign: "center",

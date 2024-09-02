@@ -80,6 +80,7 @@ const SubjectCard = ({
                 src={image}
                 alt={altText}
                 style={{
+                  fontFamily: "Montserrat, sans-serif",
                   width: "100%",
                   height: { xs: "auto", sm: "250px" },
                   objectFit: "fit",
@@ -105,7 +106,7 @@ const SubjectCard = ({
               sx={{
                 fontWeight: "Bold",
                 fontSize: { xs: "20px", sm: "24px" }, // Responsive font size
-                fontFamily: "Roboto Serif",
+                fontFamily: "Montserrat, sans-serif",
                 color: "black",
                 overflow: "hidden",
                 textOverflow: "ellipsis",
@@ -163,7 +164,7 @@ const SubjectCard = ({
                 sx={{
                   fontWeight: "bold",
                   fontSize: { xs: "20px", sm: "22px" },
-                  fontFamily: "Roboto Serif",
+                  fontFamily: "Montserrat, sans-serif",
                 }}
               >
                 Description
@@ -174,7 +175,7 @@ const SubjectCard = ({
               sx={{
                 textAlign: "justify",
                 fontSize: { xs: "14px", sm: "16px" }, // Adjust font size for small screens
-                fontFamily: "Roboto Serif",
+                ffontFamily: "Montserrat, sans-serif",
               }}
             >
               {description}
@@ -186,7 +187,7 @@ const SubjectCard = ({
                 color: "black",
                 border: "1px solid blue",
                 fontWeight: "Bold",
-                fontFamily: "Roboto Serif",
+                fontFamily: "Montserrat, sans-serif",
                 "&:hover": {
                   backgroundColor: "#15DFD3",
                   borderColor: "darkblue",
@@ -236,7 +237,7 @@ const SubjectCard = ({
                 sx={{
                   fontWeight: "bold",
                   fontSize: { xs: "20px", sm: "22px" },
-                  fontFamily: "Roboto Serif",
+                  fontFamily: "Montserrat, sans-serif",
                 }}
               >
                 Learning Outcomes
@@ -246,24 +247,27 @@ const SubjectCard = ({
                   sx={{
                     display: "list-item",
                     textAlign: "justify",
-                    fontFamily: "Roboto Serif",
+                    ffontFamily: "Montserrat, sans-serif",
                     paddingLeft: 0,
                   }}
                 >
                   <ListItemText
                     primary={Objective1}
-                    sx={{ fontFamily: "Roboto Serif" }}
+                    sx={{ fontFamily: "Montserrat, sans-serif" }}
                   />
                 </ListItem>
                 <ListItem
                   sx={{
                     display: "list-item",
                     textAlign: "justify",
-                    fontFamily: "Roboto Serif",
+                    fontFamily: "Montserrat, sans-serif",
                     paddingLeft: 0,
                   }}
                 >
-                  <ListItemText primary={Objective2} />
+                  <ListItemText
+                    primary={Objective2}
+                    sx={{ fontFamily: "Montserrat, sans-serif" }}
+                  />
                 </ListItem>
               </List>
             </Box>
@@ -288,7 +292,7 @@ const SubjectCard = ({
             >
               <Box
                 sx={{
-                  fontFamily: "Roboto Serif",
+                  fontFamily: "Montserrat, sans-serif",
                   display: "flex",
                   alignItems: "center",
                   gap: 1,
@@ -303,7 +307,7 @@ const SubjectCard = ({
                   sx={{
                     fontWeight: "bold",
                     fontSize: { xs: "16px", sm: "20px" },
-                    fontFamily: "Roboto Serif",
+                    fontFamily: "Montserrat, sans-serif",
                   }}
                 >
                   Project
@@ -311,7 +315,7 @@ const SubjectCard = ({
               </Box>
               <Box
                 sx={{
-                  fontFamily: "Roboto Serif",
+                  fontFamily: "Montserrat, sans-serif",
                   display: "flex",
                   alignItems: "center",
                   gap: 1,
@@ -326,7 +330,7 @@ const SubjectCard = ({
                   sx={{
                     fontWeight: "bold",
                     fontSize: { xs: "16px", sm: "20px" },
-                    fontFamily: "Roboto Serif",
+                    fontFamily: "Montserrat, sans-serif",
                   }}
                 >
                   Video Tutorial
@@ -334,7 +338,7 @@ const SubjectCard = ({
               </Box>
               <Box
                 sx={{
-                  fontFamily: "Roboto Serif",
+                  fontFamily: "Montserrat, sans-serif",
                   display: "flex",
                   alignItems: "center",
                   gap: 1,
@@ -348,7 +352,7 @@ const SubjectCard = ({
                   sx={{
                     fontWeight: "bold",
                     fontSize: { xs: "16px", sm: "20px" },
-                    fontFamily: "Roboto Serif",
+                    fontFamily: "Montserrat, sans-serif",
                   }}
                 >
                   Document

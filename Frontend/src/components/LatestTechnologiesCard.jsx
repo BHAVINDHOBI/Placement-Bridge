@@ -262,7 +262,10 @@ const TechnologyCard = ({
                     paddingLeft: 0,
                   }}
                 >
-                  <ListItemText primary={Objective2} />
+                  <ListItemText
+                    primary={Objective2}
+                    sx={{ fontFamily: "Montserrat" }}
+                  />
                 </ListItem>
               </List>
             </Box>
@@ -302,7 +305,7 @@ const TechnologyCard = ({
                   sx={{
                     fontWeight: "bold",
                     fontSize: { xs: "16px", sm: "20px" },
-                    fontFamily: "Roboto Serif",
+                    fontFamily: "Montserrat, sans-serif",
                   }}
                 >
                   Project

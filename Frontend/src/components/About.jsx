@@ -8,6 +8,7 @@ const About = () => (
     component="section"
     sx={{
       padding: { xs: "20px", sm: "40px", md: "60px" },
+      fontFamily: "Montserrat, sans-serif",
     }}
     id="About"
   >

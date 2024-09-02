@@ -66,6 +66,7 @@ const Header = () => {
   const drawer = (
     <Box
       sx={{
+        fontFamily: "Montserrat, sans-serif",
         width: "100vw",
         height: "100vh",
         backgroundColor: "#121212",
@@ -92,7 +93,12 @@ const Header = () => {
         />
         <Typography
           variant="h6"
-          sx={{ color: "white", fontWeight: 500, fontSize: 28 }}
+          sx={{
+            color: "white",
+            fontWeight: 500,
+            fontSize: 28,
+            fontFamily: "Montserrat, sans-serif",
+          }}
         >
           Placement Bridge
         </Typography>
@@ -168,6 +174,7 @@ const Header = () => {
         position={mobileOpen ? "static" : "fixed"} // Make AppBar static when drawer is open
         elevation={0} // Remove the shadow
         sx={{
+          fontFamily: "Montserrat, sans-serif",
           top: 0,
           backgroundColor: appBarBackground,
           transition: "background-color 0.3s ease",
@@ -238,7 +245,11 @@ const Header = () => {
                   smooth={true}
                   duration={500}
                   offset={-70}
-                  style={{ textDecoration: "none", color: "inherit" }}
+                  style={{
+                    textDecoration: "none",
+                    color: "inherit",
+                    fontFamily: "Montserrat, sans-serif",
+                  }}
                 >
                   {text}
                 </ScrollLink>
@@ -260,6 +271,7 @@ const Header = () => {
                 />
               }
               sx={{
+                fontFamily: "Montserrat, sans-serif",
                 textTransform: "none",
                 fontSize: 16,
                 marginLeft: 1.5,
