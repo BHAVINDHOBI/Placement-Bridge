@@ -1,6 +1,8 @@
+import TechnologyImage from "../assets/technologyImage";
+
 const technologies = [
   {
-    image: "/src/assets/LatestTechImages/AI.jpg",
+    image: TechnologyImage.AI,
     altText: "AI logo",
     subject: "Artificial Intelligence",
     description:
@@ -17,7 +19,7 @@ const technologies = [
       "After learning AI, you can pursue careers in machine learning, data science, robotics, and AI research. AI expertise is valuable in industries like healthcare, finance, autonomous systems, and natural language processing.",
   },
   {
-    image: "/src/assets/LatestTechImages/cloud-computing.jpeg",
+    image: TechnologyImage.cloud,
     altText: "Cloud Computing logo",
     subject: "Cloud Computing",
     description:
@@ -33,7 +35,7 @@ const technologies = [
       "After learning Cloud Computing, you can pursue careers in cloud architecture, cloud engineering, and DevOps. Cloud Computing skills are in demand in industries like tech, finance, and any field relying on scalable and flexible IT infrastructure.",
   },
   {
-    image: "/src/assets/LatestTechImages/machine-learning.jpeg",
+    image: TechnologyImage.ml,
     altText: "Machine Learning logo",
     subject: "Machine Learning",
     description:
@@ -50,7 +52,7 @@ const technologies = [
       "After learning ML, you can pursue careers in data science, AI development, and predictive analytics. ML expertise is valuable in industries like tech, finance, healthcare, and any field leveraging data-driven decision-making.",
   },
   {
-    image: "/src/assets/LatestTechImages/iot.png",
+    image: TechnologyImage.iot,
     altText: "Internet Of Things logo",
     subject: "Internet Of Things",
     description:
@@ -66,7 +68,7 @@ const technologies = [
       "After learning IoT, you can pursue careers in IoT development, embedded systems, and automation. IoT skills are valuable in industries like manufacturing, healthcare, smart home technologies, and any field involving connected devices.",
   },
   {
-    image: "/src/assets/LatestTechImages/blockchain.jpg",
+    image: TechnologyImage.blockchain,
     altText: "Blockchain logo",
     subject: "Blockchain",
     description:
@@ -82,7 +84,7 @@ const technologies = [
       "After learning Blockchain, you can pursue careers in blockchain development, cryptocurrency, and digital identity management. Blockchain skills are valuable in industries like finance, supply chain, and any field requiring secure and transparent transaction management.",
   },
   {
-    image: "/src/assets/LatestTechImages/ar-vr.svg",
+    image: TechnologyImage.arvr,
     altText: "Augmented Reality logo",
     subject: "Augmented Reality(AR) & Virtual Reality(VR)",
     description:
@@ -98,7 +100,7 @@ const technologies = [
       "After learning AR & VR, you can pursue careers in game development, interactive design, and simulation training. AR & VR expertise is valuable in industries like entertainment, education, healthcare, and any field requiring immersive experiences.",
   },
   {
-    image: "/src/assets/LatestTechImages/cybersecurity.jpg",
+    image: TechnologyImage.cs,
     altText: "Cybersecurity logo",
     subject: "Cybersecurity",
     description:
@@ -115,7 +117,7 @@ const technologies = [
       "After learning Cybersecurity, you can pursue careers in information security, network security, and ethical hacking. Cybersecurity skills are in demand in industries like finance, healthcare, and any field dealing with sensitive data.",
   },
   {
-    image: "/src/assets/LatestTechImages/rust.png",
+    image: TechnologyImage.rust,
     altText: "Rust logo",
     subject: "Rust Programming Language",
     description:

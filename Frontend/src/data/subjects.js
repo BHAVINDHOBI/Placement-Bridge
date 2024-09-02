@@ -1,6 +1,8 @@
+import SubjectImage from "../assets/subjectImage";
+
 const subjects = [
   {
-    image: "/src/assets/CoreIT-Subjects/c-language.svg",
+    image: SubjectImage.C,
     altText: "C logo",
     subject: "C",
     description:
@@ -15,7 +17,7 @@ const subjects = [
       " After learning C, you can pursue careers in system programming, embedded systems development, game development, and compiler design. C is widely used in industries requiring performance optimization, such as operating systems, device drivers, and applications where direct hardware manipulation is essential.",
   },
   {
-    image: "/src/assets/CoreIT-Subjects/c-plus.svg",
+    image: SubjectImage.Cplus,
     altText: "C++ logo",
     subject: "C++",
     description:
@@ -31,7 +33,7 @@ const subjects = [
       "After learning C++, you can pursue careers in various fields like game development, system programming, embedded systems, software engineering, and compiler design. C++ is widely used in performance-critical applications, making it valuable in industries like gaming, finance, and operating systems development.",
   },
   {
-    image: "/src/assets/CoreIT-Subjects/Python.svg",
+    image: SubjectImage.python,
     altText: "Python logo",
     subject: "Python",
     description:
@@ -46,7 +48,7 @@ const subjects = [
       "After learning Python, you can pursue careers in fields like web development, data science, machine learning, automation, and cybersecurity. Python's versatility and extensive libraries make it a popular choice for roles in software development, AI research, and data analysis.",
   },
   {
-    image: "/src/assets/CoreIT-Subjects/java.svg",
+    image: SubjectImage.Java,
     altText: "Java logo",
     subject: "Java",
     description:
@@ -62,7 +64,7 @@ const subjects = [
       "After learning Java, you can pursue careers in Android app development, enterprise software development, web development, and big data technologies. Java is widely used in industries like finance, e-commerce, and mobile development due to its reliability and scalability.",
   },
   {
-    image: "/src/assets/CoreIT-Subjects/database.svg",
+    image: SubjectImage.db,
     altText: "Database logo",
     subject: "Database",
     description:
@@ -77,7 +79,7 @@ const subjects = [
       "After learning DBMS, you can pursue careers in database administration, data analysis, data engineering, and software development. DBMS skills are essential in industries like finance, healthcare, e-commerce, and any field that requires effective data management and processing.",
   },
   {
-    image: "/src/assets/CoreIT-Subjects/DSA.webp",
+    image: SubjectImage.dsa,
     altText: "DSA logo",
     subject: "Data Structure and Algorithms",
     description:
@@ -93,7 +95,7 @@ const subjects = [
       "After learning DSA, you can pursue careers in software development, algorithm design, competitive programming, and system architecture. Proficiency in DSA is essential for roles in tech companies, especially in fields like artificial intelligence, machine learning, and high-performance computing.",
   },
   {
-    image: "/src/assets/CoreIT-Subjects/DAA.webp",
+    image: SubjectImage.daa,
     altText: "daa logo",
     subject: "Design Analysis and Algorithm",
     description:
@@ -110,7 +112,7 @@ const subjects = [
       "After learning DAA, you can pursue careers in software development, algorithm engineering, research in computer science, and optimization problems. Skills in DAA are crucial for roles in industries like fintech, data science, cybersecurity, and areas requiring complex problem-solving and efficient computation.",
   },
   {
-    image: "/src/assets/CoreIT-Subjects/os.webp",
+    image: SubjectImage.os,
     altText: "os logo",
     subject: "Operating Systems",
     description:
@@ -127,7 +129,7 @@ const subjects = [
       "After learning OS, you can pursue careers in system programming, operating system development, cybersecurity, and embedded systems. Knowledge of OS is crucial for roles in fields like device driver development, cloud computing, and performance optimization in various industries.",
   },
   {
-    image: "/src/assets/CoreIT-Subjects/cn.webp",
+    image: SubjectImage.CN,
     altText: "cn logo",
     subject: "Computer Networks",
     description:
@@ -143,7 +145,7 @@ const subjects = [
       "After learning CN, you can pursue careers in network engineering, cybersecurity, cloud computing, and IT infrastructure management. Expertise in CN is essential for roles in network administration, security analysis, and designing large-scale distributed systems in industries like telecommunications, finance, and tech companies.",
   },
   {
-    image: "/src/assets/CoreIT-Subjects/toc.webp",
+    image: SubjectImage.toc,
     altText: "toc logo",
     subject: "Theory Of Computation",
     description:
