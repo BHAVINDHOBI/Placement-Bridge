@@ -31,8 +31,8 @@ function App() {
         <ScrollToTop excludePaths={["/"]} />
         <Routes>
           <Route path="/" element={<MainPage />} />
-          <Route path="/Login" element={<Login />} />
-          <Route path="/Signin" element={<Signin />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/signin" element={<Signin />} />
           <Route path="/subjects" element={<Subjects />} />
           <Route path="/hackathons" element={<Hackathons />} />
           <Route path="/technologies" element={<LatestTechnology />} />
