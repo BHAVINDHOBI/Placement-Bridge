@@ -13,7 +13,7 @@ import {
   Divider,
   useMediaQuery,
 } from "@mui/material";
-import { Link as RouterLink } from "react-router-dom";
+import { Link as RouterLink, useNavigate } from "react-router-dom";
 import { Link as ScrollLink } from "react-scroll";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
@@ -26,13 +26,15 @@ const Header = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [appBarBackground, setAppBarBackground] = useState("transparent");
   const [isloggedIn, setLogin] = useState("Login");
+  const [alertMessage, setAlertMessage] = useState([]);
+  const navigate = useNavigate();
 
   // Use string-based media query to check screen size
   const isMdUp = useMediaQuery("(min-width:960px)");
-  const token = localStorage.getItem("token");
+  const localToken = localStorage.getItem("token");
 
   const handleLogin = () => {
-    if (token != null) {
+    if (localToken != null) {
       setLogin("Logout");
     }
   };
@@ -47,8 +49,20 @@ const Header = () => {
   };
 
   useEffect(() => {
-    handleLogin();
+    const urlParams = new URLSearchParams(window.location.search);
+    const token = urlParams.get("token");
 
+    if (token) {
+      localStorage.setItem("token", token);
+      setAlertMessage([true, "Login successful"]);
+      setTimeout(() => {
+        navigate("/");
+      }, 2000);
+    }
+    handleLogin();
+  }, [navigate]);
+
+  useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 50) {
         setAppBarBackground("rgba(0, 0, 0, 0.3)");

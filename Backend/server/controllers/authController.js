@@ -79,13 +79,6 @@ exports.login = async (req, res) => {
 
       const token = jwt.sign(payload, JWT_SECRET, options);
 
-      // const token = jwt.sign({ id: user._id, email: user.email }, JWT_SECRET, {
-      //   expiresIn: "10h",
-      // });
-
-      // res.cookie("token", token, { httpOnly: true, secure: false });
-      // res.redirect("/welcome");
-
       return res
         .status(200)
         .json({ success: true, message: "Login successfull", user: token });

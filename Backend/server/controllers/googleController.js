@@ -26,6 +26,7 @@ exports.googleRedirect = async (req, res) => {
     const options = { expiresIn: "10h" };
 
     const token = jwt.sign(payload, JWT_SECRET, options);
+    // console.log(token);
 
     // res.cookie("token", token, { httpOnly: true, secure: false });
     // res.redirect("/welcome");

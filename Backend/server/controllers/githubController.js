@@ -26,8 +26,6 @@ exports.githubRedirect = async (req, res) => {
 
     const token = jwt.sign(payload, JWT_SECRET, options);
 
-    console.log(req.user);
-
     // res.cookie("token", token, { httpOnly: true, secure: false });
     // res.redirect("/welcome");
 

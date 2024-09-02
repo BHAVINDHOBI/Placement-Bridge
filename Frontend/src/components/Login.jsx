@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import PlacementLogo from "../assets/HomePage_Imgs/placement-bridge-logo.svg";
 import GoogleLogo from "../assets/CoreIT-Subjects/Google.svg";
@@ -25,6 +25,8 @@ const Login = () => {
   const handleGithubLogin = () => {
     window.location.href = `${serverapiUrl}/auth/github`;
   };
+
+  // Extract the token from the URL on component mount
 
   async function userLogin(e) {
     e.preventDefault();
