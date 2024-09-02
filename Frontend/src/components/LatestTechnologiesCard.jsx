@@ -105,7 +105,6 @@ const TechnologyCard = ({
                 fontFamily: "Montserrat",
                 fontWeight: "bold",
                 fontSize: { xs: "20px", sm: "24px" }, // Responsive font size
-                fontFamily: "Roboto Serif",
                 color: "black",
                 overflow: "hidden",
                 textOverflow: "ellipsis",

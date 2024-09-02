@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import HackathonCard from "./HackathonCard";
 import "../styles/Hackathon.css";
-import hackathonsData from "../data/hackathons.json";
+import hackathonsData from "../data/hackathons";
 import {
   Pagination,
   TextField,
