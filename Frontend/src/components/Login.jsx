@@ -8,8 +8,7 @@ import { Box, Alert, IconButton, Collapse } from "@mui/material";
 import CloseIcon from "@mui/icons-material/Close";
 import "typeface-montserrat";
 
-const serverapiUrl = "http://localhost:8082";
-// const serverapiUrl = import.meta.env.VITE_API_URL;
+const serverapiUrl = import.meta.env.VITE_API_URL;
 
 const Login = () => {
   const navigate = useNavigate();

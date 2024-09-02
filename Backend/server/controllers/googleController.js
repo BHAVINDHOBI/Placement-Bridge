@@ -2,7 +2,7 @@ const passport = require("passport");
 const jwt = require("jsonwebtoken");
 const JWT_SECRET = "feqlpwid"; // Change this to a secure key
 
-const CLIENT_URL = "http://localhost:5173/";
+const CLIENT_URL = process.env.CLIENT_URL;
 exports.googleAuth = passport.authenticate("google", {
   scope: ["profile", "email"],
 });
