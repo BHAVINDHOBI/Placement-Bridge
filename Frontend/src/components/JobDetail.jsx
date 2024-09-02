@@ -90,8 +90,8 @@ const JobDetail = ({ jobs }) => {
           // Add the PNG image to the PDF
           pdf.addImage(pngUrl, "PNG", 0, 0, img.width, img.height);
 
-          // Save the PDF
-          pdf.save(Roadmap.pdf);
+          // Save the PDF with a specific filename
+          pdf.save("roadmap.pdf");
         };
 
         img.src = imgSrc; // Load the SVG as an image using the Base64 data URL
