@@ -46,8 +46,9 @@ const Home = () => {
             component="div"
             sx={{
               fontWeight: "bold",
-              marginBottom: 2, // Adjusted space below the heading
-              textAlign: { xs: "center", md: "left" }, // Justify text alignment
+              // Adjusted space below the heading
+              textAlign: { xs: "center", md: "left" },
+              fontSize: { xs: "2.2rem", md: "3.3rem" }, // Justify text alignment
             }}
           >
             Get a job at your dream company!
@@ -56,10 +57,14 @@ const Home = () => {
             variant="h5" // Increased text size
             component="p"
             sx={{
-              fontSize: "1.5rem",
+              fontSize: { xs: "1.3rem", md: "1.5rem" },
               color: "#00d3e8",
-              textAlign: { xs: "center", md: "left" }, // Justify text alignment
-              marginTop: { xs: 3, md: 10 }, // Added space above the paragraph
+              textAlign: { xs: "justify", md: "justify" }, // Justify text alignment
+              paddingRight: { xs: 3, md: 0 },
+              paddingLeft: { xs: 3, md: 0 },
+              marginTop: { xs: 3, md: 7 },
+              marginBottom: { xs: 0 },
+              // Added space above the paragraph
             }}
           >
             We offer top-notch information that fits you and helps you get

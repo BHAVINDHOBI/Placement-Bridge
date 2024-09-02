@@ -6,6 +6,7 @@ import image from "../assets/ImageUtility";
 import HackathonForm from "./HackathonForm";
 import "typeface-montserrat";
 import backgroundimage from "../assets/HackathonImages/pexels-fauxels-3183150 1.svg";
+
 const HackathonFeature = () => {
   const navigate = useNavigate();
   const handleGoBack = () => {

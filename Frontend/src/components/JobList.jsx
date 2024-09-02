@@ -10,6 +10,7 @@ import {
 } from "@mui/material";
 import "../styles/JobList.css";
 import "typeface-montserrat";
+import StarryBackground from "./StarryBackground";
 
 const scrollToTop = (duration) => {
   const scrollHeight = window.scrollY;
@@ -58,45 +59,47 @@ const JobList = ({ jobs }) => {
   };
 
   return (
-    <Container className="jobHeader">
-      {/* Search bar */}
-      <Box className="header-section">
-        <Typography variant="h4" component="h1" className="page-title">
-          Companies
-        </Typography>
-        <TextField
-          label="Search Companies or Job title"
-          variant="outlined"
-          value={searchQuery}
-          onChange={handleSearchChange}
-          className="search-bar"
+    <StarryBackground>
+      <Container className="jobHeader">
+        {/* Search bar */}
+        <Box className="header-section">
+          <Typography variant="h4" component="h1" className="page-title">
+            Companies
+          </Typography>
+          <TextField
+            label="Search Companies or Job title"
+            variant="outlined"
+            value={searchQuery}
+            onChange={handleSearchChange}
+            className="search-bar"
+          />
+        </Box>
+
+        {/* Top Pagination */}
+        <Pagination
+          count={Math.ceil(filteredJobs.length / jobsPerPage)}
+          page={page}
+          onChange={handlePageChange}
+          className="pagination"
         />
-      </Box>
 
-      {/* Top Pagination */}
-      <Pagination
-        count={Math.ceil(filteredJobs.length / jobsPerPage)}
-        page={page}
-        onChange={handlePageChange}
-        className="pagination"
-      />
+        <Grid container spacing={2} className="job-list">
+          {filteredJobs.slice(startIndex, endIndex).map((job, index) => (
+            <Grid item xs={12} key={index}>
+              <JobCard job={job} />
+            </Grid>
+          ))}
+        </Grid>
 
-      <Grid container spacing={2} className="job-list">
-        {filteredJobs.slice(startIndex, endIndex).map((job, index) => (
-          <Grid item xs={12} key={index}>
-            <JobCard job={job} />
-          </Grid>
-        ))}
-      </Grid>
-
-      {/* Bottom Pagination */}
-      <Pagination
-        count={Math.ceil(filteredJobs.length / jobsPerPage)}
-        page={page}
-        onChange={handlePageChange}
-        className="pagination"
-      />
-    </Container>
+        {/* Bottom Pagination */}
+        <Pagination
+          count={Math.ceil(filteredJobs.length / jobsPerPage)}
+          page={page}
+          onChange={handlePageChange}
+          className="pagination"
+        />
+      </Container>
+    </StarryBackground>
   );
 };
 

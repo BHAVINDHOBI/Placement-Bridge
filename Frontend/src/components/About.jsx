@@ -72,6 +72,7 @@ const About = () => (
           sx={{
             width: { xs: "100%", sm: "90%", md: "85%", lg: "100%" }, // Increase image size with responsive values
             borderRadius: 2,
+            marginLeft: { xs: 0, md: 7 },
           }}
         />
       </Grid>

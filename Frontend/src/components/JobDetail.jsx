@@ -117,7 +117,7 @@ const JobDetail = ({ jobs }) => {
           pdf.addImage(pngUrl, "PNG", 0, 0, img.width, img.height);
 
           // Save the PDF
-          pdf.save("roadmap.pdf");
+          pdf.save(`Roadmap.pdf`);
         };
 
         img.src = imgSrc; // Load the SVG as an image using the Base64 data URL
@@ -155,9 +155,6 @@ const JobDetail = ({ jobs }) => {
             />
           </div>
         </div>
-        {/* <Typography variant="h5" className="job-detail-item">
-          <strong>Company</strong> {job.companyName}
-        </Typography> */}
         <Box display="flex" justifyContent="center">
           <CorporateFare sx={{ mr: 1.5, color: "gray", fontSize: "30px" }} />
           <Typography
@@ -282,7 +279,7 @@ const JobDetail = ({ jobs }) => {
           ></Divider>
           <Typography
             variant="h5"
-            style={{ marginTop: "24px", fontWeight: "bold" }}
+            style={{ marginTop: "24px", fontWeight: "500" }}
           >
             Benefits:
           </Typography>
@@ -319,7 +316,7 @@ const JobDetail = ({ jobs }) => {
               color="inherit"
             >
               {" "}
-              <Typography variant="body2">Website Link</Typography>
+              <Typography variant="body2">Visit Website</Typography>
             </Link>
           </Button>
           <Button

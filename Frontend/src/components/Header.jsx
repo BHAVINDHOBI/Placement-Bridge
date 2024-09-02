@@ -11,6 +11,7 @@ import {
   ListItemText,
   Drawer,
   Divider,
+  useMediaQuery,
 } from "@mui/material";
 import { Link as RouterLink } from "react-router-dom";
 import { Link as ScrollLink } from "react-scroll";
@@ -24,6 +25,17 @@ const navItems = ["Home", "About", "Our Services", "Contact Us"];
 const Header = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [appBarBackground, setAppBarBackground] = useState("transparent");
+  const [isloggedIn, setLogin] = useState("Login");
+
+  // Use string-based media query to check screen size
+  const isMdUp = useMediaQuery("(min-width:960px)");
+  const token = localStorage.getItem("token");
+
+  const handleLogin = () => {
+    if (token != null) {
+      setLogin("Logout");
+    }
+  };
 
   const handleSignOutClick = () => {
     localStorage.removeItem("token");
@@ -35,6 +47,8 @@ const Header = () => {
   };
 
   useEffect(() => {
+    handleLogin();
+
     const handleScroll = () => {
       if (window.scrollY > 50) {
         setAppBarBackground("rgba(0, 0, 0, 0.3)");
@@ -143,7 +157,7 @@ const Header = () => {
           borderRadius: 25,
         }}
       >
-        Logout
+        {isloggedIn}
       </Button>
     </Box>
   );
@@ -232,28 +246,30 @@ const Header = () => {
             ))}
           </Box>
 
-          {/* Logout button on the right */}
-          <Button
-            variant="contained"
-            color="primary"
-            onClick={handleSignOutClick}
-            startIcon={
-              <img
-                src={image.LogoutIcon}
-                alt="Logout Icon"
-                style={{ height: 20 }}
-              />
-            }
-            sx={{
-              textTransform: "none",
-              fontSize: 16,
-              marginLeft: 1.5,
-              padding: "8px 24px",
-              borderRadius: 25,
-            }}
-          >
-            Logout
-          </Button>
+          {/* Logout button on the right, only visible on md+ screens */}
+          {isMdUp && (
+            <Button
+              variant="contained"
+              color="primary"
+              onClick={handleSignOutClick}
+              startIcon={
+                <img
+                  src={image.LogoutIcon}
+                  alt="Logout Icon"
+                  style={{ height: 20 }}
+                />
+              }
+              sx={{
+                textTransform: "none",
+                fontSize: 16,
+                marginLeft: 1.5,
+                padding: "8px 24px",
+                borderRadius: 25,
+              }}
+            >
+              {isloggedIn}
+            </Button>
+          )}
 
           {/* Menu icon for mobile view */}
           <IconButton

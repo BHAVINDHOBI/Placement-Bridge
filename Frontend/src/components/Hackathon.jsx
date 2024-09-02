@@ -15,6 +15,7 @@ import { BsFillPlusCircleFill } from "react-icons/bs";
 
 import { ArrowBack } from "@mui/icons-material";
 import { useNavigate } from "react-router-dom";
+import StarryBackground from "./StarryBackground";
 
 const scrollToTop = (duration) => {
   const scrollHeight = window.scrollY;
@@ -70,77 +71,79 @@ const Hackathons = () => {
   };
 
   return (
-    <div className="website-content">
-      <section className="technology-container">
-        <IconButton
+    <StarryBackground>
+      <div className="website-content">
+        <section className="technology-container">
+          <IconButton
+            sx={{
+              position: { xs: "fixed", sm: "absolute" },
+              top: { xs: "10px", sm: "20px" },
+              left: { xs: "10px", sm: "20px" },
+              color: "#fff",
+              backgroundColor: "rgba(0, 0, 0, 0.5)",
+              "&:hover": {
+                backgroundColor: "rgba(0, 0, 0, 0.7)",
+              },
+              zIndex: 1,
+            }}
+            onClick={handleGoBack}
+          >
+            <ArrowBack />
+          </IconButton>
+          <Box className="header-section">
+            <Typography variant="h4" component="h1" className="page-title">
+              Hackathons
+            </Typography>
+            <TextField
+              label="Search Hackathon"
+              variant="outlined"
+              value={searchQuery}
+              onChange={handleSearchChange}
+              className="search-bar"
+            />
+          </Box>
+        </section>
+        <Box
           sx={{
-            position: { xs: "fixed", sm: "absolute" },
-            top: { xs: "10px", sm: "20px" },
-            left: { xs: "10px", sm: "20px" },
-            color: "#fff",
-            backgroundColor: "rgba(0, 0, 0, 0.5)",
-            "&:hover": {
-              backgroundColor: "rgba(0, 0, 0, 0.7)",
-            },
-            zIndex: 1,
+            display: "flex",
+            alignItems: "center",
+            justifyContent: { xs: "center", sm: "flex-end", md: "flex-end" },
+            marginBottom: { xs: "10px", sm: "15px", md: "20px" },
+            marginRight: { xs: "-215px", sm: "85px", md: "120px", lg: "45px" },
           }}
-          onClick={handleGoBack}
         >
-          <ArrowBack />
-        </IconButton>
-        <Box className="header-section">
-          <Typography variant="h4" component="h1" className="page-title">
-            Hackathons
+          <Typography sx={{ marginRight: "10px" }} variant="h6">
+            Add Hackathon{" "}
           </Typography>
-          <TextField
-            label="Search Hackathon"
-            variant="outlined"
-            value={searchQuery}
-            onChange={handleSearchChange}
-            className="search-bar"
+          <BsFillPlusCircleFill
+            size={40}
+            color="aqua"
+            onClick={handleFabClick}
+            cursor="pointer"
           />
         </Box>
-      </section>
-      <Box
-        sx={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: { xs: "center", sm: "flex-end", md: "flex-end" },
-          marginBottom: { xs: "10px", sm: "15px", md: "20px" },
-          marginRight: { xs: "-215px", sm: "85px", md: "120px", lg: "45px" },
-        }}
-      >
-        <Typography sx={{ marginRight: "10px" }} variant="h6">
-          Add Hackathon{" "}
-        </Typography>
-        <BsFillPlusCircleFill
-          size={40}
-          color="aqua"
-          onClick={handleFabClick}
-          cursor="pointer"
-        />
-      </Box>
 
-      <section className="hackathons">
-        {paginatedHackathons.map((hackathon, index) => (
-          <React.Fragment key={index}>
-            <HackathonCard {...hackathon} />
-            <hr />
-          </React.Fragment>
-        ))}
-        <Stack
-          spacing={2}
-          className="pagination"
-          sx={{ alignItems: "center", color: "white" }}
-        >
-          <Pagination
-            count={Math.ceil(hackathonsData.length / itemsPerPage)}
-            page={page}
-            onChange={handleChange}
-          />
-        </Stack>
-      </section>
-    </div>
+        <section className="hackathons">
+          {paginatedHackathons.map((hackathon, index) => (
+            <React.Fragment key={index}>
+              <HackathonCard {...hackathon} />
+              <hr />
+            </React.Fragment>
+          ))}
+          <Stack
+            spacing={2}
+            className="pagination"
+            sx={{ alignItems: "center", color: "white" }}
+          >
+            <Pagination
+              count={Math.ceil(hackathonsData.length / itemsPerPage)}
+              page={page}
+              onChange={handleChange}
+            />
+          </Stack>
+        </section>
+      </div>
+    </StarryBackground>
   );
 };
 
