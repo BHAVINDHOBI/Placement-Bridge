@@ -106,6 +106,7 @@ const StartUp = () => {
                 : "none",
               transition:
                 "background-color 0.3s ease, border-radius 0.3s ease, border 0.3s ease",
+              zIndex: 10,
             }}
           >
             <IconButton
@@ -197,7 +198,10 @@ const StartUp = () => {
               },
             }}
           >
-            <Typography sx={{ marginRight: "10px" }} variant="h6">
+            <Typography
+              sx={{ marginRight: "10px", fontFamily: "Montserrat" }}
+              variant="h6"
+            >
               Add Startup{" "}
             </Typography>
             <BsFillPlusCircleFill
@@ -209,41 +213,6 @@ const StartUp = () => {
           </Box>
 
           <div className="main-container">
-            <Box
-              sx={{
-                display: "flex",
-                alignItems: "center",
-                justifyContent: {
-                  xs: "center",
-                  sm: "flex-end",
-                  md: "flex-end",
-                },
-                marginBottom: { xs: "10px", sm: "15px", md: "20px" },
-                marginRight: {
-                  xs: "-215px",
-                  sm: "85px",
-                  md: "120px",
-                  lg: "45px",
-                },
-              }}
-            >
-              <Typography
-                sx={{
-                  marginRight: "10px",
-                  fontFamily: "Montserrat, sans-serif",
-                  color: "White",
-                }}
-                variant="h6"
-              >
-                Add Startup{" "}
-              </Typography>
-              <BsFillPlusCircleFill
-                size={40}
-                color="aqua"
-                onClick={handleFabClick}
-                cursor="pointer"
-              />
-            </Box>
             {currentItems.map((startup, index) => (
               <React.Fragment key={index}>
                 <StartUpCard

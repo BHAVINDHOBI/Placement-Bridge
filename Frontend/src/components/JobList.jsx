@@ -92,6 +92,7 @@ const JobList = ({ jobs }) => {
             border: isScrolled ? "1px solid rgba(255, 255, 255, 0.2)" : "none",
             transition:
               "background-color 0.3s ease, border-radius 0.3s ease, border 0.3s ease",
+            zIndex: 10,
           }}
         >
           <IconButton

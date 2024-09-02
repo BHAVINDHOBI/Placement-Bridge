@@ -28,7 +28,7 @@ const Home = () => {
           justifyContent: "space-between",
           alignItems: "center",
           flexDirection: { xs: "column", md: "row" },
-          minHeight: "100vh",
+          minHeight: { md: "100vh" },
           backgroundColor: "transparent",
           color: "#fff",
           padding: { xs: 2, md: 4 }, // Added padding for better spacing
@@ -38,7 +38,7 @@ const Home = () => {
           sx={{
             flex: 1,
             textAlign: { xs: "center", md: "left" },
-            marginBottom: { xs: 4, md: 0 },
+            marginBottom: { xs: 6, md: 0 },
             paddingLeft: { md: 1 },
             paddingRight: { md: 19 }, // Add space between text and image
           }}

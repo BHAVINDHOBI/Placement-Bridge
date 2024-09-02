@@ -73,6 +73,31 @@ const Features = () => {
       sx={{ mt: 10, px: 2, fontFamily: "Montserrat, sans-serif" }}
       id="Services"
     >
+      <Box
+        sx={{
+          display: "flex",
+          justifyContent: "center",
+          width: "100%", // Ensure parent takes full width
+        }}
+      >
+        <Box
+          sx={{
+            border: "1px solid gray",
+            padding: 2,
+            marginBottom: 5,
+            width: "fit-content",
+            borderRadius: "8px",
+          }}
+        >
+          <Typography
+            variant="h4"
+            sx={{ fontFamily: "Montserrat, sans-serif" }}
+          >
+            Services
+          </Typography>
+        </Box>
+      </Box>
+
       <Grid container spacing={6} justifyContent="center">
         {featureData.map((feature, index) => (
           <Grid item xs={11} sm={6} md={4.5} key={index}>

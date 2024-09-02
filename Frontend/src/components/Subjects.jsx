@@ -95,6 +95,7 @@ const Subjects = () => {
                 : "none",
               transition:
                 "background-color 0.3s ease, border-radius 0.3s ease, border 0.3s ease",
+              zIndex: 10,
             }}
           >
             <IconButton

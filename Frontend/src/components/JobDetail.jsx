@@ -27,6 +27,7 @@ import {
 import "../styles/JobDetail.css";
 import jsPDF from "jspdf";
 import "typeface-montserrat";
+import { ArrowBack } from "@mui/icons-material";
 
 const Keyresp = "Key Responsibilities: ";
 const skillsNeeded = "Required Skills: ";
@@ -57,36 +58,9 @@ const JobDetail = ({ jobs }) => {
     setOpenRoadmap(false);
   };
 
-  // const handleDownloadAsPng = () => {
-  //   fetch(job.Roadmap)
-  //     .then((response) => response.text())
-  //     .then((svgContent) => {
-  //       const svgBase64 = btoa(unescape(encodeURIComponent(svgContent)));
-  //       const imgSrc = `data:image/svg+xml;base64,${svgBase64}`;
-  //       const img = new Image();
-
-  //       img.onload = () => {
-  //         const canvas = document.createElement("canvas");
-  //         canvas.width = img.width;
-  //         canvas.height = img.height;
-  //         const ctx = canvas.getContext("2d");
-  //         ctx.drawImage(img, 0, 0);
-
-  //         const pngUrl = canvas.toDataURL("image/png");
-  //         const link = document.createElement("a");
-  //         link.href = pngUrl;
-  //         link.download = "roadmap.png";
-  //         document.body.appendChild(link);
-  //         link.click();
-  //         document.body.removeChild(link);
-  //       };
-
-  //       img.src = imgSrc; // Load the SVG as an image using the Base64 data URL
-  //     })
-  //     .catch((error) => {
-  //       console.error("Error converting the SVG to PNG:", error);
-  //     });
-  // };
+  const handleGoBack = () => {
+    navigate("/recruitments");
+  };
 
   const handleDownloadAsPdf = () => {
     fetch(job.Roadmap)
@@ -117,7 +91,7 @@ const JobDetail = ({ jobs }) => {
           pdf.addImage(pngUrl, "PNG", 0, 0, img.width, img.height);
 
           // Save the PDF
-          pdf.save(`Roadmap.pdf`);
+          pdf.save(Roadmap.pdf);
         };
 
         img.src = imgSrc; // Load the SVG as an image using the Base64 data URL
@@ -142,6 +116,25 @@ const JobDetail = ({ jobs }) => {
 
   return (
     <Container className="job-detail">
+      <IconButton
+        sx={{
+          color: "#fff",
+          backgroundColor: "rgba(0, 0, 0, 0.5)",
+          position: "fixed",
+          left: "25px",
+          top: { xs: "10px", md: "20px" },
+          marginRight: { md: "20px" },
+          zIndex: 1000,
+          display: { xs: "none", md: "flex" }, // Hide on small screens and show on medium and larger screens
+          "&:hover": {
+            backgroundColor: "rgba(0, 0, 0, 0.7)",
+          },
+        }}
+        onClick={handleGoBack}
+      >
+        <ArrowBack />
+      </IconButton>
+
       <Paper className="job-detail-paper">
         <Typography
           variant="h4"
