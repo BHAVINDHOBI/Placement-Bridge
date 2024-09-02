@@ -38,7 +38,7 @@ const Features = () => {
       aos: "fade-down-right",
     },
     {
-      title: "Core IT Subjects",
+      title: "Core Computing Concepts",
       lottieSrc:
         "https://lottie.host/15963366-c0da-4168-9111-557d601f7661/REMgN97oS8.json",
       link: "/subjects",

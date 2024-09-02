@@ -19,6 +19,7 @@ import "typeface-poppins";
 import "typeface-montserrat";
 import "typeface-raleway";
 import HackathonFeature from "./components/HackathonFeature";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   useEffect(() => {
@@ -28,6 +29,7 @@ function App() {
   return (
     <>
       <Router>
+        <ScrollToTop excludePaths={["/"]} />
         <Routes>
           <Route path="/" element={<MainPage />} />
           <Route path="/Login" element={<Login />} />

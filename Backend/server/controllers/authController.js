@@ -36,12 +36,9 @@ exports.register = async (req, res) => {
         };
         const options = { expiresIn: "10h" };
 
-        const token = jwt.sign(payload, JWT_SECRET, options);
-
         return res.status(200).json({
           success: true,
           message: "User register successfully",
-          user: token,
         });
       } else {
         return res.status(200).json({
@@ -78,7 +75,6 @@ exports.login = async (req, res) => {
         email: user.email,
       };
 
-      const secretKey = "Chik Tapak Dum Dum";
       const options = { expiresIn: "19h" };
 
       const token = jwt.sign(payload, JWT_SECRET, options);

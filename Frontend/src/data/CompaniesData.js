@@ -11,20 +11,20 @@ const companyData = [
     salary: "5L – 7L",
     description: `As a Frontend Developer at iBoss Tech Solutions, you will be responsible for translating UI/UX design wireframes into actual code that will produce visual elements of the application. You will work closely with the design team and back-end developers to ensure that web applications are efficient, scalable, and responsive. Your role involves optimizing the application for maximum speed and scalability, ensuring the technical feasibility of UI/UX designs, and implementing innovative solutions to enhance the user experience.`,
     keyResponsibilties: ` 
-      • Develop new user-facing features and ensure technical feasibility of UI/UX designs.
-      • Build reusable code and libraries for future use.
-      • Optimize application for maximum speed and scalability.
-      • Collaborate with back-end developers and web designers to improve usability.
-      • Ensure high-quality graphics standards and brand consistency.
-      • Stay up-to-date on emerging technologies and frameworks.
+        Develop new user-facing features and ensure technical feasibility of UI/UX designs.
+        Build reusable code and libraries for future use.
+        Optimize application for maximum speed and scalability.
+        Collaborate with back-end developers and web designers to improve usability.
+        Ensure high-quality graphics standards and brand consistency.
+        Stay up-to-date on emerging technologies and frameworks.
       `,
-    skillsNeeded: ` 
-      • Proficiency in HTML5, CSS3, and JavaScript.
-      • Experience with JavaScript frameworks such as React, Angular, or Vue.js.
-      • Strong understanding of responsive design principles.
-      • Familiarity with browser testing and debugging.
-      • Knowledge of SEO principles.
-      • Excellent problem-solving skills and attention to detail.`,
+    skillNeeded: ` 
+        Proficiency in HTML5, CSS3, and JavaScript.
+        Experience with JavaScript frameworks such as React, Angular, or Vue.js.
+        Strong understanding of responsive design principles.
+        Familiarity with browser testing and debugging.
+        Knowledge of SEO principles.
+        Excellent problem-solving skills and attention to detail.`,
     benefits:
       "Health insurance, Remote work options, Professional development opportunities",
     jobType: "Full-time",
@@ -47,21 +47,21 @@ const companyData = [
     description: `Tech Mahindra is seeking a skilled Backend Developer to join our dynamic team. In this role, you will design, develop, and maintain robust server-side logic, ensuring the scalability and performance of our applications. You will be responsible for integrating front-end elements into the application, optimizing databases, and implementing security and data protection measures. You will collaborate with front-end developers and other team members to deliver high-quality, scalable solutions.
       `,
     keyResponsibilties: ` 
-      • Develop and maintain server-side logic, ensuring scalability and performance.
-      • Design and manage database systems to ensure data integrity and availability.
-      • Collaborate with front-end developers to integrate user-facing elements with server-side logic.
-      • Implement security and data protection measures.
-      • Optimize application for speed, scalability, and efficiency.
-      • Troubleshoot and resolve issues as they arise. 
+        Develop and maintain server-side logic, ensuring scalability and performance.
+        Design and manage database systems to ensure data integrity and availability.
+        Collaborate with front-end developers to integrate user-facing elements with server-side logic.
+        Implement security and data protection measures.
+        Optimize application for speed, scalability, and efficiency.
+        Troubleshoot and resolve issues as they arise. 
        `,
-    skillsNeeded: ` 
+    skillNeeded: ` 
 
-      • Strong proficiency in server-side languages such as Java, Python, or Node.js.
-      • Experience with RESTful APIs and microservices architecture.
-      • Familiarity with database management systems like MySQL, PostgreSQL, or MongoDB.
-      • Understanding of security best practices and data protection measures.
-      • Proficient in version control tools such as Git.
-      • Excellent problem-solving skills and a proactive approach to challenges.`,
+        Strong proficiency in server-side languages such as Java, Python, or Node.js.
+        Experience with RESTful APIs and microservices architecture.
+        Familiarity with database management systems like MySQL, PostgreSQL, or MongoDB.
+        Understanding of security best practices and data protection measures.
+        Proficient in version control tools such as Git.
+        Excellent problem-solving skills and a proactive approach to challenges.`,
     benefits: "Health insurance, Paid time off",
     jobType: "Full-time",
     location: "Hyderabad, Telangana",
@@ -85,22 +85,22 @@ const companyData = [
        `,
     keyResponsibilties: ` 
 
-      • Develop and maintain efficient, reusable, and reliable server-side code.
-      • Design and manage databases, ensuring data consistency and availability.
-      • Optimize applications for performance, scalability, and security.
-      • Collaborate with front-end developers to integrate user-facing elements with server logic.
-      • Implement cloud solutions using platforms like AWS or Azure.
-      • Participate in code reviews and provide constructive feedback.
+        Develop and maintain efficient, reusable, and reliable server-side code.
+        Design and manage databases, ensuring data consistency and availability.
+        Optimize applications for performance, scalability, and security.
+        Collaborate with front-end developers to integrate user-facing elements with server logic.
+        Implement cloud solutions using platforms like AWS or Azure.
+        Participate in code reviews and provide constructive feedback.
   
        `,
-    skillsNeeded: ` 
+    skillNeeded: ` 
 
-      • Proficiency in server-side languages such as Node.js, Ruby, or PHP.
-      • Experience with cloud platforms like AWS or Azure.
-      • Strong understanding of database design and management.
-      • Familiarity with front-end technologies such as HTML, CSS, and JavaScript.
-      • Ability to write clean, scalable code.
-      • Excellent communication and teamwork skills.`,
+        Proficiency in server-side languages such as Node.js, Ruby, or PHP.
+        Experience with cloud platforms like AWS or Azure.
+        Strong understanding of database design and management.
+        Familiarity with front-end technologies such as HTML, CSS, and JavaScript.
+        Ability to write clean, scalable code.
+        Excellent communication and teamwork skills.`,
     benefits: "Flexible working hours, Health insurance, Stock options",
     jobType: "Full-time",
     location: "Bangalore, Karnataka",
@@ -124,22 +124,22 @@ const companyData = [
        `,
     keyResponsibilties: ` 
 
-      • Design and build advanced applications for the Android platform.
-      • Collaborate with cross-functional teams to define, design, and ship new features.
-      • Ensure the best possible performance, quality, and responsiveness of applications.
-      • Identify and correct bottlenecks and fix bugs.
-      • Maintain code quality, organization, and automation.
-      • Stay up-to-date with the latest industry trends and technologies.
+        Design and build advanced applications for the Android platform.
+        Collaborate with cross-functional teams to define, design, and ship new features.
+        Ensure the best possible performance, quality, and responsiveness of applications.
+        Identify and correct bottlenecks and fix bugs.
+        Maintain code quality, organization, and automation.
+        Stay up-to-date with the latest industry trends and technologies.
   
        `,
-    skillsNeeded: ` 
+    skillNeeded: ` 
 
-      • Proficiency in Java and Kotlin programming languages.
-      • Strong understanding of Android SDK, different versions of Android, and how to deal with different screen sizes.
-      • Experience with RESTful APIs and integration with mobile applications.
-      • Knowledge of Android UI design principles, patterns, and best practices.
-      • Familiarity with cloud message APIs and push notifications.
-      • Excellent problem-solving skills and attention to detail.`,
+        Proficiency in Java and Kotlin programming languages.
+        Strong understanding of Android SDK, different versions of Android, and how to deal with different screen sizes.
+        Experience with RESTful APIs and integration with mobile applications.
+        Knowledge of Android UI design principles, patterns, and best practices.
+        Familiarity with cloud message APIs and push notifications.
+        Excellent problem-solving skills and attention to detail.`,
     benefits: "Remote work options, Health insurance, Performance bonuses",
     jobType: "Full-time",
     location: "Mansarovar, Jaipur, Rajasthan",
@@ -155,29 +155,29 @@ const companyData = [
     companyLogo: companyImage.appmaster,
     companyName: "AppMasters India Pvt Ltd",
     dateRecruitment: "2024-08-05",
-    salary: "11,00,000 • 16,00,000 per annum",
+    salary: "11,00,000   16,00,000 per annum",
     jobTitle: "iOS Developer",
     description: `As an iOS Developer at AppMasters India Pvt Ltd, you will be at the forefront of mobile technology innovation. Your primary responsibility will be to develop, enhance, and maintain high-quality iOS applications that align with our business objectives. This role requires strong expertise in Swift and Objective-C, and experience with integrating third-party libraries and APIs. You will be responsible for writing clean, efficient code, and ensuring the performance, quality, and responsiveness of applications. Additionally, you will collaborate with cross-functional teams to define, design, and ship new features, and work closely with product management to ensure that the final product meets the company’s goals and user needs.
   
        `,
     keyResponsibilties: ` 
 
-      • Design and build advanced applications for the iOS platform.
-      • Collaborate with cross-functional teams to define, design, and ship new features.
-      • Work on bug fixing and improving application performance.
-      • Continuously discover, evaluate, and implement new technologies to maximize development efficiency.
-      • Ensure the technical feasibility of UI/UX designs.
-      • Optimize applications for maximum speed and scalability.
+        Design and build advanced applications for the iOS platform.
+        Collaborate with cross-functional teams to define, design, and ship new features.
+        Work on bug fixing and improving application performance.
+        Continuously discover, evaluate, and implement new technologies to maximize development efficiency.
+        Ensure the technical feasibility of UI/UX designs.
+        Optimize applications for maximum speed and scalability.
   
        `,
-    skillsNeeded: ` 
+    skillNeeded: ` 
 
-      • Proficient in Swift and Objective-C.
-      • Strong understanding of iOS frameworks, such as Core Data, Core Animation, and Core Graphics.
-      • Experience with third-party libraries and APIs.
-      • Familiarity with RESTful APIs to connect iOS applications to back-end services.
-      • Strong problem-solving skills and ability to debug and resolve complex issues.
-      • Knowledge of the general mobile landscape, architectures, trends, and emerging technologies.`,
+        Proficient in Swift and Objective-C.
+        Strong understanding of iOS frameworks, such as Core Data, Core Animation, and Core Graphics.
+        Experience with third-party libraries and APIs.
+        Familiarity with RESTful APIs to connect iOS applications to back-end services.
+        Strong problem-solving skills and ability to debug and resolve complex issues.
+        Knowledge of the general mobile landscape, architectures, trends, and emerging technologies.`,
     benefits: [
       "Comprehensive health insurance",
       "Employee stock options",
@@ -199,27 +199,27 @@ const companyData = [
     companyLogo: companyImage.STCS,
     companyName: "STCS",
     dateRecruitment: "2024-08-05",
-    salary: "1,400,000 • 1,900,000 per annum",
+    salary: "1,400,000   1,900,000 per annum",
     description: `As a Java Developer at STCS, you will be instrumental in building and maintaining the core functionalities of our business applications. You will be responsible for writing scalable, efficient, and maintainable code that powers critical business processes. Your role will involve working with Core Java, Java Beans, XSLT, Kafka, and HPE OSS Assurance products to design and implement software solutions that meet the evolving needs of our clients. You will work in a collaborative environment, engaging with product managers, designers, and other developers to deliver robust solutions.
   
        `,
     keyResponsibilties: ` 
 
-      • Develop and maintain applications using Core Java and related technologies.
-      • Write clean, efficient, and well-documented code.
-      • Participate in code reviews and contribute to best practices.
-      • Collaborate with other team members and stakeholders to understand business requirements and translate them into technical specifications.
-      • Troubleshoot and resolve issues in existing software to maintain smooth operation.
-      • Work with Kafka for data streaming and processing.
+        Develop and maintain applications using Core Java and related technologies.
+        Write clean, efficient, and well-documented code.
+        Participate in code reviews and contribute to best practices.
+        Collaborate with other team members and stakeholders to understand business requirements and translate them into technical specifications.
+        Troubleshoot and resolve issues in existing software to maintain smooth operation.
+        Work with Kafka for data streaming and processing.
   
        `,
-    skillsNeeded: ` 
+    skillNeeded: ` 
 
-      • Proficiency in Core Java, Java Beans, and XSLT.
-      • Experience with Kafka and HPE OSS Assurance products.
-      • Strong understanding of object-oriented programming and design patterns.
-      • Ability to work independently and as part of a team.
-      • Strong problem-solving skills and attention to detail.`,
+        Proficiency in Core Java, Java Beans, and XSLT.
+        Experience with Kafka and HPE OSS Assurance products.
+        Strong understanding of object-oriented programming and design patterns.
+        Ability to work independently and as part of a team.
+        Strong problem-solving skills and attention to detail.`,
     benefits: ["Health insurance", "Paid time off", "Work from home options"],
     jobType: "Full-time",
     location: "Bangalore/Gurugram/Chennai, India",
@@ -237,26 +237,26 @@ const companyData = [
     companyLogo: companyImage.AiExecellence,
     companyName: "AI Excellence Ltd.",
     dateRecruitment: "2024-08-08",
-    salary: "12,50,000 • 17,00,000 per annum",
+    salary: "12,50,000   17,00,000 per annum",
     description: `As an AI ML Engineer at AI Excellence Ltd., you will be responsible for designing and developing machine learning models and algorithms that drive our AI-powered solutions. Your role will involve working with large datasets, developing models using frameworks like TensorFlow and PyTorch, and deploying these models into production environments. You will collaborate with data scientists, software engineers, and other stakeholders to ensure that the AI solutions you develop meet the company’s strategic goals. The ideal candidate will have a strong background in machine learning, data analysis, and software engineering.
   
        `,
     keyResponsibilties: ` 
 
-      • Design, develop, and deploy machine learning models.
-      • Analyze large datasets to identify patterns and trends.
-      • Work closely with data scientists to refine models and algorithms.
-      • Collaborate with software engineers to integrate ML models into production systems.
-      • Stay up-to-date with the latest developments in AI and machine learning.
+        Design, develop, and deploy machine learning models.
+        Analyze large datasets to identify patterns and trends.
+        Work closely with data scientists to refine models and algorithms.
+        Collaborate with software engineers to integrate ML models into production systems.
+        Stay up-to-date with the latest developments in AI and machine learning.
   
        `,
-    skillsNeeded: ` 
+    skillNeeded: ` 
 
-      • Proficiency in Python and ML frameworks like TensorFlow and PyTorch.
-      • Strong understanding of machine learning algorithms and their applications.
-      • Experience with data preprocessing, feature engineering, and model evaluation.
-      • Familiarity with cloud platforms like AWS, GCP, or Azure.
-      • Strong analytical and problem-solving skills.`,
+        Proficiency in Python and ML frameworks like TensorFlow and PyTorch.
+        Strong understanding of machine learning algorithms and their applications.
+        Experience with data preprocessing, feature engineering, and model evaluation.
+        Familiarity with cloud platforms like AWS, GCP, or Azure.
+        Strong analytical and problem-solving skills.`,
     benefits: [
       "Health insurance",
       "Paid time off",
@@ -279,27 +279,27 @@ const companyData = [
     companyLogo: companyImage.Infosys,
     companyName: "Infosys",
     dateRecruitment: "2024-08-04",
-    salary: "1,800,000 • 2,500,000 per annum",
+    salary: "1,800,000   2,500,000 per annum",
     description: `As a Database Administrator at Infosys, you will play a critical role in managing and optimizing our database systems to ensure they support our business operations effectively. Your responsibilities will include database design, performance tuning, and ensuring data integrity and security. You will work closely with development teams to support new and existing database structures, optimize SQL queries, and ensure the databases run efficiently. The ideal candidate will have extensive experience with relational database management systems (RDBMS) and a deep understanding of SQL.
   
        `,
     keyResponsibilties: ` 
 
-      • Design, implement, and maintain database systems.
-      • Monitor database performance and perform tuning activities.
-      • Ensure data security and compliance with relevant regulations.
-      • Work with developers to optimize SQL queries and database structures.
-      • Perform regular backups and ensure data recovery processes are in place.
-      • Troubleshoot database-related issues and provide technical support.
+        Design, implement, and maintain database systems.
+        Monitor database performance and perform tuning activities.
+        Ensure data security and compliance with relevant regulations.
+        Work with developers to optimize SQL queries and database structures.
+        Perform regular backups and ensure data recovery processes are in place.
+        Troubleshoot database-related issues and provide technical support.
   
        `,
-    skillsNeeded: ` 
+    skillNeeded: ` 
 
-      • Proficiency in SQL and experience with RDBMS such as Oracle, MySQL, or PostgreSQL.
-      • Experience with database performance tuning and optimization.
-      • Strong understanding of data modeling and database design.
-      • Knowledge of backup and recovery procedures.
-      • Ability to work independently and as part of a team.`,
+        Proficiency in SQL and experience with RDBMS such as Oracle, MySQL, or PostgreSQL.
+        Experience with database performance tuning and optimization.
+        Strong understanding of data modeling and database design.
+        Knowledge of backup and recovery procedures.
+        Ability to work independently and as part of a team.`,
     benefits: [
       "Health insurance",
       "Remote working options",
@@ -320,27 +320,27 @@ const companyData = [
     companyLogo: companyImage.DataSafe,
     companyName: "DataSafe Solutions",
     dateRecruitment: "2024-07-28",
-    salary: "8,50,000 • 13,00,000 per annum",
+    salary: "8,50,000   13,00,000 per annum",
     description: `As a Cybersecurity Specialist at DataSafe Solutions, your primary responsibility will be to protect the company’s assets and sensitive information from cyber threats. You will conduct thorough vulnerability assessments, develop and implement robust security policies, and respond to security incidents to ensure the integrity and confidentiality of data. Your role requires strong expertise in network security, cryptography, and the ability to stay ahead of emerging threats. You will work closely with IT and management teams to design security measures and continuously monitor for potential risks.
   
        `,
     keyResponsibilties: ` 
 
-      • Conduct vulnerability assessments and penetration testing to identify and mitigate risks.
-      • Develop and implement security policies, procedures, and protocols.
-      • Monitor network traffic for unusual activity and respond to security incidents.
-      • Ensure compliance with industry standards and regulations.
-      • Collaborate with IT teams to secure network architecture and implement encryption methods.
-      • Stay up-to-date with the latest security trends, threats, and technology solutions.
+        Conduct vulnerability assessments and penetration testing to identify and mitigate risks.
+        Develop and implement security policies, procedures, and protocols.
+        Monitor network traffic for unusual activity and respond to security incidents.
+        Ensure compliance with industry standards and regulations.
+        Collaborate with IT teams to secure network architecture and implement encryption methods.
+        Stay up-to-date with the latest security trends, threats, and technology solutions.
   
        `,
-    skillsNeeded: ` 
+    skillNeeded: ` 
 
-      • Strong knowledge of network security, firewalls, IDS/IPS, and VPNs.
-      • Proficiency in cryptography and encryption techniques.
-      • Experience with security assessment tools like Nmap, Wireshark, and Metasploit.
-      • Familiarity with security frameworks such as ISO 27001 or NIST.
-      • Excellent problem-solving skills and attention to detail.`,
+        Strong knowledge of network security, firewalls, IDS/IPS, and VPNs.
+        Proficiency in cryptography and encryption techniques.
+        Experience with security assessment tools like Nmap, Wireshark, and Metasploit.
+        Familiarity with security frameworks such as ISO 27001 or NIST.
+        Excellent problem-solving skills and attention to detail.`,
     benefits: [
       "Health insurance",
       "Flexible working hours",
@@ -363,27 +363,27 @@ const companyData = [
     companyLogo: companyImage.CreativeSolutions,
     companyName: "Creative Solutions Ltd.",
     dateRecruitment: "2024-07-25",
-    salary: "5,00,000 • 8,00,000 per annum",
+    salary: "5,00,000   8,00,000 per annum",
     description: `As a Web Developer at Creative Solutions Ltd., you will be responsible for designing, coding, and modifying websites and web applications, from layout to function. You will strive to create visually appealing sites that feature user-friendly design and clear navigation. The ideal candidate will have experience with front-end frameworks like React or Angular and a strong understanding of responsive design principles. You will work closely with designers, product managers, and other developers to bring innovative web solutions to life.
   
        `,
     keyResponsibilties: ` 
 
-      • Develop and maintain web applications ensuring optimal performance across devices and browsers.
-      • Collaborate with designers to match visual design intent.
-      • Write well-documented, maintainable code using HTML, CSS, JavaScript, and front-end frameworks.
-      • Optimize web applications for speed and scalability.
-      • Stay updated with the latest web development trends and technologies.
-      • Ensure the technical feasibility of UI/UX designs.
+        Develop and maintain web applications ensuring optimal performance across devices and browsers.
+        Collaborate with designers to match visual design intent.
+        Write well-documented, maintainable code using HTML, CSS, JavaScript, and front-end frameworks.
+        Optimize web applications for speed and scalability.
+        Stay updated with the latest web development trends and technologies.
+        Ensure the technical feasibility of UI/UX designs.
   
        `,
-    skillsNeeded: ` 
+    skillNeeded: ` 
 
-      • Proficiency in HTML, CSS, and JavaScript.
-      • Experience with React or Angular and responsive design.
-      • Familiarity with back-end technologies like Node.js or Python is a plus.
-      • Ability to work collaboratively in a team environment.
-      • Strong attention to detail and problem-solving skills.`,
+        Proficiency in HTML, CSS, and JavaScript.
+        Experience with React or Angular and responsive design.
+        Familiarity with back-end technologies like Node.js or Python is a plus.
+        Ability to work collaboratively in a team environment.
+        Strong attention to detail and problem-solving skills.`,
     benefits: [
       "Health and wellness programs",
       "Paid time off",
@@ -406,27 +406,27 @@ const companyData = [
     companyLogo: companyImage.dataminds,
     companyName: "DataMinds Consulting",
     dateRecruitment: "2024-09-12",
-    salary: "13,00,000 • 18,00,000 per annum",
+    salary: "13,00,000   18,00,000 per annum",
     description: `As a Data Scientist at DataMinds Consulting, you will be working on complex data science projects that require a deep understanding of statistical analysis, machine learning, and data modeling. Your role will involve developing and deploying machine learning models across various business units to solve critical business problems. You will work closely with data engineers, analysts, and other stakeholders to derive insights from large datasets and drive data-driven decision-making.
   
        `,
     keyResponsibilties: ` 
 
-      • Develop and deploy machine learning models to solve business problems.
-      • Perform statistical analysis and develop predictive models.
-      • Work with large datasets to identify patterns and trends.
-      • Collaborate with cross-functional teams to understand business needs and provide data-driven solutions.
-      • Present findings and insights to stakeholders in a clear and concise manner.
-      • Stay up-to-date with the latest trends and advancements in data science and machine learning.
+        Develop and deploy machine learning models to solve business problems.
+        Perform statistical analysis and develop predictive models.
+        Work with large datasets to identify patterns and trends.
+        Collaborate with cross-functional teams to understand business needs and provide data-driven solutions.
+        Present findings and insights to stakeholders in a clear and concise manner.
+        Stay up-to-date with the latest trends and advancements in data science and machine learning.
   
        `,
-    skillsNeeded: ` 
+    skillNeeded: ` 
 
-      • Proficiency in Python, R, and machine learning libraries like TensorFlow or scikit-learn.
-      • Strong understanding of statistical analysis and data modeling.
-      • Experience with SQL and working with large datasets.
-      • Ability to translate business requirements into technical solutions.
-      • Excellent communication and problem-solving skills.`,
+        Proficiency in Python, R, and machine learning libraries like TensorFlow or scikit-learn.
+        Strong understanding of statistical analysis and data modeling.
+        Experience with SQL and working with large datasets.
+        Ability to translate business requirements into technical solutions.
+        Excellent communication and problem-solving skills.`,
     benefits: ["Health insurance", "Paid time off", "Work from home"],
     jobType: "Full-time",
     location: "Pune, Maharashtra",
@@ -445,27 +445,27 @@ const companyData = [
     companyLogo: companyImage.smartdata,
     companyName: "Smart Data Solutions",
     dateRecruitment: "2024-09-10",
-    salary: "7,00,000 • 11,00,000 per annum",
+    salary: "7,00,000   11,00,000 per annum",
     description: `As a Data Analyst at Smart Data Solutions, you will be responsible for analyzing data from various sources to provide insights that improve business performance. You will work closely with different teams to understand their data needs and deliver accurate and actionable reports. Your role will involve data cleansing, analysis, and visualization using tools like Excel, SQL, and Tableau. You will be instrumental in helping the company make informed business decisions based on your analyses.
   
        `,
     keyResponsibilties: ` 
 
-      • Analyze data and generate reports to support business decision-making.
-      • Work with stakeholders to define data needs and requirements.
-      • Clean, organize, and interpret large datasets.
-      • Create data visualizations and dashboards to present insights.
-      • Monitor data trends and provide actionable insights to improve business performance.
-      • Collaborate with IT and business teams to implement data-driven solutions.
+        Analyze data and generate reports to support business decision-making.
+        Work with stakeholders to define data needs and requirements.
+        Clean, organize, and interpret large datasets.
+        Create data visualizations and dashboards to present insights.
+        Monitor data trends and provide actionable insights to improve business performance.
+        Collaborate with IT and business teams to implement data-driven solutions.
   
        `,
-    skillsNeeded: ` 
+    skillNeeded: ` 
 
-      • Proficiency in Excel, SQL, and data visualization tools like Tableau or Power BI.
-      • Strong analytical and problem-solving skills.
-      • Ability to work with large datasets and perform data cleansing.
-      • Excellent communication skills and ability to present data insights clearly.
-      • Familiarity with statistical analysis and modeling techniques is a plus.`,
+        Proficiency in Excel, SQL, and data visualization tools like Tableau or Power BI.
+        Strong analytical and problem-solving skills.
+        Ability to work with large datasets and perform data cleansing.
+        Excellent communication skills and ability to present data insights clearly.
+        Familiarity with statistical analysis and modeling techniques is a plus.`,
     benefits: ["Health insurance", "Paid time off", "Gym membership"],
     jobType: "Full-time",
     location: "Pune, Maharashtra",
@@ -489,21 +489,21 @@ const companyData = [
        `,
     keyResponsibilties: ` 
 
-      • Develop and maintain server-side logic using Node.js, Python, or Ruby on Rails.
-      • Integrate front-end elements with server-side logic.
-      • Optimize applications for maximum speed, scalability, and security.
-      • Collaborate with front-end developers and other team members to design and launch new features.
-      • Ensure code quality and maintainability through code reviews and testing.
-      • Monitor and troubleshoot production issues, ensuring system reliability.
+        Develop and maintain server-side logic using Node.js, Python, or Ruby on Rails.
+        Integrate front-end elements with server-side logic.
+        Optimize applications for maximum speed, scalability, and security.
+        Collaborate with front-end developers and other team members to design and launch new features.
+        Ensure code quality and maintainability through code reviews and testing.
+        Monitor and troubleshoot production issues, ensuring system reliability.
   
        `,
-    skillsNeeded: ` 
+    skillNeeded: ` 
 
-      • Strong experience with Node.js, Python, or Ruby on Rails.
-      • Understanding of RESTful APIs and microservices architecture.
-      • Familiarity with database systems like MySQL, PostgreSQL, or MongoDB.
-      • Experience with version control systems like Git.
-      • Excellent problem-solving skills and attention to detail.`,
+        Strong experience with Node.js, Python, or Ruby on Rails.
+        Understanding of RESTful APIs and microservices architecture.
+        Familiarity with database systems like MySQL, PostgreSQL, or MongoDB.
+        Experience with version control systems like Git.
+        Excellent problem-solving skills and attention to detail.`,
     benefits: ["Health insurance", "Performance bonus"],
     jobType: "Full-time",
     location: "Pune, Maharashtra",
@@ -526,23 +526,23 @@ const companyData = [
        `,
     keyResponsibilties: ` 
 
-      • Design, develop, and maintain software applications using Java, Python, or C#.
-      • Write clean, scalable, and efficient code following best practices and coding standards.
-      • Collaborate with product managers, designers, and other developers to define project requirements and deliver software solutions.
-      • Perform thorough testing and debugging to ensure the software meets quality standards.
-      • Participate in code reviews and contribute to the continuous improvement of the development process.
-      • Troubleshoot and resolve software issues in a timely manner.
+        Design, develop, and maintain software applications using Java, Python, or C#.
+        Write clean, scalable, and efficient code following best practices and coding standards.
+        Collaborate with product managers, designers, and other developers to define project requirements and deliver software solutions.
+        Perform thorough testing and debugging to ensure the software meets quality standards.
+        Participate in code reviews and contribute to the continuous improvement of the development process.
+        Troubleshoot and resolve software issues in a timely manner.
 
        `,
-    skillsNeeded: ` 
+    skillNeeded: ` 
 
-      • Proficiency in Java, Python, or C#.
-      • Strong understanding of software development principles and practices.
-      • Experience with version control systems such as Git.
-      • Knowledge of RESTful APIs and web services.
-      • Familiarity with agile methodologies and development workflows.
-      • Excellent problem-solving skills and attention to detail.
-      • Ability to work collaboratively in a team environment.`,
+        Proficiency in Java, Python, or C#.
+        Strong understanding of software development principles and practices.
+        Experience with version control systems such as Git.
+        Knowledge of RESTful APIs and web services.
+        Familiarity with agile methodologies and development workflows.
+        Excellent problem-solving skills and attention to detail.
+        Ability to work collaboratively in a team environment.`,
     benefits: "Health insurance, Paid time off, Retirement benefits",
     jobType: "Full-time",
     location: "Hyderabad, Telangana",
@@ -565,22 +565,22 @@ const companyData = [
        `,
     keyResponsibilties: ` 
 
-      • Develop and maintain user-facing features for web and mobile applications using HTML, CSS, and JavaScript.
-      • Collaborate with designers to translate UI/UX designs into functional, high-quality code.
-      • Ensure cross-platform compatibility and responsiveness of web applications.
-      • Perform testing and debugging to identify and fix issues.
-      • Optimize application performance and user experience through continuous improvement.
-      • Stay updated with the latest trends and technologies in frontend development.
+        Develop and maintain user-facing features for web and mobile applications using HTML, CSS, and JavaScript.
+        Collaborate with designers to translate UI/UX designs into functional, high-quality code.
+        Ensure cross-platform compatibility and responsiveness of web applications.
+        Perform testing and debugging to identify and fix issues.
+        Optimize application performance and user experience through continuous improvement.
+        Stay updated with the latest trends and technologies in frontend development.
 
        `,
-    skillsNeeded: ` 
+    skillNeeded: ` 
 
-      • Proficiency in HTML, CSS, and JavaScript.
-      • Experience with frontend frameworks like React, Angular, or Vue.js.
-      • Strong understanding of responsive design principles and cross-browser compatibility.
-      • Knowledge of version control systems like Git.
-      • Ability to work independently in a remote work environment.
-      • Excellent communication skills and attention to detail.`,
+        Proficiency in HTML, CSS, and JavaScript.
+        Experience with frontend frameworks like React, Angular, or Vue.js.
+        Strong understanding of responsive design principles and cross-browser compatibility.
+        Knowledge of version control systems like Git.
+        Ability to work independently in a remote work environment.
+        Excellent communication skills and attention to detail.`,
     benefits:
       "Flexible working hours, Remote work options, Continuous learning opportunities",
     jobType: "Remote",
@@ -597,29 +597,29 @@ const companyData = [
     companyLogo: companyImage.nextgenapp,
     companyName: "NextGen Apps Pvt Ltd",
     dateRecruitment: "2024-08-18",
-    salary: "15,00,000 • 22,00,000 per annum",
+    salary: "15,00,000   22,00,000 per annum",
     jobTitle: "iOS Developer",
     description: `As an iOS Developer at NextGen Apps Pvt Ltd, you will lead the development of high-quality iOS applications. You will work closely with cross-functional teams to design, develop, and maintain innovative mobile apps that deliver a seamless user experience. Your role includes using Swift, working with Core Data and Core Animation, and ensuring the applications meet performance and usability standards.
 
        `,
     keyResponsibilties: ` 
 
-      • Design, develop, and maintain iOS applications using Swift and Xcode.
-      • Collaborate with product managers, designers, and other developers to define app requirements and deliver solutions.
-      • Implement and maintain features using Core Data, Core Animation, and other iOS frameworks.
-      • Perform thorough testing and debugging to ensure app quality and performance.
-      • Optimize applications for speed and efficiency.
-      • Stay updated with the latest trends and advancements in iOS development.
+        Design, develop, and maintain iOS applications using Swift and Xcode.
+        Collaborate with product managers, designers, and other developers to define app requirements and deliver solutions.
+        Implement and maintain features using Core Data, Core Animation, and other iOS frameworks.
+        Perform thorough testing and debugging to ensure app quality and performance.
+        Optimize applications for speed and efficiency.
+        Stay updated with the latest trends and advancements in iOS development.
 
        `,
-    skillsNeeded: ` 
+    skillNeeded: ` 
 
-      • Proficiency in Swift and Xcode.
-      • Strong experience with Core Data, Core Animation, and other iOS frameworks.
-      • Familiarity with RESTful APIs and networking in iOS.
-      • Experience with version control systems like Git.
-      • Ability to work effectively in a collaborative team environment.
-      • Strong problem-solving skills and attention to detail.`,
+        Proficiency in Swift and Xcode.
+        Strong experience with Core Data, Core Animation, and other iOS frameworks.
+        Familiarity with RESTful APIs and networking in iOS.
+        Experience with version control systems like Git.
+        Ability to work effectively in a collaborative team environment.
+        Strong problem-solving skills and attention to detail.`,
     benefits: [
       "Comprehensive health insurance",
       "Flexible working hours",
@@ -641,28 +641,28 @@ const companyData = [
     companyLogo: companyImage.expertanalytics,
     companyName: "Analytics Experts",
     dateRecruitment: "2024-08-15",
-    salary: "8,50,000 • 12,50,000 per annum",
+    salary: "8,50,000   12,50,000 per annum",
     description: `As a Data Analyst at Analytics Experts, you will be responsible for analyzing and interpreting data to provide actionable insights that drive business growth. You will handle the entire data lifecycle from collection to reporting, collaborating with various teams to align insights with business objectives and enhance decision-making processes.
 
        `,
     keyResponsibilties: ` 
 
-      • Collect, clean, and analyze data from various sources to generate insights.
-      • Develop and maintain dashboards and reports to support business decisions.
-      • Collaborate with stakeholders to understand their data needs and provide tailored solutions.
-      • Perform data visualization and present findings in a clear and concise manner.
-      • Monitor data trends and identify opportunities for improvement.
-      • Ensure data accuracy and integrity across all reports and analyses.
+        Collect, clean, and analyze data from various sources to generate insights.
+        Develop and maintain dashboards and reports to support business decisions.
+        Collaborate with stakeholders to understand their data needs and provide tailored solutions.
+        Perform data visualization and present findings in a clear and concise manner.
+        Monitor data trends and identify opportunities for improvement.
+        Ensure data accuracy and integrity across all reports and analyses.
 
        `,
-    skillsNeeded: ` 
+    skillNeeded: ` 
 
-      • Proficiency in Excel, SQL, and data visualization tools like Tableau or Power BI.
-      • Strong analytical and problem-solving skills.
-      • Experience with data modeling and statistical analysis.
-      • Ability to translate complex data into actionable insights.
-      • Excellent communication skills and attention to detail.
-      • Ability to work independently and as part of a team.`,
+        Proficiency in Excel, SQL, and data visualization tools like Tableau or Power BI.
+        Strong analytical and problem-solving skills.
+        Experience with data modeling and statistical analysis.
+        Ability to translate complex data into actionable insights.
+        Excellent communication skills and attention to detail.
+        Ability to work independently and as part of a team.`,
     benefits: "Health insurance, Paid time off, Flexible hours",
     jobType: "Full-time",
     location: "Gurgaon, Haryana",
@@ -679,28 +679,28 @@ const companyData = [
     companyLogo: companyImage.Travitons,
     companyName: "Travitons Technologies",
     dateRecruitment: "2024-08-01",
-    salary: "10,00,000 • 16,00,000 per annum",
+    salary: "10,00,000   16,00,000 per annum",
     description: `As an Android Developer at Travitons Technologies, you will design and build advanced applications for the Android platform. You will be involved in the entire app development lifecycle, from concept to deployment, and work closely with cross-functional teams to deliver high-quality, user-centric mobile applications.
 
        `,
     keyResponsibilties: ` 
 
-      • Design, develop, and maintain Android applications using Java and Kotlin.
-      • Collaborate with product managers, designers, and other developers to define app requirements and deliver solutions.
-      • Ensure the performance, quality, and responsiveness of applications.
-      • Perform unit testing and debugging to identify and fix issues.
-      • Stay updated with the latest trends and advancements in Android development.
-      • Work with APIs and third-party libraries to enhance app functionality.
+        Design, develop, and maintain Android applications using Java and Kotlin.
+        Collaborate with product managers, designers, and other developers to define app requirements and deliver solutions.
+        Ensure the performance, quality, and responsiveness of applications.
+        Perform unit testing and debugging to identify and fix issues.
+        Stay updated with the latest trends and advancements in Android development.
+        Work with APIs and third-party libraries to enhance app functionality.
 
        `,
-    skillsNeeded: ` 
+    skillNeeded: ` 
 
-      • Proficiency in Java and Kotlin.
-      • Experience with Android SDK, Android Studio, and third-party libraries.
-      • Knowledge of RESTful APIs and data handling in Android.
-      • Familiarity with version control systems like Git.
-      • Ability to work collaboratively in a team environment.
-      • Strong problem-solving skills and attention to detail.`,
+        Proficiency in Java and Kotlin.
+        Experience with Android SDK, Android Studio, and third-party libraries.
+        Knowledge of RESTful APIs and data handling in Android.
+        Familiarity with version control systems like Git.
+        Ability to work collaboratively in a team environment.
+        Strong problem-solving skills and attention to detail.`,
     benefits: "Health insurance, Paid time off, Career growth opportunities",
     jobType: "Full-time",
     location: "Bangalore, Karnataka",
@@ -717,28 +717,28 @@ const companyData = [
     companyLogo: companyImage.nextgensolution,
     companyName: "NextGen Solutions",
     dateRecruitment: "2024-08-25",
-    salary: "18,00,000 • 25,00,000 per annum",
+    salary: "18,00,000   25,00,000 per annum",
     description: `As a Data Scientist at NextGen Solutions, you will work on large-scale data processing projects and develop models to provide real-time insights. You will be involved in every stage of the data science workflow, from data collection and cleaning to model development and deployment, ensuring that insights drive immediate business impact.
   
        `,
     keyResponsibilties: ` 
 
-      • Develop and implement machine learning models and algorithms for real-time data processing.
-      • Analyze large datasets to identify trends, patterns, and actionable insights.
-      • Collaborate with engineering teams to deploy models and integrate them into production systems.
-      • Present findings and recommendations to stakeholders in a clear and actionable format.
-      • Stay updated with the latest advancements in data science and machine learning technologies.
-      • Ensure models are robust, scalable, and maintainable.
+        Develop and implement machine learning models and algorithms for real-time data processing.
+        Analyze large datasets to identify trends, patterns, and actionable insights.
+        Collaborate with engineering teams to deploy models and integrate them into production systems.
+        Present findings and recommendations to stakeholders in a clear and actionable format.
+        Stay updated with the latest advancements in data science and machine learning technologies.
+        Ensure models are robust, scalable, and maintainable.
   
        `,
-    skillsNeeded: ` 
+    skillNeeded: ` 
 
-      • Proficiency in Python or R and machine learning libraries like TensorFlow or scikit-learn.
-      • Strong experience with SQL and data processing frameworks.
-      • Knowledge of statistical analysis and predictive modeling techniques.
-      • Ability to work with large datasets and perform data visualization.
-      • Excellent communication skills and ability to explain complex concepts to non-technical stakeholders.
-      • Experience with real-time data processing and deployment of machine learning models.`,
+        Proficiency in Python or R and machine learning libraries like TensorFlow or scikit-learn.
+        Strong experience with SQL and data processing frameworks.
+        Knowledge of statistical analysis and predictive modeling techniques.
+        Ability to work with large datasets and perform data visualization.
+        Excellent communication skills and ability to explain complex concepts to non-technical stakeholders.
+        Experience with real-time data processing and deployment of machine learning models.`,
     benefits:
       "Health insurance, Paid time off, Professional development opportunities",
     jobType: "Full-time",
@@ -756,28 +756,22 @@ const companyData = [
     companyLogo: companyImage.LTIMindtree,
     companyName: "LTIMindtree",
     dateRecruitment: "2024-08-01",
-    salary: "1,300,000 • 1,800,000 per annum",
+    salary: "1,300,000   1,800,000 per annum",
     description: `
       As a Java Developer at LTIMindtree, you will play a crucial role in designing, developing, testing, and deploying high-quality Java applications. You will work closely with cross-functional teams to create robust software solutions that meet client needs. 
-      Your responsibilities will include:
+      `,
+    keyResponsibilties: `
 
-      •  Design and Development: 
-       Design scalable and efficient Java-based applications, ensuring adherence to best practices and design patterns.
-      •  Testing and Deployment:  
-      Conduct thorough testing to ensure application stability and performance. Oversee the deployment process and provide post-deployment support.
-      •  Collaboration:  
-      Work closely with project managers, business analysts, and other developers to define requirements and deliver solutions on time.
-      •  Troubleshooting:  
-      Diagnose and resolve technical issues and bugs in a timely manner.
+         Design and Development: Design scalable and efficient Java-based applications, ensuring adherence to best practices and design patterns.
+         Testing and Deployment: Conduct thorough testing to ensure application stability and performance. Oversee the deployment process and provide post-deployment support.
+         Collaboration: Work closely with project managers, business analysts, and other developers to define requirements and deliver solutions on time.
+         Troubleshooting: Diagnose and resolve technical issues and bugs in a timely manner.
 
        `,
-    skillsNeeded: ` 
-      •  Technical Proficiency:  
-      Strong knowledge of Core Java, Spring Framework, and Spring Boot. Familiarity with Hibernate and Microservices is a plus.
-      •  Problem-Solving:  
-      Excellent problem-solving skills and a deep understanding of software architecture and design patterns.
-      •  Communication:  
-      Effective communication skills for interacting with team members and stakeholders.
+    skillNeeded: ` 
+         Technical Proficiency: Strong knowledge of Core Java, Spring Framework, and Spring Boot. Familiarity with Hibernate and Microservices is a plus.
+         Problem-Solving: Excellent problem-solving skills and a deep understanding of software architecture and design patterns.
+         Communication: Effective communication skills for interacting with team members and stakeholders.
     `,
     benefits:
       "Health insurance, Flexible working hours, Professional growth opportunities",
@@ -800,25 +794,19 @@ const companyData = [
     salary: "10L – 20L",
     description: `
       Wipro is seeking an experienced Backend Developer to join our team in Bangalore, Karnataka. In this role, you will be responsible for building scalable and efficient backend services that support various business functions. 
-      Key responsibilities include:
+      `,
+    keyResponsibilties: `
 
-      •  Backend Service Development:  
-      Design and develop backend services that are scalable, efficient, and maintainable. Ensure high performance and reliability of services.
-      •  Database Management:  
-      Design and implement database schemas and optimize database performance.
-      •  Security:  
-      Ensure data security and integrity by implementing robust security measures.
-      •  Collaboration:  
-      Work with frontend developers and other team members to integrate backend services with frontend applications.
+         Backend Service Development: Design and develop backend services that are scalable, efficient, and maintainable. Ensure high performance and reliability of services.
+         Database Management: Design and implement database schemas and optimize database performance.
+         Security: Ensure data security and integrity by implementing robust security measures.
+         Collaboration: Work with frontend developers and other team members to integrate backend services with frontend applications.
 
        `,
-    skillsNeeded: ` 
-      •  Programming Languages:  
-      Proficiency in Java, Python, or Go.
-      •  Technical Expertise:  
-      Strong knowledge of data structures, algorithms, and software design principles.
-      •  Teamwork:  
-      Ability to work effectively in a collaborative team environment.
+    skillNeeded: ` 
+         Programming Languages: Proficiency in Java, Python, or Go.
+         Technical Expertise: Strong knowledge of data structures, algorithms, and software design principles.
+         Teamwork: Ability to work effectively in a collaborative team environment.
     `,
     benefits: "Flexible working hours, Health insurance",
     jobType: "Full-time",
@@ -837,29 +825,22 @@ const companyData = [
     companyLogo: companyImage.codecraft,
     companyName: "CodeCraft Technologies",
     dateRecruitment: "2024-08-15",
-    salary: "13,00,000 • 19,00,000 per annum",
+    salary: "13,00,000   19,00,000 per annum",
     description: `
       CodeCraft Technologies is looking for a skilled iOS Developer to join our engineering team. You will be responsible for developing and maintaining iOS applications that meet high-quality standards. 
       `,
     keyResponsibilties: `
 
-      •  Application Development:  
-      Design, develop, and enhance iOS applications using Swift and Objective-C.
-      •  Framework Utilization:  
-      Utilize iOS frameworks effectively and ensure applications are optimized for performance.
-      •  Version Control:  
-      Manage source code using version control systems like Git.
-      •  Agile Development:  
-      Participate in Agile development processes, including sprint planning and code reviews.
+         Application Development: Design, develop, and enhance iOS applications using Swift and Objective-C.
+         Framework Utilization: Utilize iOS frameworks effectively and ensure applications are optimized for performance.
+         Version Control: Manage source code using version control systems like Git.
+         Agile Development: Participate in Agile development processes, including sprint planning and code reviews.
 
        `,
-    skillsNeeded: ` 
-      •  Technical Skills:  
-      Extensive experience with Swift, Objective-C, and iOS frameworks.
-      •  Version Control:  
-      Familiarity with Git and Agile methodologies.
-      •  Collaboration:  
-      Ability to work well with cross-functional teams and adapt to evolving project requirements.
+    skillNeeded: ` 
+         Technical Skills: Extensive experience with Swift, Objective-C, and iOS frameworks.
+         Version Control: Familiarity with Git and Agile methodologies.
+         Collaboration: Ability to work well with cross-functional teams and adapt to evolving project requirements.
     `,
     benefits: [
       "Health insurance",
@@ -887,23 +868,18 @@ const companyData = [
     salary: "N/A",
     description: `
       As a Frontend Developer at Agicent Technologies, you will be responsible for developing and debugging user-facing web applications. 
-      Your duties will include:
+      `,
+    keyResponsibilties: `    
 
-      •  Front-End Development:  
-      Implement and maintain responsive and interactive web designs using HTML, CSS, JavaScript, and relevant frameworks.
-      •  Collaboration:  
-      Work with UI/UX designers to integrate design elements into functional web applications.
-      •  Performance Optimization:  
-      Ensure optimal performance across different devices and browsers.
+         Front-End Development: Implement and maintain responsive and interactive web designs using HTML, CSS, JavaScript, and relevant frameworks.
+         Collaboration: Work with UI/UX designers to integrate design elements into functional web applications.
+         Performance Optimization: Ensure optimal performance across different devices and browsers.
 
        `,
-    skillsNeeded: ` 
-      •  Technical Knowledge:  
-      Proficiency in HTML, CSS, JavaScript, and front-end frameworks.
-      •  Attention to Detail:  
-      Strong eye for detail and ability to create visually appealing and user-friendly interfaces.
-      •  Collaboration:  
-      Effective collaboration with design and development teams.
+    skillNeeded: ` 
+         Technical Knowledge: Proficiency in HTML, CSS, JavaScript, and front-end frameworks.
+         Attention to Detail: Strong eye for detail and ability to create visually appealing and user-friendly interfaces.
+         Collaboration: Effective collaboration with design and development teams.
     `,
     benefits: "N/A",
     jobType: "Full-time",
@@ -922,27 +898,21 @@ const companyData = [
     companyLogo: companyImage.insight,
     companyName: "Insight Analytics Pvt Ltd",
     dateRecruitment: "2024-09-05",
-    salary: "8,00,000 • 12,00,000 per annum",
+    salary: "8,00,000   12,00,000 per annum",
     description: `
       As a Data Analyst at Insight Analytics, you will be responsible for transforming data into actionable insights that support business decision-making. 
       `,
     keyResponsibilties: `
 
-      •  Data Collection and Processing:  
-      Collect, process, and analyze large datasets to extract meaningful patterns and trends.
-      •  Reporting:  
-      Generate comprehensive reports and visualizations to present findings to stakeholders.
-      •  Data-Driven Decisions:  
-      Provide recommendations based on data analysis to support strategic business initiatives.
+         Data Collection and Processing: Collect, process, and analyze large datasets to extract meaningful patterns and trends.
+         Reporting: Generate comprehensive reports and visualizations to present findings to stakeholders.
+         Data-Driven Decisions: Provide recommendations based on data analysis to support strategic business initiatives.
 
        `,
-    skillsNeeded: ` 
-      •  Analytical Skills:  
-      Strong analytical skills with experience in data processing and statistical analysis.
-      •  Tools and Technologies:  
-      Proficiency in data analysis tools and software.
-      •  Communication:  
-      Ability to convey complex data insights in a clear and actionable manner.
+    skillNeeded: ` 
+         Analytical Skills: Strong analytical skills with experience in data processing and statistical analysis.
+         Tools and Technologies: Proficiency in data analysis tools and software.
+         Communication: Ability to convey complex data insights in a clear and actionable manner.
     `,
     benefits: "Health insurance, Paid time off, Learning opportunities",
     jobType: "Full-time",
@@ -961,43 +931,33 @@ const companyData = [
     companyLogo: companyImage.reflectionsit_logo,
     companyName: "Reflections Info Systems",
     dateRecruitment: "2024-08-01",
-    salary: "1,200,000 • 1,800,000 per annum",
+    salary: "1,200,000   1,800,000 per annum",
     description: `As a Java Developer at Reflections Info Systems, you will be an integral part of our development team, focusing on building and maintaining high-quality applications. 
     `,
     keyResponsibilties: `
   
-    • Application Development:
-      Develop and maintain robust applications using Core Java and Spring Boot. Ensure code quality, performance, and scalability.
+      Application Development: Develop and maintain robust applications using Core Java and Spring Boot. Ensure code quality, performance, and scalability.
   
-    • Software Architecture:
-      Contribute to the design and architecture of software solutions. Utilize design patterns and best practices to build scalable and maintainable systems.
+      Software Architecture: Contribute to the design and architecture of software solutions. Utilize design patterns and best practices to build scalable and maintainable systems.
   
-    • Problem Solving:
-      Identify and resolve complex technical issues. Apply strong problem-solving skills to enhance software performance and reliability.
+      Problem Solving: Identify and resolve complex technical issues. Apply strong problem-solving skills to enhance software performance and reliability.
   
-    • Collaboration:
-      Work closely with cross-functional teams, including other developers, product managers, and designers, to deliver high-quality software solutions.
+      Collaboration: Work closely with cross-functional teams, including other developers, product managers, and designers, to deliver high-quality software solutions.
   
-    • Code Reviews and Testing:
-      Participate in code reviews to ensure code quality. Write and execute unit tests to maintain application stability and performance.
+      Code Reviews and Testing: Participate in code reviews to ensure code quality. Write and execute unit tests to maintain application stability and performance.
   
     `,
-    skillsNeeded: `
+    skillNeeded: `
   
-    • Java Proficiency:
-      Strong proficiency in Core Java, including experience with the Spring Framework and Spring Boot.
+      Java Proficiency: Strong proficiency in Core Java, including experience with the Spring Framework and Spring Boot.
   
-    • Framework Knowledge:
-      Experience with Hibernate and Microservices architecture is a plus.
+      Framework Knowledge:Experience with Hibernate and Microservices architecture is a plus.
   
-    • Problem Solving:
-      Excellent problem-solving skills and the ability to debug complex issues.
+      Problem Solving:Excellent problem-solving skills and the ability to debug complex issues.
   
-    • Software Design:
-      Understanding of software architecture, design patterns, and best practices.
+      Software Design: Understanding of software architecture, design patterns, and best practices.
   
-    • Team Collaboration:
-      Strong communication and teamwork skills, with the ability to work effectively in a collaborative environment.`,
+      Team Collaboration: Strong communication and teamwork skills, with the ability to work effectively in a collaborative environment.`,
     benefits: "Health insurance, Paid time off, Remote working options",
     jobType: "Full-time",
     jobDetail:
@@ -1016,30 +976,23 @@ const companyData = [
     companyLogo: companyImage.techinnovations,
     companyName: "Tech Innovators Pvt Ltd",
     dateRecruitment: "2024-09-01",
-    salary: "15,00,000 • 20,00,000 per annum",
+    salary: "15,00,000   20,00,000 per annum",
     description: `
       As a Data Scientist at Tech Innovators Pvt Ltd, you will engage in advanced data analysis and model development to drive business decisions and innovation. 
-      Your key responsibilities include:
+      `,
+    keyResponsibilties: `
 
-      •  Model Development:  
-      Develop and deploy AI and ML models for various business operations. Utilize state-of-the-art algorithms to analyze complex datasets and generate actionable insights.
-      •  Data Analysis:  
-      Analyze large volumes of data to uncover patterns and trends that inform strategic decisions. Apply statistical techniques and data visualization tools to present findings.
-      •  Collaboration:  
-      Work closely with the engineering team to integrate models into production systems and ensure their effective deployment and performance.
-      •  Performance Monitoring:  
-      Monitor and evaluate model performance, making adjustments as necessary to maintain accuracy and effectiveness.
+         Model Development: Develop and deploy AI and ML models for various business operations. Utilize state-of-the-art algorithms to analyze complex datasets and generate actionable insights.
+         Data Analysis: Analyze large volumes of data to uncover patterns and trends that inform strategic decisions. Apply statistical techniques and data visualization tools to present findings.
+         Collaboration: Work closely with the engineering team to integrate models into production systems and ensure their effective deployment and performance.
+         Performance Monitoring: Monitor and evaluate model performance, making adjustments as necessary to maintain accuracy and effectiveness.
 
        `,
-    skillsNeeded: ` 
-      •  Technical Expertise:  
-      Strong proficiency in Python, R, and SQL. Experience with machine learning libraries such as TensorFlow, PyTorch, or Scikit-learn.
-      •  Analytical Skills:  
-      Ability to analyze large datasets, apply statistical methods, and interpret results.
-      •  Problem-Solving:  
-      Excellent problem-solving skills with a strong understanding of data mining, data wrangling, and predictive modeling.
-      •  Communication:  
-      Effective communication skills for presenting complex data insights to non-technical stakeholders.
+    skillNeeded: ` 
+         Technical Expertise: Strong proficiency in Python, R, and SQL. Experience with machine learning libraries such as TensorFlow, PyTorch, or Scikit-learn.
+         Analytical Skills: Ability to analyze large datasets, apply statistical methods, and interpret results.
+         Problem-Solving: Excellent problem-solving skills with a strong understanding of data mining, data wrangling, and predictive modeling.
+         Communication: Effective communication skills for presenting complex data insights to non-technical stakeholders.
     `,
     benefits: "Health insurance, Paid time off, Flexible working hours",
     jobType: "Full-time",
@@ -1062,27 +1015,20 @@ const companyData = [
     salary: "7L – 10L",
     description: `
       As a Frontend Developer at Trishik, you will be responsible for designing and implementing user-friendly web and mobile applications. 
-      Your role involves:
+      `,
+    keyResponsibilties: `
 
-      •  Web and Mobile Development:  
-       Build and maintain responsive web and mobile applications using HTML, CSS, and JavaScript. Ensure cross-platform compatibility and performance.
-      •  Collaboration: 
-       Work with web designers and backend developers to integrate user interfaces with server-side logic. Participate in project planning and code reviews.
-      •  Testing and Debugging: 
-       Test and debug code to ensure high-quality, bug-free applications. Optimize applications for speed and usability.
-      •  User Experience: 
-       Improve user experience by implementing intuitive designs and interactive elements.
+         Web and Mobile Development: Build and maintain responsive web and mobile applications using HTML, CSS, and JavaScript. Ensure cross-platform compatibility and performance.
+         Collaboration: Work with web designers and backend developers to integrate user interfaces with server-side logic. Participate in project planning and code reviews.
+         Testing and Debugging: Test and debug code to ensure high-quality, bug-free applications. Optimize applications for speed and usability.
+         User Experience: Improve user experience by implementing intuitive designs and interactive elements.
 
        `,
-    skillsNeeded: ` 
-      •  Technical Skills: 
-       Proficiency in HTML, CSS, JavaScript, and relevant frameworks like React or Angular.
-      •  Design Understanding: 
-       Strong understanding of user interface (UI) and user experience (UX) principles.
-      •  Problem-Solving: 
-       Ability to troubleshoot and resolve issues related to front-end development.
-      •  Collaboration: 
-       Effective teamwork and communication skills for working with cross-functional teams.
+    skillNeeded: ` 
+         Technical Skills: Proficiency in HTML, CSS, JavaScript, and relevant frameworks like React or Angular.
+         Design Understanding: Strong understanding of user interface (UI) and user experience (UX) principles.
+         Problem-Solving: Ability to troubleshoot and resolve issues related to front-end development.
+         Collaboration: Effective teamwork and communication skills for working with cross-functional teams.
     `,
     benefits: "N/A",
     jobType: "Remote",
@@ -1101,31 +1047,23 @@ const companyData = [
     companyLogo: companyImage.Couchbase,
     companyName: "Couchbase",
     dateRecruitment: "2024-08-03",
-    salary: "14,00,000 • 19,00,000 per annum",
+    salary: "14,00,000   19,00,000 per annum",
     description: `
       As a Database Administrator at Couchbase, you will be responsible for managing and optimizing NoSQL databases to ensure high performance and reliability. 
       `,
     keyResponsibilties: `
 
-      •  Database Management: 
-       Maintain and administer Couchbase databases, ensuring data integrity and availability. Perform regular database backups and recovery.
-      •  Performance Optimization: 
-       Optimize database performance through indexing, query optimization, and tuning.
-      •  Troubleshooting: 
-       Diagnose and resolve database issues, including performance bottlenecks and data inconsistencies.
-      •  Documentation: 
-       Maintain comprehensive documentation of database configurations, procedures, and troubleshooting steps.
+         Database Management: Maintain and administer Couchbase databases, ensuring data integrity and availability. Perform regular database backups and recovery.
+         Performance Optimization: Optimize database performance through indexing, query optimization, and tuning.
+         Troubleshooting: Diagnose and resolve database issues, including performance bottlenecks and data inconsistencies.
+         Documentation: Maintain comprehensive documentation of database configurations, procedures, and troubleshooting steps.
 
        `,
-    skillsNeeded: ` 
-      •  Technical Expertise: 
-       Experience with Couchbase or other NoSQL databases. Proficiency in SQL and database administration.
-      •  Problem-Solving: 
-       Strong troubleshooting skills and ability to resolve complex database issues.
-      •  Performance Tuning: 
-       Knowledge of performance optimization techniques for database systems.
-      •  Communication: 
-       Ability to communicate technical information clearly and effectively to team members and stakeholders.
+    skillNeeded: ` 
+         Technical Expertise: Experience with Couchbase or other NoSQL databases. Proficiency in SQL and database administration.
+         Problem-Solving: Strong troubleshooting skills and ability to resolve complex database issues.
+         Performance Tuning: Knowledge of performance optimization techniques for database systems.
+         Communication: Ability to communicate technical information clearly and effectively to team members and stakeholders.
     `,
     benefits:
       "Health insurance, Remote working options, Professional development",
@@ -1151,25 +1089,17 @@ const companyData = [
       `,
     keyResponsibilties: `
 
-      •  Backend Development: 
-       Design, implement, and maintain server-side logic and APIs using technologies such as Java, Python, or Node.js.
-      •  Integration: 
-       Collaborate with front-end developers to integrate user-facing elements with server-side logic.
-      •  Database Management: 
-       Design and manage database schemas, ensuring data consistency and security.
-      •  Performance Optimization: 
-       Optimize server performance and scalability to handle high traffic and large volumes of data.
+         Backend Development: Design, implement, and maintain server-side logic and APIs using technologies such as Java, Python, or Node.js.
+         Integration: Collaborate with front-end developers to integrate user-facing elements with server-side logic.
+         Database Management: Design and manage database schemas, ensuring data consistency and security.
+         Performance Optimization: Optimize server performance and scalability to handle high traffic and large volumes of data.
 
        `,
-    skillsNeeded: ` 
-      •  Technical Skills: 
-       Strong understanding of RESTful APIs, server architecture, and programming languages such as Java, Python, or Node.js.
-      •  Database Knowledge: 
-       Experience with database management systems and performance tuning.
-      •  Problem-Solving: 
-       Ability to address and resolve backend performance issues and bugs.
-      •  Collaboration: 
-       Effective collaboration skills for working with cross-functional teams and stakeholders.
+    skillNeeded: ` 
+         Technical Skills: Strong understanding of RESTful APIs, server architecture, and programming languages such as Java, Python, or Node.js.
+         Database Knowledge: Experience with database management systems and performance tuning.
+         Problem-Solving: Ability to address and resolve backend performance issues and bugs.
+         Collaboration: Effective collaboration skills for working with cross-functional teams and stakeholders.
     `,
     benefits: "Health insurance, Paid time off",
     jobType: "Full-time",
@@ -1188,31 +1118,23 @@ const companyData = [
     companyLogo: companyImage.analitica,
     companyName: "Analytica India",
     dateRecruitment: "2024-08-20",
-    salary: "10,00,000 • 15,00,000 per annum",
+    salary: "10,00,000   15,00,000 per annum",
     description: `
       As a Senior Data Analyst at Analytica India, you will lead data analysis projects that drive strategic business decisions. 
       `,
     keyResponsibilties: `
 
-      •  Project Leadership: 
-       Lead and manage data analysis projects, ensuring alignment with business objectives and delivery of actionable insights.
-      •  Data Analysis: 
-       Conduct complex data analysis using advanced statistical methods and data visualization techniques. Generate comprehensive reports and presentations.
-      •  Cross-Functional Collaboration: 
-       Work with various departments to understand their data needs and provide solutions that address those needs.
-      •  Strategy Development: 
-       Develop strategies based on data insights to support business growth and operational efficiency.
+         Project Leadership: Lead and manage data analysis projects, ensuring alignment with business objectives and delivery of actionable insights.
+         Data Analysis: Conduct complex data analysis using advanced statistical methods and data visualization techniques. Generate comprehensive reports and presentations.
+         Cross-Functional Collaboration: Work with various departments to understand their data needs and provide solutions that address those needs.
+         Strategy Development: Develop strategies based on data insights to support business growth and operational efficiency.
 
        `,
-    skillsNeeded: ` 
-      •  Analytical Expertise: 
-       Advanced skills in data analysis, statistical methods, and data visualization tools.
-      •  Project Management: 
-       Strong project management skills with experience leading data analysis initiatives.
-      •  Technical Proficiency: 
-       Proficiency in data analysis tools such as Excel, SQL, R, or Python.
-      •  Communication: 
-       Excellent communication skills for presenting insights and recommendations to senior management.
+    skillNeeded: ` 
+         Analytical Expertise: Advanced skills in data analysis, statistical methods, and data visualization tools.
+         Project Management: Strong project management skills with experience leading data analysis initiatives.
+         Technical Proficiency: Proficiency in data analysis tools such as Excel, SQL, R, or Python.
+         Communication: Excellent communication skills for presenting insights and recommendations to senior management.
     `,
     benefits: "Health insurance, Stock options, Flexible working hours",
     jobType: "Full-time",
@@ -1238,27 +1160,18 @@ const companyData = [
       `,
     keyResponsibilties: `
       
-      •  Application Development: 
-       Design, develop, and implement software applications using modern development tools and practices. Focus on creating scalable and high-performance solutions.
-      •  Code Quality: 
-       Write clean, efficient, and well-documented code following best practices and coding standards.
-      •  Testing and Debugging: 
-       Conduct thorough testing and debugging of applications to ensure functionality and performance. Address and resolve issues in a timely manner.
-      •  Collaboration: 
-       Work closely with cross-functional teams including product managers, designers, and other developers to deliver high-quality software solutions.
-      •  Continuous Learning: 
-       Stay updated with the latest industry trends and technologies to incorporate best practices into your development work.
+         Application Development: Design, develop, and implement software applications using modern development tools and practices. Focus on creating scalable and high-performance solutions.
+         Code Quality: Write clean, efficient, and well-documented code following best practices and coding standards.
+         Testing and Debugging: Conduct thorough testing and debugging of applications to ensure functionality and performance. Address and resolve issues in a timely manner.
+         Collaboration: Work closely with cross-functional teams including product managers, designers, and other developers to deliver high-quality software solutions.
+         Continuous Learning: Stay updated with the latest industry trends and technologies to incorporate best practices into your development work.
 
        `,
-    skillsNeeded: ` 
-      •  Programming Languages: 
-       Proficiency in object-oriented programming languages such as Java, C#, or Python.
-      •  Development Tools: 
-       Experience with modern development tools and methodologies, including version control systems (e.g., Git).
-      •  Cloud Services: 
-       Knowledge of cloud services such as AWS or Azure is preferred.
-      •  Problem-Solving: 
-       Strong analytical and problem-solving skills, with the ability to tackle complex software challenges.
+    skillNeeded: ` 
+         Programming Languages: Proficiency in object-oriented programming languages such as Java, C#, or Python.
+         Development Tools: Experience with modern development tools and methodologies, including version control systems (e.g., Git).
+         Cloud Services: Knowledge of cloud services such as AWS or Azure is preferred.
+         Problem-Solving: Strong analytical and problem-solving skills, with the ability to tackle complex software challenges.
     `,
     benefits: "Flexible working hours, Health insurance, Performance bonus",
     jobType: "Full-time",
@@ -1277,30 +1190,23 @@ const companyData = [
     companyLogo: companyImage.CodeMasters,
     companyName: "CodeMasters Solutions",
     date_recruitment: "2024-08-12",
-    salary: "6,50,000 • 9,50,000 per annum",
+    salary: "6,50,000   9,50,000 per annum",
     description: `
       As a Web Developer at CodeMasters Solutions, you will focus on creating high-quality web applications. 
-      Your key responsibilities include:
+      `,
+    keyResponsibilties: `
       
-      •  Web Application Development: 
-       Build and maintain responsive and dynamic web applications using HTML, CSS, and JavaScript. Ensure optimal performance and user experience.
-      •  Responsive Design: 
-       Implement responsive design principles to ensure compatibility across various devices and screen sizes.
-      •  Collaboration: 
-       Work with UI/UX designers to translate design concepts into functional web applications. Collaborate with backend developers to integrate APIs and services.
-      •  Performance Optimization: 
-       Optimize web applications for speed and efficiency. Address performance issues and ensure high-quality user experiences.
+         Web Application Development: Build and maintain responsive and dynamic web applications using HTML, CSS, and JavaScript. Ensure optimal performance and user experience.
+         Responsive Design: Implement responsive design principles to ensure compatibility across various devices and screen sizes.
+         Collaboration: Work with UI/UX designers to translate design concepts into functional web applications. Collaborate with backend developers to integrate APIs and services.
+         Performance Optimization: Optimize web applications for speed and efficiency. Address performance issues and ensure high-quality user experiences.
 
        `,
-    skillsNeeded: ` 
-      •  Web Technologies: 
-       Strong proficiency in HTML, CSS, JavaScript, and relevant frameworks such as React, Angular, or Vue.js.
-      •  Responsive Design: 
-       Experience with responsive design techniques and tools.
-      •  Problem-Solving: 
-       Ability to debug and troubleshoot issues related to web development.
-      •  Collaboration: 
-       Effective communication skills for working with design and development teams.
+    skillNeeded: ` 
+         Web Technologies: Strong proficiency in HTML, CSS, JavaScript, and relevant frameworks such as React, Angular, or Vue.js.
+         Responsive Design: Experience with responsive design techniques and tools.
+         Problem-Solving: Ability to debug and troubleshoot issues related to web development.
+         Collaboration: Effective communication skills for working with design and development teams.
     `,
     benefits: [
       "Health insurance",
@@ -1330,25 +1236,17 @@ const companyData = [
       `,
     keyResponsibilties: `
       
-      •  Service Development: 
-       Design and implement backend services and APIs using programming languages such as Java, Python, or Go.
-      •  Database Management: 
-       Develop and manage database schemas, and ensure data integrity and security. Optimize database performance and scalability.
-      •  Performance Optimization: 
-       Identify and address performance bottlenecks in backend services. Implement solutions to improve system efficiency and reliability.
-      •  Collaboration: 
-       Collaborate with frontend developers and other stakeholders to integrate server-side components with user-facing applications.
+         Service Development: Design and implement backend services and APIs using programming languages such as Java, Python, or Go.
+         Database Management: Develop and manage database schemas, and ensure data integrity and security. Optimize database performance and scalability.
+         Performance Optimization: Identify and address performance bottlenecks in backend services. Implement solutions to improve system efficiency and reliability.
+         Collaboration: Collaborate with frontend developers and other stakeholders to integrate server-side components with user-facing applications.
 
        `,
-    skillsNeeded: ` 
-      •  Programming Languages: 
-       Proficiency in Java, Python, or Go. Experience with backend frameworks and tools.
-      •  Database Knowledge: 
-       Strong understanding of database management systems and optimization techniques.
-      •  System Design: 
-       Knowledge of software design principles and best practices for building scalable systems.
-      •  Problem-Solving: 
-       Ability to troubleshoot and resolve backend performance issues.
+    skillNeeded: ` 
+         Programming Languages: Proficiency in Java, Python, or Go. Experience with backend frameworks and tools.
+         Database Knowledge: Strong understanding of database management systems and optimization techniques.
+         System Design: Knowledge of software design principles and best practices for building scalable systems.
+         Problem-Solving: Ability to troubleshoot and resolve backend performance issues.
     `,
     benefits: "Flexible working hours, Health insurance",
     jobType: "Full-time",
@@ -1370,27 +1268,20 @@ const companyData = [
     salary: "N/A",
     description: `
       As a Frontend Developer at Agicent Technologies, you will focus on building and enhancing user interfaces for web applications. 
-      Your role involves:
+      `,
+    keyResponsibilties: `
       
-      •  UI Development: 
-       Develop and maintain front-end code for web applications using HTML, CSS, and JavaScript. Implement responsive and visually appealing designs.
-      •  Code Debugging: 
-       Identify and fix bugs and issues in front-end code. Ensure cross-browser compatibility and performance.
-      •  Collaboration: 
-       Work closely with UI/UX designers to implement design concepts and improve user experience.
-      •  Performance Tuning: 
-       Optimize front-end performance and ensure that applications load quickly and run smoothly.
+         UI Development: Develop and maintain front-end code for web applications using HTML, CSS, and JavaScript. Implement responsive and visually appealing designs.
+         Code Debugging: Identify and fix bugs and issues in front-end code. Ensure cross-browser compatibility and performance.
+         Collaboration: Work closely with UI/UX designers to implement design concepts and improve user experience.
+         Performance Tuning: Optimize front-end performance and ensure that applications load quickly and run smoothly.
 
        `,
-    skillsNeeded: ` 
-      •  Frontend Technologies: 
-       Strong proficiency in HTML, CSS, JavaScript, and relevant frameworks such as React or Angular.
-      •  Design Skills: 
-       Ability to translate UI/UX designs into functional and visually appealing front-end code.
-      •  Problem-Solving: 
-       Strong debugging skills and attention to detail.
-      •  Collaboration: 
-       Effective communication skills for working with design and development teams.
+    skillNeeded: ` 
+         Frontend Technologies: Strong proficiency in HTML, CSS, JavaScript, and relevant frameworks such as React or Angular.
+         Design Skills: Ability to translate UI/UX designs into functional and visually appealing front-end code.
+         Problem-Solving: Strong debugging skills and attention to detail.
+         Collaboration: Effective communication skills for working with design and development teams.
     `,
     benefits: "N/A",
     jobType: "Full-time",
@@ -1409,31 +1300,23 @@ const companyData = [
     companyLogo: companyImage.datainsights,
     companyName: "Data Insights Ltd",
     dateRecruitment: "2024-08-15",
-    salary: "18,00,000 • 22,00,000 per annum",
+    salary: "18,00,000   22,00,000 per annum",
     description: `
       As a Senior Data Scientist at Data Insights Ltd, you will lead the development of predictive models and analytics projects. 
       `,
     keyResponsibilties: `
       
-      •  Team Leadership: 
-       Lead a team of data scientists in developing and implementing advanced analytics solutions. Oversee project progress and ensure alignment with business goals.
-      •  Model Development: 
-       Design and build predictive models and algorithms to uncover insights from large datasets. Apply machine learning and statistical techniques to drive business decisions.
-      •  Stakeholder Collaboration: 
-       Work closely with business stakeholders to understand their needs and provide data-driven recommendations.
-      •  Project Management: 
-       Manage multiple analytics projects, ensuring timely delivery and high-quality outcomes.
+         Team Leadership: Lead a team of data scientists in developing and implementing advanced analytics solutions. Oversee project progress and ensure alignment with business goals.
+         Model Development: Design and build predictive models and algorithms to uncover insights from large datasets. Apply machine learning and statistical techniques to drive business decisions.
+         Stakeholder Collaboration: Work closely with business stakeholders to understand their needs and provide data-driven recommendations.
+         Project Management: Manage multiple analytics projects, ensuring timely delivery and high-quality outcomes.
 
        `,
-    skillsNeeded: ` 
-      •  Data Science Expertise: 
-       Proficiency in data science tools and techniques, including machine learning algorithms, statistical analysis, and data visualization.
-      •  Leadership Skills: 
-       Strong leadership and team management abilities.
-      •  Programming Skills: 
-       Experience with programming languages such as Python, R, or SQL.
-      •  Communication: 
-       Excellent communication skills for presenting insights and recommendations to senior management.
+    skillNeeded: ` 
+         Data Science Expertise: Proficiency in data science tools and techniques, including machine learning algorithms, statistical analysis, and data visualization.
+         Leadership Skills: Strong leadership and team management abilities.
+         Programming Skills: Experience with programming languages such as Python, R, or SQL.
+         Communication: Excellent communication skills for presenting insights and recommendations to senior management.
     `,
     benefits: "Health insurance, Paid time off, Stock options",
     jobType: "Full-time",
@@ -1452,30 +1335,23 @@ const companyData = [
     companyLogo: companyImage.Arcadis,
     companyName: "Arcadis",
     date_recruitment: "2024-08-02",
-    salary: "1,600,000 • 2,100,000 per annum",
+    salary: "1,600,000   2,100,000 per annum",
     description: `
       As a Java Developer at Arcadis, you will work on international projects, focusing on delivering high-quality software solutions. 
-      Your key responsibilities include:
+      `,
+    keyResponsibilties: `
       
-      •  Software Development: 
-       Design, develop, and maintain Java-based applications. Take ownership of the software development lifecycle, from requirement analysis to deployment.
-      •  Collaboration: 
-       Work closely with product owners, other developers, and testers to ensure that software meets quality standards and business requirements.
-      •  Agile Environment: 
-       Participate in agile development practices, including sprint planning, daily stand-ups, and retrospectives.
-      •  Code Quality: 
-       Ensure the quality of code through code reviews, testing, and adherence to best practices.
+         Software Development: Design, develop, and maintain Java-based applications. Take ownership of the software development lifecycle, from requirement analysis to deployment.
+         Collaboration: Work closely with product owners, other developers, and testers to ensure that software meets quality standards and business requirements.
+         Agile Environment: Participate in agile development practices, including sprint planning, daily stand-ups, and retrospectives.
+         Code Quality: Ensure the quality of code through code reviews, testing, and adherence to best practices.
 
        `,
-    skillsNeeded: ` 
-      •  Java Proficiency: 
-       Strong expertise in Java programming, including knowledge of Java frameworks and tools.
-      •  Agile Experience: 
-       Familiarity with agile development methodologies and practices.
-      •  Problem-Solving: 
-       Ability to address complex software development challenges and implement effective solutions.
-      •  Collaboration: 
-       Strong teamwork and communication skills for working with cross-functional teams.
+    skillNeeded: ` 
+         Java Proficiency: Strong expertise in Java programming, including knowledge of Java frameworks and tools.
+         Agile Experience: Familiarity with agile development methodologies and practices.
+         Problem-Solving: Ability to address complex software development challenges and implement effective solutions.
+         Collaboration: Strong teamwork and communication skills for working with cross-functional teams.
     `,
     benefits:
       "Health insurance, Remote working options, Professional development",
@@ -1497,35 +1373,25 @@ const companyData = [
     companyLogo: companyImage.ByteBuilders,
     companyName: "ByteBuilders Ltd.",
     date_recruitment: "2024-07-31",
-    salary: "7,00,000 • 10,00,000 per annum",
+    salary: "7,00,000   10,00,000 per annum",
     description: `
       As a Web Developer at ByteBuilders Ltd., your role will involve building and maintaining high-quality, responsive websites and web applications. 
       `,
     keyResponsibilties: `
       
-      •  Website Development: 
-       Design, develop, and maintain responsive websites and web applications using HTML, CSS, and JavaScript. Ensure that all web applications are user-friendly and meet the latest web standards.
-      •  Integration: 
-       Collaborate with backend developers to integrate web applications with server-side logic. Ensure seamless data flow and functionality between front-end and back-end components.
-      •  Performance Optimization: 
-       Optimize website performance, including load times and responsiveness. Implement best practices for web performance and user experience.
-      •  Bug Fixing and Maintenance: 
-       Identify and resolve bugs and issues in web applications. Regularly update and maintain existing web applications to ensure optimal performance and security.
-      •  Collaboration: 
-       Work closely with designers to implement user-friendly designs and with stakeholders to gather requirements and provide technical solutions.
+         Website Development: Design, develop, and maintain responsive websites and web applications using HTML, CSS, and JavaScript. Ensure that all web applications are user-friendly and meet the latest web standards.
+         Integration: Collaborate with backend developers to integrate web applications with server-side logic. Ensure seamless data flow and functionality between front-end and back-end components.
+         Performance Optimization: Optimize website performance, including load times and responsiveness. Implement best practices for web performance and user experience.
+         Bug Fixing and Maintenance: Identify and resolve bugs and issues in web applications. Regularly update and maintain existing web applications to ensure optimal performance and security.
+         Collaboration: Work closely with designers to implement user-friendly designs and with stakeholders to gather requirements and provide technical solutions.
 
        `,
-    skillsNeeded: ` 
-      •  Web Technologies: 
-       Proficiency in HTML, CSS, and JavaScript. Experience with modern web frameworks such as React, Angular, or Vue.js.
-      •  Responsive Design: 
-       Ability to create responsive and adaptive web designs that work across various devices and screen sizes.
-      •  Backend Familiarity: 
-       Basic knowledge of backend technologies and APIs to collaborate effectively with backend developers.
-      •  Problem-Solving: 
-       Strong debugging skills and attention to detail in resolving web application issues.
-      •  Communication: 
-       Effective communication skills for working with cross-functional teams and understanding client requirements.
+    skillNeeded: ` 
+         Web Technologies: Proficiency in HTML, CSS, and JavaScript. Experience with modern web frameworks such as React, Angular, or Vue.js.
+         Responsive Design: Ability to create responsive and adaptive web designs that work across various devices and screen sizes.
+         Backend Familiarity: Basic knowledge of backend technologies and APIs to collaborate effectively with backend developers.
+         Problem-Solving: Strong debugging skills and attention to detail in resolving web application issues.
+         Communication: Effective communication skills for working with cross-functional teams and understanding client requirements.
     `,
     benefits: [
       "Health insurance",
@@ -1549,34 +1415,25 @@ const companyData = [
     companyLogo: companyImage.SiteMasters,
     companyName: "SiteMasters Solutions",
     date_recruitment: "2024-07-28",
-    salary: "6,00,000 • 9,00,000 per annum",
+    salary: "6,00,000   9,00,000 per annum",
     description: `
       As a Web Developer at SiteMasters Solutions, you will be responsible for creating and maintaining high-quality web applications. 
-      Your key responsibilities include:
+      `,
+    keyResponsibilties: `
       
-      •  Application Development: 
-       Develop and maintain web applications using HTML, CSS, JavaScript, and modern frameworks. Ensure applications are responsive and provide an excellent user experience.
-      •  Design Collaboration: 
-       Collaborate with the design team to implement visually appealing and functional designs. Translate UI/UX designs into high-quality front-end code.
-      •  Integration: 
-       Work with backend developers to integrate web applications with server-side components and services.
-      •  Performance and Testing: 
-       Optimize web applications for speed and performance. Conduct thorough testing to identify and fix issues.
-      •  Continuous Improvement: 
-       Stay updated with the latest web development trends and technologies to continuously improve development practices and processes.
+         Application Development: Develop and maintain web applications using HTML, CSS, JavaScript, and modern frameworks. Ensure applications are responsive and provide an excellent user experience.
+         Design Collaboration: Collaborate with the design team to implement visually appealing and functional designs. Translate UI/UX designs into high-quality front-end code.
+         Integration: Work with backend developers to integrate web applications with server-side components and services.
+         Performance and Testing: Optimize web applications for speed and performance. Conduct thorough testing to identify and fix issues.
+         Continuous Improvement: Stay updated with the latest web development trends and technologies to continuously improve development practices and processes.
 
        `,
-    skillsNeeded: ` 
-      •  Frontend Technologies: 
-       Strong skills in HTML, CSS, JavaScript, and experience with frontend frameworks such as React or Angular.
-      •  Frameworks and Libraries: 
-       Familiarity with modern JavaScript frameworks and libraries for developing dynamic web applications.
-      •  Performance Optimization: 
-       Ability to optimize web applications for performance and efficiency.
-      •  Collaboration: 
-       Strong teamwork skills for working with designers and backend developers.
-      •  Attention to Detail: 
-       High attention to detail in implementing and testing web features.
+    skillNeeded: ` 
+         Frontend Technologies: Strong skills in HTML, CSS, JavaScript, and experience with frontend frameworks such as React or Angular.
+         Frameworks and Libraries: Familiarity with modern JavaScript frameworks and libraries for developing dynamic web applications.
+         Performance Optimization: Ability to optimize web applications for performance and efficiency.
+         Collaboration: Strong teamwork skills for working with designers and backend developers.
+         Attention to Detail: High attention to detail in implementing and testing web features.
     `,
     benefits: [
       "Health insurance",
@@ -1606,29 +1463,19 @@ const companyData = [
       `,
     keyResponsibilties: `
       
-      •  Server-Side Development: 
-       Design and implement backend services and APIs using programming languages such as Java, Python, or Ruby on Rails. Ensure services are scalable, secure, and efficient.
-      •  Database Management: 
-       Develop and maintain database schemas. Implement data access layers and ensure data integrity and security.
-      •  Performance Optimization: 
-       Monitor and optimize backend services for performance, including load balancing and response times.
-      •  Collaboration: 
-       Work closely with frontend developers to integrate user-facing elements with server-side logic. Participate in code reviews and provide feedback.
-      •  Problem-Solving: 
-       Troubleshoot and resolve issues related to backend performance and reliability.
+         Server-Side Development: Design and implement backend services and APIs using programming languages such as Java, Python, or Ruby on Rails. Ensure services are scalable, secure, and efficient.
+         Database Management: Develop and maintain database schemas. Implement data access layers and ensure data integrity and security.
+         Performance Optimization: Monitor and optimize backend services for performance, including load balancing and response times.
+         Collaboration: Work closely with frontend developers to integrate user-facing elements with server-side logic. Participate in code reviews and provide feedback.
+         Problem-Solving: Troubleshoot and resolve issues related to backend performance and reliability.
 
        `,
-    skillsNeeded: ` 
-      •  Programming Languages: 
-       Proficiency in Java, Python, or Ruby on Rails. Experience with backend frameworks and tools.
-      •  Database Skills: 
-       Strong knowledge of database management systems, data modeling, and optimization techniques.
-      •  System Design: 
-       Understanding of software design principles and best practices for building scalable backend systems.
-      •  Problem-Solving: 
-       Ability to diagnose and resolve complex backend issues effectively.
-      •  Collaboration: 
-       Good communication skills for working with frontend developers and participating in team discussions.
+    skillNeeded: ` 
+         Programming Languages: Proficiency in Java, Python, or Ruby on Rails. Experience with backend frameworks and tools.
+         Database Skills: Strong knowledge of database management systems, data modeling, and optimization techniques.
+         System Design: Understanding of software design principles and best practices for building scalable backend systems.
+         Problem-Solving: Ability to diagnose and resolve complex backend issues effectively.
+         Collaboration: Good communication skills for working with frontend developers and participating in team discussions.
     `,
     benefits: ["Flexible working hours", "Health insurance"],
     jobType: "Full-time",
@@ -1647,34 +1494,25 @@ const companyData = [
     companyLogo: companyImage.cyberguard,
     companyName: "CyberGuard Inc.",
     date_recruitment: "2024-07-30",
-    salary: "12,00,000 • 18,00,000 per annum",
+    salary: "12,00,000   18,00,000 per annum",
     description: `
       As a Cybersecurity Architect at CyberGuard Inc., you will design and implement security solutions to protect the company's systems and data. 
-      Your key responsibilities include:
+      `,
+    keyResponsibilties: `
       
-      •  Security Framework Design: 
-       Develop and implement comprehensive security frameworks and architectures to safeguard company data and IT infrastructure.
-      •  Incident Response: 
-       Monitor security systems and respond to security incidents. Conduct forensic analysis to investigate and mitigate security breaches.
-      •  Security Policies: 
-       Create and enforce security policies and procedures to ensure compliance with industry standards and regulations.
-      •  Collaboration: 
-       Work with IT teams to integrate security solutions and address potential vulnerabilities. Provide guidance and support on security best practices.
-      •  Continuous Improvement: 
-       Stay updated with emerging security threats and technologies. Continuously improve security practices and frameworks based on new insights and industry developments.
+         Security Framework Design: Develop and implement comprehensive security frameworks and architectures to safeguard company data and IT infrastructure.
+         Incident Response: Monitor security systems and respond to security incidents. Conduct forensic analysis to investigate and mitigate security breaches.
+         Security Policies: Create and enforce security policies and procedures to ensure compliance with industry standards and regulations.
+         Collaboration: Work with IT teams to integrate security solutions and address potential vulnerabilities. Provide guidance and support on security best practices.
+         Continuous Improvement: Stay updated with emerging security threats and technologies. Continuously improve security practices and frameworks based on new insights and industry developments.
 
        `,
-    skillsNeeded: ` 
-      •  Cybersecurity Expertise: 
-       Extensive knowledge of cybersecurity principles, threat modeling, and security frameworks.
-      •  Technical Skills: 
-       Proficiency in security tools, such as firewalls, intrusion detection systems, and vulnerability scanners.
-      •  Incident Management: 
-       Experience with incident response and forensic analysis.
-      •  Regulatory Knowledge: 
-       Understanding of industry regulations and standards related to data protection and cybersecurity.
-      •  Communication: 
-       Strong communication skills for collaborating with IT teams and presenting security strategies to stakeholders.
+    skillNeeded: ` 
+         Cybersecurity Expertise: Extensive knowledge of cybersecurity principles, threat modeling, and security frameworks.
+         Technical Skills: Proficiency in security tools, such as firewalls, intrusion detection systems, and vulnerability scanners.
+         Incident Management: Experience with incident response and forensic analysis.
+         Regulatory Knowledge: Understanding of industry regulations and standards related to data protection and cybersecurity.
+         Communication: Strong communication skills for collaborating with IT teams and presenting security strategies to stakeholders.
     `,
     benefits: [
       "Health insurance",
@@ -1704,29 +1542,19 @@ const companyData = [
       `,
     keyResponsibilties: `
       
-      •  Application Development: 
-       Develop and maintain Android applications using Java or Kotlin. Implement features and ensure high performance, responsiveness, and reliability.
-      •  Design Collaboration: 
-       Work with UX/UI designers to create intuitive and attractive user interfaces. Translate design concepts into functional and aesthetically pleasing applications.
-      •  Testing and Debugging: 
-       Conduct testing and debugging of Android applications. Ensure compatibility with various devices and Android versions.
-      •  Code Quality: 
-       Write clean, maintainable, and well-documented code. Follow best practices for Android development and contribute to code reviews.
-      •  Continuous Learning: 
-       Stay current with the latest Android development trends and technologies. Continuously improve development practices and techniques.
+         Application Development: Develop and maintain Android applications using Java or Kotlin. Implement features and ensure high performance, responsiveness, and reliability.
+         Design Collaboration: Work with UX/UI designers to create intuitive and attractive user interfaces. Translate design concepts into functional and aesthetically pleasing applications.
+         Testing and Debugging: Conduct testing and debugging of Android applications. Ensure compatibility with various devices and Android versions.
+         Code Quality: Write clean, maintainable, and well-documented code. Follow best practices for Android development and contribute to code reviews.
+         Continuous Learning: Stay current with the latest Android development trends and technologies. Continuously improve development practices and techniques.
 
        `,
-    skillsNeeded: ` 
-      •  Android Development: 
-       Proficiency in Android development using Java or Kotlin. Experience with Android SDK, Android Studio, and related tools.
-      •  UI/UX Design: 
-       Ability to translate design concepts into functional user interfaces. Knowledge of Material Design principles.
-      •  Testing: 
-       Experience with unit testing and debugging Android applications.
-      •  Performance Optimization: 
-       Ability to optimize application performance and manage resources effectively.
-      •  Collaboration: 
-       Strong teamwork skills for working with designers and other developers.
+    skillNeeded: ` 
+         Android Development: Proficiency in Android development using Java or Kotlin. Experience with Android SDK, Android Studio, and related tools.
+         UI/UX Design: Ability to translate design concepts into functional user interfaces. Knowledge of Material Design principles.
+         Testing: Experience with unit testing and debugging Android applications.
+         Performance Optimization: Ability to optimize application performance and manage resources effectively.
+         Collaboration: Strong teamwork skills for working with designers and other developers.
     `,
     benefits: [
       "Health insurance",
@@ -1750,35 +1578,25 @@ const companyData = [
     companyLogo: companyImage.morganstanley,
     companyName: "Morgan Stanley",
     date_recruitment: "2024-08-04",
-    salary: "1,800,000 • 2,500,000 per annum",
+    salary: "1,800,000   2,500,000 per annum",
     description: `
       As a Java Developer at Morgan Stanley, you will play a crucial role in developing and managing Java-based applications for financial services. 
       `,
     keyResponsibilties: `
       
-      •  Application Development: 
-       Design, develop, and maintain Java-based applications, ensuring they are scalable, secure, and efficient. Utilize Java technologies and frameworks to build robust solutions.
-      •  Full Stack Development: 
-       Work on both front-end and back-end components, integrating various technologies and ensuring seamless functionality across the stack.
-      •  Financial Technologies: 
-       Apply knowledge of financial systems and technologies to develop applications that meet the specific needs of the financial industry.
-      •  Performance Optimization: 
-       Monitor and optimize application performance, including load balancing, response times, and resource management.
-      •  Collaboration: 
-       Work closely with cross-functional teams, including other developers, analysts, and business stakeholders, to gather requirements and deliver technical solutions.
+         Application Development: Design, develop, and maintain Java-based applications, ensuring they are scalable, secure, and efficient. Utilize Java technologies and frameworks to build robust solutions.
+         Full Stack Development: Work on both front-end and back-end components, integrating various technologies and ensuring seamless functionality across the stack.
+         Financial Technologies: Apply knowledge of financial systems and technologies to develop applications that meet the specific needs of the financial industry.
+         Performance Optimization: Monitor and optimize application performance, including load balancing, response times, and resource management.
+         Collaboration: Work closely with cross-functional teams, including other developers, analysts, and business stakeholders, to gather requirements and deliver technical solutions.
       
        `,
-    skillsNeeded: ` 
-      •  Java Expertise: 
-       Strong proficiency in Java programming language and related frameworks (e.g., Spring, Hibernate).
-      •  Full Stack Development: 
-       Experience with front-end technologies (HTML, CSS, JavaScript) and back-end development.
-      •  Financial Systems: 
-       Familiarity with financial technologies and systems is a plus.
-      •  Performance Tuning: 
-       Ability to optimize application performance and troubleshoot issues.
-      •  Communication: 
-       Excellent communication skills for collaborating with team members and stakeholders.
+    skillNeeded: ` 
+         Java Expertise: Strong proficiency in Java programming language and related frameworks (e.g., Spring, Hibernate).
+         Full Stack Development: Experience with front-end technologies (HTML, CSS, JavaScript) and back-end development.
+         Financial Systems: Familiarity with financial technologies and systems is a plus.
+         Performance Tuning: Ability to optimize application performance and troubleshoot issues.
+         Communication: Excellent communication skills for collaborating with team members and stakeholders.
     `,
     benefits:
       "Health insurance, Professional development, Remote working options",
@@ -1803,31 +1621,22 @@ const companyData = [
     salary: "11L – 22L",
     description: `
       As a Backend Developer at Capgemini, you will be responsible for server-side application logic and integration with front-end components. 
-      Your key responsibilities include:
+      `,
+    keyResponsibilties: `
       
-      •  Server-Side Development: 
-       Design and implement server-side logic and APIs using Java, Python, or Node.js. Ensure high performance and scalability of backend services.
-      •  RESTful Services: 
-       Develop and maintain RESTful services and APIs to support various applications and integrations.
-      •  Database Management: 
-       Design and optimize database schemas and ensure data integrity. Work with various database systems (SQL and NoSQL) to manage data effectively.
-      •  Integration: 
-       Collaborate with front-end developers to integrate backend services with user-facing components and ensure seamless functionality.
-      •  Troubleshooting: 
-       Identify and resolve issues related to server-side logic, performance, and security.
+         Server-Side Development: Design and implement server-side logic and APIs using Java, Python, or Node.js. Ensure high performance and scalability of backend services.
+         RESTful Services: Develop and maintain RESTful services and APIs to support various applications and integrations.
+         Database Management: Design and optimize database schemas and ensure data integrity. Work with various database systems (SQL and NoSQL) to manage data effectively.
+         Integration: Collaborate with front-end developers to integrate backend services with user-facing components and ensure seamless functionality.
+         Troubleshooting: Identify and resolve issues related to server-side logic, performance, and security.
       
        `,
-    skillsNeeded: ` 
-      •  Backend Technologies: 
-       Proficiency in Java, Python, or Node.js, and experience with backend frameworks.
-      •  RESTful APIs: 
-       Strong understanding of RESTful services and API design.
-      •  Database Skills: 
-       Experience with database design, management, and optimization.
-      •  Problem-Solving: 
-       Ability to troubleshoot and resolve backend issues effectively.
-      •  Collaboration: 
-       Good teamwork skills for working with front-end developers and other stakeholders.
+    skillNeeded: ` 
+         Backend Technologies: Proficiency in Java, Python, or Node.js, and experience with backend frameworks.
+         RESTful APIs: Strong understanding of RESTful services and API design.
+         Database Skills: Experience with database design, management, and optimization.
+         Problem-Solving: Ability to troubleshoot and resolve backend issues effectively.
+         Collaboration: Good teamwork skills for working with front-end developers and other stakeholders.
     `,
     benefits: "Health insurance, Paid time off",
     jobType: "Full-time",
@@ -1852,29 +1661,19 @@ const companyData = [
       `,
     keyResponsibilties: `
       
-      •  Application Development: 
-       Design, develop, and maintain Android applications using Java or Kotlin. Ensure applications are performant, reliable, and user-friendly.
-      •  Feature Implementation: 
-       Work on new features and enhancements for existing applications. Collaborate with designers to implement intuitive and engaging user interfaces.
-      •  Optimization: 
-       Optimize applications for performance, including responsiveness, load times, and resource usage.
-      •  Testing and Debugging: 
-       Conduct thorough testing of applications to identify and fix bugs. Ensure compatibility with a range of devices and Android versions.
-      •  Continuous Improvement: 
-       Stay updated with the latest Android development trends and technologies to continuously improve development practices.
+         Application Development: Design, develop, and maintain Android applications using Java or Kotlin. Ensure applications are performant, reliable, and user-friendly.
+         Feature Implementation: Work on new features and enhancements for existing applications. Collaborate with designers to implement intuitive and engaging user interfaces.
+         Optimization: Optimize applications for performance, including responsiveness, load times, and resource usage.
+         Testing and Debugging: Conduct thorough testing of applications to identify and fix bugs. Ensure compatibility with a range of devices and Android versions.
+         Continuous Improvement: Stay updated with the latest Android development trends and technologies to continuously improve development practices.
       
        `,
-    skillsNeeded: ` 
-      •  Android Development: 
-       Strong skills in Android development using Java or Kotlin. Experience with Android SDK and Android Studio.
-      •  UI/UX Design: 
-       Ability to translate design concepts into functional user interfaces. Knowledge of Material Design principles.
-      •  Testing: 
-       Experience with unit testing and debugging Android applications.
-      •  Performance Optimization: 
-       Skills in optimizing application performance and managing resources.
-      •  Collaboration: 
-       Effective communication skills for working with designers and other developers.
+    skillNeeded: ` 
+         Android Development: Strong skills in Android development using Java or Kotlin. Experience with Android SDK and Android Studio.
+         UI/UX Design: Ability to translate design concepts into functional user interfaces. Knowledge of Material Design principles.
+         Testing: Experience with unit testing and debugging Android applications.
+         Performance Optimization: Skills in optimizing application performance and managing resources.
+         Collaboration: Effective communication skills for working with designers and other developers.
     `,
     benefits:
       "Comprehensive health insurance, remote work flexibility, and career growth opportunities.",
@@ -1896,34 +1695,25 @@ const companyData = [
     companyLogo: companyImage.ProWebSolutions,
     companyName: "ProWeb Solutions",
     date_recruitment: "2024-07-22",
-    salary: "6,50,000 • 9,50,000 per annum",
+    salary: "6,50,000   9,50,000 per annum",
     description: `
       As a Web Developer at ProWeb Solutions, you will be tasked with developing and maintaining responsive web applications. 
-      Your role involves:
+      `,
+    keyResponsibilties: `
       
-      •  Web Application Development: 
-       Build and maintain responsive web applications using HTML, CSS, JavaScript, and modern frameworks. Ensure applications are optimized for various devices and browsers.
-      •  Design Integration: 
-       Collaborate with design teams to implement user-friendly and visually appealing designs. Translate UI/UX designs into high-quality code.
-      •  Performance and Testing: 
-       Optimize web applications for performance and conduct thorough testing to identify and fix issues.
-      •  Collaboration: 
-       Work with backend developers to integrate web applications with server-side logic. Communicate effectively with stakeholders to gather requirements and deliver solutions.
-      •  Continuous Learning: 
-       Stay current with emerging web technologies and industry trends to continuously improve development practices.
+         Web Application Development: Build and maintain responsive web applications using HTML, CSS, JavaScript, and modern frameworks. Ensure applications are optimized for various devices and browsers.
+         Design Integration: Collaborate with design teams to implement user-friendly and visually appealing designs. Translate UI/UX designs into high-quality code.
+         Performance and Testing: Optimize web applications for performance and conduct thorough testing to identify and fix issues.
+         Collaboration: Work with backend developers to integrate web applications with server-side logic. Communicate effectively with stakeholders to gather requirements and deliver solutions.
+         Continuous Learning: Stay current with emerging web technologies and industry trends to continuously improve development practices.
       
        `,
-    skillsNeeded: ` 
-      •  Frontend Technologies: 
-       Proficiency in HTML, CSS, JavaScript, and experience with frontend frameworks such as React or Angular.
-      •  Responsive Design: 
-       Ability to create responsive designs that work across different devices and screen sizes.
-      •  Performance Optimization: 
-       Skills in optimizing web applications for speed and performance.
-      •  Collaboration: 
-       Strong teamwork skills for working with designers and backend developers.
-      •  Problem-Solving: 
-       Attention to detail in identifying and resolving web application issues.
+    skillNeeded: ` 
+         Frontend Technologies: Proficiency in HTML, CSS, JavaScript, and experience with frontend frameworks such as React or Angular.
+         Responsive Design: Ability to create responsive designs that work across different devices and screen sizes.
+         Performance Optimization: Skills in optimizing web applications for speed and performance.
+         Collaboration: Strong teamwork skills for working with designers and backend developers.
+         Problem-Solving: Attention to detail in identifying and resolving web application issues.
     `,
     benefits: [
       "Health insurance",
@@ -1946,35 +1736,25 @@ const companyData = [
     companyLogo: companyImage.SafeNetPvtLtd,
     companyName: "SafeNet Pvt Ltd",
     date_recruitment: "2024-08-25",
-    salary: "20,00,000 • 25,00,000 per annum",
+    salary: "20,00,000   25,00,000 per annum",
     description: `
       As a Cybersecurity Architect at SafeNet Pvt Ltd, you will design and implement security solutions to protect the company’s systems and data. 
       `,
     keyResponsibilties: `
       
-      •  Security Framework Design: 
-       Develop and implement comprehensive security frameworks and architectures. Ensure these frameworks address emerging threats and vulnerabilities.
-      •  Incident Response: 
-       Monitor security systems and respond to security incidents. Conduct investigations and develop strategies to mitigate risks.
-      •  Policy Development: 
-       Create and enforce security policies and procedures. Ensure compliance with industry standards and regulations.
-      •  Collaboration: 
-       Work with IT teams and other stakeholders to integrate security solutions and provide guidance on security best practices.
-      •  Continuous Improvement: 
-       Stay informed about the latest security threats and technologies. Continuously enhance security practices and frameworks based on new developments.
+         Security Framework Design: Develop and implement comprehensive security frameworks and architectures. Ensure these frameworks address emerging threats and vulnerabilities.
+         Incident Response: Monitor security systems and respond to security incidents. Conduct investigations and develop strategies to mitigate risks.
+         Policy Development: Create and enforce security policies and procedures. Ensure compliance with industry standards and regulations.
+         Collaboration: Work with IT teams and other stakeholders to integrate security solutions and provide guidance on security best practices.
+         Continuous Improvement: Stay informed about the latest security threats and technologies. Continuously enhance security practices and frameworks based on new developments.
       
        `,
-    skillsNeeded: ` 
-      •  Cybersecurity Expertise: 
-       Extensive knowledge of cybersecurity principles, threat modeling, and security frameworks.
-      •  Technical Skills: 
-       Proficiency in security tools and technologies, including firewalls, intrusion detection systems, and vulnerability scanners.
-      •  Incident Management: 
-       Experience with incident response and forensic analysis.
-      •  Regulatory Knowledge: 
-       Understanding of industry regulations and standards related to data protection and cybersecurity.
-      •  Communication: 
-       Strong communication skills for collaborating with IT teams and presenting security strategies to stakeholders.
+    skillNeeded: ` 
+         Cybersecurity Expertise: Extensive knowledge of cybersecurity principles, threat modeling, and security frameworks.
+         Technical Skills: Proficiency in security tools and technologies, including firewalls, intrusion detection systems, and vulnerability scanners.
+         Incident Management: Experience with incident response and forensic analysis.
+         Regulatory Knowledge: Understanding of industry regulations and standards related to data protection and cybersecurity.
+         Communication: Strong communication skills for collaborating with IT teams and presenting security strategies to stakeholders.
     `,
     benefits: "Health insurance, Retirement plans, Paid leave",
     jobType: "Full-time",
@@ -1993,35 +1773,25 @@ const companyData = [
     companyLogo: companyImage.TelitCinterion,
     companyName: "Telit Cinterion",
     dateRecruitment: "2024-08-03",
-    salary: "1,500,000 • 2,000,000 per annum",
+    salary: "1,500,000   2,000,000 per annum",
     description: `As a Java Developer at Telit Cinterion, you will be responsible for building high-performing, scalable, enterprise-grade applications. 
     `,
     keyResponsibilties: `
 
-      •  Application Development: 
-       Develop and manage Java/Java EE applications from concept to deployment. Ensure applications are scalable, maintainable, and meet business requirements.
-      •  Software Lifecycle Management: 
-       Oversee the entire software development lifecycle, including requirements gathering, design, development, testing, and deployment.
-      •  Design Patterns and Architecture: 
-       Apply design patterns and architectural concepts to ensure high-quality software solutions. Utilize best practices for code quality and maintainability.
-      •  Performance Optimization: 
-       Monitor and optimize application performance to ensure efficiency and scalability. Address performance bottlenecks and improve application responsiveness.
-      •  Collaboration: 
-       Work closely with cross-functional teams, including project managers, business analysts, and other developers, to deliver solutions that meet client needs and expectations.
+         Application Development: Develop and manage Java/Java EE applications from concept to deployment. Ensure applications are scalable, maintainable, and meet business requirements.
+         Software Lifecycle Management: Oversee the entire software development lifecycle, including requirements gathering, design, development, testing, and deployment.
+         Design Patterns and Architecture: Apply design patterns and architectural concepts to ensure high-quality software solutions. Utilize best practices for code quality and maintainability.
+         Performance Optimization: Monitor and optimize application performance to ensure efficiency and scalability. Address performance bottlenecks and improve application responsiveness.
+         Collaboration: Work closely with cross-functional teams, including project managers, business analysts, and other developers, to deliver solutions that meet client needs and expectations.
       
-       •  `,
-    skillsNeeded: ` 
+          `,
+    skillNeeded: ` 
 
-        •  Java Expertise: 
-         Proficiency in Java and Java EE technologies. Experience with frameworks like Spring or Hibernate.
-        •  Software Development Lifecycle: 
-         Strong understanding of all phases of the software development lifecycle.
-        •  Design Patterns: 
-         Knowledge of common design patterns and architectural concepts.
-        •  Performance Tuning: 
-         Ability to optimize application performance and troubleshoot issues.
-        •  Team Collaboration: 
-         Excellent communication and teamwork skills.`,
+           Java Expertise: Proficiency in Java and Java EE technologies. Experience with frameworks like Spring or Hibernate.
+           Software Development Lifecycle: Strong understanding of all phases of the software development lifecycle.
+           Design Patterns: Knowledge of common design patterns and architectural concepts.
+           Performance Tuning: Ability to optimize application performance and troubleshoot issues.
+           Team Collaboration: Excellent communication and teamwork skills.`,
     benefits: [
       "Flexible working hours",
       "Health insurance",
@@ -2042,35 +1812,25 @@ const companyData = [
     companyLogo: companyImage.CyberDefenders,
     companyName: "CyberDefenders Pvt Ltd",
     date_recruitment: "2024-08-20",
-    salary: "9,00,000 • 12,00,000 per annum",
+    salary: "9,00,000   12,00,000 per annum",
     description: `As a Cybersecurity Engineer at CyberDefenders Pvt Ltd, you will be integral in protecting our systems and networks from cyber threats. 
     `,
     keyResponsibilties: `
 
-      •  Security Protection: 
-       Implement and manage security measures to protect systems, networks, and data from cyber threats and attacks.
-      •  Security Assessments: 
-       Conduct regular security assessments, including vulnerability scans and penetration testing, to identify and address potential security weaknesses.
-      •  Incident Response: 
-       Develop and execute incident response plans. Monitor security systems, respond to security incidents, and perform forensic analysis to mitigate risks.
-      •  Security Implementation: 
-       Deploy and configure security tools such as firewalls, VPNs, and intrusion detection systems (IDS) to safeguard organizational assets.
-      •  Policy Development: 
-       Create and enforce security policies and procedures in line with industry standards and best practices.
+         Security Protection: Implement and manage security measures to protect systems, networks, and data from cyber threats and attacks.
+         Security Assessments: Conduct regular security assessments, including vulnerability scans and penetration testing, to identify and address potential security weaknesses.
+         Incident Response: Develop and execute incident response plans. Monitor security systems, respond to security incidents, and perform forensic analysis to mitigate risks.
+         Security Implementation: Deploy and configure security tools such as firewalls, VPNs, and intrusion detection systems (IDS) to safeguard organizational assets.
+         Policy Development: Create and enforce security policies and procedures in line with industry standards and best practices.
       
        `,
-    skillsNeeded: ` 
+    skillNeeded: ` 
 
-        •  Cybersecurity Tools: 
-         Experience with security tools, including firewalls, IDS, and VPNs.
-        •  Security Assessments: 
-         Ability to conduct vulnerability assessments and penetration testing.
-        •  Incident Response: 
-         Proficiency in responding to and managing security incidents.
-        •  Policy Development: 
-         Knowledge of security policies, procedures, and industry regulations.
-        •  Analytical Skills: 
-          Strong analytical and problem-solving skills.`,
+           Cybersecurity Tools: Experience with security tools, including firewalls, IDS, and VPNs.
+           Security Assessments: Ability to conduct vulnerability assessments and penetration testing.
+           Incident Response: Proficiency in responding to and managing security incidents.
+           Policy Development: Knowledge of security policies, procedures, and industry regulations.
+           Analytical Skills: Strong analytical and problem-solving skills.`,
     benefits: [
       "Health insurance",
       "Paid time off",
@@ -2091,33 +1851,23 @@ const companyData = [
     companyLogo: companyImage.JobsForHumanity,
     companyName: "Jobs for Humanity",
     date_recruitment: "2024-08-03",
-    salary: "1,500,000 • 2,000,000 per annum",
+    salary: "1,500,000   2,000,000 per annum",
     description: `As a Database Administrator (DBA) at Jobs for Humanity, you will manage Oracle databases and implement Golden Gate solutions. 
     `,
     keyResponsibilties: `
-      •  Database Management: 
-       Administer and maintain Oracle databases, ensuring their performance, security, and availability.
-      •  Golden Gate Implementation: 
-       Implement and manage Golden Gate technology for real-time data replication and integration.
-      •  Performance Tuning: 
-       Optimize database performance through tuning and optimization techniques. Address performance issues and ensure efficient database operation.
-      •  Backup and Recovery: 
-       Develop and manage backup and recovery strategies to ensure data integrity and availability.
-      •  Collaboration: 
-       Work closely with development teams to support database-related needs and provide expertise in database design and management.
+         Database Management: Administer and maintain Oracle databases, ensuring their performance, security, and availability.
+         Golden Gate Implementation: Implement and manage Golden Gate technology for real-time data replication and integration.
+         Performance Tuning: Optimize database performance through tuning and optimization techniques. Address performance issues and ensure efficient database operation.
+         Backup and Recovery: Develop and manage backup and recovery strategies to ensure data integrity and availability.
+         Collaboration: Work closely with development teams to support database-related needs and provide expertise in database design and management.
       
        `,
-    skillsNeeded: ` 
-        •  Oracle DBA: 
-         Strong proficiency in Oracle DBA tasks, including installation, configuration, and maintenance.
-        •  Golden Gate: 
-         Experience with Golden Gate technology for data replication.
-        •  Performance Optimization: 
-         Skills in database performance tuning and troubleshooting.
-        •  Backup and Recovery: 
-         Knowledge of backup and recovery strategies.
-        •  Collaboration: 
-         Effective communication and teamwork skills.`,
+    skillNeeded: ` 
+           Oracle DBA: Strong proficiency in Oracle DBA tasks, including installation, configuration, and maintenance.
+           Golden Gate: Experience with Golden Gate technology for data replication.
+           Performance Optimization: Skills in database performance tuning and troubleshooting.
+           Backup and Recovery: Knowledge of backup and recovery strategies.
+           Collaboration: Effective communication and teamwork skills.`,
     benefits: [
       "Health insurance",
       "Flexible working hours",
@@ -2141,30 +1891,20 @@ const companyData = [
     description: `As an Android Developer at Duplex Technologies, you will develop high-quality applications and collaborate with product managers and developers. 
     `,
     keyResponsibilties: `
-      •  Application Development: 
-       Design, develop, and maintain Android applications using Java or Kotlin. Ensure applications meet performance and quality standards.
-      •  Feature Implementation: 
-       Implement new features and enhance existing functionalities. Collaborate with product managers to align development with business requirements.
-      •  Code Reviews: 
-       Participate in code reviews and provide constructive feedback to ensure code quality and adherence to best practices.
-      •  Performance Optimization: 
-       Optimize applications for performance, including speed, responsiveness, and resource usage.
-      •  Collaboration: 
-       Work closely with other developers, designers, and stakeholders to deliver high-quality software solutions.
+         Application Development: Design, develop, and maintain Android applications using Java or Kotlin. Ensure applications meet performance and quality standards.
+         Feature Implementation: Implement new features and enhance existing functionalities. Collaborate with product managers to align development with business requirements.
+         Code Reviews: Participate in code reviews and provide constructive feedback to ensure code quality and adherence to best practices.
+         Performance Optimization: Optimize applications for performance, including speed, responsiveness, and resource usage.
+         Collaboration: Work closely with other developers, designers, and stakeholders to deliver high-quality software solutions.
       
         `,
-    skillsNeeded: ` 
+    skillNeeded: ` 
 
-        •  Android Development: 
-         Proficiency in Android development using Java or Kotlin. Experience with Android SDK and Android Studio.
-        •  Feature Development: 
-         Ability to implement and enhance application features based on business requirements.
-        •  Code Quality: 
-         Skills in conducting code reviews and ensuring high code quality.
-        •  Performance Tuning: 
-         Experience in optimizing Android applications for performance.
-        •  Team Collaboration: 
-         Strong communication and teamwork skills.`,
+           Android Development: Proficiency in Android development using Java or Kotlin. Experience with Android SDK and Android Studio.
+           Feature Development: Ability to implement and enhance application features based on business requirements.
+           Code Quality: Skills in conducting code reviews and ensuring high code quality.
+           Performance Tuning: Experience in optimizing Android applications for performance.
+           Team Collaboration: Strong communication and teamwork skills.`,
     benefits: [
       "Health benefits",
       "Flexible work hours",
@@ -2189,30 +1929,20 @@ const companyData = [
     `,
     keyResponsibilties: `
 
-      •  Server-Side Development: 
-       Design and implement server-side logic and APIs using technologies such as Node.js and Express. Ensure high performance and scalability of backend services.
-      •  Database Management: 
-       Develop and manage databases, ensuring data integrity, security, and performance.
-      •  RESTful APIs: 
-       Design and implement RESTful APIs to support various applications and integrations.
-      •  Optimization: 
-       Optimize server-side applications for performance, including load balancing and resource management.
-      •  Collaboration: 
-       Work with front-end developers and other stakeholders to integrate backend services with user-facing components.
+         Server-Side Development: Design and implement server-side logic and APIs using technologies such as Node.js and Express. Ensure high performance and scalability of backend services.
+         Database Management: Develop and manage databases, ensuring data integrity, security, and performance.
+         RESTful APIs: Design and implement RESTful APIs to support various applications and integrations.
+         Optimization: Optimize server-side applications for performance, including load balancing and resource management.
+         Collaboration: Work with front-end developers and other stakeholders to integrate backend services with user-facing components.
       
        `,
-    skillsNeeded: ` 
+    skillNeeded: ` 
 
-        •  Backend Technologies: 
-         Proficiency in Node.js, Express, and MongoDB or other relevant backend technologies.
-        •  API Design: 
-         Experience in designing and implementing RESTful APIs.
-        •  Database Management: 
-         Knowledge of database design and optimization.
-        •  Performance Tuning: 
-         Skills in optimizing server-side applications and managing resources.
-        •  Team Collaboration: 
-         Effective communication skills for working with front-end developers and other team members.`,
+           Backend Technologies: Proficiency in Node.js, Express, and MongoDB or other relevant backend technologies.
+           API Design: Experience in designing and implementing RESTful APIs.
+           Database Management: Knowledge of database design and optimization.
+           Performance Tuning: Skills in optimizing server-side applications and managing resources.
+           Team Collaboration: Effective communication skills for working with front-end developers and other team members.`,
     benefits: ["Paid time off", "Health insurance"],
     jobType: "Full-time",
     location: "Chennai, Tamil Nadu",
@@ -2228,36 +1958,25 @@ const companyData = [
     companyLogo: companyImage.WebGen,
     companyName: "WebGen Ltd.",
     date_recruitment: "2024-08-15",
-    salary: "7,00,000 • 10,00,000 per annum",
+    salary: "7,00,000   10,00,000 per annum",
     description: `As a Web Developer at WebGen Ltd., you will play a crucial role in building and maintaining responsive websites and web applications. 
     `,
     keyResponsibilties: `
 
-      •  Website Development: 
-       Design, develop, and maintain responsive websites and web applications using HTML, CSS, and JavaScript. Ensure cross-browser compatibility and mobile responsiveness.
-      •  Front-End Development: 
-       Implement and optimize front-end code to enhance user experience. Collaborate with designers to create visually appealing and user-friendly interfaces.
-      •  Backend Integration: 
-       Integrate front-end components with backend services and APIs. Familiarity with backend technologies is required to ensure seamless data flow and functionality.
-      •  Performance Optimization: 
-       Monitor website performance and implement best practices for speed and efficiency. Address and resolve performance issues as they arise.
-      •  Troubleshooting: 
-       Identify and resolve bugs, errors, and performance issues in web applications. Provide technical support and troubleshooting assistance as needed.
-      •  Collaboration: 
-       Work with project managers, designers, and other developers to deliver high-quality web solutions that meet client requirements and business goals.
+         Website Development: Design, develop, and maintain responsive websites and web applications using HTML, CSS, and JavaScript. Ensure cross-browser compatibility and mobile responsiveness.
+         Front-End Development: Implement and optimize front-end code to enhance user experience. Collaborate with designers to create visually appealing and user-friendly interfaces.
+         Backend Integration: Integrate front-end components with backend services and APIs. Familiarity with backend technologies is required to ensure seamless data flow and functionality.
+         Performance Optimization: Monitor website performance and implement best practices for speed and efficiency. Address and resolve performance issues as they arise.
+         Troubleshooting: Identify and resolve bugs, errors, and performance issues in web applications. Provide technical support and troubleshooting assistance as needed.
+         Collaboration: Work with project managers, designers, and other developers to deliver high-quality web solutions that meet client requirements and business goals.
     `,
-    skillsNeeded: `
+    skillNeeded: `
 
-      •  Technical Proficiency: 
-       Strong knowledge of HTML, CSS, and JavaScript. Experience with front-end frameworks such as React or Angular is a plus.
-      •  Responsive Design: 
-       Ability to create responsive and mobile-friendly web designs.
-      •  Backend Familiarity: 
-       Basic understanding of backend technologies and integration with front-end components.
-      •  Performance Optimization: 
-       Skills in optimizing website performance and troubleshooting issues.
-      •  Team Collaboration: 
-       Excellent communication and teamwork skills.`,
+         Technical Proficiency: Strong knowledge of HTML, CSS, and JavaScript. Experience with front-end frameworks such as React or Angular is a plus.
+         Responsive Design: Ability to create responsive and mobile-friendly web designs.
+         Backend Familiarity: Basic understanding of backend technologies and integration with front-end components.
+         Performance Optimization: Skills in optimizing website performance and troubleshooting issues.
+         Team Collaboration: Excellent communication and teamwork skills.`,
     benefits: [
       "Health insurance",
       "Flexible working hours",
@@ -2278,35 +1997,25 @@ const companyData = [
     companyLogo: companyImage.innovation,
     companyName: "Innovations Solutions",
     dateRecruitment: "2024-09-05",
-    salary: "20,00,000 • 25,00,000 per annum",
+    salary: "20,00,000   25,00,000 per annum",
     description: `As the Lead Data Scientist at Innovations Solutions, you will oversee the data science team and ensure the highest standards in data science projects. 
     `,
     keyResponsibilties: `
 
-      •  Team Leadership: 
-       Lead and mentor the data science team. Provide guidance and support to ensure the successful execution of data science projects.
-      •  Project Management: 
-       Collaborate with senior management to align data science initiatives with business goals. Define project scope, objectives, and deliverables.
-      •  Data Analysis: 
-       Oversee complex data analysis and modeling efforts. Ensure the development of robust, scalable, and accurate data models and algorithms.
-      •  Strategy Development: 
-       Develop and implement data science strategies that drive business value. Leverage data insights to inform strategic decision-making and business planning.
-      •  Stakeholder Communication: 
-       Communicate findings and insights to stakeholders in a clear and actionable manner. Present data-driven recommendations and strategies.
+         Team Leadership: Lead and mentor the data science team. Provide guidance and support to ensure the successful execution of data science projects.
+         Project Management: Collaborate with senior management to align data science initiatives with business goals. Define project scope, objectives, and deliverables.
+         Data Analysis: Oversee complex data analysis and modeling efforts. Ensure the development of robust, scalable, and accurate data models and algorithms.
+         Strategy Development: Develop and implement data science strategies that drive business value. Leverage data insights to inform strategic decision-making and business planning.
+         Stakeholder Communication: Communicate findings and insights to stakeholders in a clear and actionable manner. Present data-driven recommendations and strategies.
     
     `,
-    skillsNeeded: `
+    skillNeeded: `
 
-      •  Data Science Expertise: 
-       Proficiency in data analysis, statistical modeling, and machine learning. Experience with tools such as Python, R, or SQL.
-      •  Leadership: 
-       Strong leadership skills with experience in managing and mentoring a data science team.
-      •  Strategic Thinking: 
-       Ability to align data science projects with business objectives and strategy.
-      •  Communication: 
-       Excellent communication skills for presenting data insights and recommendations to stakeholders.
-      •  Project Management: 
-       Skills in project management and strategy development.`,
+         Data Science Expertise: Proficiency in data analysis, statistical modeling, and machine learning. Experience with tools such as Python, R, or SQL.
+         Leadership: Strong leadership skills with experience in managing and mentoring a data science team.
+         Strategic Thinking: Ability to align data science projects with business objectives and strategy.
+         Communication: Excellent communication skills for presenting data insights and recommendations to stakeholders.
+         Project Management: Skills in project management and strategy development.`,
     benefits: "Health insurance, Paid time off, Performance bonuses",
     jobType: "Full-time",
     location: "Delhi, Delhi",
@@ -2322,35 +2031,25 @@ const companyData = [
     companyLogo: companyImage.innotech,
     companyName: "InnoTech Solutions",
     dateRecruitment: "2024-08-10",
-    salary: "12,00,000 • 18,00,000 per annum",
+    salary: "12,00,000   18,00,000 per annum",
     jobTitle: "iOS Developer",
     description: `As an iOS Developer at InnoTech Solutions, you will design and build applications for the iOS platform. 
     `,
     keyResponsibilties: `
-      •  Application Development: 
-       Develop and maintain iOS applications using Swift, UIKit, and Xcode. Ensure applications are high-performing and meet user requirements.
-      •  Feature Implementation: 
-       Collaborate with cross-functional teams to define, design, and implement new features. Translate business requirements into functional and appealing applications.
-      •  Code Quality: 
-       Maintain high code quality through best practices, code reviews, and unit testing. Ensure applications are scalable, maintainable, and bug-free.
-      •  Performance Optimization: 
-       Optimize application performance for speed, responsiveness, and resource usage. Address and resolve performance issues promptly.
-      •  User Experience: 
-       Focus on delivering a seamless and intuitive user experience. Collaborate with designers to implement user-friendly interfaces and interactions.
+         Application Development: Develop and maintain iOS applications using Swift, UIKit, and Xcode. Ensure applications are high-performing and meet user requirements.
+         Feature Implementation: Collaborate with cross-functional teams to define, design, and implement new features. Translate business requirements into functional and appealing applications.
+         Code Quality: Maintain high code quality through best practices, code reviews, and unit testing. Ensure applications are scalable, maintainable, and bug-free.
+         Performance Optimization: Optimize application performance for speed, responsiveness, and resource usage. Address and resolve performance issues promptly.
+         User Experience: Focus on delivering a seamless and intuitive user experience. Collaborate with designers to implement user-friendly interfaces and interactions.
     
     `,
-    skillsNeeded: `
+    skillNeeded: `
 
-      •  iOS Development: 
-       Proficiency in Swift, UIKit, and Xcode. Experience with iOS development best practices and tools.
-      •  Feature Development: 
-       Ability to implement new features and enhance existing ones based on business needs.
-      •  Code Quality: 
-       Skills in maintaining code quality and conducting code reviews.
-      •  Performance Tuning: 
-       Experience in optimizing iOS applications for performance.
-      •  User Experience: 
-       Understanding of user experience principles and collaboration with designers.`,
+         iOS Development: Proficiency in Swift, UIKit, and Xcode. Experience with iOS development best practices and tools.
+         Feature Development: Ability to implement new features and enhance existing ones based on business needs.
+         Code Quality: Skills in maintaining code quality and conducting code reviews.
+         Performance Tuning: Experience in optimizing iOS applications for performance.
+         User Experience: Understanding of user experience principles and collaboration with designers.`,
     benefits: [
       "Health and wellness programs",
       "Paid time off",
@@ -2371,34 +2070,24 @@ const companyData = [
     companyLogo: companyImage.AgilentTechnologies,
     companyName: "Agilent Technologies",
     date_recruitment: "2024-08-05",
-    salary: "1,400,000 • 1,900,000 per annum",
+    salary: "1,400,000   1,900,000 per annum",
     description: `As a Database Administrator (DBA) at Agilent Technologies, you will manage and optimize database systems to ensure high performance and reliability. 
     `,
     keyResponsibilties: `
 
-      •  Database Management: 
-       Administer and maintain high-quality database services, including installation, configuration, and upgrades. Ensure data integrity and availability.
-      •  Performance Tuning: 
-       Monitor and optimize database performance through performance tuning and optimization techniques. Address performance bottlenecks and resolve issues.
-      •  Backup and Recovery: 
-       Develop and implement backup and recovery strategies to safeguard data. Ensure regular backups and test recovery procedures.
-      •  Security Management: 
-       Implement and manage database security measures to protect sensitive data. Monitor and enforce access controls and security policies.
-      •  Troubleshooting: 
-       Identify and resolve database issues and performance problems. Provide technical support and troubleshooting assistance as needed.
+         Database Management: Administer and maintain high-quality database services, including installation, configuration, and upgrades. Ensure data integrity and availability.
+         Performance Tuning: Monitor and optimize database performance through performance tuning and optimization techniques. Address performance bottlenecks and resolve issues.
+         Backup and Recovery: Develop and implement backup and recovery strategies to safeguard data. Ensure regular backups and test recovery procedures.
+         Security Management: Implement and manage database security measures to protect sensitive data. Monitor and enforce access controls and security policies.
+         Troubleshooting: Identify and resolve database issues and performance problems. Provide technical support and troubleshooting assistance as needed.
     `,
-    skillsNeeded: `
+    skillNeeded: `
 
-      •  Database Management: 
-       Proficiency in SQL and database management systems. Experience with database performance tuning and optimization.
-      •  Backup and Recovery: 
-       Knowledge of backup and recovery strategies and procedures.
-      •  Security: 
-       Skills in implementing and managing database security measures.
-      •  Troubleshooting: 
-       Strong problem-solving skills for identifying and resolving database issues.
-      •  Technical Support: 
-       Ability to provide technical support and assistance for database-related issues.`,
+         Database Management: Proficiency in SQL and database management systems. Experience with database performance tuning and optimization.
+         Backup and Recovery: Knowledge of backup and recovery strategies and procedures.
+         Security: Skills in implementing and managing database security measures.
+         Troubleshooting: Strong problem-solving skills for identifying and resolving database issues.
+         Technical Support: Ability to provide technical support and assistance for database-related issues.`,
     benefits: "Health insurance, Paid time off, Work from home options",
     jobType: "Full-time",
     job_detail: `Responsible for managing and optimizing database systems. Proficiency in SQL and database performance tuning is required.`,
@@ -2415,34 +2104,24 @@ const companyData = [
     companyLogo: companyImage.SecureTech,
     companyName: "SecureTech Solutions",
     date_recruitment: "2024-08-01",
-    salary: "10,00,000 • 15,00,000 per annum",
+    salary: "10,00,000   15,00,000 per annum",
     description: `As a Cybersecurity Analyst at SecureTech Solutions, you will protect systems and networks from cyber threats and ensure robust security measures. 
     `,
     keyResponsibilties: `
 
-      •  Threat Protection: 
-       Implement and manage security measures to safeguard systems and networks from cyber threats. Monitor security systems and respond to potential threats.
-      •  Security Assessments: 
-       Conduct regular security assessments, including vulnerability scans and penetration testing. Identify and address security weaknesses and vulnerabilities.
-      •  Incident Response: 
-       Develop and execute incident response plans. Investigate and respond to security incidents, including data breaches and cyber-attacks.
-      •  Security Monitoring: 
-       Stay updated with the latest security trends, technologies, and best practices. Implement new security technologies and practices to enhance organizational security.
-      •  Policy Development: 
-       Develop and enforce security policies and procedures to ensure compliance with industry standards and regulations.
+         Threat Protection: Implement and manage security measures to safeguard systems and networks from cyber threats. Monitor security systems and respond to potential threats.
+         Security Assessments: Conduct regular security assessments, including vulnerability scans and penetration testing. Identify and address security weaknesses and vulnerabilities.
+         Incident Response: Develop and execute incident response plans. Investigate and respond to security incidents, including data breaches and cyber-attacks.
+         Security Monitoring: Stay updated with the latest security trends, technologies, and best practices. Implement new security technologies and practices to enhance organizational security.
+         Policy Development: Develop and enforce security policies and procedures to ensure compliance with industry standards and regulations.
     `,
-    skillsNeeded: `
+    skillNeeded: `
 
-      •  Cybersecurity Tools: 
-       Experience with security tools, including firewalls, IDS, and VPNs.
-      •  Security Assessments: 
-       Proficiency in conducting vulnerability assessments and penetration testing.
-      •  Incident Response: 
-       Skills in managing and responding to security incidents.
-      •  Trend Awareness: 
-       Knowledge of the latest security trends and technologies.
-      •  Policy Development: 
-       Ability to develop and enforce security policies and procedures.`,
+         Cybersecurity Tools: Experience with security tools, including firewalls, IDS, and VPNs.
+         Security Assessments: Proficiency in conducting vulnerability assessments and penetration testing.
+         Incident Response: Skills in managing and responding to security incidents.
+         Trend Awareness: Knowledge of the latest security trends and technologies.
+         Policy Development: Ability to develop and enforce security policies and procedures.`,
     benefits: [
       "Health insurance",
       "Flexible working hours",
@@ -2469,32 +2148,21 @@ const companyData = [
       `,
     keyResponsibilties: `
       
-      •  Application Development: 
-       Design, develop, and deploy Android applications using Java and Kotlin. Ensure applications are user-friendly, efficient, and scalable.
-      •  Collaboration: 
-       Work with cross-functional teams including designers, product managers, and other developers to define, design, and deliver new features and improvements.
-      •  Code Quality: 
-       Write clean, maintainable code and conduct thorough testing to ensure the highest quality and performance of applications.
-      •  Performance Optimization: 
-       Monitor and enhance application performance. Implement best practices to ensure responsiveness and speed.
-      •  Troubleshooting: 
-       Identify and fix bugs and performance issues. Provide technical support and problem-solving assistance as needed.
-      •  Innovation: 
-       Stay up-to-date with the latest Android development trends, tools, and technologies. Propose and implement innovative solutions to enhance application functionality.
+         Application Development: Design, develop, and deploy Android applications using Java and Kotlin. Ensure applications are user-friendly, efficient, and scalable.
+         Collaboration: Work with cross-functional teams including designers, product managers, and other developers to define, design, and deliver new features and improvements.
+         Code Quality: Write clean, maintainable code and conduct thorough testing to ensure the highest quality and performance of applications.
+         Performance Optimization: Monitor and enhance application performance. Implement best practices to ensure responsiveness and speed.
+         Troubleshooting: Identify and fix bugs and performance issues. Provide technical support and problem-solving assistance as needed.
+         Innovation: Stay up-to-date with the latest Android development trends, tools, and technologies. Propose and implement innovative solutions to enhance application functionality.
 
        `,
-    skillsNeeded: ` 
+    skillNeeded: ` 
       
-      •  Android Development: 
-       Proficiency in Java and Kotlin. Experience with Android Studio and the Android SDK.
-      •  UI/UX Design: 
-       Understanding of material design principles and user experience best practices.
-      •  Collaboration: 
-       Strong teamwork and communication skills for working with cross-functional teams.
-      •  Performance Tuning: 
-       Ability to optimize application performance and troubleshoot issues.
-      •  Problem-Solving: 
-       Strong analytical skills for identifying and resolving technical challenges.
+         Android Development: Proficiency in Java and Kotlin. Experience with Android Studio and the Android SDK.
+         UI/UX Design: Understanding of material design principles and user experience best practices.
+         Collaboration: Strong teamwork and communication skills for working with cross-functional teams.
+         Performance Tuning: Ability to optimize application performance and troubleshoot issues.
+         Problem-Solving: Strong analytical skills for identifying and resolving technical challenges.
     `,
     benefits: [
       "Comprehensive health insurance",
@@ -2526,30 +2194,20 @@ const companyData = [
       `,
     keyResponsibilties: `
       
-      •  Application Development: 
-       Develop and maintain Android applications with a focus on high performance, scalability, and reliability. Use best practices to deliver robust code.
-      •  Leadership: 
-       Mentor and guide junior developers. Review code and provide constructive feedback to ensure high standards of development.
-      •  Feature Development: 
-       Work closely with product teams to design and implement new features. Translate business requirements into technical solutions.
-      •  Demo Creation: 
-       Create and present product demos to showcase the company's products and capabilities to clients and stakeholders.
-      •  Performance Monitoring: 
-       Monitor and optimize application performance. Address and resolve performance bottlenecks and issues.
+         Application Development: Develop and maintain Android applications with a focus on high performance, scalability, and reliability. Use best practices to deliver robust code.
+         Leadership: Mentor and guide junior developers. Review code and provide constructive feedback to ensure high standards of development.
+         Feature Development: Work closely with product teams to design and implement new features. Translate business requirements into technical solutions.
+         Demo Creation: Create and present product demos to showcase the company's products and capabilities to clients and stakeholders.
+         Performance Monitoring: Monitor and optimize application performance. Address and resolve performance bottlenecks and issues.
 
        `,
-    skillsNeeded: ` 
+    skillNeeded: ` 
 
-      •  Advanced Android Development: 
-       Expertise in Java, Kotlin, and Android SDK. Experience with architectural patterns such as MVVM and MVP.
-      •  Leadership: 
-       Proven ability to lead and mentor development teams. Strong code review and feedback skills.
-      •  Feature Implementation: 
-       Ability to translate business requirements into technical solutions and new features.
-      •  Demo Creation: 
-       Skills in creating and presenting impactful product demos.
-      •  Performance Optimization: 
-       Experience in optimizing application performance and resolving issues.
+         Advanced Android Development: Expertise in Java, Kotlin, and Android SDK. Experience with architectural patterns such as MVVM and MVP.
+         Leadership: Proven ability to lead and mentor development teams. Strong code review and feedback skills.
+         Feature Implementation: Ability to translate business requirements into technical solutions and new features.
+         Demo Creation: Skills in creating and presenting impactful product demos.
+         Performance Optimization: Experience in optimizing application performance and resolving issues.
     `,
     benefits: [
       "Health insurance",
@@ -2574,36 +2232,27 @@ const companyData = [
     companyLogo: companyImage.appinnovators,
     companyName: "App Innovators",
     date_recruitment: "2024-08-20",
-    salary: "12,00,000 • 17,00,000 per annum",
+    salary: "12,00,000   17,00,000 per annum",
     jobTitle: "iOS Developer",
     description: `
       As an iOS Developer at App Innovators, you will be responsible for building and maintaining high-quality iOS applications. 
-      Your role involves:
+      `,
+    keyResponsibilties: `
       
-      •  Application Development: 
-       Develop iOS applications using Swift and Objective-C. Ensure applications are optimized for performance and scalability.
-      •  UI/UX Design: 
-       Implement user-friendly interfaces and ensure adherence to UI/UX best practices. Collaborate with designers to enhance the user experience.
-      •  Feature Development: 
-       Work with cross-functional teams to define, design, and implement new features. Ensure alignment with business requirements.
-      •  Code Quality: 
-       Maintain high standards of code quality through testing, code reviews, and best practices.
-      •  Innovation: 
-       Stay informed about the latest iOS development trends and technologies. Apply new techniques and tools to improve application functionality.
+         Application Development: Develop iOS applications using Swift and Objective-C. Ensure applications are optimized for performance and scalability.
+         UI/UX Design: Implement user-friendly interfaces and ensure adherence to UI/UX best practices. Collaborate with designers to enhance the user experience.
+         Feature Development: Work with cross-functional teams to define, design, and implement new features. Ensure alignment with business requirements.
+         Code Quality: Maintain high standards of code quality through testing, code reviews, and best practices.
+         Innovation: Stay informed about the latest iOS development trends and technologies. Apply new techniques and tools to improve application functionality.
 
        `,
-    skillsNeeded: ` 
+    skillNeeded: ` 
 
-      •  iOS Development: 
-       Proficiency in Swift, Objective-C, and iOS frameworks. Experience with Xcode and Interface Builder.
-      •  UI/UX Design: 
-       Knowledge of UI/UX principles and ability to implement user-friendly designs.
-      •  Feature Development: 
-       Skills in translating business requirements into technical features and enhancements.
-      •  Code Quality: 
-       Ability to maintain code quality and conduct thorough testing.
-      •  Innovation: 
-       Strong interest in staying updated with iOS development trends and technologies.
+         iOS Development: Proficiency in Swift, Objective-C, and iOS frameworks. Experience with Xcode and Interface Builder.
+         UI/UX Design: Knowledge of UI/UX principles and ability to implement user-friendly designs.
+         Feature Development: Skills in translating business requirements into technical features and enhancements.
+         Code Quality: Ability to maintain code quality and conduct thorough testing.
+         Innovation: Strong interest in staying updated with iOS development trends and technologies.
     `,
     benefits: [
       "Health insurance",
@@ -2627,34 +2276,25 @@ const companyData = [
     companyLogo: companyImage.InnovatechSystems,
     companyName: "Innovatech Systems",
     date_recruitment: "2024-08-10",
-    salary: "7,00,000 • 11,00,000 per annum",
+    salary: "7,00,000   11,00,000 per annum",
     description: `
       As a Web Developer at Innovatech Systems, you will be involved in building and maintaining high-quality, scalable web applications. 
       `,
     keyResponsibilties: `
       
-      •  Web Development: 
-       Develop and maintain web applications using HTML, CSS, JavaScript, and React.js. Ensure applications are responsive and user-friendly.
-      •  Full-Stack Development: 
-       Work on both front-end and back-end components. Collaborate with backend developers to integrate APIs and services.
-      •  Performance Optimization: 
-       Optimize web applications for performance and scalability. Implement best practices to enhance user experience.
-      •  Troubleshooting: 
-       Identify and resolve issues in web applications. Provide technical support and maintenance as needed.
-      •  Collaboration: 
-       Collaborate with designers and other developers to deliver high-quality web solutions that meet business requirements.
+         Web Development: Develop and maintain web applications using HTML, CSS, JavaScript, and React.js. Ensure applications are responsive and user-friendly.
+         Full-Stack Development: Work on both front-end and back-end components. Collaborate with backend developers to integrate APIs and services.
+         Performance Optimization: Optimize web applications for performance and scalability. Implement best practices to enhance user experience.
+         Troubleshooting: Identify and resolve issues in web applications. Provide technical support and maintenance as needed.
+         Collaboration: Collaborate with designers and other developers to deliver high-quality web solutions that meet business requirements.
 
        `,
-    skillsNeeded: ` 
+    skillNeeded: ` 
 
-      •  Web Technologies: 
-       Proficiency in HTML, CSS, JavaScript, and React.js. Experience with front-end and back-end development.
-      •  Performance Optimization: 
-       Ability to optimize web applications for speed and responsiveness.
-      •  Troubleshooting: 
-       Strong problem-solving skills for identifying and resolving web application issues.
-      •  Collaboration: 
-       Effective teamwork and communication skills for working with cross-functional teams.
+         Web Technologies: Proficiency in HTML, CSS, JavaScript, and React.js. Experience with front-end and back-end development.
+         Performance Optimization: Ability to optimize web applications for speed and responsiveness.
+         Troubleshooting: Strong problem-solving skills for identifying and resolving web application issues.
+         Collaboration: Effective teamwork and communication skills for working with cross-functional teams.
     `,
     benefits: [
       "Health and wellness programs",
@@ -2684,44 +2324,32 @@ const companyData = [
     `,
     keyResponsibilties: `
 
-    UI Development:
-     Design, develop, and maintain frontend components using JavaScript, React, and related frameworks. Ensure that interfaces are intuitive, efficient, and visually appealing.
+    UI Development: Design, develop, and maintain frontend components using JavaScript, React, and related frameworks. Ensure that interfaces are intuitive, efficient, and visually appealing.
     
-    Security Integration:
-     Collaborate closely with backend developers and security experts to integrate robust security features seamlessly into the UI.
+    Security Integration: Collaborate closely with backend developers and security experts to integrate robust security features seamlessly into the UI.
     
-    Performance Optimization:
-     Continuously monitor and enhance the performance of web applications. Implement best practices to ensure fast, responsive, and reliable user experiences.
+    Performance Optimization: Continuously monitor and enhance the performance of web applications. Implement best practices to ensure fast, responsive, and reliable user experiences.
     
-    Code Quality:
-     Write clean, modular, and maintainable code. Conduct regular code reviews to uphold high-quality standards and facilitate knowledge sharing among team members.
+    Code Quality: Write clean, modular, and maintainable code. Conduct regular code reviews to uphold high-quality standards and facilitate knowledge sharing among team members.
     
-    Collaboration:
-     Work effectively with cross-functional teams, including designers, product managers, and other developers, to define, design, and implement new features and improvements.
+    Collaboration: Work effectively with cross-functional teams, including designers, product managers, and other developers, to define, design, and implement new features and improvements.
     
-    Innovation:
-     Stay current with the latest trends and best practices in frontend development. Contribute to the team's ongoing efforts to innovate and improve our products.
+    Innovation: Stay current with the latest trends and best practices in frontend development. Contribute to the team's ongoing efforts to innovate and improve our products.
     
     `,
-    skillsNeeded: `
+    skillNeeded: `
     
-    JavaScript & React:
-     Strong proficiency in JavaScript, React, and related frontend technologies. Experience with state management libraries like Redux is a plus.
+    JavaScript & React: Strong proficiency in JavaScript, React, and related frontend technologies. Experience with state management libraries like Redux is a plus.
     
-    Responsive Design:
-     Expertise in creating responsive web designs that work seamlessly across various devices and screen sizes.
+    Responsive Design:Expertise in creating responsive web designs that work seamlessly across various devices and screen sizes.
     
-    Version Control:
-     Proficiency with Git and experience in collaborative development environments.
+    Version Control:Proficiency with Git and experience in collaborative development environments.
     
-    API Integration:
-     Familiarity with RESTful APIs and experience integrating frontend applications with backend services.
+    API Integration:Familiarity with RESTful APIs and experience integrating frontend applications with backend services.
     
-    Security Awareness:
-     Understanding of web security principles and best practices.
+    Security Awareness:Understanding of web security principles and best practices.
     
-    Problem-Solving:
-     Excellent analytical and troubleshooting skills to identify and resolve issues efficiently.
+    Problem-Solving: Excellent analytical and troubleshooting skills to identify and resolve issues efficiently.
   `,
     benefits: "Equity: 0.0% – 0.1%",
     jobType: "Full-time",
@@ -2745,18 +2373,18 @@ const companyData = [
       `,
     keyResponsibilties: `
       
-      •  Server-Side Development: 
-       Design and implement server-side applications and services using technologies such as Node.js, Ruby, or PHP. Ensure the server-side logic integrates seamlessly with the front-end.
-      •  Database Management: 
-       Define and maintain database schemas. Optimize queries for performance and ensure data integrity.
-      •  Cloud Integration: 
-       Leverage cloud platforms like AWS or Azure for deploying and managing applications. Ensure scalable and reliable cloud infrastructure.
-      •  API Development: 
-       Develop and maintain RESTful APIs for interacting with front-end applications. Ensure APIs are secure and performant.
-      •  Performance Optimization: 
-       Monitor application performance and troubleshoot issues. Implement best practices for high availability and scalability.
-      •  Collaboration: 
-       Work closely with front-end developers, product managers, and other stakeholders to deliver effective solutions.
+         Server-Side Development: Design and implement server-side applications and services using technologies such as Node.js, Ruby, or PHP. Ensure the server-side logic integrates seamlessly with the front-end.
+         Database Management: Define and maintain database schemas. Optimize queries for performance and ensure data integrity.
+         Cloud Integration: Leverage cloud platforms like AWS or Azure for deploying and managing applications. Ensure scalable and reliable cloud infrastructure.
+         API Development: Develop and maintain RESTful APIs for interacting with front-end applications. Ensure APIs are secure and performant.
+         Performance Optimization: Monitor application performance and troubleshoot issues. Implement best practices for high availability and scalability.
+         Collaboration: Work closely with front-end developers, product managers, and other stakeholders to deliver effective solutions.
+    `,
+    skillNeeded: `
+    Backend Technologies: Proficiency in server-side languages such as Node.js, Ruby, or PHP. Experience with database management and cloud platforms (AWS or Azure).
+    API Development: Skills in developing and maintaining RESTful APIs.
+    Performance Tuning: Ability to optimize server-side performance and troubleshoot issues.
+    Collaboration: Strong teamwork skills for working with cross-functional teams.
     `,
     benefits: "Health insurance, Performance bonus",
     jobType: "Full-time",
@@ -2775,22 +2403,24 @@ const companyData = [
     companyLogo: companyImage.AIGEN,
     companyName: "AIGen Ltd.",
     dateRecruitment: "2024-08-15",
-    salary: "12,50,000 • 19,00,000 per annum",
+    salary: "12,50,000   19,00,000 per annum",
     description: `
       As an AI ML Engineer at AIGen Ltd., you will be responsible for developing and deploying machine learning models, optimizing algorithms, and contributing to cutting-edge AI projects. 
       `,
     keyResponsibilties: `
       
-      •  Model Development: 
-       Design and implement machine learning models using tools like TensorFlow, PyTorch, or scikit-learn. Ensure models are accurate, efficient, and scalable.
-      •  Data Analysis: 
-       Analyze large datasets to extract valuable insights and inform model development. Perform data preprocessing and feature engineering.
-      •  Algorithm Optimization: 
-       Optimize machine learning algorithms for performance and accuracy. Implement techniques to improve model efficiency.
-      •  Deployment: 
-       Deploy machine learning models into production environments. Monitor and maintain model performance over time.
-      •  Collaboration: 
-       Work with data scientists, engineers, and other stakeholders to integrate AI solutions into business applications.
+         Model Development: Design and implement machine learning models using tools like TensorFlow, PyTorch, or scikit-learn. Ensure models are accurate, efficient, and scalable.
+         Data Analysis: Analyze large datasets to extract valuable insights and inform model development. Perform data preprocessing and feature engineering.
+         Algorithm Optimization: Optimize machine learning algorithms for performance and accuracy. Implement techniques to improve model efficiency.
+         Deployment: Deploy machine learning models into production environments. Monitor and maintain model performance over time.
+         Collaboration: Work with data scientists, engineers, and other stakeholders to integrate AI solutions into business applications.
+    `,
+    skillNeeded: `
+    Machine Learning: Expertise in machine learning frameworks and algorithms.
+    Data Analysis: Strong skills in data preprocessing and feature engineering.
+    Algorithm Optimization: Experience in optimizing machine learning models.
+    Deployment: Skills in deploying models and monitoring performance.
+    Collaboration: Effective communication skills for working with diverse teams.
     `,
     benefits: [
       "Health insurance",
@@ -2814,22 +2444,24 @@ const companyData = [
     companyLogo: companyImage.codecraft,
     companyName: "CodeCrafters Pvt Ltd",
     dateRecruitment: "2024-08-20",
-    salary: "5,50,000 • 9,00,000 per annum",
+    salary: "5,50,000   9,00,000 per annum",
     description: `
       As a Web Developer at CodeCrafters Pvt Ltd, you will be responsible for creating high-quality web applications, ensuring optimal performance and user experience. 
       `,
     keyResponsibilties: `
       
-      •  Web Application Development: 
-       Build and maintain web applications using HTML, CSS, JavaScript, and modern frameworks such as React.js. Ensure applications are responsive and user-friendly.
-      •  UI/UX Implementation: 
-       Collaborate with designers to implement intuitive user interfaces and enhance the user experience.
-      •  Performance Optimization: 
-       Monitor and optimize web application performance. Implement best practices for speed and responsiveness.
-      •  Troubleshooting: 
-       Identify and resolve issues in web applications. Provide technical support and maintenance as needed.
-      •  Collaboration: 
-       Work with other developers and stakeholders to deliver effective web solutions that meet business requirements.
+         Web Application Development:Build and maintain web applications using HTML, CSS, JavaScript, and modern frameworks such as React.js. Ensure applications are responsive and user-friendly.
+         UI/UX Implementation: Collaborate with designers to implement intuitive user interfaces and enhance the user experience.
+         Performance Optimization: Monitor and optimize web application performance. Implement best practices for speed and responsiveness.
+         Troubleshooting: Identify and resolve issues in web applications. Provide technical support and maintenance as needed.
+         Collaboration: Work with other developers and stakeholders to deliver effective web solutions that meet business requirements.
+    `,
+    skillNeeded: `
+    Web Technologies: Proficiency in HTML, CSS, JavaScript, and modern frameworks like React.js.
+    UI/UX Design: Knowledge of UI/UX principles and ability to implement user-friendly designs.
+    Performance Optimization: Skills in optimizing web application performance.
+    Troubleshooting: Strong problem-solving skills for resolving issues.
+    Collaboration: Effective teamwork and communication skills.
     `,
     benefits: [
       "Health insurance",
@@ -2860,16 +2492,18 @@ const companyData = [
       `,
     keyResponsibilties: `
       
-      •  Application Development: 
-       Design and develop Android applications using Java and Kotlin. Ensure applications are high-quality, scalable, and user-friendly.
-      •  API Integration: 
-       Integrate applications with REST APIs. Ensure seamless data exchange and functionality.
-      •  Mentorship: 
-       Assist and mentor junior developers. Provide guidance and support in mobile development best practices.
-      •  Code Quality: 
-       Write clean, maintainable code and conduct thorough testing to ensure application quality.
-      •  Innovation: 
-       Stay updated with the latest Android development trends and technologies. Contribute to new ideas and improvements.
+         Application Development: Design and develop Android applications using Java and Kotlin. Ensure applications are high-quality, scalable, and user-friendly.
+         API Integration: Integrate applications with REST APIs. Ensure seamless data exchange and functionality.
+         Mentorship: Assist and mentor junior developers. Provide guidance and support in mobile development best practices.
+         Code Quality: Write clean, maintainable code and conduct thorough testing to ensure application quality.
+         Innovation: Stay updated with the latest Android development trends and technologies. Contribute to new ideas and improvements.
+    `,
+    skillNeeded: `
+    Android Development: Proficiency in Java and Kotlin. Experience with Android Studio and the Android SDK.
+    API Integration: Skills in integrating with REST APIs.
+    Mentorship: Ability to guide and support junior developers.
+    Code Quality: Strong skills in writing and testing maintainable code.
+    Innovation: Interest in staying current with Android development trends.
     `,
     benefits: [
       "Mentorship",
@@ -2893,22 +2527,24 @@ const companyData = [
     companyLogo: companyImage.DevMasters,
     companyName: "Masters Pvt Ltd",
     dateRecruitment: "2024-08-07",
-    salary: "8,00,000 • 12,00,000 per annum",
+    salary: "8,00,000   12,00,000 per annum",
     description: `
       As a Web Developer at Masters Pvt Ltd, you will be responsible for developing and implementing user interface components and ensuring optimal performance for web applications. 
       `,
     keyResponsibilties: `
       
-      •  UI Development: 
-       Design and implement user interface components using HTML, CSS, JavaScript, and modern JavaScript frameworks. Ensure interfaces are responsive and user-friendly.
-      •  Performance Optimization: 
-       Monitor and optimize web application performance. Implement best practices to enhance user experience.
-      •  Feature Development: 
-       Collaborate with designers and back-end developers to create and implement new features. Ensure seamless integration with back-end services.
-      •  Troubleshooting: 
-       Identify and resolve issues in web applications. Provide technical support and maintenance as needed.
-      •  Collaboration: 
-       Work with cross-functional teams to deliver effective web solutions.
+         UI Development: Design and implement user interface components using HTML, CSS, JavaScript, and modern JavaScript frameworks. Ensure interfaces are responsive and user-friendly.
+         Performance Optimization: Monitor and optimize web application performance. Implement best practices to enhance user experience.
+         Feature Development: Collaborate with designers and back-end developers to create and implement new features. Ensure seamless integration with back-end services.
+         Troubleshooting: Identify and resolve issues in web applications. Provide technical support and maintenance as needed.
+         Collaboration: Work with cross-functional teams to deliver effective web solutions.
+    `,
+    skillNeeded: `
+    Web Technologies: Proficiency in HTML, CSS, JavaScript, and modern JavaScript frameworks.
+    Performance Optimization: Skills in optimizing web application performance.
+    Feature Development: Ability to collaborate on feature development and integration.
+    Troubleshooting: Strong problem-solving skills for resolving issues.
+    Collaboration: Effective communication and teamwork skills.
     `,
     benefits: [
       "Health insurance",
@@ -2931,41 +2567,29 @@ const companyData = [
     companyLogo: companyImage.futuretech,
     companyName: "FutureTech Solutions",
     dateRecruitment: "2024-08-22",
-    salary: "13,00,000 • 18,00,000 per annum",
+    salary: "13,00,000   18,00,000 per annum",
     jobTitle: "iOS Developer",
     description: `
        As an iOS Developer at FutureTech Solutions, you will play a key role in designing, coding, and maintaining iOS applications to ensure a seamless user experience. 
       `,
     keyResponsibilties: ` 
 
-      •  Application Development: 
-       Develop and maintain iOS applications using Swift, Xcode, and iOS SDKs. Implement new features and functionalities based on user requirements.
-      •  Performance Optimization: 
-       Ensure applications are performant and responsive. Optimize code for efficiency and performance.
-      •  API Integration: 
-       Integrate applications with RESTful APIs to provide dynamic content and enhance functionality.
-      •  Version Control: 
-       Use Git for version control and collaborate with other developers through pull requests and code reviews.
-      •  Testing and Debugging: 
-       Conduct rigorous testing to identify and fix bugs. Utilize testing tools and methodologies to ensure application stability.
-      •  User Experience: 
-       Collaborate with UX/UI designers to implement user-friendly interfaces and ensure a high-quality user experience.
+         Application Development: Develop and maintain iOS applications using Swift, Xcode, and iOS SDKs. Implement new features and functionalities based on user requirements.
+         Performance Optimization: Ensure applications are performant and responsive. Optimize code for efficiency and performance.
+         API Integration: Integrate applications with RESTful APIs to provide dynamic content and enhance functionality.
+         Version Control: Use Git for version control and collaborate with other developers through pull requests and code reviews.
+         Testing and Debugging: Conduct rigorous testing to identify and fix bugs. Utilize testing tools and methodologies to ensure application stability.
+         User Experience: Collaborate with UX/UI designers to implement user-friendly interfaces and ensure a high-quality user experience.
 
        `,
-    skillsNeeded: ` 
+    skillNeeded: ` 
 
-      •  iOS Development: 
-       Proficiency in Swift, Xcode, and iOS SDKs.
-      •  API Integration: 
-       Experience with RESTful APIs and integrating them into iOS applications.
-      •  Performance Optimization: 
-       Skills in optimizing application performance and troubleshooting issues.
-      •  Version Control: 
-       Knowledge of Git for version control and collaboration.
-      •  Testing and Debugging: 
-       Ability to conduct testing and debugging to ensure application stability.
-      •  User Experience: 
-       Understanding of UX/UI principles and the ability to implement effective designs.
+         iOS Development: Proficiency in Swift, Xcode, and iOS SDKs.
+         API Integration: Experience with RESTful APIs and integrating them into iOS applications.
+         Performance Optimization: Skills in optimizing application performance and troubleshooting issues.
+         Version Control: Knowledge of Git for version control and collaboration.
+         Testing and Debugging: Ability to conduct testing and debugging to ensure application stability.
+         User Experience: Understanding of UX/UI principles and the ability to implement effective designs.
     `,
     benefits: [
       "Health insurance",
@@ -2989,36 +2613,26 @@ const companyData = [
     companyLogo: companyImage.Cubic,
     companyName: "Cubic Corporation",
     dateRecruitment: "2024-08-01",
-    salary: "1,200,000 • 1,800,000 per annum",
+    salary: "1,200,000   1,800,000 per annum",
     description: `
        As a Database Administrator at Cubic Corporation, you will be responsible for managing and optimizing our database systems to ensure their efficiency and reliability. 
       `,
     keyResponsibilties: ` 
 
-      •  Database Design: 
-       Design and implement database schemas to support business applications. Ensure data integrity and optimize schema design for performance.
-      •  Database Management: 
-       Maintain and manage database systems, including backup and recovery, performance tuning, and security management.
-      •  SQL and Oracle: 
-       Utilize SQL and Oracle database technologies for querying, data manipulation, and performance optimization.
-      •  Documentation: 
-       Document database structures, procedures, and best practices for future reference and compliance.
-      •  Troubleshooting: 
-       Identify and resolve database issues. Monitor database performance and implement improvements.
+         Database Design: Design and implement database schemas to support business applications. Ensure data integrity and optimize schema design for performance.
+         Database Management: Maintain and manage database systems, including backup and recovery, performance tuning, and security management.
+         SQL and Oracle: Utilize SQL and Oracle database technologies for querying, data manipulation, and performance optimization.
+         Documentation: Document database structures, procedures, and best practices for future reference and compliance.
+         Troubleshooting: Identify and resolve database issues. Monitor database performance and implement improvements.
 
        `,
-    skillsNeeded: ` 
+    skillNeeded: ` 
 
-      •  Database Technologies: 
-       Proficiency in SQL and Oracle database technologies.
-      •  Database Design: 
-       Experience in designing and managing database schemas.
-      •  Performance Optimization: 
-       Skills in optimizing database performance and troubleshooting issues.
-      •  Documentation: 
-       Ability to document database structures and procedures.
-      •  Troubleshooting: 
-       Strong problem-solving skills for resolving database issues.
+         Database Technologies: Proficiency in SQL and Oracle database technologies.
+         Database Design: Experience in designing and managing database schemas.
+         Performance Optimization: Skills in optimizing database performance and troubleshooting issues.
+         Documentation: Ability to document database structures and procedures.
+         Troubleshooting: Strong problem-solving skills for resolving database issues.
     `,
     benefits: [
       "Health insurance",
@@ -3041,36 +2655,26 @@ const companyData = [
     companyLogo: companyImage.securenet_systems,
     companyName: "SecureNet Systems",
     dateRecruitment: "2024-08-12",
-    salary: "11,00,000 • 16,00,000 per annum",
+    salary: "11,00,000   16,00,000 per annum",
     description: `
        As a Cybersecurity Engineer at SecureNet Systems, you will be responsible for safeguarding our systems and networks from cyber threats. 
       `,
     keyResponsibilties: ` 
 
-      •  Threat Protection: 
-       Implement and manage security measures to protect against cyber threats. Monitor systems for vulnerabilities and potential breaches.
-      •  Security Assessments: 
-       Conduct regular security assessments and audits. Identify and address security weaknesses and compliance issues.
-      •  Incident Response: 
-       Respond to security incidents and breaches. Develop and execute incident response plans to mitigate damage.
-      •  Firewalls and VPNs: 
-       Manage and configure firewalls, VPNs, and intrusion detection systems (IDS) to enhance network security.
-      •  Collaboration: 
-       Work with other IT and security professionals to implement and maintain robust security protocols.
+         Threat Protection: Implement and manage security measures to protect against cyber threats. Monitor systems for vulnerabilities and potential breaches.
+         Security Assessments: Conduct regular security assessments and audits. Identify and address security weaknesses and compliance issues.
+         Incident Response: Respond to security incidents and breaches. Develop and execute incident response plans to mitigate damage.
+         Firewalls and VPNs: Manage and configure firewalls, VPNs, and intrusion detection systems (IDS) to enhance network security.
+         Collaboration: Work with other IT and security professionals to implement and maintain robust security protocols.
 
        `,
-    skillsNeeded: ` 
+    skillNeeded: ` 
 
-      •  Cybersecurity Technologies: 
-       Proficiency with firewalls, VPNs, and IDS.
-      •  Security Assessments: 
-       Experience in conducting security assessments and audits.
-      •  Incident Response: 
-       Skills in managing security incidents and developing response plans.
-      •  Threat Protection: 
-       Knowledge of threat protection and vulnerability management.
-      •  Collaboration: 
-       Effective communication and teamwork skills for working with security professionals.
+         Cybersecurity Technologies: Proficiency with firewalls, VPNs, and IDS.
+         Security Assessments: Experience in conducting security assessments and audits.
+         Incident Response: Skills in managing security incidents and developing response plans.
+         Threat Protection: Knowledge of threat protection and vulnerability management.
+         Collaboration: Effective communication and teamwork skills for working with security professionals.
     `,
     benefits: [
       "Health insurance",
@@ -3100,30 +2704,20 @@ const companyData = [
       `,
     keyResponsibilties: ` 
 
-      •  Server-Side Development: 
-       Design and develop server-side applications using languages such as Java, Python, or Node.js. Implement business logic and integrate with front-end components.
-      •  RESTful Services: 
-       Develop and maintain RESTful services for communication between server-side applications and client-side interfaces.
-      •  Database Integration: 
-       Work with databases to store and retrieve data efficiently. Optimize database queries and manage data storage.
-      •  Architecture Design: 
-       Contribute to the design and implementation of server architecture. Ensure scalability and reliability of server-side systems.
-      •  Collaboration: 
-       Work with front-end developers, product managers, and other stakeholders to deliver high-quality solutions.
+         Server-Side Development: Design and develop server-side applications using languages such as Java, Python, or Node.js. Implement business logic and integrate with front-end components.
+         RESTful Services: Develop and maintain RESTful services for communication between server-side applications and client-side interfaces.
+         Database Integration: Work with databases to store and retrieve data efficiently. Optimize database queries and manage data storage.
+         Architecture Design: Contribute to the design and implementation of server architecture. Ensure scalability and reliability of server-side systems.
+         Collaboration: Work with front-end developers, product managers, and other stakeholders to deliver high-quality solutions.
 
        `,
-    skillsNeeded: ` 
+    skillNeeded: ` 
 
-      •  Server-Side Languages: 
-       Proficiency in Java, Python, or Node.js.
-      •  RESTful Services: 
-       Experience in developing and maintaining RESTful services.
-      •  Database Integration: 
-       Skills in integrating with databases and optimizing queries.
-      •  Architecture Design: 
-       Knowledge of server architecture and scalability.
-      •  Collaboration: 
-       Effective teamwork skills for working with cross-functional teams.
+         Server-Side Languages: Proficiency in Java, Python, or Node.js.
+         RESTful Services: Experience in developing and maintaining RESTful services.
+         Database Integration: Skills in integrating with databases and optimizing queries.
+         Architecture Design: Knowledge of server architecture and scalability.
+         Collaboration: Effective teamwork skills for working with cross-functional teams.
     `,
     benefits: ["Health insurance", "Paid time off"],
     jobType: "Full-time",
@@ -3142,29 +2736,25 @@ const companyData = [
     companyLogo: companyImage.quantiphi,
     companyName: "Quantify Analytics",
     dateRecruitment: "2024-08-25",
-    salary: "10,00,000 • 14,00,000 per annum",
+    salary: "10,00,000   14,00,000 per annum",
     description: `
        As a Junior Data Scientist at Quantify Analytics, you will gain hands-on experience in data analysis and machine learning. 
        `,
     keyResponsibilties: ` 
 
-      •  Data Analysis: 
-       Analyze large datasets to extract insights and inform business decisions. Perform data cleaning and preprocessing.
-      •  Model Development: 
-       Develop and implement machine learning models to solve business problems. Evaluate model performance and make improvements.
-      •  Algorithm Implementation: 
-       Apply various algorithms and techniques to analyze data and build predictive models.
-      •  Collaboration: 
-       Work with senior data scientists and stakeholders to develop and refine data-driven solutions.
-      •  Reporting:  Create reports and visualizations to communicate findings and support decision-making.
+         Data Analysis: Analyze large datasets to extract insights and inform business decisions. Perform data cleaning and preprocessing.
+         Model Development: Develop and implement machine learning models to solve business problems. Evaluate model performance and make improvements.
+         Algorithm Implementation: Apply various algorithms and techniques to analyze data and build predictive models.
+         Collaboration: Work with senior data scientists and stakeholders to develop and refine data-driven solutions.
+         Reporting:  Create reports and visualizations to communicate findings and support decision-making.
 
        `,
-    skillsNeeded: ` 
-      •  Data Analysis:  Proficiency in data analysis and preprocessing techniques.
-      •  Machine Learning:  Knowledge of machine learning algorithms and model development.
-      •  Algorithm Implementation:  Experience in applying algorithms to analyze data.
-      •  Collaboration:  Ability to work with teams and communicate findings effectively.
-      •  Reporting:  Skills in creating reports and visualizations for data insights.
+    skillNeeded: ` 
+         Data Analysis:  Proficiency in data analysis and preprocessing techniques.
+         Machine Learning:  Knowledge of machine learning algorithms and model development.
+         Algorithm Implementation:  Experience in applying algorithms to analyze data.
+         Collaboration:  Ability to work with teams and communicate findings effectively.
+         Reporting:  Skills in creating reports and visualizations for data insights.
     `,
     benefits: ["Health insurance", "Gym membership", "Learning opportunities"],
     jobType: "Full-time",
@@ -3184,23 +2774,24 @@ const companyData = [
     companyLogo: companyImage.ShieldTech,
     companyName: "ShieldTech Ltd.",
     date_recruitment: "2024-08-15",
-    salary: "10,00,000 • 14,00,000 per annum",
+    salary: "10,00,000   14,00,000 per annum",
     description: `
-      As a Cybersecurity Analyst at ShieldTech Ltd., you will be integral to our security team, focusing on protecting our systems from potential cyber threats. Your responsibilities will include:
+      As a Cybersecurity Analyst at ShieldTech Ltd., you will be integral to our security team, focusing on protecting our systems from potential cyber threats.`,
+    keyResponsibilties: `
 
-      •  Security Monitoring:  Continuously monitor and analyze security events to detect potential threats and breaches. Utilize Security Information and Event Management (SIEM) tools to gather and analyze security data.
-      •  Security Assessments:  Conduct regular security assessments to identify vulnerabilities and weaknesses in our systems. Perform penetration testing and risk assessments to enhance security measures.
-      •  Incident Response:  Develop and implement incident response plans to address and mitigate security incidents. Respond promptly to security breaches and provide detailed reports on incidents.
-      •  Policy Implementation:  Implement and enforce security policies and procedures to ensure compliance with industry standards and regulations. Update security protocols based on emerging threats and best practices.
-      •  Collaboration:  Work closely with IT and security teams to integrate security measures into our infrastructure. Provide guidance and training to other employees on security best practices.
+         Security Monitoring:  Continuously monitor and analyze security events to detect potential threats and breaches. Utilize Security Information and Event Management (SIEM) tools to gather and analyze security data.
+         Security Assessments:  Conduct regular security assessments to identify vulnerabilities and weaknesses in our systems. Perform penetration testing and risk assessments to enhance security measures.
+         Incident Response:  Develop and implement incident response plans to address and mitigate security incidents. Respond promptly to security breaches and provide detailed reports on incidents.
+         Policy Implementation:  Implement and enforce security policies and procedures to ensure compliance with industry standards and regulations. Update security protocols based on emerging threats and best practices.
+         Collaboration:  Work closely with IT and security teams to integrate security measures into our infrastructure. Provide guidance and training to other employees on security best practices.
 
        `,
-    skillsNeeded: ` 
-      •  SIEM Tools:  Proficiency with Security Information and Event Management (SIEM) tools.
-      •  Security Assessments:  Experience in conducting security assessments and penetration testing.
-      •  Incident Response:  Strong skills in managing and responding to security incidents.
-      •  Policy Implementation:  Knowledge of security policies and compliance standards.
-      •  Collaboration:  Ability to work with cross-functional teams and communicate security issues effectively.
+    skillNeeded: ` 
+         SIEM Tools:  Proficiency with Security Information and Event Management (SIEM) tools.
+         Security Assessments:  Experience in conducting security assessments and penetration testing.
+         Incident Response:  Strong skills in managing and responding to security incidents.
+         Policy Implementation:  Knowledge of security policies and compliance standards.
+         Collaboration:  Ability to work with cross-functional teams and communicate security issues effectively.
     `,
     benefits: [
       "Health insurance",
@@ -3224,24 +2815,24 @@ const companyData = [
     companyLogo: companyImage.HSBC,
     companyName: "HSBC",
     date_recruitment: "2024-08-01",
-    salary: "1,600,000 • 2,100,000 per annum",
+    salary: "1,600,000   2,100,000 per annum",
     description: `
       As a Java Developer at HSBC, you will be a key player in developing and maintaining robust Java-based applications for our Wealth & Private Banking IT division. `,
     keyResponsibilties: `
 
-      •  Application Development:  Design, code, and test Java applications to meet business requirements. Ensure applications are scalable, secure, and performant.
-      •  Framework Utilization:  Utilize Java frameworks such as Spring and Hibernate to build and maintain enterprise applications.
-      •  Performance Tuning:  Optimize application performance through efficient coding practices and performance tuning techniques.
-      •  Integration:  Collaborate with other developers to integrate front-end components with server-side logic. Ensure seamless interaction between different application layers.
-      •  Documentation:  Create and maintain technical documentation for developed applications and systems.
+         Application Development:  Design, code, and test Java applications to meet business requirements. Ensure applications are scalable, secure, and performant.
+         Framework Utilization:  Utilize Java frameworks such as Spring and Hibernate to build and maintain enterprise applications.
+         Performance Tuning:  Optimize application performance through efficient coding practices and performance tuning techniques.
+         Integration:  Collaborate with other developers to integrate front-end components with server-side logic. Ensure seamless interaction between different application layers.
+         Documentation:  Create and maintain technical documentation for developed applications and systems.
 
        `,
-    skillsNeeded: ` 
-      •  Java Programming:  Proficiency in Java and related frameworks (e.g., Spring, Hibernate).
-      •  Application Development:  Experience in designing and developing scalable Java applications.
-      •  Performance Tuning:  Skills in optimizing application performance.
-      •  Integration:  Ability to integrate front-end and back-end components.
-      •  Documentation:  Competence in creating technical documentation.
+    skillNeeded: ` 
+         Java Programming:  Proficiency in Java and related frameworks (e.g., Spring, Hibernate).
+         Application Development:  Experience in designing and developing scalable Java applications.
+         Performance Tuning:  Skills in optimizing application performance.
+         Integration:  Ability to integrate front-end and back-end components.
+         Documentation:  Competence in creating technical documentation.
     `,
     benefits: [
       "Comprehensive health coverage",
@@ -3264,23 +2855,24 @@ const companyData = [
     companyLogo: companyImage.datavision,
     companyName: "DataVision",
     date_recruitment: "2024-09-01",
-    salary: "6,00,000 • 9,00,000 per annum",
+    salary: "6,00,000   9,00,000 per annum",
     description: `
-      As a Junior Data Analyst at DataVision, you will work alongside senior analysts to extract and analyze data that drives business decisions. Your responsibilities will include:
-
-      •  Data Extraction:  Collect and preprocess data from various sources. Utilize data extraction tools and techniques to prepare data for analysis.
-      •  Data Analysis:  Analyze datasets to identify trends, patterns, and insights. Use statistical methods and data visualization tools to present findings.
-      •  Reporting:  Prepare detailed reports and visualizations to communicate data insights to stakeholders. Support decision-making with actionable data-driven recommendations.
-      •  Tool Learning:  Learn and apply various data analysis tools and techniques, including Excel, SQL, and data visualization software.
-      •  Collaboration:  Work with senior analysts and team members to refine data analysis processes and contribute to ongoing projects.
+      As a Junior Data Analyst at DataVision, you will work alongside senior analysts to extract and analyze data that drives business decisions. `,
+    keyResponsibilties: ``,
+    keyResponsibilties: `
+         Data Extraction:  Collect and preprocess data from various sources. Utilize data extraction tools and techniques to prepare data for analysis.
+         Data Analysis:  Analyze datasets to identify trends, patterns, and insights. Use statistical methods and data visualization tools to present findings.
+         Reporting:  Prepare detailed reports and visualizations to communicate data insights to stakeholders. Support decision-making with actionable data-driven recommendations.
+         Tool Learning:  Learn and apply various data analysis tools and techniques, including Excel, SQL, and data visualization software.
+         Collaboration:  Work with senior analysts and team members to refine data analysis processes and contribute to ongoing projects.
 
        `,
-    skillsNeeded: ` 
-      •  Data Extraction:  Experience in collecting and preprocessing data.
-      •  Data Analysis:  Proficiency in data analysis methods and tools (e.g., Excel, SQL).
-      •  Reporting:  Ability to create reports and visualizations.
-      •  Tool Learning:  Willingness to learn and apply new data analysis tools and techniques.
-      •  Collaboration:  Effective teamwork skills for supporting and contributing to projects.
+    skillNeeded: ` 
+         Data Extraction:  Experience in collecting and preprocessing data.
+         Data Analysis:  Proficiency in data analysis methods and tools (e.g., Excel, SQL).
+         Reporting:  Ability to create reports and visualizations.
+         Tool Learning:  Willingness to learn and apply new data analysis tools and techniques.
+         Collaboration:  Effective teamwork skills for supporting and contributing to projects.
     `,
     benefits: ["Health insurance", "Work from home", "Paid time off"],
     jobType: "Full-time",
@@ -3299,24 +2891,24 @@ const companyData = [
     companyLogo: companyImage.tds,
     companyName: "Tech Data Solutions",
     date_recruitment: "2024-08-28",
-    salary: "7,50,000 • 11,00,000 per annum",
+    salary: "7,50,000   11,00,000 per annum",
     description: `
       As a Data Analyst at Tech Data Solutions, you will be responsible for analyzing large datasets to provide insights that enhance business processes. `,
     keyResponsibilties: `
 
-      •  Data Analysis:  Perform detailed analysis of datasets to extract meaningful insights. Use statistical and analytical methods to support business strategies and decisions.
-      •  Data Visualization:  Develop and present data visualizations to clearly communicate findings and trends to stakeholders. Utilize tools like Tableau or Power BI for effective visualization.
-      •  Data Integration:  Collaborate with data teams to integrate and consolidate data from various sources. Ensure data accuracy and consistency across systems.
-      •  Reporting:  Generate regular and ad-hoc reports to track key performance indicators (KPIs) and business metrics.
-      •  Process Improvement:  Identify opportunities for process improvements based on data analysis. Recommend and implement solutions to enhance business operations.
+         Data Analysis:  Perform detailed analysis of datasets to extract meaningful insights. Use statistical and analytical methods to support business strategies and decisions.
+         Data Visualization:  Develop and present data visualizations to clearly communicate findings and trends to stakeholders. Utilize tools like Tableau or Power BI for effective visualization.
+         Data Integration:  Collaborate with data teams to integrate and consolidate data from various sources. Ensure data accuracy and consistency across systems.
+         Reporting:  Generate regular and ad-hoc reports to track key performance indicators (KPIs) and business metrics.
+         Process Improvement:  Identify opportunities for process improvements based on data analysis. Recommend and implement solutions to enhance business operations.
 
        `,
-    skillsNeeded: ` 
-      •  Data Analysis:  Proficiency in analyzing large datasets and applying statistical methods.
-      •  Data Visualization:  Skills in creating data visualizations using tools like Tableau or Power BI.
-      •  Data Integration:  Experience in integrating and consolidating data from multiple sources.
-      •  Reporting:  Ability to generate and present detailed reports.
-      •  Process Improvement:  Knowledge of identifying and implementing process improvements based on data insights.
+    skillNeeded: ` 
+         Data Analysis:  Proficiency in analyzing large datasets and applying statistical methods.
+         Data Visualization:  Skills in creating data visualizations using tools like Tableau or Power BI.
+         Data Integration:  Experience in integrating and consolidating data from multiple sources.
+         Reporting:  Ability to generate and present detailed reports.
+         Process Improvement:  Knowledge of identifying and implementing process improvements based on data insights.
     `,
     benefits: ["Health insurance", "Work from home", "Learning opportunities"],
     jobType: "Full-time",
@@ -3340,19 +2932,19 @@ const companyData = [
       As a Backend Developer at Mindtree, you will be responsible for developing and managing server-side applications and ensuring high performance and scalability. `,
     keyResponsibilties: `
 
-      •  Server-Side Development:  Design and implement server-side logic using languages such as Java, Python, or Ruby on Rails. Develop APIs and services to support application functionality.
-      •  Database Management:  Design and maintain databases, ensuring efficient data storage and retrieval. Optimize database performance and manage data integrity.
-      •  Integration:  Work with front-end developers to integrate server-side components with user-facing elements. Ensure smooth data flow and application functionality.
-      •  Scalability:  Implement solutions that ensure the scalability and reliability of server-side systems. Monitor and address performance issues.
-      •  Collaboration:  Collaborate with cross-functional teams to deliver high-quality software solutions. Participate in code reviews and contribute to best practices.
+         Server-Side Development:  Design and implement server-side logic using languages such as Java, Python, or Ruby on Rails. Develop APIs and services to support application functionality.
+         Database Management:  Design and maintain databases, ensuring efficient data storage and retrieval. Optimize database performance and manage data integrity.
+         Integration:  Work with front-end developers to integrate server-side components with user-facing elements. Ensure smooth data flow and application functionality.
+         Scalability:  Implement solutions that ensure the scalability and reliability of server-side systems. Monitor and address performance issues.
+         Collaboration:  Collaborate with cross-functional teams to deliver high-quality software solutions. Participate in code reviews and contribute to best practices.
 
        `,
-    skillsNeeded: ` 
-      •  Server-Side Languages:  Proficiency in Java, Python, or Ruby on Rails.
-      •  Database Management:  Experience in designing and managing databases.
-      •  Integration:  Skills in integrating server-side components with front-end applications.
-      •  Scalability:  Knowledge of implementing scalable solutions and optimizing performance.
-      •  Collaboration:  Ability to work with cross-functional teams and participate in code reviews.
+    skillNeeded: ` 
+         Server-Side Languages:  Proficiency in Java, Python, or Ruby on Rails.
+         Database Management:  Experience in designing and managing databases.
+         Integration:  Skills in integrating server-side components with front-end applications.
+         Scalability:  Knowledge of implementing scalable solutions and optimizing performance.
+         Collaboration:  Ability to work with cross-functional teams and participate in code reviews.
     `,
     benefits: ["Flexible working hours", "Health insurance"],
     jobType: "Full-time",
@@ -3371,25 +2963,25 @@ const companyData = [
     companyLogo: companyImage.SPGlobal,
     companyName: "S&P Global",
     date_recruitment: "2024-08-02",
-    salary: "1,800,000 • 2,500,000 per annum",
+    salary: "1,800,000   2,500,000 per annum",
     description: `
       As a PostgreSQL Database Administrator at S&P Global, you will be a key member of our Site Reliability Engineering team, responsible for ensuring the optimal performance and reliability of our database systems. `,
     keyResponsibilties: `
 
-      •  Database Management:  Design, build, and maintain high-performance PostgreSQL database systems. Ensure database availability, reliability, and security.
-      •  Performance Tuning:  Monitor and tune database performance to optimize query execution and resource utilization. Implement indexing, partitioning, and other performance enhancements.
-      •  Backup and Recovery:  Develop and execute backup and recovery strategies to protect data integrity and ensure minimal downtime.
-      •  Security:  Implement and manage database security measures to safeguard against unauthorized access and data breaches. Enforce access controls and data encryption.
-      •  Troubleshooting:  Diagnose and resolve database-related issues, including performance bottlenecks and system failures. Provide technical support and expertise to resolve complex problems.
-      •  Documentation:  Create and maintain comprehensive documentation for database configurations, procedures, and changes. Ensure adherence to best practices and compliance standards.
+         Database Management:  Design, build, and maintain high-performance PostgreSQL database systems. Ensure database availability, reliability, and security.
+         Performance Tuning:  Monitor and tune database performance to optimize query execution and resource utilization. Implement indexing, partitioning, and other performance enhancements.
+         Backup and Recovery:  Develop and execute backup and recovery strategies to protect data integrity and ensure minimal downtime.
+         Security:  Implement and manage database security measures to safeguard against unauthorized access and data breaches. Enforce access controls and data encryption.
+         Troubleshooting:  Diagnose and resolve database-related issues, including performance bottlenecks and system failures. Provide technical support and expertise to resolve complex problems.
+         Documentation:  Create and maintain comprehensive documentation for database configurations, procedures, and changes. Ensure adherence to best practices and compliance standards.
 
        `,
-    skillsNeeded: ` 
-      • PostgreSQL Expertise: In-depth knowledge of PostgreSQL database administration, including performance tuning and optimization.
-      • Backup and Recovery: Experience with database backup and recovery techniques.
-      • Security Management: Understanding of database security practices and tools.
-      • Troubleshooting: Strong problem-solving skills for diagnosing and resolving database issues.
-      • Documentation: Ability to create clear and detailed technical documentation.
+    skillNeeded: ` 
+        PostgreSQL Expertise: In-depth knowledge of PostgreSQL database administration, including performance tuning and optimization.
+        Backup and Recovery: Experience with database backup and recovery techniques.
+        Security Management: Understanding of database security practices and tools.
+        Troubleshooting: Strong problem-solving skills for diagnosing and resolving database issues.
+        Documentation: Ability to create clear and detailed technical documentation.
     `,
     benefits: [
       "Comprehensive health coverage",
@@ -3417,19 +3009,19 @@ const companyData = [
       As an Android Developer at Saffo Solution Technology, you will be responsible for developing and maintaining innovative mobile applications. `,
     keyResponsibilties: `
 
-      •  Application Development:  Design, develop, and maintain Android applications using Java or Kotlin. Implement new features and improve existing functionalities.
-      •  Collaboration:  Work closely with UX/UI designers to ensure a seamless user experience. Collaborate with other developers to integrate APIs and third-party libraries.
-      •  Optimization:  Optimize applications for performance and efficiency. Address bugs and improve application stability and responsiveness.
-      •  Testing:  Conduct thorough testing of applications, including unit testing and integration testing. Ensure applications meet quality standards and are free of critical issues.
-      •  Updates:  Stay up-to-date with the latest Android development trends and technologies. Continuously improve applications based on user feedback and technological advancements.
+         Application Development:  Design, develop, and maintain Android applications using Java or Kotlin. Implement new features and improve existing functionalities.
+         Collaboration:  Work closely with UX/UI designers to ensure a seamless user experience. Collaborate with other developers to integrate APIs and third-party libraries.
+         Optimization:  Optimize applications for performance and efficiency. Address bugs and improve application stability and responsiveness.
+         Testing:  Conduct thorough testing of applications, including unit testing and integration testing. Ensure applications meet quality standards and are free of critical issues.
+         Updates:  Stay up-to-date with the latest Android development trends and technologies. Continuously improve applications based on user feedback and technological advancements.
 
        `,
-    skillsNeeded: ` 
-      • Android Development: Proficiency in Java or Kotlin for Android development.
-      • Collaboration: Ability to work effectively with designers and other developers.
-      • Optimization: Skills in optimizing application performance and efficiency.
-      • Testing: Experience with testing methodologies and tools.
-      • Technology Awareness: Knowledge of the latest trends and technologies in Android development.
+    skillNeeded: ` 
+        Android Development: Proficiency in Java or Kotlin for Android development.
+        Collaboration: Ability to work effectively with designers and other developers.
+        Optimization: Skills in optimizing application performance and efficiency.
+        Testing: Experience with testing methodologies and tools.
+        Technology Awareness: Knowledge of the latest trends and technologies in Android development.
     `,
     benefits: [
       "Comprehensive health insurance",
@@ -3452,23 +3044,24 @@ const companyData = [
     companyLogo: companyImage.DXCTECHNOLOGY,
     companyName: "DXC Technology",
     date_recruitment: "2024-08-03",
-    salary: "1,400,000 • 1,900,000 per annum",
+    salary: "1,400,000   1,900,000 per annum",
     description: `
-      As a Lead Java Developer at DXC Technology, you will lead development projects and ensure the delivery of high-quality Java-based solutions. Your role involves:
+      As a Lead Java Developer at DXC Technology, you will lead development projects and ensure the delivery of high-quality Java-based solutions. `,
+    keyResponsibilties: `
 
-      •  Project Leadership:  Lead Java development projects, including design, implementation, and deployment. Coordinate with project managers and stakeholders to meet project goals and deadlines.
-      •  Full-Stack Development:  Develop and maintain full-stack Java applications using SpringBoot, Microservices, and cloud technologies (AWS).
-      •  Architecture Design:  Design scalable and robust software architecture. Implement best practices for code quality, security, and performance.
-      •  Team Collaboration:  Mentor and guide junior developers. Collaborate with cross-functional teams to integrate solutions and resolve technical challenges.
-      •  Continuous Improvement:  Identify opportunities for process improvements and technological advancements. Implement solutions to enhance development efficiency and application quality.
+         Project Leadership:  Lead Java development projects, including design, implementation, and deployment. Coordinate with project managers and stakeholders to meet project goals and deadlines.
+         Full-Stack Development:  Develop and maintain full-stack Java applications using SpringBoot, Microservices, and cloud technologies (AWS).
+         Architecture Design:  Design scalable and robust software architecture. Implement best practices for code quality, security, and performance.
+         Team Collaboration:  Mentor and guide junior developers. Collaborate with cross-functional teams to integrate solutions and resolve technical challenges.
+         Continuous Improvement:  Identify opportunities for process improvements and technological advancements. Implement solutions to enhance development efficiency and application quality.
 
        `,
-    skillsNeeded: ` 
-      • Java Expertise: Proficiency in Java development, including SpringBoot and Microservices.
-      • Cloud Technologies: Experience with AWS and cloud-based solutions.
-      • Architecture Design: Skills in designing scalable and secure software architectures.
-      • Leadership: Ability to lead development projects and mentor junior developers.
-      • Continuous Improvement: Knowledge of process improvement techniques and best practices.
+    skillNeeded: ` 
+        Java Expertise: Proficiency in Java development, including SpringBoot and Microservices.
+        Cloud Technologies: Experience with AWS and cloud-based solutions.
+        Architecture Design: Skills in designing scalable and secure software architectures.
+        Leadership: Ability to lead development projects and mentor junior developers.
+        Continuous Improvement: Knowledge of process improvement techniques and best practices.
     `,
     benefits: [
       "Health insurance",
@@ -3491,24 +3084,24 @@ const companyData = [
     companyLogo: companyImage.techwizard,
     companyName: "TechWizards Pvt Ltd",
     date_recruitment: "2024-08-01",
-    salary: "10,00,000 • 15,00,000 per annum",
+    salary: "10,00,000   15,00,000 per annum",
     description: `
       As an iOS Developer at TechWizards Pvt Ltd, you will be responsible for developing high-quality iOS applications that provide exceptional user experiences. `,
     keyResponsibilties: `
 
-      •  Application Development:  Design, develop, and deploy iOS applications using Swift and Objective-C. Ensure applications are user-friendly, scalable, and performant.
-      •  Collaboration:  Work with product managers, designers, and other developers to define application requirements and specifications. Integrate APIs and third-party services as needed.
-      •  Optimization:  Optimize applications for performance, including memory management and responsiveness. Address bugs and improve application stability.
-      •  Testing:  Perform unit testing and debugging to ensure high-quality applications. Use automated testing tools and frameworks to maintain code quality.
-      •  Updates:  Stay current with iOS development trends and best practices. Continuously update applications based on user feedback and technological advancements.
+         Application Development:  Design, develop, and deploy iOS applications using Swift and Objective-C. Ensure applications are user-friendly, scalable, and performant.
+         Collaboration:  Work with product managers, designers, and other developers to define application requirements and specifications. Integrate APIs and third-party services as needed.
+         Optimization:  Optimize applications for performance, including memory management and responsiveness. Address bugs and improve application stability.
+         Testing:  Perform unit testing and debugging to ensure high-quality applications. Use automated testing tools and frameworks to maintain code quality.
+         Updates:  Stay current with iOS development trends and best practices. Continuously update applications based on user feedback and technological advancements.
 
        `,
-    skillsNeeded: ` 
-      • iOS Development: Proficiency in Swift and Objective-C for iOS development.
-      • Collaboration: Ability to work with cross-functional teams to define and implement application features.
-      • Optimization: Skills in optimizing application performance and stability.
-      • Testing: Experience with unit testing and automated testing tools.
-      • Technology Awareness: Knowledge of the latest iOS development trends and best practices.
+    skillNeeded: ` 
+        iOS Development: Proficiency in Swift and Objective-C for iOS development.
+        Collaboration: Ability to work with cross-functional teams to define and implement application features.
+        Optimization: Skills in optimizing application performance and stability.
+        Testing: Experience with unit testing and automated testing tools.
+        Technology Awareness: Knowledge of the latest iOS development trends and best practices.
     `,
     benefits: [
       "Health insurance",
@@ -3537,19 +3130,19 @@ const companyData = [
       As an Android Developer at JKHL VISION, you will play a crucial role in developing high-performance mobile applications optimized for real-time data processing. `,
     keyResponsibilties: `
 
-      •  Application Development:  Design and develop Android applications with a focus on optimizing performance for low latency and real-time data processing. Utilize best practices for efficient code and architecture.
-      •  Collaboration:  Work with cross-functional teams, including product managers and designers, to ensure application features meet user needs and business objectives.
-      •  Optimization:  Implement performance optimizations, including code refactoring and efficient data handling techniques. Address and resolve performance bottlenecks.
-      •  Testing:  Conduct rigorous testing to ensure application reliability and quality. Use various testing frameworks and tools to validate functionality and performance.
-      •  Continuous Learning:  Stay updated with the latest developments in Android technology and incorporate new tools and techniques into the development process.
+         Application Development:  Design and develop Android applications with a focus on optimizing performance for low latency and real-time data processing. Utilize best practices for efficient code and architecture.
+         Collaboration:  Work with cross-functional teams, including product managers and designers, to ensure application features meet user needs and business objectives.
+         Optimization:  Implement performance optimizations, including code refactoring and efficient data handling techniques. Address and resolve performance bottlenecks.
+         Testing:  Conduct rigorous testing to ensure application reliability and quality. Use various testing frameworks and tools to validate functionality and performance.
+         Continuous Learning:  Stay updated with the latest developments in Android technology and incorporate new tools and techniques into the development process.
 
        `,
-    skillsNeeded: ` 
-      • Android Development: Proficiency in Android development with a focus on performance optimization.
-      • Real-Time Data Processing: Experience in handling real-time data and optimizing applications for low latency.
-      • Collaboration: Ability to work effectively with cross-functional teams.
-      • Testing: Skills in conducting comprehensive testing and debugging.
-      • Continuous Learning: Knowledge of emerging Android technologies and best practices.
+    skillNeeded: ` 
+        Android Development: Proficiency in Android development with a focus on performance optimization.
+        Real-Time Data Processing: Experience in handling real-time data and optimizing applications for low latency.
+        Collaboration: Ability to work effectively with cross-functional teams.
+        Testing: Skills in conducting comprehensive testing and debugging.
+        Continuous Learning: Knowledge of emerging Android technologies and best practices.
     `,
     benefits: [
       "Health insurance",
@@ -3573,16 +3166,24 @@ const companyData = [
     companyLogo: companyImage.CyberProtect,
     companyName: "CyberProtect By Starhub",
     date_recruitment: "2024-07-29",
-    salary: "9,50,000 • 13,50,000 per annum",
+    salary: "9,50,000   13,50,000 per annum",
     description: `
       As a Cybersecurity Specialist at CyberProtect By Starhub, you will be crucial in safeguarding the company's digital assets and sensitive information. `,
     keyResponsibilties: `
-      •  Vulnerability Assessment:  Conduct comprehensive vulnerability assessments to identify and address potential security risks. Utilize various tools and techniques to analyze system weaknesses.
-      •  Security Policy Development:  Develop and implement robust security policies and procedures to ensure compliance with industry standards and regulations. Regularly review and update policies to address emerging threats.
-      •  Incident Response:  Respond to and manage security incidents, including identifying the source of breaches, mitigating damage, and implementing recovery procedures. Document incidents and coordinate with relevant stakeholders.
-      •  Network Security:  Monitor and manage network security, including configuring firewalls, intrusion detection systems, and other security appliances. Ensure secure network architecture and protect against unauthorized access.
-      •  Cryptography:  Implement and manage cryptographic solutions for data protection, including encryption and key management. Ensure the effective use of cryptographic protocols to secure communications and data.
-      •  Collaboration:  Work closely with IT and other departments to enhance overall security posture. Provide guidance and training to staff on security best practices and awareness.
+         Vulnerability Assessment:  Conduct comprehensive vulnerability assessments to identify and address potential security risks. Utilize various tools and techniques to analyze system weaknesses.
+         Security Policy Development:  Develop and implement robust security policies and procedures to ensure compliance with industry standards and regulations. Regularly review and update policies to address emerging threats.
+         Incident Response:  Respond to and manage security incidents, including identifying the source of breaches, mitigating damage, and implementing recovery procedures. Document incidents and coordinate with relevant stakeholders.
+         Network Security:  Monitor and manage network security, including configuring firewalls, intrusion detection systems, and other security appliances. Ensure secure network architecture and protect against unauthorized access.
+         Cryptography:  Implement and manage cryptographic solutions for data protection, including encryption and key management. Ensure the effective use of cryptographic protocols to secure communications and data.
+         Collaboration:  Work closely with IT and other departments to enhance overall security posture. Provide guidance and training to staff on security best practices and awareness.
+    `,
+    skillNeeded: `
+    Vulnerability Assessment: Proficiency in conducting vulnerability assessments and using related tools.
+    Policy Development: Experience in developing and implementing security policies and procedures.
+    Incident Response: Strong skills in managing and responding to security incidents.
+    Network Security: Knowledge of network security principles, including firewalls and intrusion detection systems.
+    Cryptography: Understanding of cryptographic techniques and protocols.
+    Communication: Excellent communication skills for interacting with stakeholders and providing security training.
     `,
     benefits: [
       "Health insurance",
@@ -3611,11 +3212,18 @@ const companyData = [
     description: `
       As a Backend Developer at Cognizant, you will focus on server-side development, ensuring the seamless integration of front-end components and optimizing application performance. `,
     keyResponsibilties: `
-      •  Server-Side Logic:  Design and implement server-side logic and functionality for web applications. Develop and maintain RESTful APIs and web services to support front-end requirements.
-      •  Database Management:  Manage and optimize database systems to ensure efficient data storage and retrieval. Implement data models and manage schema changes.
-      •  Application Optimization:  Optimize server-side applications for performance, including improving speed, scalability, and resource usage. Conduct performance tuning and troubleshooting as needed.
-      •  Security:  Ensure the security of server-side applications by implementing best practices for data protection, access control, and secure coding practices.
-      •  Collaboration:  Work with front-end developers to integrate user-facing elements with server-side logic. Collaborate with other team members to ensure project goals and deadlines are met.
+         Server-Side Logic:  Design and implement server-side logic and functionality for web applications. Develop and maintain RESTful APIs and web services to support front-end requirements.
+         Database Management:  Manage and optimize database systems to ensure efficient data storage and retrieval. Implement data models and manage schema changes.
+         Application Optimization:  Optimize server-side applications for performance, including improving speed, scalability, and resource usage. Conduct performance tuning and troubleshooting as needed.
+         Security:  Ensure the security of server-side applications by implementing best practices f    or data protection, access control, and secure coding practices.
+         Collaboration:  Work with front-end developers to integrate user-facing elements with server-side logic. Collaborate with other team members to ensure project goals and deadlines are met.
+    `,
+    skillNeeded: `
+    Server-Side Development: Proficiency in server-side technologies such as Node.js, Python, or Ruby on Rails.
+    Database Management: Experience with database management and optimization techniques.
+    Performance Optimization: Skills in optimizing application performance and scalability.
+    Security: Knowledge of secure coding practices and application security.
+    Collaboration: Ability to work effectively with front-end developers and other team members.    
     `,
     benefits: "Health insurance, Performance bonus",
     jobType: "Full-time",
@@ -3634,15 +3242,22 @@ const companyData = [
     companyLogo: companyImage.WebWorks,
     companyName: "WebWorks Pvt Ltd",
     date_recruitment: "2024-08-05",
-    salary: "6,50,000 • 9,50,000 per annum",
+    salary: "6,50,000   9,50,000 per annum",
     description: `
       As a Web Developer at WebWorks Pvt Ltd, you will play a key role in developing and maintaining high-quality web applications. `,
     keyResponsibilties: `
-      •  Web Application Development:  Design, develop, and maintain responsive web applications using the latest web technologies. Ensure applications are user-friendly, scalable, and performant.
-      •  Collaboration:  Collaborate with UX/UI designers to implement design specifications and ensure a seamless user experience. Work with backend developers to integrate APIs and other services.
-      •  Optimization:  Optimize web applications for performance, including improving load times, responsiveness, and overall user experience. Address and resolve performance issues.
-      •  Testing:  Conduct thorough testing of web applications, including functional, usability, and compatibility testing. Use automated testing tools to ensure application quality.
-      •  Continuous Improvement:  Stay current with web development trends and technologies. Continuously improve applications based on user feedback and technological advancements.
+         Web Application Development:  Design, develop, and maintain responsive web applications using the latest web technologies. Ensure applications are user-friendly, scalable, and performant.
+         Collaboration:  Collaborate with UX/UI designers to implement design specifications and ensure a seamless user experience. Work with backend developers to integrate APIs and other services.
+         Optimization:  Optimize web applications for performance, including improving load times, responsiveness, and overall user experience. Address and resolve performance issues.
+         Testing:  Conduct thorough testing of web applications, including functional, usability, and compatibility testing. Use automated testing tools to ensure application quality.
+         Continuous Improvement:  Stay current with web development trends and technologies. Continuously improve applications based on user feedback and technological advancements.
+    `,
+    skillNeeded: `
+    Web Development: Proficiency in web development technologies such as HTML, CSS, JavaScript, and frameworks like React or Angular.
+    Collaboration: Ability to work with UX/UI designers and backend developers.
+    Optimization: Skills in optimizing web application performance and user experience.
+    Testing: Experience with testing methodologies and tools.
+    Technology Awareness: Knowledge of the latest trends and technologies in web development.   
     `,
     benefits: [
       "Health insurance",
@@ -3671,11 +3286,18 @@ const companyData = [
     description: `
       As a Backend Developer at HCL Technologies, you will contribute to server-side development, database management, and ensuring high performance of applications. `,
     keyResponsibilties: `
-      •  Server-Side Development:  Develop and maintain server-side logic and functionality using technologies such as Node.js, Express, and MongoDB. Design and implement RESTful APIs for integration with front-end components.
-      •  Database Management:  Manage and optimize database systems, including schema design, query optimization, and data migration.
-      •  Application Performance:  Ensure high performance and scalability of server-side applications. Identify and resolve performance bottlenecks and system issues.
-      •  Collaboration:  Work with front-end developers and other team members to ensure seamless integration of server-side and client-side components. Participate in code reviews and provide constructive feedback.
-      •  Security:  Implement security best practices to protect data and applications. Ensure compliance with industry standards and regulations.
+         Server-Side Development:  Develop and maintain server-side logic and functionality using technologies such as Node.js, Express, and MongoDB. Design and implement RESTful APIs for integration with front-end components.
+         Database Management:  Manage and optimize database systems, including schema design, query optimization, and data migration.
+         Application Performance:  Ensure high performance and scalability of server-side applications. Identify and resolve performance bottlenecks and system issues.
+         Collaboration:  Work with front-end developers and other team members to ensure seamless integration of server-side and client-side components. Participate in code reviews and provide constructive feedback.
+         Security:  Implement security best practices to protect data and applications. Ensure compliance with industry standards and regulations.
+    `,
+    skillNeeded: `
+    Server-Side Development: Proficiency in Node.js, Express, and MongoDB.
+    Database Management: Experience with database management and optimization.
+    Performance Optimization: Skills in optimizing application performance and scalability.
+    Collaboration: Ability to work with front-end developers and other team members.
+    Security: Knowledge of security best practices and compliance.    
     `,
     benefits: "Paid time off, Health insurance",
     jobType: "Full-time",
@@ -3694,15 +3316,22 @@ const companyData = [
     companyLogo: companyImage.NetSecure,
     companyName: "NetSecure Technologies",
     date_recruitment: "2024-08-18",
-    salary: "10,00,000 • 15,00,000 per annum",
+    salary: "10,00,000   15,00,000 per annum",
     description: `
       As a Cybersecurity Consultant at NetSecure Technologies, you will provide expert advice and implement security measures to protect clients from cyber threats. `,
     keyResponsibilties: `
-      •  Security Audits:  Conduct thorough security audits to evaluate and improve clients' security posture. Identify vulnerabilities and provide actionable recommendations.
-      •  Risk Assessments:  Perform risk assessments to identify potential threats and vulnerabilities. Develop risk mitigation strategies and security plans.
-      •  Strategy Development:  Develop and implement comprehensive security strategies and solutions tailored to clients' specific needs. Ensure alignment with industry standards and regulations.
-      •  Incident Response:  Assist clients with incident response planning and execution. Provide guidance on managing and mitigating security incidents.
-      •  Communication:  Communicate findings and recommendations clearly to clients. Provide training and support to help clients understand and implement security best practices.
+         Security Audits:  Conduct thorough security audits to evaluate and improve clients' security posture. Identify vulnerabilities and provide actionable recommendations.
+         Risk Assessments:  Perform risk assessments to identify potential threats and vulnerabilities. Develop risk mitigation strategies and security plans.
+         Strategy Development:  Develop and implement comprehensive security strategies and solutions tailored to clients' specific needs. Ensure alignment with industry standards and regulations.
+         Incident Response:  Assist clients with incident response planning and execution. Provide guidance on managing and mitigating security incidents.
+         Communication:  Communicate findings and recommendations clearly to clients. Provide training and support to help clients understand and implement security best practices.
+    `,
+    skillNeeded: `
+    Security Audits: Proficiency in conducting security audits and vulnerability assessments.
+    Risk Assessment: Experience in performing risk assessments and developing mitigation strategies.
+    Strategy Development: Skills in developing and implementing security strategies and solutions.
+    Incident Response: Knowledge of incident response procedures and best practices.
+    Communication: Excellent communication skills for presenting findings and recommendations to clients.   
     `,
     benefits: [
       "Comprehensive health coverage",
@@ -3726,31 +3355,27 @@ const companyData = [
     companyLogo: companyImage.TechWave,
     companyName: "TechWave Inc.",
     date_recruitment: "2024-07-30",
-    salary: "8,00,000 • 12,00,000 per annum",
-    description: `As a Web Developer at TechWave Inc., you will be instrumental in building and maintaining high-quality web applications. Your role involves:
+    salary: "8,00,000   12,00,000 per annum",
+    description: `As a Web Developer at TechWave Inc., you will be instrumental in building and maintaining high-quality web applications. `,
+    keyResponsibilties: `
   
-     User Interface Development: 
-    Design and implement user interface components using modern JavaScript frameworks such as React, Angular, or Vue.js. Ensure that applications are responsive and visually appealing.
+     User Interface Development: Design and implement user interface components using modern JavaScript frameworks such as React, Angular, or Vue.js. Ensure that applications are responsive and visually appealing.
   
-     Performance Optimization: 
-    Optimize web applications for performance, including improving load times and responsiveness. Use tools like Lighthouse to analyze and enhance application performance.
+     Performance Optimization: Optimize web applications for performance, including improving load times and responsiveness. Use tools like Lighthouse to analyze and enhance application performance.
   
-     Cross-Functional Collaboration: 
-    Work closely with UX/UI designers to translate design concepts into functional web applications. Collaborate with backend developers to integrate APIs and ensure seamless functionality.
+     Cross-Functional Collaboration: Work closely with UX/UI designers to translate design concepts into functional web applications. Collaborate with backend developers to integrate APIs and ensure seamless functionality.
   
-     Code Quality: 
-    Maintain high code quality through best practices such as code reviews, unit testing, and continuous integration. Follow coding standards and design patterns to ensure maintainability.
+     Code Quality: Maintain high code quality through best practices such as code reviews, unit testing, and continuous integration. Follow coding standards and design patterns to ensure maintainability.
   
-     Problem-Solving: 
-    Troubleshoot and resolve issues related to web applications, including debugging and fixing bugs. Implement solutions to improve the overall user experience and application stability.
+     Problem-Solving: Troubleshoot and resolve issues related to web applications, including debugging and fixing bugs. Implement solutions to improve the overall user experience and application stability.
   
      `,
-    skillsNeeded: ` 
-    • Proficiency in modern JavaScript frameworks (React, Angular, Vue.js).
-    • Experience with performance optimization techniques and tools.
-    • Ability to work effectively with designers and backend developers.
-    • Knowledge of best practices for code quality, testing, and continuous integration.
-    • Strong problem-solving skills and ability to debug and fix issues.`,
+    skillNeeded: ` 
+      Proficiency in modern JavaScript frameworks (React, Angular, Vue.js).
+      Experience with performance optimization techniques and tools.
+      Ability to work effectively with designers and backend developers.
+      Knowledge of best practices for code quality, testing, and continuous integration.
+      Strong problem-solving skills and ability to debug and fix issues.`,
     benefits: [
       "Health insurance",
       "Paid time off",
@@ -3771,32 +3396,27 @@ const companyData = [
     companyLogo: companyImage.TechInnovators,
     companyName: "Tech Innovators Pvt Ltd",
     date_recruitment: "2024-08-01",
-    salary: "6,00,000 • 10,00,000 per annum",
+    salary: "6,00,000   10,00,000 per annum",
     description: `As a Web Developer at Tech Innovators Pvt Ltd, you will contribute to the development and maintenance of dynamic web applications. `,
     keyResponsibilties: `
   
-     Application Development: 
-    Build and maintain high-quality web applications using HTML, CSS, JavaScript, and frameworks such as React or Angular. Ensure applications are scalable and user-friendly.
+     Application Development: Build and maintain high-quality web applications using HTML, CSS, JavaScript, and frameworks such as React or Angular. Ensure applications are scalable and user-friendly.
   
-     Design Integration: 
-    Work with the design team to implement user interfaces that meet design specifications and enhance the user experience. Ensure design consistency across different devices and browsers.
+     Design Integration: Work with the design team to implement user interfaces that meet design specifications and enhance the user experience. Ensure design consistency across different devices and browsers.
   
-     Code Management: 
-    Manage and maintain code repositories using version control systems like Git. Follow coding standards and best practices to ensure clean, maintainable code.
+     Code Management: Manage and maintain code repositories using version control systems like Git. Follow coding standards and best practices to ensure clean, maintainable code.
   
-     Testing and Debugging: 
-    Conduct thorough testing of web applications, including functional, usability, and compatibility testing. Debug and resolve issues to ensure application stability and performance.
+     Testing and Debugging: Conduct thorough testing of web applications, including functional, usability, and compatibility testing. Debug and resolve issues to ensure application stability and performance.
   
-     Continuous Improvement: 
-    Stay up-to-date with web development trends and technologies. Propose and implement improvements to enhance application functionality and user experience.
+     Continuous Improvement: Stay up-to-date with web development trends and technologies. Propose and implement improvements to enhance application functionality and user experience.
   
      `,
-    skillsNeeded: ` 
-    • Proficiency in HTML, CSS, JavaScript, and modern frameworks (React, Angular).
-    • Experience working with design teams and implementing user interfaces.
-    • Knowledge of version control systems (Git) and best coding practices.
-    • Skills in testing methodologies and debugging techniques.
-    • Ability to stay current with industry trends and propose improvements.`,
+    skillNeeded: ` 
+      Proficiency in HTML, CSS, JavaScript, and modern frameworks (React, Angular).
+      Experience working with design teams and implementing user interfaces.
+      Knowledge of version control systems (Git) and best coding practices.
+      Skills in testing methodologies and debugging techniques.
+      Ability to stay current with industry trends and propose improvements.`,
     benefits: [
       "Health insurance",
       "Flexible working hours",
@@ -3818,30 +3438,26 @@ const companyData = [
     companyName: "Octobit",
     date_recruitment: "2024-07-03",
     salary: "9L – 12L",
-    description: `As an Android Developer at Octobit, you will be responsible for creating high-quality mobile applications that provide excellent user experiences. Your role involves:
+    description: `As an Android Developer at Octobit, you will be responsible for creating high-quality mobile applications that provide excellent user experiences. `,
+    keyResponsibilties: `
   
-     Application Development: 
-    Design, develop, and maintain Android applications using Kotlin or Java. Implement features based on user requirements and ensure optimal performance.
+     Application Development: Design, develop, and maintain Android applications using Kotlin or Java. Implement features based on user requirements and ensure optimal performance.
   
-     Collaboration: 
-    Work closely with designers and other developers to create user-friendly interfaces and integrate backend services. Participate in code reviews and provide feedback to ensure code quality.
+     Collaboration: Work closely with designers and other developers to create user-friendly interfaces and integrate backend services. Participate in code reviews and provide feedback to ensure code quality.
   
-     Performance Optimization: 
-    Optimize applications for performance, including improving responsiveness, reducing load times, and managing resource usage effectively.
+     Performance Optimization: Optimize applications for performance, including improving responsiveness, reducing load times, and managing resource usage effectively.
   
-     Testing and Debugging: 
-    Conduct thorough testing of applications to identify and fix bugs. Use tools such as Android Studio and Emulators for testing and debugging.
+     Testing and Debugging: Conduct thorough testing of applications to identify and fix bugs. Use tools such as Android Studio and Emulators for testing and debugging.
   
-     Documentation: 
-    Maintain comprehensive documentation for code and application features. Ensure that all development work is well-documented and adheres to best practices.
+     Documentation: Maintain comprehensive documentation for code and application features. Ensure that all development work is well-documented and adheres to best practices.
   
      `,
-    skillsNeeded: ` 
-    • Proficiency in Kotlin or Java for Android development.
-    • Ability to work with designers and developers to create user-friendly applications.
-    • Skills in optimizing application performance and resource management.
-    • Experience with testing tools and debugging techniques.
-    • Knowledge of best practices for maintaining code and application documentation.`,
+    skillNeeded: ` 
+      Proficiency in Kotlin or Java for Android development.
+      Ability to work with designers and developers to create user-friendly applications.
+      Skills in optimizing application performance and resource management.
+      Experience with testing tools and debugging techniques.
+      Knowledge of best practices for maintaining code and application documentation.`,
     benefits: [
       "Health benefits",
       "Flexible work hours",
@@ -3862,32 +3478,27 @@ const companyData = [
     companyLogo: companyImage.AILab,
     companyName: "AI Innovators Community",
     date_recruitment: "2024-08-01",
-    salary: "12,00,000 • 18,00,000 per annum",
+    salary: "12,00,000   18,00,000 per annum",
     description: `As an AI ML Engineer at AI Innovators Community, you will be responsible for designing and developing machine learning models and AI solutions. `,
     keyResponsibilties: `
   
-     Model Development: 
-    Design, train, and optimize machine learning models for various applications, including natural language processing, computer vision, and predictive analytics. Use frameworks such as TensorFlow or PyTorch.
+     Model Development: Design, train, and optimize machine learning models for various applications, including natural language processing, computer vision, and predictive analytics. Use frameworks such as TensorFlow or PyTorch.
   
-     Data Analysis: 
-    Analyze large datasets to extract meaningful insights and improve model performance. Perform data preprocessing, feature engineering, and statistical analysis.
+     Data Analysis: Analyze large datasets to extract meaningful insights and improve model performance. Perform data preprocessing, feature engineering, and statistical analysis.
   
-     AI Solutions Implementation: 
-    Develop and implement AI solutions that address business challenges and enhance decision-making. Collaborate with cross-functional teams to integrate AI models into existing systems.
+     AI Solutions Implementation: Develop and implement AI solutions that address business challenges and enhance decision-making. Collaborate with cross-functional teams to integrate AI models into existing systems.
   
-     Performance Monitoring: 
-    Monitor and evaluate the performance of machine learning models. Implement improvements based on performance metrics and user feedback.
+     Performance Monitoring: Monitor and evaluate the performance of machine learning models. Implement improvements based on performance metrics and user feedback.
   
-     Research and Development: 
-    Stay up-to-date with advancements in AI and machine learning. Conduct research and experiment with new algorithms and techniques to advance the company's AI capabilities.
+     Research and Development: Stay up-to-date with advancements in AI and machine learning. Conduct research and experiment with new algorithms and techniques to advance the company's AI capabilities.
   
      `,
-    skillsNeeded: ` 
-    • Proficiency in machine learning frameworks (TensorFlow, PyTorch) and model development.
-    • Experience in data analysis, preprocessing, and feature engineering.
-    • Knowledge of implementing AI solutions and integrating models into systems.
-    • Skills in monitoring and evaluating model performance.
-    • Ability to stay current with AI advancements and conduct research.`,
+    skillNeeded: ` 
+      Proficiency in machine learning frameworks (TensorFlow, PyTorch) and model development.
+      Experience in data analysis, preprocessing, and feature engineering.
+      Knowledge of implementing AI solutions and integrating models into systems.
+      Skills in monitoring and evaluating model performance.
+      Ability to stay current with AI advancements and conduct research.`,
     benefits: [
       "Health insurance",
       "Flexible working hours",
@@ -3908,32 +3519,27 @@ const companyData = [
     companyLogo: companyImage.sparkai,
     companyName: "Spark AI",
     date_recruitment: "2024-08-18",
-    salary: "15,00,000 • 22,00,000 per annum",
+    salary: "15,00,000   22,00,000 per annum",
     description: `As an AI ML Engineer at Spark AI, you will work on designing and developing advanced machine learning models and solutions. `,
     keyResponsibilties: `
   
-     Model Design: 
-    Develop and implement machine learning models for a range of AI applications, including natural language processing and computer vision. Use tools and libraries such as TensorFlow, Keras, and scikit-learn.
+     Model Design: Develop and implement machine learning models for a range of AI applications, including natural language processing and computer vision. Use tools and libraries such as TensorFlow, Keras, and scikit-learn.
   
-     Data Management: 
-    Manage and process large datasets to train and test machine learning models. Perform data cleaning, feature selection, and exploratory data analysis.
+     Data Management: Manage and process large datasets to train and test machine learning models. Perform data cleaning, feature selection, and exploratory data analysis.
   
-     AI Projects: 
-    Work on diverse AI projects, from concept to deployment. Collaborate with project teams to ensure models meet project requirements and objectives.
+     AI Projects: Work on diverse AI projects, from concept to deployment. Collaborate with project teams to ensure models meet project requirements and objectives.
   
-     Performance Evaluation: 
-    Evaluate model performance using appropriate metrics and techniques. Fine-tune models to improve accuracy and efficiency.
+     Performance Evaluation: Evaluate model performance using appropriate metrics and techniques. Fine-tune models to improve accuracy and efficiency.
   
-     Innovation: 
-    Explore and apply cutting-edge technologies and methodologies in AI and machine learning. Contribute to research and development initiatives to advance the company’s AI capabilities.
+     Innovation: Explore and apply cutting-edge technologies and methodologies in AI and machine learning. Contribute to research and development initiatives to advance the company’s AI capabilities.
   
      `,
-    skillsNeeded: ` 
-    • Proficiency in machine learning frameworks and libraries (TensorFlow, Keras, scikit-learn).
-    • Experience in managing and processing large datasets.
-    • Ability to work on various AI projects and collaborate with teams.
-    • Skills in evaluating and fine-tuning model performance.
-    • Knowledge of the latest advancements in AI and machine learning.`,
+    skillNeeded: ` 
+      Proficiency in machine learning frameworks and libraries (TensorFlow, Keras, scikit-learn).
+      Experience in managing and processing large datasets.
+      Ability to work on various AI projects and collaborate with teams.
+      Skills in evaluating and fine-tuning model performance.
+      Knowledge of the latest advancements in AI and machine learning.`,
     benefits: [
       "Medical insurance",
       "Retirement benefits",
@@ -3956,21 +3562,25 @@ const companyData = [
     dateRecruitment: "Posted 3 days ago",
     salary: "10L – 18L",
     description: `As a Backend Developer at Tata Consultancy Services (TCS), you will be responsible for developing and managing the server-side logic, ensuring seamless data interchange between the server and users.
+    `,
+    keyResponsibilties: `
+    Server-Side Development: Design and implement robust server-side components and web services using Java, Spring Boot, or Django. Develop and maintain central databases to support application functionality.
     
-    Server-Side Development: 
-    Design and implement robust server-side components and web services using Java, Spring Boot, or Django. Develop and maintain central databases to support application functionality.
+    Performance Optimization: Ensure high performance, scalability, and responsiveness of backend services. Conduct performance tuning and optimization of server-side applications to handle large-scale data and traffic.
     
-    Performance Optimization: 
-    Ensure high performance, scalability, and responsiveness of backend services. Conduct performance tuning and optimization of server-side applications to handle large-scale data and traffic.
+    Database Management: Design and manage database schemas, optimize queries, and ensure data integrity and security. Collaborate with database administrators to implement backup and recovery strategies.
     
-    Database Management: 
-    Design and manage database schemas, optimize queries, and ensure data integrity and security. Collaborate with database administrators to implement backup and recovery strategies.
+    Integration: Integrate backend services with front-end applications and other external systems. Implement and maintain RESTful APIs to facilitate smooth data exchange and integration.
     
-    Integration: 
-    Integrate backend services with front-end applications and other external systems. Implement and maintain RESTful APIs to facilitate smooth data exchange and integration.
-    
-    Collaboration: 
-    Work closely with cross-functional teams, including front-end developers, product managers, and quality assurance engineers, to deliver high-quality software solutions.`,
+    Collaboration: Work closely with cross-functional teams, including front-end developers, product managers, and quality assurance engineers, to deliver high-quality software solutions.`,
+
+    skillNeeded: `
+    Machine Learning: Proficiency in machine learning frameworks and libraries (TensorFlow, Keras, scikit-learn).
+    Data Management: Experience in managing and processing large datasets.
+    AI Projects: Ability to work on various AI projects and collaborate with teams.
+    Performance Evaluation: Skills in evaluating and fine-tuning model performance.
+    Innovation: Knowledge of the latest advancements in AI and machine learning.
+    `,
     benefits: "Retirement benefits, Health insurance",
     jobType: "Full-time",
     location: "Mumbai, Maharashtra",
@@ -3988,18 +3598,22 @@ const companyData = [
     dateRecruitment: "Posted 1 week ago",
     salary: "8L – 15L",
     description: `As a Web Developer at NextGen Technologies, you will be responsible for developing and maintaining dynamic and responsive web applications.
+    `,
+    keyResponsibilties: `
+    Full Stack Development: Engage in all phases of the development lifecycle, including design, development, testing, and deployment. Utilize HTML, CSS, JavaScript, and React.js to build user-friendly web applications.
     
-    Full Stack Development: 
-    Engage in all phases of the development lifecycle, including design, development, testing, and deployment. Utilize HTML, CSS, JavaScript, and React.js to build user-friendly web applications.
+    User Experience: Collaborate with UX/UI designers to ensure seamless user experience and responsive design across various devices.
     
-    User Experience: 
-    Collaborate with UX/UI designers to ensure seamless user experience and responsive design across various devices.
+    Performance Optimization: Implement best practices for performance optimization to enhance application speed and responsiveness. Conduct code reviews and performance tuning.
     
-    Performance Optimization: 
-    Implement best practices for performance optimization to enhance application speed and responsiveness. Conduct code reviews and performance tuning.
-    
-    Collaboration: 
-    Work with cross-functional teams, including backend developers and product managers, to integrate front-end components with server-side logic.`,
+    Collaboration: Work with cross-functional teams, including backend developers and product managers, to integrate front-end components with server-side logic.`,
+
+    skillNeeded: `
+    Web Technologies: Proficiency in HTML, CSS, JavaScript, and React.js.
+    Performance Optimization: Experience in optimizing web applications for speed and efficiency.
+    Collaboration: Ability to work effectively with designers, product managers, and backend developers.
+    Code Quality: Knowledge of best practices for coding, testing, and documentation.
+    `,
     benefits: "Health insurance, Paid time off",
     jobType: "Full-time",
     location: "Bengaluru, Karnataka",
@@ -4017,18 +3631,22 @@ const companyData = [
     dateRecruitment: "Posted 2 weeks ago",
     salary: "12L – 20L",
     description: `As an iOS Developer at Mobility Solutions Ltd., you will be responsible for creating and maintaining high-quality iOS applications.
+    `,
+    keyResponsibilties: `
+    Application Development: Design and develop iOS applications using Swift and Objective-C. Implement features based on user needs and product specifications.
     
-    Application Development: 
-    Design and develop iOS applications using Swift and Objective-C. Implement features based on user needs and product specifications.
+    Performance Tuning: Optimize application performance and stability using Xcode tools. Address performance issues and enhance user experience.
     
-    Performance Tuning: 
-    Optimize application performance and stability using Xcode tools. Address performance issues and enhance user experience.
+    Integration: Integrate applications with RESTful APIs and cloud-based services. Collaborate with backend developers to ensure seamless data flow.
     
-    Integration: 
-    Integrate applications with RESTful APIs and cloud-based services. Collaborate with backend developers to ensure seamless data flow.
-    
-    Testing and Debugging: 
-    Conduct thorough testing, including functional and performance testing. Identify and resolve bugs to ensure a smooth user experience.`,
+    Testing and Debugging: Conduct thorough testing, including functional and performance testing. Identify and resolve bugs to ensure a smooth user experience.`,
+    skillNeeded: `
+    iOS Development: Proficiency in Swift, Objective-C, and Xcode.
+    Performance Tuning: Experience in debugging and optimizing application performance.
+    Integration: Knowledge of RESTful APIs and cloud services integration.
+    Testing and Debugging: Skills in testing methodologies and bug resolution.
+    Collaboration: Ability to work with cross-functional teams to deliver high-quality applications.
+    `,
     benefits: "Health insurance, Performance bonuses",
     jobType: "Full-time",
     location: "Chennai, Tamil Nadu",
@@ -4046,18 +3664,23 @@ const companyData = [
     dateRecruitment: "Posted 1 month ago",
     salary: "15L – 25L",
     description: `As an AI ML Engineer at ProAI Solutions, you will develop and implement machine learning models and AI-driven solutions.
+    `,
+    keyResponsibilties: `
+    Model Development: Design and train machine learning models using frameworks such as TensorFlow, PyTorch, or Keras. Focus on accuracy and scalability.
     
-    Model Development: 
-    Design and train machine learning models using frameworks such as TensorFlow, PyTorch, or Keras. Focus on accuracy and scalability.
+    Data Analysis: Analyze and preprocess large datasets. Perform feature engineering and develop data-driven insights.
     
-    Data Analysis: 
-    Analyze and preprocess large datasets. Perform feature engineering and develop data-driven insights.
+    AI Solutions: Collaborate with data scientists to integrate AI models into existing systems. Develop solutions to address complex business problems.
     
-    AI Solutions: 
-    Collaborate with data scientists to integrate AI models into existing systems. Develop solutions to address complex business problems.
-    
-    Performance Evaluation: 
-    Monitor and evaluate model performance. Fine-tune algorithms based on performance data.`,
+    Performance Evaluation: Monitor and evaluate model performance. Fine-tune algorithms based on performance data.`,
+
+    skillNeeded: `
+    Machine Learning: Proficiency in machine learning frameworks (TensorFlow, PyTorch, Keras).
+    Data Analysis: Experience with data preprocessing, feature engineering, and statistical analysis.
+    AI Solutions: Ability to integrate AI models into applications and systems.
+    Performance Evaluation: Skills in evaluating and optimizing model performance.
+    Research: Knowledge of the latest trends and advancements in AI and machine learning.   
+    `,
     benefits: "Health insurance, Stock options",
     jobType: "Full-time",
     location: "Pune, Maharashtra",
@@ -4075,18 +3698,23 @@ const companyData = [
     dateRecruitment: "Posted 2 days ago",
     salary: "9L – 17L",
     description: `As a Java Developer at Infogain, you will design and implement server-side components and web services.
+    `,
+    keyResponsibilties: `
+    Server-Side Development: Develop and maintain backend services using Java and Spring Boot. Focus on scalability and reliability.
     
-    Server-Side Development: 
-    Develop and maintain backend services using Java and Spring Boot. Focus on scalability and reliability.
+    Database Design: Design and optimize database schemas and queries. Collaborate with database administrators to ensure data integrity.
     
-    Database Design: 
-    Design and optimize database schemas and queries. Collaborate with database administrators to ensure data integrity.
+    Integration: Work with front-end developers to integrate server-side logic. Implement RESTful APIs and other integration points.
     
-    Integration: 
-    Work with front-end developers to integrate server-side logic. Implement RESTful APIs and other integration points.
-    
-    Code Quality: 
-    Maintain high standards of code quality through code reviews and adherence to best practices. Contribute to product design discussions.`,
+    Code Quality: Maintain high standards of code quality through code reviews and adherence to best practices. Contribute to product design discussions.`,
+
+    skillNeeded: `
+    Backend Development: Proficiency in Java, Spring Boot, and microservices.
+    Database Design: Experience in designing and optimizing database schemas and queries.
+    Integration: Knowledge of integrating backend services with front-end applications.
+    Code Quality: Skills in coding best practices, automated testing, and documentation.
+    Project Involvement: Ability to engage in all phases of the development lifecycle and contribute to product design.   
+    `,
     benefits: "Health insurance, Retirement benefits",
     jobType: "Full-time",
     location: "Bangalore/Gurugram, India",
@@ -4103,19 +3731,22 @@ const companyData = [
     companyName: "DefendTech Solutions",
     dateRecruitment: "Posted 1 week ago",
     salary: "11L – 20L",
-    description: `As a Cybersecurity Analyst at DefendTech Solutions, you will protect the organization from cyber threats and ensure digital asset security.
+    description: `As a Cybersecurity Analyst at DefendTech Solutions, you will protect the organization from cyber threats and ensure digital asset security.`,
+    keyResponsibilties: `
+    Security Monitoring: Monitor security events using SIEM tools. Identify and respond to potential threats in real-time.
     
-    Security Monitoring: 
-    Monitor security events using SIEM tools. Identify and respond to potential threats in real-time.
+    Security Assessments: Conduct vulnerability scans, penetration testing, and risk assessments. Implement measures to address identified vulnerabilities.
     
-    Security Assessments: 
-    Conduct vulnerability scans, penetration testing, and risk assessments. Implement measures to address identified vulnerabilities.
+    Incident Response: Investigate security incidents and develop response plans. Mitigate the impact of security breaches and attacks.
     
-    Incident Response: 
-    Investigate security incidents and develop response plans. Mitigate the impact of security breaches and attacks.
-    
-    Policy and Compliance: 
-    Ensure security policies comply with industry standards. Provide recommendations to improve security posture.`,
+    Policy and Compliance: Ensure security policies comply with industry standards. Provide recommendations to improve security posture.`,
+    skillNeeded: `
+    Security Monitoring: Proficiency with SIEM tools and security event analysis.
+    Security Assessments: Experience in conducting vulnerability scans, penetration testing, and risk assessments.
+    Incident Response: Skills in responding to and investigating security incidents.
+    Policy and Compliance: Knowledge of security policies, procedures, and compliance requirements.
+    Collaboration: Ability to work with IT and security teams to enhance security measures and provide training.    
+    `,
     benefits: "Health insurance, Paid time off",
     jobType: "Full-time",
     location: "Hyderabad, Telangana",
@@ -4136,19 +3767,19 @@ const companyData = [
 
     `,
     keyResponsibilties: `
-    •  Server-Side Development:  Design and develop scalable server-side components and web services using Java, Python, or C++. 
-    •  Database Management:  Create and optimize database schemas, write efficient queries, and ensure data integrity and security.
-    •  Integration:  Collaborate with front-end developers to integrate user-facing elements with server-side logic. Implement RESTful APIs and ensure seamless data exchange.
-    •  Performance Tuning:  Optimize server-side applications for high performance, scalability, and reliability. Conduct performance tuning and troubleshooting as needed.
-    •  Collaboration:  Work closely with cross-functional teams to deliver high-quality software solutions. Participate in code reviews and contribute to best practices.
+       Server-Side Development:  Design and develop scalable server-side components and web services using Java, Python, or C++. 
+       Database Management:  Create and optimize database schemas, write efficient queries, and ensure data integrity and security.
+       Integration:  Collaborate with front-end developers to integrate user-facing elements with server-side logic. Implement RESTful APIs and ensure seamless data exchange.
+       Performance Tuning:  Optimize server-side applications for high performance, scalability, and reliability. Conduct performance tuning and troubleshooting as needed.
+       Collaboration:  Work closely with cross-functional teams to deliver high-quality software solutions. Participate in code reviews and contribute to best practices.
   
      `,
-    skillsNeeded: ` 
-    •  Proficiency in Programming Languages:  Strong experience in Java, Python, or C++.
-    •  Database Skills:  Expertise in designing and managing database schemas, and optimizing SQL queries.
-    •  API Development:  Experience with RESTful API design and integration.
-    •  Performance Optimization:  Knowledge of performance tuning techniques and tools.
-    •  Collaboration and Communication:  Ability to work effectively in a team environment and communicate complex technical concepts clearly.
+    skillNeeded: ` 
+       Proficiency in Programming Languages:  Strong experience in Java, Python, or C++.
+       Database Skills:  Expertise in designing and managing database schemas, and optimizing SQL queries.
+       API Development:  Experience with RESTful API design and integration.
+       Performance Optimization:  Knowledge of performance tuning techniques and tools.
+       Collaboration and Communication:  Ability to work effectively in a team environment and communicate complex technical concepts clearly.
   
     The ideal candidate will have a strong technical background and a passion for developing high-quality software solutions. Join Oracle and contribute to building innovative solutions that drive success in the technology industry.`,
     benefits: "Flexible working hours, Health insurance",
@@ -4168,21 +3799,25 @@ const companyData = [
     dateRecruitment: "Posted 3 days ago",
     salary: "10L – 18L",
     description: `As a Backend Developer at Tata Consultancy Services (TCS), you will be responsible for developing and managing the server-side logic, ensuring seamless data interchange between the server and users.
+    `,
+    keyResponsibilties: `
+    Server-Side Development: Design and implement robust server-side components and web services using Java, Spring Boot, or Django. Develop and maintain central databases to support application functionality.
     
-    Server-Side Development: 
-    Design and implement robust server-side components and web services using Java, Spring Boot, or Django. Develop and maintain central databases to support application functionality.
+    Performance Optimization: Ensure high performance, scalability, and responsiveness of backend services. Conduct performance tuning and optimization of server-side applications to handle large-scale data and traffic.
     
-    Performance Optimization: 
-    Ensure high performance, scalability, and responsiveness of backend services. Conduct performance tuning and optimization of server-side applications to handle large-scale data and traffic.
+    Database Management: Design and manage database schemas, optimize queries, and ensure data integrity and security. Collaborate with database administrators to implement backup and recovery strategies.
     
-    Database Management: 
-    Design and manage database schemas, optimize queries, and ensure data integrity and security. Collaborate with database administrators to implement backup and recovery strategies.
+    Integration: Integrate backend services with front-end applications and other external systems. Implement and maintain RESTful APIs to facilitate smooth data exchange and integration.
     
-    Integration: 
-    Integrate backend services with front-end applications and other external systems. Implement and maintain RESTful APIs to facilitate smooth data exchange and integration.
-    
-    Collaboration: 
-    Work closely with cross-functional teams, including front-end developers, product managers, and quality assurance engineers, to deliver high-quality software solutions.`,
+    Collaboration: Work closely with cross-functional teams, including front-end developers, product managers, and quality assurance engineers, to deliver high-quality software solutions.`,
+
+    skillNeeded: `
+    Backend Technologies: Proficiency in Java, Spring Boot, or Django.
+    Database Management: Experience with database design, optimization, and management.
+    Performance Optimization: Skills in tuning and optimizing server-side applications.
+    Integration: Knowledge of RESTful API development and integration.
+    Collaboration: Ability to work effectively with cross-functional teams.
+    `,
     benefits: "Retirement benefits, Health insurance",
     jobType: "Full-time",
     location: "Mumbai, Maharashtra",
@@ -4198,23 +3833,27 @@ const companyData = [
     companyLogo: companyImage.SecureNet,
     companyName: "SecureNet Pvt Ltd",
     date_recruitment: "2024-08-05",
-    salary: "11,00,000 • 16,00,000 per annum",
+    salary: "11,00,000   16,00,000 per annum",
     description: `As a Cybersecurity Consultant at SecureNet Pvt Ltd, you will play a crucial role in advising clients on cybersecurity measures and implementing effective security strategies.
+    `,
+    keyResponsibilties: `
+    Security Audits: Conduct comprehensive security audits and assessments to identify vulnerabilities and risks in client systems. Provide detailed reports and recommendations for improvement.
     
-    Security Audits: 
-    Conduct comprehensive security audits and assessments to identify vulnerabilities and risks in client systems. Provide detailed reports and recommendations for improvement.
+    Risk Management: Develop and implement risk management strategies to protect client data and infrastructure from cyber threats. Establish and enforce security policies and procedures.
     
-    Risk Management: 
-    Develop and implement risk management strategies to protect client data and infrastructure from cyber threats. Establish and enforce security policies and procedures.
+    Security Strategies: Design and implement customized security solutions based on client needs. Stay updated on the latest cybersecurity threats and technologies to provide cutting-edge solutions.
     
-    Security Strategies: 
-    Design and implement customized security solutions based on client needs. Stay updated on the latest cybersecurity threats and technologies to provide cutting-edge solutions.
+    Client Consultation: Work directly with clients to understand their security requirements and provide expert advice on best practices. Conduct security training and awareness programs for client staff.
     
-    Client Consultation: 
-    Work directly with clients to understand their security requirements and provide expert advice on best practices. Conduct security training and awareness programs for client staff.
-    
-    Compliance: 
-    Ensure that security measures and practices comply with industry standards and regulations. Assist clients in achieving and maintaining compliance with relevant security frameworks.`,
+    Compliance: Ensure that security measures and practices comply with industry standards and regulations. Assist clients in achieving and maintaining compliance with relevant security frameworks.`,
+
+    skillNeeded: `
+    Cybersecurity Tools: Proficiency with various security tools and technologies.
+    Security Audits: Experience in conducting security audits and risk assessments.
+    Risk Management: Skills in developing and implementing risk management strategies.
+    Client Consultation: Strong communication and client-facing skills.
+    Compliance: Knowledge of industry standards and regulations related to cybersecurity.
+    `,
     benefits: [
       "Health insurance",
       "Flexible working hours",
@@ -4235,23 +3874,24 @@ const companyData = [
     companyLogo: companyImage.ThermoFisherScientific,
     companyName: "Thermo Fisher Scientific",
     date_recruitment: "2024-08-02",
-    salary: "1,600,000 • 2,100,000 per annum",
-    description: `As a Database Administrator II at Thermo Fisher Scientific, you will be responsible for managing and maintaining database systems to support scientific research and development.
+    salary: "1,600,000   2,100,000 per annum",
+    description: `As a Database Administrator II at Thermo Fisher Scientific, you will be responsible for managing and maintaining database systems to support scientific research and development.`,
+    keyResponsibilties: `
+    Database Management: Administer and maintain SQL databases, including performance tuning, backup, and recovery. Ensure database reliability, availability, and security.
     
-    Database Management: 
-    Administer and maintain SQL databases, including performance tuning, backup, and recovery. Ensure database reliability, availability, and security.
+    Performance Optimization: Monitor and optimize database performance to ensure efficient operation. Conduct regular performance evaluations and implement necessary improvements.
     
-    Performance Optimization: 
-    Monitor and optimize database performance to ensure efficient operation. Conduct regular performance evaluations and implement necessary improvements.
+    Data Security: Implement and enforce database security measures to protect sensitive data. Ensure compliance with data privacy regulations and best practices.
     
-    Data Security: 
-    Implement and enforce database security measures to protect sensitive data. Ensure compliance with data privacy regulations and best practices.
+    Troubleshooting: Identify and resolve database-related issues, including performance bottlenecks, data corruption, and connectivity problems. Provide technical support to development teams.
     
-    Troubleshooting: 
-    Identify and resolve database-related issues, including performance bottlenecks, data corruption, and connectivity problems. Provide technical support to development teams.
-    
-    Collaboration: 
-    Work with scientific researchers and development teams to understand data requirements and provide solutions that support research objectives.`,
+    Collaboration: Work with scientific researchers and development teams to understand data requirements and provide solutions that support research objectives.`,
+
+    skillNeeded: `Android Development: Proficiency in Java and Android SDK.
+    Feature Development: Experience in developing and implementing features for Android applications.
+    Code Quality: Knowledge of best practices for code quality, testing, and documentation.
+    User Experience: Skills in optimizing applications for performance and user experience.
+    Collaboration: Ability to work with cross-functional teams and contribute to application strategy.`,
     benefits:
       "Health insurance, Remote working options, Professional development",
     jobType: "Full-time",
@@ -4271,22 +3911,24 @@ const companyData = [
     companyName: "Adobe",
     date_recruitment: "2024-07-15",
     salary: "Competitive",
-    description: `As an Android Developer at Adobe, you will be responsible for enhancing and maintaining existing Android applications.
+    description: `As an Android Developer at Adobe, you will be responsible for enhancing and maintaining existing Android applications.`,
+    keyResponsibilties: `
     
-    Application Enhancement: 
-    Develop and implement new features for Android applications using Java and Android SDK. Improve existing functionalities and ensure high performance and user experience.
+    Application Enhancement: Develop and implement new features for Android applications using Java and Android SDK. Improve existing functionalities and ensure high performance and user experience.
     
-    Feature Development: 
-    Collaborate with cross-functional teams, including product managers and designers, to translate requirements into technical solutions. Develop features that align with user needs and business objectives.
+    Feature Development: Collaborate with cross-functional teams, including product managers and designers, to translate requirements into technical solutions. Develop features that align with user needs and business objectives.
     
-    Code Quality: 
-    Adhere to best practices in Android development, including code reviews, automated testing, and documentation. Maintain high standards of code quality and ensure the reliability of applications.
+    Code Quality: Adhere to best practices in Android development, including code reviews, automated testing, and documentation. Maintain high standards of code quality and ensure the reliability of applications.
     
-    User Experience: 
-    Focus on creating a seamless and engaging user experience. Optimize applications for different devices and screen sizes to ensure consistency and performance.
+    User Experience: Focus on creating a seamless and engaging user experience. Optimize applications for different devices and screen sizes to ensure consistency and performance.
     
-    Collaboration: 
-    Work with other developers and stakeholders to integrate new features and resolve issues. Participate in design and planning discussions to contribute to the overall application strategy.`,
+    Collaboration: Work with other developers and stakeholders to integrate new features and resolve issues. Participate in design and planning discussions to contribute to the overall application strategy.`,
+    skillNeeded: `
+    Android Development: Proficiency in Java and Android SDK.
+    Feature Development: Experience in developing and implementing features for Android applications.
+    Code Quality: Knowledge of best practices for code quality, testing, and documentation.
+    User Experience: Skills in optimizing applications for performance and user experience.
+    Collaboration: Ability to work with cross-functional teams and contribute to application strategy.`,
     benefits:
       "Health insurance, paid time off, performance bonuses, and continuous learning opportunities.",
     jobType: "Full-time",
@@ -4307,21 +3949,23 @@ const companyData = [
     dateRecruitment: "Posted 1 day ago",
     salary: "6L – 12L",
     description: `As a Frontend Developer at Pay3, you will play a key role in developing and maintaining user-facing applications.
+    `,
+    keyResponsibilties: `
+    User Interface Development: Implement responsive and visually appealing user interfaces using HTML, CSS, and JavaScript. Ensure cross-browser compatibility and optimal performance across devices.
     
-    User Interface Development: 
-    Implement responsive and visually appealing user interfaces using HTML, CSS, and JavaScript. Ensure cross-browser compatibility and optimal performance across devices.
+    Feature Implementation: Collaborate with designers and backend developers to implement new features and functionalities. Ensure seamless integration of frontend and backend components.
     
-    Feature Implementation: 
-    Collaborate with designers and backend developers to implement new features and functionalities. Ensure seamless integration of frontend and backend components.
+    Code Quality and Testing: Maintain high code quality through code reviews, automated testing, and adherence to coding standards. Perform regular testing and debugging to identify and resolve issues.
     
-    Code Quality and Testing: 
-    Maintain high code quality through code reviews, automated testing, and adherence to coding standards. Perform regular testing and debugging to identify and resolve issues.
+    Performance Optimization: Optimize web applications for speed and scalability. Implement best practices for web performance and SEO.
     
-    Performance Optimization: 
-    Optimize web applications for speed and scalability. Implement best practices for web performance and SEO.
-    
-    Collaboration: 
-    Work closely with product managers, designers, and other stakeholders to deliver high-quality user experiences. Participate in agile development processes and contribute to continuous improvement efforts.`,
+    Collaboration: Work closely with product managers, designers, and other stakeholders to deliver high-quality user experiences. Participate in agile development processes and contribute to continuous improvement efforts.`,
+    skillNeeded: `
+    Front-End Technologies: Proficiency in modern front-end technologies and frameworks.
+    UI Development: Experience in creating and maintaining user interfaces.
+    Performance Optimization: Skills in optimizing front-end performance and implementing best practices.
+    Testing: Knowledge of testing methodologies and tools for front-end development.
+    Innovation: Ability to stay current with industry trends and contribute to platform improvements.`,
     benefits: [
       "Health insurance",
       "Flexible working hours",
@@ -4340,43 +3984,33 @@ const companyData = [
     companyLogo: companyImage.AINexus,
     companyName: "AI Nexus Pvt Ltd",
     date_recruitment: "2024-08-12",
-    salary: "13,00,000 • 18,00,000 per annum",
+    salary: "13,00,000   18,00,000 per annum",
     description: `As an AI ML Engineer at AI Nexus Pvt Ltd, you will play a pivotal role in developing and deploying cutting-edge machine learning models and AI solutions. 
+  `,
+    keyResponsibilties: `
+  Model Development: Design, build, and deploy machine learning models to solve complex problems and improve business outcomes. Utilize various machine learning techniques and frameworks to create efficient and scalable solutions. 
   
-  Model Development: 
-  Design, build, and deploy machine learning models to solve complex problems and improve business outcomes. Utilize various machine learning techniques and frameworks to create efficient and scalable solutions. 
+  Algorithm Optimization: Optimize existing algorithms for performance and accuracy. Implement best practices in model tuning and evaluation to enhance the effectiveness of AI systems. 
   
-  Algorithm Optimization: 
-  Optimize existing algorithms for performance and accuracy. Implement best practices in model tuning and evaluation to enhance the effectiveness of AI systems. 
+  Data Handling: Work with large datasets to preprocess, clean, and analyze data. Develop data pipelines and ensure data quality to support model training and validation. 
   
-  Data Handling: 
-  Work with large datasets to preprocess, clean, and analyze data. Develop data pipelines and ensure data quality to support model training and validation. 
+  Innovation: Contribute to innovative AI projects and research, staying updated with the latest trends and advancements in artificial intelligence and machine learning. 
   
-  Innovation: 
-  Contribute to innovative AI projects and research, staying updated with the latest trends and advancements in artificial intelligence and machine learning. 
-  
-  Collaboration: 
-  Collaborate with cross-functional teams, including data scientists, software engineers, and product managers, to integrate AI solutions into existing systems and applications.
+  Collaboration: Collaborate with cross-functional teams, including data scientists, software engineers, and product managers, to integrate AI solutions into existing systems and applications.
   
   `,
-    skillsNeeded: ` 
-  Machine Learning: 
-  Proficiency in machine learning techniques, algorithms, and tools. 
+    skillNeeded: ` 
+  Machine Learning: Proficiency in machine learning techniques, algorithms, and tools. 
   
-  Programming: 
-  Strong programming skills in Python, R, or similar languages. 
+  Programming: Strong programming skills in Python, R, or similar languages. 
   
-  Data Handling: 
-  Experience with data preprocessing, cleaning, and analysis. 
+  Data Handling: Experience with data preprocessing, cleaning, and analysis. 
   
-  Model Optimization: 
-  Knowledge of model optimization techniques and best practices. 
+  Model Optimization: Knowledge of model optimization techniques and best practices. 
   
-  Innovation: 
-  Ability to stay current with AI trends and contribute to innovative projects. 
+  Innovation: Ability to stay current with AI trends and contribute to innovative projects. 
   
-  Collaboration: 
-  Effective teamwork and communication skills.`,
+  Collaboration: Effective teamwork and communication skills.`,
     benefits: [
       "Health insurance",
       "Flexible working hours",
@@ -4398,43 +4032,33 @@ const companyData = [
     companyLogo: companyImage.TechwaveAI,
     companyName: "TechWave AI Inc.",
     date_recruitment: "2024-07-30",
-    salary: "14,00,000 • 22,00,000 per annum",
+    salary: "14,00,000   22,00,000 per annum",
     description: `As an AI ML Engineer at TechWave AI Inc., you will be responsible for developing and implementing advanced machine learning models and AI-driven products. 
+  `,
+    keyResponsibilties: `
+  Model Development: Design and implement machine learning models for various applications, including predictive analytics and natural language processing. Ensure models are accurate, scalable, and efficient. 
   
-  Model Development: 
-  Design and implement machine learning models for various applications, including predictive analytics and natural language processing. Ensure models are accurate, scalable, and efficient. 
+  Data Analysis: Work with large datasets to perform data cleaning, feature engineering, and exploratory data analysis. Develop and maintain data pipelines for model training and evaluation. 
   
-  Data Analysis: 
-  Work with large datasets to perform data cleaning, feature engineering, and exploratory data analysis. Develop and maintain data pipelines for model training and evaluation. 
+  Deep Learning: Utilize deep learning frameworks (e.g., TensorFlow, PyTorch) to develop and train complex models. Implement advanced techniques to address challenging AI problems. 
   
-  Deep Learning: 
-  Utilize deep learning frameworks (e.g., TensorFlow, PyTorch) to develop and train complex models. Implement advanced techniques to address challenging AI problems. 
-  
-  Product Development: 
-  Collaborate with product teams to integrate AI solutions into products and services. Ensure that AI models align with business objectives and user needs. 
-  
-  Performance Monitoring: 
-  Monitor model performance and make necessary adjustments to improve accuracy and efficiency. Conduct regular model evaluations and updates.
+  Product Development: Collaborate with product teams to integrate AI solutions into products and services. Ensure that AI models align with business objectives and user needs. 
+
+  Performance Monitoring: Monitor model performance and make necessary adjustments to improve accuracy and efficiency. Conduct regular model evaluations and updates.
   
   `,
-    skillsNeeded: ` 
-  Deep Learning: 
-  Proficiency with deep learning frameworks and techniques. 
+    skillNeeded: ` 
+   Deep Learning: Proficiency with deep learning frameworks and techniques. 
   
-  Programming: 
-  Strong skills in Python and experience with machine learning libraries. 
+   Programming: Strong skills in Python and experience with machine learning libraries. 
   
-  Data Analysis: 
-  Expertise in data cleaning, feature engineering, and analysis. 
+   Data Analysis: Expertise in data cleaning, feature engineering, and analysis. 
   
-  Product Development: 
-  Experience in integrating AI solutions into products. 
+   Product Development: Experience in integrating AI solutions into products. 
   
-  Performance Monitoring: 
-  Skills in monitoring and optimizing model performance. 
+   Performance Monitoring: Skills in monitoring and optimizing model performance. 
   
-  Collaboration: 
-  Ability to work with cross-functional teams and communicate effectively.`,
+   Collaboration: Ability to work with cross-functional teams and communicate effectively.`,
     benefits: [
       "Health insurance",
       "Paid time off",
@@ -4456,40 +4080,31 @@ const companyData = [
     companyLogo: companyImage.innovatechAI,
     companyName: "Innovatech AI",
     date_recruitment: "2024-08-10",
-    salary: "14,00,000 • 20,00,000 per annum",
+    salary: "14,00,000   20,00,000 per annum",
     description: `As an AI ML Engineer at Innovatech AI, you will be tasked with designing and developing sophisticated machine learning models for a range of AI projects. 
+  `,
+    keyResponsibilties: `
+  Model Design: Create and implement advanced machine learning models, including those for natural language processing and computer vision. Focus on model accuracy, performance, and scalability. 
   
-  Model Design: 
-  Create and implement advanced machine learning models, including those for natural language processing and computer vision. Focus on model accuracy, performance, and scalability. 
+  Programming: Develop and maintain code for machine learning solutions using languages such as Python or R. Ensure code quality and adherence to best practices. 
   
-  Programming: 
-  Develop and maintain code for machine learning solutions using languages such as Python or R. Ensure code quality and adherence to best practices. 
+  Tool Utilization: Leverage various AI tools and frameworks (e.g., TensorFlow, Keras) to build and deploy models. Stay updated with emerging tools and technologies in the AI space. 
   
-  Tool Utilization: 
-  Leverage various AI tools and frameworks (e.g., TensorFlow, Keras) to build and deploy models. Stay updated with emerging tools and technologies in the AI space. 
+  Project Management: Manage AI projects from conception through deployment, including setting milestones, tracking progress, and ensuring successful delivery. 
   
-  Project Management: 
-  Manage AI projects from conception through deployment, including setting milestones, tracking progress, and ensuring successful delivery. 
-  
-  Team Collaboration: 
-  Work closely with data scientists, engineers, and other stakeholders to integrate AI solutions into broader projects and systems.
+  Team Collaboration: Work closely with data scientists, engineers, and other stakeholders to integrate AI solutions into broader projects and systems.
   
   `,
-    skillsNeeded: ` 
-  AI Tools: 
-  Experience with AI tools and frameworks for model development. 
+    skillNeeded: ` 
+  AI Tools: Experience with AI tools and frameworks for model development. 
   
-  Programming: 
-  Strong programming skills in Python or R. 
+  Programming: Strong programming skills in Python or R. 
   
-  Project Management: 
-  Ability to manage projects and deliver results within deadlines. 
+  Project Management: Ability to manage projects and deliver results within deadlines. 
   
-  Model Development: 
-  Expertise in designing and developing machine learning models. 
+  Model Development: Expertise in designing and developing machine learning models. 
   
-  Collaboration: 
-  Effective communication and teamwork skills.`,
+  Collaboration: Effective communication and teamwork skills.`,
     benefits: [
       "Medical insurance",
       "Retirement benefits",
@@ -4512,40 +4127,31 @@ const companyData = [
     companyLogo: companyImage.GlobalPaymentsInc,
     companyName: "Global Payments Inc",
     date_recruitment: "2024-08-01",
-    salary: "1,300,000 • 1,800,000 per annum",
+    salary: "1,300,000   1,800,000 per annum",
     description: `As a Database Administrator at Global Payments Inc, you will be responsible for ensuring the reliable and efficient operation of our database systems that support payment processing. 
+  `,
+    keyResponsibilties: `
+  Database Optimization: Optimize and maintain database systems to ensure high performance, availability, and security. Implement and monitor database backup and recovery strategies. 
   
-  Database Optimization: 
-  Optimize and maintain database systems to ensure high performance, availability, and security. Implement and monitor database backup and recovery strategies. 
+  System Maintenance: Perform regular database maintenance tasks, including updates, patches, and performance tuning. Ensure that databases are running efficiently and reliably. 
   
-  System Maintenance: 
-  Perform regular database maintenance tasks, including updates, patches, and performance tuning. Ensure that databases are running efficiently and reliably. 
+  Data Security: Implement and enforce security measures to protect sensitive data. Ensure compliance with data privacy regulations and industry standards. 
   
-  Data Security: 
-  Implement and enforce security measures to protect sensitive data. Ensure compliance with data privacy regulations and industry standards. 
+  Troubleshooting: Identify and resolve database issues, including performance bottlenecks, connectivity problems, and data corruption. Provide technical support and guidance to other teams. 
   
-  Troubleshooting: 
-  Identify and resolve database issues, including performance bottlenecks, connectivity problems, and data corruption. Provide technical support and guidance to other teams. 
-  
-  Documentation: 
-  Maintain comprehensive documentation of database configurations, procedures, and changes. Ensure that documentation is up-to-date and accurate.
+  Documentation: Maintain comprehensive documentation of database configurations, procedures, and changes. Ensure that documentation is up-to-date and accurate.
   
   `,
-    skillsNeeded: ` 
-  Database Technologies: 
-  Proficiency with SQL databases and optimization techniques. 
+    skillNeeded: ` 
+  Database Technologies: Proficiency with SQL databases and optimization techniques. 
   
-  Data Security: 
-  Knowledge of database security measures and compliance requirements. 
+  Data Security: Knowledge of database security measures and compliance requirements. 
   
-  Troubleshooting: 
-  Skills in diagnosing and resolving database issues. 
+  Troubleshooting: Skills in diagnosing and resolving database issues. 
   
-  System Maintenance: 
-  Experience with database maintenance, updates, and performance tuning. 
+  System Maintenance: Experience with database maintenance, updates, and performance tuning. 
   
-  Documentation: 
-  Ability to create and maintain detailed documentation.`,
+  Documentation: Ability to create and maintain detailed documentation.`,
     benefits: [
       "Health insurance",
       "Flexible working hours",
@@ -4567,40 +4173,31 @@ const companyData = [
     companyLogo: companyImage.smartanalytics,
     companyName: "Smart Analytics",
     date_recruitment: "2024-07-15",
-    salary: "1,000,000 • 1,500,000 per annum",
+    salary: "1,000,000   1,500,000 per annum",
     description: `As a Data Scientist at Smart Analytics, you will develop and implement machine learning models and algorithms to extract valuable insights from large datasets. 
+  `,
+    keyResponsibilties: `
+  Model Development: Develop, train, and deploy machine learning models for various applications. Focus on model accuracy, scalability, and performance. 
   
-  Model Development: 
-  Develop, train, and deploy machine learning models for various applications. Focus on model accuracy, scalability, and performance. 
+  Data Analysis: Perform data wrangling, feature engineering, and exploratory data analysis to identify patterns and trends. Utilize statistical methods and data visualization tools to interpret findings. 
   
-  Data Analysis: 
-  Perform data wrangling, feature engineering, and exploratory data analysis to identify patterns and trends. Utilize statistical methods and data visualization tools to interpret findings. 
+  Collaboration: Work with cross-functional teams to integrate data-driven insights into business processes. Communicate findings and recommendations to stakeholders effectively. 
   
-  Collaboration: 
-  Work with cross-functional teams to integrate data-driven insights into business processes. Communicate findings and recommendations to stakeholders effectively. 
+  Continuous Improvement: Stay current with advancements in data science and machine learning. Contribute to knowledge sharing and continuous improvement initiatives within the team. 
   
-  Continuous Improvement: 
-  Stay current with advancements in data science and machine learning. Contribute to knowledge sharing and continuous improvement initiatives within the team. 
-  
-  Documentation: 
-  Maintain thorough documentation of data sources, analysis methodologies, and model development processes.
+  Documentation: Maintain thorough documentation of data sources, analysis methodologies, and model development processes.
   
   `,
-    skillsNeeded: ` 
-  Data Science: 
-  Proficiency in machine learning frameworks and statistical analysis. 
+    skillNeeded: ` 
+  Data Science: Proficiency in machine learning frameworks and statistical analysis. 
   
-  Programming: 
-  Strong programming skills in Python or R. 
+  Programming: Strong programming skills in Python or R. 
   
-  Data Visualization: 
-  Experience with data visualization tools like Tableau or Power BI. 
+  Data Visualization: Experience with data visualization tools like Tableau or Power BI. 
   
-  Collaboration: 
-  Excellent communication and teamwork skills. 
+  Collaboration: Excellent communication and teamwork skills. 
   
-  Continuous Learning: 
-  Ability to stay current with industry trends and advancements.`,
+  Continuous Learning: Ability to stay current with industry trends and advancements.`,
     benefits: [
       "Health insurance",
       "Paid time off",
@@ -4623,33 +4220,23 @@ const companyData = [
     companyLogo: companyImage.FranklinTempleton,
     companyName: "Franklin Templeton",
     date_recruitment: "2024-08-01",
-    salary: "1,500,000 • 2,000,000 per annum",
+    salary: "1,500,000   2,000,000 per annum",
     description: `As a Senior Database Administrator at Franklin Templeton, you will manage and optimize our PostgreSQL and cloud databases. 
-      Your role involves: 
-      Database Management: 
-      Administer and maintain PostgreSQL databases, ensuring high availability, performance, and security. Implement backup and recovery procedures, and perform regular database updates and patches. 
-      Cloud Database Solutions: 
-      Provide expertise in managing cloud-based databases. Develop strategies for deploying, scaling, and securing databases in cloud environments. 
-      Performance Tuning: 
-      Monitor database performance and optimize queries, indexes, and configurations to enhance efficiency and response times. 
-      Security: 
-      Implement robust security measures to protect sensitive data, including access controls, encryption, and compliance with regulatory requirements. 
-      Troubleshooting: 
-      Diagnose and resolve database issues, including performance bottlenecks, connectivity problems, and data integrity issues. Provide technical support and guidance to internal teams. 
       `,
-    skillsNeeded: ` 
-      PostgreSQL Expertise: 
-      Strong knowledge and experience with PostgreSQL database management. 
-      Cloud Databases: 
-      Proficiency in managing cloud-based databases (e.g., AWS RDS, Azure SQL). 
-      Performance Tuning: 
-      Skills in optimizing database performance and query efficiency. 
-      Security: 
-      Understanding of database security practices and compliance requirements. 
-      Troubleshooting: 
-      Ability to diagnose and resolve complex database issues. 
-      Communication: 
-      Effective communication skills to interact with internal teams and stakeholders.`,
+    keyResponsibilties: ` 
+      Database Management: Administer and maintain PostgreSQL databases, ensuring high availability, performance, and security. Implement backup and recovery procedures, and perform regular database updates and patches. 
+      Cloud Database Solutions: Provide expertise in managing cloud-based databases. Develop strategies for deploying, scaling, and securing databases in cloud environments. 
+      Performance Tuning: Monitor database performance and optimize queries, indexes, and configurations to enhance efficiency and response times. 
+      Security: Implement robust security measures to protect sensitive data, including access controls, encryption, and compliance with regulatory requirements. 
+      Troubleshooting: Diagnose and resolve database issues, including performance bottlenecks, connectivity problems, and data integrity issues. Provide technical support and guidance to internal teams. 
+      `,
+    skillNeeded: ` 
+      PostgreSQL Expertise: Strong knowledge and experience with PostgreSQL database management. 
+      Cloud Databases: Proficiency in managing cloud-based databases (e.g., AWS RDS, Azure SQL). 
+      Performance Tuning: Skills in optimizing database performance and query efficiency. 
+      Security: Understanding of database security practices and compliance requirements. 
+      Troubleshooting: Ability to diagnose and resolve complex database issues. 
+      Communication: Effective communication skills to interact with internal teams and stakeholders.`,
     benefits:
       "Health insurance, Professional development, Remote working options",
     jobType: "Full-time",
@@ -4669,32 +4256,22 @@ const companyData = [
     companyLogo: companyImage.CyberSafe,
     companyName: "CyberSafe Ltd.",
     date_recruitment: "2024-07-25",
-    salary: "8,00,000 • 12,00,000 per annum",
+    salary: "8,00,000   12,00,000 per annum",
     description: `As a Cybersecurity Engineer at CyberSafe Ltd., you will be responsible for protecting our organization's digital assets through effective security measures. 
       `,
     keyResponsibilties: ` 
-      Security Infrastructure: 
-      Design, implement, and maintain comprehensive security infrastructure to safeguard against cyber threats. Develop and deploy security protocols and systems. 
-      Threat Identification: 
-      Identify and analyze potential security threats and vulnerabilities. Conduct regular security assessments and penetration testing to uncover weaknesses. 
-      Compliance: 
-      Ensure compliance with industry standards and regulations. Develop and enforce security policies and procedures to meet regulatory requirements. 
-      Incident Response: 
-      Respond to and manage security incidents, including data breaches and cyber-attacks. Develop incident response plans and conduct post-incident analyses. 
-      Collaboration: 
-      Work with IT and development teams to integrate security measures into systems and applications. Provide guidance on security best practices. 
+      Security Infrastructure: Design, implement, and maintain comprehensive security infrastructure to safeguard against cyber threats. Develop and deploy security protocols and systems. 
+      Threat Identification: Identify and analyze potential security threats and vulnerabilities. Conduct regular security assessments and penetration testing to uncover weaknesses. 
+      Compliance: Ensure compliance with industry standards and regulations. Develop and enforce security policies and procedures to meet regulatory requirements. 
+      Incident Response: Respond to and manage security incidents, including data breaches and cyber-attacks. Develop incident response plans and conduct post-incident analyses. 
+      Collaboration: Work with IT and development teams to integrate security measures into systems and applications. Provide guidance on security best practices. 
       `,
-    skillsNeeded: ` 
-      Cybersecurity: 
-      Expertise in designing and maintaining security infrastructure. 
-      Threat Analysis: 
-      Ability to identify and assess security threats and vulnerabilities. 
-      Compliance: 
-      Knowledge of industry standards and regulatory requirements. Incident Response: Skills in managing and responding to security incidents. 
-      Collaboration: 
-      Effective teamwork and communication with IT and development teams. 
-      Technical Skills: 
-      Proficiency with security tools and technologies.`,
+    skillNeeded: ` 
+      Cybersecurity: Expertise in designing and maintaining security infrastructure. 
+      Threat Analysis: Ability to identify and assess security threats and vulnerabilities. 
+      Compliance: Knowledge of industry standards and regulatory requirements. Incident Response: Skills in managing and responding to security incidents. 
+      Collaboration: Effective teamwork and communication with IT and development teams. 
+      Technical Skills: Proficiency with security tools and technologies.`,
     benefits: [
       "Health and wellness programs",
       "Paid time off",
@@ -4716,31 +4293,22 @@ const companyData = [
     companyLogo: companyImage.SAP,
     companyName: "SAP",
     date_recruitment: "2024-08-02",
-    salary: "1,800,000 • 2,500,000 per annum",
+    salary: "1,800,000   2,500,000 per annum",
     description: `As a Java Developer at SAP, you will play a critical role in developing and maintaining Java-based applications. 
-      Your key responsibilities include: 
-      Application Development: 
-      Design, develop, and maintain Java applications and services. Utilize modern technologies such as Java, Angular, Kubernetes, Kafka, and MongoDB to create scalable and efficient solutions. 
-      Code Quality: 
-      Write clean, maintainable, and efficient code following best practices. Conduct code reviews and participate in continuous integration and deployment processes. 
-      Collaboration: 
-      Collaborate with cross-functional teams, including product managers, designers, and other developers, to understand requirements and deliver high-quality solutions. 
-      Performance Optimization: 
-      Optimize application performance and scalability through effective coding practices and performance tuning. Innovation: Stay current with industry trends and emerging technologies. Contribute to the evolution of our technology stack and development practices. 
       `,
-    skillsNeeded: ` 
-      Java Development: 
-      Proficiency in Java programming and related technologies. 
-      Modern Frameworks: 
-      Experience with Angular, Kubernetes, Kafka, and MongoDB. 
-      Code Quality: 
-      Skills in writing and maintaining high-quality code. 
-      Collaboration: 
-      Ability to work effectively with cross-functional teams. 
-      Performance Optimization: 
-      Knowledge of optimizing application performance and scalability. 
-      Innovation: 
-      Staying updated with industry trends and technologies.`,
+    keyResponsibilties: ` 
+      Application Development: Design, develop, and maintain Java applications and services. Utilize modern technologies such as Java, Angular, Kubernetes, Kafka, and MongoDB to create scalable and efficient solutions. 
+      Code Quality: Write clean, maintainable, and efficient code following best practices. Conduct code reviews and participate in continuous integration and deployment processes. 
+      Collaboration: Collaborate with cross-functional teams, including product managers, designers, and other developers, to understand requirements and deliver high-quality solutions. 
+      Performance Optimization: Optimize application performance and scalability through effective coding practices and performance tuning. Innovation: Stay current with industry trends and emerging technologies. Contribute to the evolution of our technology stack and development practices. 
+      `,
+    skillNeeded: ` 
+        Java Development: Proficiency in Java programming and related technologies. 
+        Modern Frameworks: Experience with Angular, Kubernetes, Kafka, and MongoDB. 
+        Code Quality: Skills in writing and maintaining high-quality code. 
+        Collaboration: Ability to work effectively with cross-functional teams. 
+        Performance Optimization: Knowledge of optimizing application performance and scalability. 
+        Innovation: Staying updated with industry trends and technologies.`,
     benefits:
       "Comprehensive health coverage, Professional development, Flexible working hours",
     jobType: "Full-time",
@@ -4760,28 +4328,23 @@ const companyData = [
     companyLogo: companyImage.InfosecInnovators,
     companyName: "Infosec Innovators",
     date_recruitment: "2024-08-10",
-    salary: "9,00,000 • 13,00,000 per annum",
-    description: `As a Cybersecurity Specialist at Infosec Innovators, you will be responsible for safeguarding the company's digital assets and ensuring robust security measures. 
-      Your role involves: 
-      Vulnerability Assessment: 
-      Conduct regular vulnerability assessments to identify potential security risks. Develop and implement strategies to address and mitigate vulnerabilities. 
-      Security Policies: 
-      Develop and enforce security policies and procedures to protect sensitive information. Ensure compliance with industry standards and regulations. 
-      Incident Management: 
-      Respond to and manage security incidents, including breaches and cyber-attacks. Conduct post-incident analysis to prevent future occurrences. 
-      Network Security: 
-      Implement and maintain network security measures, including firewalls, intrusion detection systems, and encryption protocols. 
-      Collaboration: 
-      Work with IT and development teams to integrate security measures into systems and applications. Provide guidance on security best practices. 
+    salary: "9,00,000   13,00,000 per annum",
+    description: `As a Cybersecurity Specialist at Infosec Innovators, you will be responsible for safeguarding the company's digital assets and ensuring robust security measures.`,
+
+    keyResponsibilties: `
+        Vulnerability Assessment: Conduct regular vulnerability assessments to identify potential security risks. Develop and implement strategies to address and mitigate vulnerabilities. 
+        Security Policies: Develop and enforce security policies and procedures to protect sensitive information. Ensure compliance with industry standards and regulations. 
+        Incident Management: Respond to and manage security incidents, including breaches and cyber-attacks. Conduct post-incident analysis to prevent future occurrences. 
+        Network Security: Implement and maintain network security measures, including firewalls, intrusion detection systems, and encryption protocols. 
+        Collaboration: Work with IT and development teams to integrate security measures into systems and applications. Provide guidance on security best practices. 
       `,
-    skillsNeeded: ` 
-      Vulnerability Assessment: 
-      Expertise in conducting security assessments and identifying risks. 
-      Security Policies: Knowledge of developing and implementing security policies. 
-      Incident Management: Skills in managing and responding to security incidents. 
-      Network Security: Proficiency with network security measures and technologies. 
-      Collaboration: Effective communication and teamwork with IT and development teams. 
-      Technical Skills: Understanding of cryptography and network security principles.`,
+    skillNeeded: ` 
+        Vulnerability Assessment: Expertise in conducting security assessments and identifying risks. 
+        Security Policies: Knowledge of developing and implementing security policies. 
+        Incident Management: Skills in managing and responding to security incidents. 
+        Network Security: Proficiency with network security measures and technologies. 
+        Collaboration: Effective communication and teamwork with IT and development teams. 
+        Technical Skills: Understanding of cryptography and network security principles.`,
     benefits: [
       "Medical insurance",
       "Retirement benefits",
@@ -4809,46 +4372,39 @@ const companyData = [
     
     `,
     keyResponsibilties: `
+      UI Development:
+      Design, build, and maintain user interfaces using JavaScript, React, and other modern frontend frameworks.
+      Ensure that the user interfaces are responsive, performant, and provide an excellent user experience.
   
-    UI Development:
-    • Design, build, and maintain user interfaces using JavaScript, React, and other modern frontend frameworks.
-    • Ensure that the user interfaces are responsive, performant, and provide an excellent user experience.
+      Collaboration:
+      Partner closely with designers to convert design concepts into functional user interfaces.
+      Work with backend developers to integrate frontend components with backend systems and services.
   
-    Collaboration:
-    • Partner closely with designers to convert design concepts into functional user interfaces.
-    • Work with backend developers to integrate frontend components with backend systems and services.
+      Optimization:
+      Optimize web applications to achieve the highest possible speed and performance.
+      Implement best practices and techniques in frontend development to enhance usability and application efficiency.
   
-    Optimization:
-    • Optimize web applications to achieve the highest possible speed and performance.
-    • Implement best practices and techniques in frontend development to enhance usability and application efficiency.
+      Innovation:
+      Stay abreast of the latest trends and advancements in frontend development.
+      Contribute to the development of new features and improvements, leveraging emerging technologies and methodologies.
   
-    Innovation:
-    • Stay abreast of the latest trends and advancements in frontend development.
-    • Contribute to the development of new features and improvements, leveraging emerging technologies and methodologies.
-  
-    Testing:
-    • Develop and maintain unit and integration tests to ensure the reliability, functionality, and quality of frontend code.
+      Testing:
+      Develop and maintain unit and integration tests to ensure the reliability, functionality, and quality of frontend code.
   
     `,
-    skillsNeeded: `
+    skillNeeded: `
   
-    Frontend Technologies:
-    • Strong proficiency in JavaScript, React, and other modern frontend frameworks.
+      Frontend Technologies:Strong proficiency in JavaScript, React, and other modern frontend frameworks.
   
-    UI/UX Design:
-    • Ability to effectively translate design concepts into fully functional user interfaces.
+      UI/UX Design:Ability to effectively translate design concepts into fully functional user interfaces.
   
-    Optimization:
-    • Expertise in optimizing web applications for speed and performance.
+      Optimization:Expertise in optimizing web applications for speed and performance.
   
-    Collaboration:
-    • Proven ability to work effectively with designers and backend developers.
+      Collaboration:Proven ability to work effectively with designers and backend developers.
   
-    Innovation:
-    • Commitment to staying updated with the latest trends and technologies in frontend development.
+      Innovation:Commitment to staying updated with the latest trends and technologies in frontend development.
   
-    Testing:
-    • Experience in writing and maintaining unit and integration tests for frontend applications.
+      Testing:Experience in writing and maintaining unit and integration tests for frontend applications.
     `,
     benefits: "Equity: 0.0% – 0.2%",
     jobType: "Full-time",

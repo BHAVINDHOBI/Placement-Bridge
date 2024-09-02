@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import TechnologyCard from "./LatestTechnologiesCard";
 import technologies from "../data/technologies.json";
 import {
@@ -19,6 +19,8 @@ const LatestTechnology = () => {
   const itemsPerPage = 5;
   const [page, setPage] = useState(1);
   const [searchQuery, setSearchQuery] = useState("");
+  const [isScrolled, setIsScrolled] = useState(false);
+
   const handlePageChange = (event, value) => {
     setPage(value);
   };
@@ -39,56 +41,127 @@ const LatestTechnology = () => {
     navigate("/");
   };
 
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 0);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.src =
+      "https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs";
+    script.type = "module";
+    document.body.appendChild(script);
+
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
+
   return (
     <StarryBackground>
       <div className="main-technology">
         <section className="technology-container">
-          <IconButton
-            sx={{
-              position: { xs: "fixed", sm: "absolute" },
-              top: { xs: "10px", sm: "20px" },
-              left: { xs: "10px", sm: "20px" },
-              color: "#fff",
-              backgroundColor: "rgba(0, 0, 0, 0.5)",
-              "&:hover": {
-                backgroundColor: "rgba(0, 0, 0, 0.7)",
-              },
-              zIndex: 1, // Ensure the button is above other content
-            }}
-            onClick={handleGoBack}
-          >
-            <ArrowBack />
-          </IconButton>
           <Box
             className="header-section"
             sx={{
+              position: "fixed",
+              top: 0,
               display: "flex",
               flexDirection: "row",
               alignItems: "center",
-              justifyContent: "center", // Center horizontally
-              margin: "0 auto",
-              maxWidth: "1200px", // Align with card width
-              padding: "0 20px", // Add some padding on the sides
-              marginBottom: "20px", // Space between header and cards
+              width: "100%",
+              maxWidth: "1200px",
+              left: "50%",
+              transform: "translateX(-50%)",
+              padding: "0px 10px",
+              backgroundColor: isScrolled
+                ? "rgba(0, 0, 0, 0.5)"
+                : "transparent",
+              backdropFilter: isScrolled ? "blur(5px)" : "none",
+              WebkitBackdropFilter: isScrolled ? "blur(5px)" : "none",
+              borderRadius: isScrolled ? "5px" : "0px",
+              border: isScrolled
+                ? "1px solid rgba(255, 255, 255, 0.2)"
+                : "none",
+              transition:
+                "background-color 0.3s ease, border-radius 0.3s ease, border 0.3s ease",
             }}
           >
-            <Typography
-              variant="h4"
-              component="h1"
-              className="page-title"
-              sx={{ marginRight: 2 }} // Add some space between title and search bar
+            <IconButton
+              sx={{
+                color: "#fff",
+                backgroundColor: "rgba(0, 0, 0, 0.5)",
+                marginRight: { md: "20px" },
+                "&:hover": {
+                  backgroundColor: "rgba(0, 0, 0, 0.7)",
+                },
+              }}
+              onClick={handleGoBack}
             >
-              Latest Technology
-            </Typography>
+              <ArrowBack />
+            </IconButton>
+            <Box
+              sx={{
+                display: "flex",
+                alignItems: "center",
+              }}
+            >
+              <Typography
+                variant="h5"
+                component="h1"
+                className="page-title"
+                sx={{
+                  marginLeft: 1,
+                  fontSize: {
+                    xs: "1.4rem", // Font size for extra-small devices (mobile)
+                    sm: "1.7rem", // Font size for small devices (tablets)
+                    md: "2rem", // Font size for medium devices (desktop)
+                  },
+                }}
+              >
+                Latest Technologies
+              </Typography>
+              <Box
+                sx={{
+                  width: { xs: "40px", sm: "50px", md: "60px" }, // Adjust the width for different screen sizes
+                  height: { xs: "40px", sm: "50px", md: "60px" },
+
+                  marginRight: { xs: 2.5 },
+                }}
+              >
+                <dotlottie-player
+                  src="https://lottie.host/bb790e49-6113-49d2-b81c-bd93c8fa381d/pNiXhqrFbn.json"
+                  background="transparent"
+                  speed="1"
+                  style={{ width: "100%", height: "100%" }}
+                  loop
+                  autoplay
+                ></dotlottie-player>
+              </Box>
+            </Box>
+
             <TextField
-              label="Search Subject"
+              label="Search Technologies"
               variant="outlined"
               value={searchQuery}
               onChange={handleSearchChange}
               className="search-bar"
-              sx={{ width: "400px" }} // Set a fixed width to the search bar
+              sx={{ width: "400px", marginLeft: "auto" }}
             />
           </Box>
+          <Box
+            sx={{
+              marginTop: { xs: "50px", md: "50px" }, // Apply marginTop only on mobile (xs)
+              padding: { xs: "40px", md: "40px" }, // Apply padding only on mobile (xs)
+            }}
+          ></Box>
           <div className="main-container">
             {currentItems.map((tech, index) => (
               <React.Fragment key={index}>

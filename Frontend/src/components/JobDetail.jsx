@@ -26,7 +26,6 @@ import {
 } from "@mui/icons-material";
 import "../styles/JobDetail.css";
 import jsPDF from "jspdf";
-import html2canvas from "html2canvas";
 
 const Keyresp = "Key Responsibilities: ";
 const skillsNeeded = "Required Skills: ";
@@ -57,36 +56,36 @@ const JobDetail = ({ jobs }) => {
     setOpenRoadmap(false);
   };
 
-  const handleDownloadAsPng = () => {
-    fetch(job.Roadmap)
-      .then((response) => response.text())
-      .then((svgContent) => {
-        const svgBase64 = btoa(unescape(encodeURIComponent(svgContent)));
-        const imgSrc = `data:image/svg+xml;base64,${svgBase64}`;
-        const img = new Image();
+  // const handleDownloadAsPng = () => {
+  //   fetch(job.Roadmap)
+  //     .then((response) => response.text())
+  //     .then((svgContent) => {
+  //       const svgBase64 = btoa(unescape(encodeURIComponent(svgContent)));
+  //       const imgSrc = `data:image/svg+xml;base64,${svgBase64}`;
+  //       const img = new Image();
 
-        img.onload = () => {
-          const canvas = document.createElement("canvas");
-          canvas.width = img.width;
-          canvas.height = img.height;
-          const ctx = canvas.getContext("2d");
-          ctx.drawImage(img, 0, 0);
+  //       img.onload = () => {
+  //         const canvas = document.createElement("canvas");
+  //         canvas.width = img.width;
+  //         canvas.height = img.height;
+  //         const ctx = canvas.getContext("2d");
+  //         ctx.drawImage(img, 0, 0);
 
-          const pngUrl = canvas.toDataURL("image/png");
-          const link = document.createElement("a");
-          link.href = pngUrl;
-          link.download = "roadmap.png";
-          document.body.appendChild(link);
-          link.click();
-          document.body.removeChild(link);
-        };
+  //         const pngUrl = canvas.toDataURL("image/png");
+  //         const link = document.createElement("a");
+  //         link.href = pngUrl;
+  //         link.download = "roadmap.png";
+  //         document.body.appendChild(link);
+  //         link.click();
+  //         document.body.removeChild(link);
+  //       };
 
-        img.src = imgSrc; // Load the SVG as an image using the Base64 data URL
-      })
-      .catch((error) => {
-        console.error("Error converting the SVG to PNG:", error);
-      });
-  };
+  //       img.src = imgSrc; // Load the SVG as an image using the Base64 data URL
+  //     })
+  //     .catch((error) => {
+  //       console.error("Error converting the SVG to PNG:", error);
+  //     });
+  // };
 
   const handleDownloadAsPdf = () => {
     fetch(job.Roadmap)
@@ -133,11 +132,11 @@ const JobDetail = ({ jobs }) => {
     .filter((section) => section.trim() !== "");
 
   const KR = job.keyResponsibilties
-    .split("•")
-    .filter((section) => section.trim() !== "");
+    .split("\n")
+    .filter((section) => section.trim("•") !== "");
 
-  const SN = job.skillsNeeded
-    .split("•")
+  const SN = job.skillNeeded
+    .split("\n")
     .filter((section) => section.trim() !== "");
 
   return (
