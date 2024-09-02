@@ -1,6 +1,7 @@
+import startup from "../assets/StartUpImages";
 const StartUp = [
   {
-    imagesrc: "/src/assets/StartupImages/GlazeGPT.png",
+    imagesrc: startup.GlazeGPT,
     altText: "GlazeGPT",
     Name: "GlazeGPT",
     Description:
@@ -14,7 +15,7 @@ const StartUp = [
     IndustrySector: "AI/Tech",
   },
   {
-    imagesrc: "/src/assets/StartupImages/loopin.webp",
+    imagesrc: startup.loopin,
     altText: "Loopin",
     Name: "Loopin",
     Description:
@@ -28,7 +29,7 @@ const StartUp = [
     IndustrySector: "Productivity",
   },
   {
-    imagesrc: "/src/assets/StartupImages/RecurClub.jpg",
+    imagesrc: startup.RecurClub,
     altText: "Recur Club",
     Name: "Recur Club",
     Description:
@@ -42,7 +43,7 @@ const StartUp = [
     IndustrySector: "FinTech",
   },
   {
-    imagesrc: "/src/assets/StartupImages/Vauld.jpg",
+    imagesrc: startup.Vauld,
     altText: "Vauld",
     Name: "Vauld",
     Description:
@@ -56,7 +57,7 @@ const StartUp = [
     IndustrySector: "FinTech/Crypto",
   },
   {
-    imagesrc: "/src/assets/StartupImages/Stackbox.jpeg",
+    imagesrc: startup.Stackbox,
     altText: "StackBox",
     Name: "StackBox",
     Description:
@@ -70,7 +71,7 @@ const StartUp = [
     IndustrySector: "LogisticsTech",
   },
   {
-    imagesrc: "/src/assets/StartupImages/Fashinza.jpg",
+    imagesrc: startup.Fashinza,
     altText: "Fashinza",
     Name: "Fashinza",
     Description:
@@ -84,7 +85,7 @@ const StartUp = [
     IndustrySector: "FashionTech",
   },
   {
-    imagesrc: "/src/assets/StartupImages/jar.png",
+    imagesrc: startup.jar,
     altText: "Jar",
     Name: "Jar",
     Description:
@@ -99,7 +100,7 @@ const StartUp = [
     IndustrySector: "FinTech",
   },
   {
-    imagesrc: "/src/assets/StartupImages/Bikayi.png",
+    imagesrc: startup.Bikayi,
     altText: "Bikayi",
     Name: "Bikayi",
     Description:
@@ -113,7 +114,7 @@ const StartUp = [
     IndustrySector: "E-commerce",
   },
   {
-    imagesrc: "/src/assets/StartupImages/truefoundry.jpeg",
+    imagesrc: startup.truefoundry,
     altText: "TrueFoundry",
     Name: "TrueFoundry",
     Description:
@@ -128,7 +129,7 @@ const StartUp = [
     IndustrySector: "AI/DevOps",
   },
   {
-    imagesrc: "/src/assets/StartupImages/Heaps.png",
+    imagesrc: startup.Heaps,
     altText: "Heaps",
     Name: "Heaps",
     Description:
@@ -142,7 +143,7 @@ const StartUp = [
     IndustrySector: "HealthTech",
   },
   {
-    imagesrc: "/src/assets/StartupImages/plum.jpeg",
+    imagesrc: startup.plum,
     altText: "Plum",
     Name: "Plum",
     Description:
@@ -156,7 +157,7 @@ const StartUp = [
     IndustrySector: "HRTech",
   },
   {
-    imagesrc: "/src/assets/StartupImages/zepto.png",
+    imagesrc: startup.zepto,
     altText: "Zepto",
     Name: "Zepto",
     Description:
@@ -170,7 +171,7 @@ const StartUp = [
     IndustrySector: "Quick Commerce",
   },
   {
-    imagesrc: "/src/assets/StartupImages/Mobikwik.jpg",
+    imagesrc: startup.Mobikwik,
     altText: "Mobikwik",
     Name: "Mobikwik",
     Description:
@@ -184,7 +185,7 @@ const StartUp = [
     IndustrySector: "FinTech",
   },
   {
-    imagesrc: "/src/assets/StartupImages/Bewakoof.jpg",
+    imagesrc: startup.Bewakoof,
     altText: "Bewakoof",
     Name: "Bewakoof",
     Description:
@@ -198,7 +199,7 @@ const StartUp = [
     IndustrySector: "FashionTech",
   },
   {
-    imagesrc: "/src/assets/StartupImages/Healthifyme.png",
+    imagesrc: startup.Healthifyme,
     altText: "HealthifyMe",
     Name: "HealthifyMe",
     Description:
@@ -212,7 +213,7 @@ const StartUp = [
     IndustrySector: "HealthTech",
   },
   {
-    imagesrc: "/src/assets/StartupImages/NoBroker.png",
+    imagesrc: startup.NoBroker,
     altText: "NoBroker",
     Name: "NoBroker",
     Description:
@@ -227,7 +228,7 @@ const StartUp = [
     IndustrySector: "PropTech",
   },
   {
-    imagesrc: "/src/assets/StartupImages/Blinkit.png",
+    imagesrc: startup.Blinkit,
     altText: "Blinkit",
     Name: "Blinkit",
     Description:
@@ -243,7 +244,7 @@ const StartUp = [
   },
 
   {
-    imagesrc: "/src/assets/StartupImages/Redyfynd.png",
+    imagesrc: startup.Redyfynd,
     altText: "Redyfynd",
     Name: "Redyfynd",
     Description:
@@ -258,7 +259,7 @@ const StartUp = [
   },
 
   {
-    imagesrc: "/src/assets/StartupImages/BharatPe.jpg",
+    imagesrc: startup.BharatPe,
     altText: "BharatPe",
     Name: "BharatPe",
     Description:
@@ -272,7 +273,7 @@ const StartUp = [
     IndustrySector: "FinTech",
   },
   {
-    imagesrc: "/src/assets/StartupImages/healthkart.jpeg",
+    imagesrc: startup.healthkart,
     altText: "Healthkart",
     Name: "Healthkart",
     Description:
@@ -286,7 +287,7 @@ const StartUp = [
     IndustrySector: "HealthTech",
   },
   {
-    imagesrc: "/src/assets/StartupImages/TheShirtDanady.jpeg",
+    imagesrc: startup.TheShirtDanady,
     altText: "The Shirt Dandy",
     Name: "The Shirt Dandy",
     Description:
@@ -300,7 +301,7 @@ const StartUp = [
     IndustrySector: "FashionTech",
   },
   {
-    imagesrc: "/src/assets/StartupImages/Khatabook.avif",
+    imagesrc: startup.Khatabook,
     altText: "Khatabook",
     Name: "Khatabook",
     Description:
@@ -314,7 +315,7 @@ const StartUp = [
     IndustrySector: "FinTech",
   },
   {
-    imagesrc: "/src/assets/StartupImages/Zerodha.png",
+    imagesrc: startup.Zerodha,
     altText: "Zerodha",
     Name: "Zerodha",
     Description:
@@ -328,7 +329,7 @@ const StartUp = [
     IndustrySector: "FinTech",
   },
   {
-    imagesrc: "/src/assets/StartupImages/Sugar.jpg",
+    imagesrc: startup.Sugar,
     altText: "Sugar",
     Name: "Sugar",
     Description:
@@ -342,7 +343,7 @@ const StartUp = [
     IndustrySector: "BeautyTech",
   },
   {
-    imagesrc: "/src/assets/StartupImages/OfBusiness.jpeg",
+    imagesrc: startup.OfBusiness,
     altText: "OfBusiness",
     Name: "OfBusiness",
     Description:
@@ -356,7 +357,7 @@ const StartUp = [
     IndustrySector: "FinTech",
   },
   {
-    imagesrc: "/src/assets/StartupImages/BlueTokaiCoffee.png",
+    imagesrc: startup.BlueTokaiCoffee,
     altText: "Blue Tokai Coffee Roasters",
     Name: "Blue Tokai Coffee Roasters",
     Description:
@@ -371,7 +372,7 @@ const StartUp = [
   },
 
   {
-    imagesrc: "/src/assets/StartupImages/QApita.jpg",
+    imagesrc: startup.QApita,
     altText: "QApita",
     Name: "QApita",
     Description:
@@ -386,7 +387,7 @@ const StartUp = [
   },
 
   {
-    imagesrc: "/src/assets/StartupImages/Zolve.png",
+    imagesrc: startup.Zolve,
     altText: "Zolve",
     Name: "Zolve",
     Description:
@@ -400,7 +401,7 @@ const StartUp = [
     IndustrySector: "FinTech",
   },
   {
-    imagesrc: "/src/assets/StartupImages/RevFin.png",
+    imagesrc: startup.RevFin,
     altText: "RevFin",
     Name: "RevFin",
     Description:

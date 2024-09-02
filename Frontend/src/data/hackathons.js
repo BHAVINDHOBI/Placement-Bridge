@@ -1,6 +1,8 @@
+import HackathonImages from "../assets/Hackathon";
+
 const hackathonData = [
   {
-    imageSrc: "src/assets/HackathonImages/SmartIndiaHackathon.png",
+    imageSrc: HackathonImages.smartindia,
     altText: "Smart India Hackathon 2024",
     title: "Smart India Hackathon 2024",
     mode: "Online",
@@ -11,7 +13,7 @@ const hackathonData = [
     link: "https://sih.gov.in",
   },
   {
-    imageSrc: "src/assets/HackathonImages/bhartiyaantirks.png",
+    imageSrc: HackathonImages.bhartiyaantirks,
     altText: "Bharatiya Antariksh Hackathon 2024",
     title: "Bharatiya Antariksh Hackathon 2024",
     mode: "Online",
@@ -22,7 +24,7 @@ const hackathonData = [
     link: "https://isro.hack2skill.com",
   },
   {
-    imageSrc: "src/assets/HackathonImages/hackspire.webp",
+    imageSrc: HackathonImages.hackspire,
     altText: "HackSpire 2024",
     title: "HackSpire 2024",
     mode: "Offline",
@@ -33,7 +35,7 @@ const hackathonData = [
     link: "https://hackspire.devfolio.co",
   },
   {
-    imageSrc: "src/assets/HackathonImages/MumbaiHacks.jpeg",
+    imageSrc: HackathonImages.MumbaiHacks,
     altText: "MumbaiHacks",
     title: "MumbaiHacks",
     mode: "Offline",
@@ -44,7 +46,7 @@ const hackathonData = [
     link: "https://mumbaihacks.com",
   },
   {
-    imageSrc: "src/assets/HackathonImages/hackwithinfi.png",
+    imageSrc: HackathonImages.hackwithinfi,
     altText: "HackWithInfy 2024",
     title: "HackWithInfy 2024",
     mode: "Online",
@@ -55,7 +57,7 @@ const hackathonData = [
     link: "https://www.infosys.com/careers/hackwithinfy.html",
   },
   {
-    imageSrc: "src/assets/HackathonImages/Devmatch.webp",
+    imageSrc: HackathonImages.Devmatch,
     altText: "DevMatch 2024",
     title: "DevMatch 2024",
     mode: "Offline",
@@ -66,7 +68,7 @@ const hackathonData = [
     link: "https://devmatch.devfolio.co",
   },
   {
-    imageSrc: "src/assets/HackathonImages/buildtheflow.webp",
+    imageSrc: HackathonImages.buildtheflow,
     altText: "BuildTheFlow 2024",
     title: "BuildTheFlow 2024",
     mode: "Online",
@@ -77,7 +79,7 @@ const hackathonData = [
     link: "https://buildtheflow.devfolio.co",
   },
   {
-    imageSrc: "src/assets/HackathonImages/quantamaze.webp",
+    imageSrc: HackathonImages.quantamaze,
     altText: "Quant-A-Maze 2.0",
     title: "Quant-A-Maze 2.0",
     mode: "Offline",
@@ -88,7 +90,7 @@ const hackathonData = [
     link: "https://quantamaze-2.devfolio.co",
   },
   {
-    imageSrc: "src/assets/HackathonImages/codeclash.webp",
+    imageSrc: HackathonImages.codeclash,
     altText: "CodeClash 2024",
     title: "CodeClash 2024",
     mode: "Offline",
@@ -99,7 +101,7 @@ const hackathonData = [
     link: "https://codeclash24.devfolio.co",
   },
   {
-    imageSrc: "src/assets/HackathonImages/frosthacks.webp",
+    imageSrc: HackathonImages.frosthacks,
     altText: "FrostHacks S01",
     title: "FrostHacks S01",
     mode: "Offline",
@@ -110,7 +112,7 @@ const hackathonData = [
     link: "https://frosthacks-s01.devfolio.co",
   },
   {
-    imageSrc: "src/assets/HackathonImages/cryptoshieldhackathon.webp",
+    imageSrc: HackathonImages.cryptoshield,
     altText: "CryptoShield Hackathon",
     title: "CryptoShield Hackathon",
     mode: "Offline",
@@ -121,7 +123,7 @@ const hackathonData = [
     link: "https://cryptoshield-hackathon.devfolio.co",
   },
   {
-    imageSrc: "src/assets/HackathonImages/scrollhacks.webp",
+    imageSrc: HackathonImages.scrollhacks,
     altText: "Scroll Hacks",
     title: "Scroll Hacks",
     mode: "Online",
@@ -132,7 +134,7 @@ const hackathonData = [
     link: "https://scrollhacks.devfolio.co",
   },
   {
-    imageSrc: "src/assets/HackathonImages/infinia.webp",
+    imageSrc: HackathonImages.infinia,
     altText: "Infinia 2024",
     title: "Infinia 2024",
     mode: "Offline",
@@ -143,7 +145,7 @@ const hackathonData = [
     link: "https://infinia.devfolio.co",
   },
   {
-    imageSrc: "src/assets/HackathonImages/monash.webp",
+    imageSrc: HackathonImages.monash,
     altText: "Monash Hackfest",
     title: "Monash Hackfest",
     mode: "Offline",
@@ -154,7 +156,7 @@ const hackathonData = [
     link: "https://monash-hackfest.devfolio.co",
   },
   {
-    imageSrc: "src/assets/HackathonImages/NeedForcode.webp",
+    imageSrc: HackathonImages.NeedForcode,
     altText: "NeedForCode 3.0",
     title: "NeedForCode 3.0",
     mode: "Offline",
@@ -165,7 +167,7 @@ const hackathonData = [
     link: "https://needforcode.devfolio.co",
   },
   {
-    imageSrc: "src/assets/HackathonImages/invisiblegarden.webp",
+    imageSrc: HackathonImages.invisiblegarden,
     altText: "Invisible Garden #0",
     title: "Invisible Garden #0",
     mode: "Offline",
@@ -176,7 +178,7 @@ const hackathonData = [
     link: "https://invisible-garden.devfolio.co",
   },
   {
-    imageSrc: "src/assets/HackathonImages/error_418.webp",
+    imageSrc: HackathonImages.error418,
     altText: "ERROR_418",
     title: "ERROR_418",
     mode: "Offline",
@@ -187,7 +189,7 @@ const hackathonData = [
     link: "https://error-418.devfolio.co",
   },
   {
-    imageSrc: "src/assets/HackathonImages/buildtheinternet.webp",
+    imageSrc: HackathonImages.buildtheinternet,
     altText: "Build the New Internet",
     title: "Build the New Internet",
     mode: "Online",
@@ -198,7 +200,7 @@ const hackathonData = [
     link: "https://build-the-new-internet.devfolio.co",
   },
   {
-    imageSrc: "src/assets/HackathonImages/hackcolossus.png",
+    imageSrc: HackathonImages.hackcolossus,
     altText: "Hack Colossus",
     title: "Hack Colossus",
     mode: "Offline",
