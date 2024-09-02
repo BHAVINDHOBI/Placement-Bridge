@@ -60,7 +60,7 @@ const TransparentBar = () => (
         { logo: image.ProvideLogo, label: "Provide" },
       ].map((item, index) => (
         <React.Fragment key={index}>
-          <Grid item xs={5} sm={2}>
+          <Grid item xs={4} sm={2.46} md={2}>
             <Box
               sx={{
                 display: "flex",
@@ -68,18 +68,22 @@ const TransparentBar = () => (
                 gap: "10px",
                 justifyContent: "center",
                 alignItems: "center",
-                width: { xs: "150px", sm: "170px", md: "204px" }, // Adjusted width for sm screens
-                height: { xs: "150px", sm: "180px", md: "201px" }, // Adjusted height for sm screens
+                width: { xs: "120px", sm: "160px", md: "204px" }, // Adjusted width for sm screens
+                height: { xs: "120px", sm: "160px", md: "201px" }, // Adjusted height for sm screens
                 border: "3px solid #0038FF",
                 borderRadius: "100px",
                 padding: "10px",
               }}
             >
-              <img
-                className="bar-logo"
+              <Box
+                component="img"
                 src={item.logo}
                 alt={item.label.toLowerCase()}
-                style={{ maxWidth: "100%", maxHeight: "100%" }} // Ensure logos are responsive
+                sx={{
+                  maxWidth: { xs: "55px", sm: "65px", md: "80px" }, // Apply specific maximum width
+                  maxHeight: "100%",
+                  width: "100%", // Ensures logos are responsive
+                }}
               />
               <Typography
                 variant="h6"
@@ -94,12 +98,18 @@ const TransparentBar = () => (
             </Box>
           </Grid>
           {index < 3 && (
-            <Grid item xs={1} sm="auto">
-              <img
+            <Grid item xs={1} sm={0.7} md={0.6}>
+              <Box
+                component="img"
                 src={image.RightArrow}
                 alt="arrow"
                 className="arrow"
-                style={{ width: "100%", maxWidth: "40px" }} // Adjust arrow size for better scaling
+                sx={{
+                  display: { xs: "none", sm: "block", md: "block" },
+                  width: "100%",
+                  maxWidth: "40px",
+                  marginLeft: { sm: 1.4, md: 0 },
+                }}
               />
             </Grid>
           )}

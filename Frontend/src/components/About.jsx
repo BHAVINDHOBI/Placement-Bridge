@@ -22,7 +22,14 @@ const About = () => (
       }}
     >
       {/* About Text */}
-      <Grid item xs={12} md={6} data-aos="fade-right" data-aos-duration="900">
+      <Grid
+        item
+        xs={12}
+        md={6}
+        data-aos="fade-right"
+        data-aos-duration="900"
+        sx={{ justifyContent: "space-between" }}
+      >
         <Typography
           variant="h3"
           component="h1"

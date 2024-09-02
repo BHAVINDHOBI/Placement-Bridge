@@ -372,7 +372,9 @@ const JobDetail = ({ jobs }) => {
               {" "}
               <Typography
                 variant="body2"
-                sx={{ fontFamily: "Montserrat, sans-serif" }}
+                sx={{
+                  fontFamily: "Montserrat, sans-serif",
+                }}
               >
                 Visit Website
               </Typography>
