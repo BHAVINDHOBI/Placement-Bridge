@@ -24,6 +24,7 @@ const Contact = () => {
         borderRadius: "8px",
         boxShadow: "0px 4px 15px rgba(0, 0, 0, 0.1)",
         margin: "60px 0",
+        fontFamily: "Montserrat, sans-serif",
       }}
       id="contact"
     >
@@ -176,6 +177,7 @@ const Contact = () => {
                   variant="outlined"
                   required
                   sx={{
+                    fontFamily: "Montserrat, sans-serif",
                     backgroundColor: "#f7f7f7",
                     borderRadius: "4px",
                   }}
@@ -190,6 +192,7 @@ const Contact = () => {
                   variant="outlined"
                   required
                   sx={{
+                    fontFamily: "Montserrat, sans-serif",
                     backgroundColor: "#f7f7f7",
                     borderRadius: "4px",
                   }}

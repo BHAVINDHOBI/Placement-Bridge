@@ -12,7 +12,6 @@ import LatestTechnology from "./components/LatestTechnology";
 import JobList from "./components/JobList";
 import JobDetail from "./components/JobDetail";
 import jobData from "./data/CompaniesData";
-import Roadmap from "./components/Roadmaps/Roadmap";
 import StartUp from "./components/StartUp";
 import StartupFeature from "./components/StartupFeature";
 import "typeface-poppins";
@@ -43,7 +42,6 @@ function App() {
           {/* JobList routes */}
           <Route path="/recruitments" element={<JobList jobs={jobData} />} />
           <Route path="/job/:jobId" element={<JobDetail jobs={jobData} />} />
-          <Route path="/frontend-roadmap" element={<Roadmap />} />
         </Routes>
       </Router>
     </>

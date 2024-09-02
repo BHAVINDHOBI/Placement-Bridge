@@ -1,5 +1,6 @@
 import React from "react";
 import image from "../assets/ImageUtility";
+import "typeface-montserrat";
 
 const HackathonCard = ({
   imageSrc,

@@ -38,7 +38,13 @@ const HackathonFeature = () => {
           marginBottom: "20px",
         }}
       >
-        <Typography variant="h2" color="aqua" gutterBottom align="center">
+        <Typography
+          variant="h2"
+          color="aqua"
+          gutterBottom
+          align="center"
+          sx={{ fontFamily: "Montserrat, sans-serif" }}
+        >
           Register Your Hackathon or Suggest One to Us
         </Typography>
         <Grid
@@ -51,7 +57,12 @@ const HackathonFeature = () => {
             <Typography
               variant="body1"
               color="white"
-              sx={{ fontSize: "1.5rem", lineHeight: 1.5, textAlign: "justify" }}
+              sx={{
+                fontSize: "1.5rem",
+                lineHeight: 1.5,
+                textAlign: "justify",
+                fontFamily: "Montserrat, sans-serif",
+              }}
             >
               At Placement Bridge, we are dedicated to keeping you informed
               about the latest opportunities to showcase your skills and

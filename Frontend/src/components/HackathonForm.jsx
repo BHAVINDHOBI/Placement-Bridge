@@ -54,6 +54,7 @@ const HackathonForm = () => {
     <Container
       maxWidth="md"
       sx={{
+        fontFamily: "Montserrat, sans-serif",
         backgroundColor: "#f8f8f8",
         padding: { xs: "20px", sm: "30px" },
         borderRadius: "10px",
@@ -74,7 +75,7 @@ const HackathonForm = () => {
         gutterBottom
         sx={{
           color: "#000",
-          fontFamily: "Arial, sans-serif",
+          fontFamily: "Montserrat, sans-serif",
           fontWeight: "bold",
           fontSize: { xs: "1.5rem", sm: "2rem" },
           marginBottom: "30px",
@@ -145,6 +146,7 @@ const HackathonForm = () => {
                     borderColor: "#000",
                   },
                 },
+                fontFamily: "Montserrat, sans-serif",
               }}
             />
           </Grid>
@@ -168,6 +170,7 @@ const HackathonForm = () => {
                     borderColor: "#000",
                   },
                 },
+                fontFamily: "Montserrat, sans-serif",
               }}
             />
           </Grid>
@@ -191,6 +194,7 @@ const HackathonForm = () => {
                     borderColor: "#000",
                   },
                 },
+                fontFamily: "Montserrat, sans-serif",
               }}
             />
           </Grid>
@@ -214,6 +218,7 @@ const HackathonForm = () => {
                     borderColor: "#000",
                   },
                 },
+                fontFamily: "Montserrat, sans-serif",
               }}
             />
           </Grid>
@@ -237,6 +242,7 @@ const HackathonForm = () => {
                     borderColor: "#000",
                   },
                 },
+                fontFamily: "Montserrat, sans-serif",
               }}
             />
           </Grid>
@@ -263,6 +269,7 @@ const HackathonForm = () => {
                     borderColor: "#000",
                   },
                 },
+                fontFamily: "Montserrat, sans-serif",
               }}
             />
           </Grid>
@@ -289,6 +296,7 @@ const HackathonForm = () => {
                     borderColor: "#000",
                   },
                 },
+                fontFamily: "Montserrat, sans-serif",
               }}
             />
           </Grid>
@@ -306,6 +314,7 @@ const HackathonForm = () => {
               },
               width: { xs: "100px", sm: "120px" },
               fontSize: { xs: "0.8rem", sm: "1rem" },
+              fontFamily: "Montserrat, sans-serif",
             }}
             startIcon={<IoMdPaperPlane />}
           >
@@ -323,6 +332,7 @@ const HackathonForm = () => {
               },
               width: { xs: "100px", sm: "120px" },
               fontSize: { xs: "0.8rem", sm: "1rem" },
+              fontFamily: "Montserrat, sans-serif",
             }}
             startIcon={<IoReloadSharp />}
           >

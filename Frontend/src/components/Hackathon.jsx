@@ -182,7 +182,10 @@ const Hackathons = () => {
             marginRight: { xs: "-215px", sm: "85px", md: "120px", lg: "45px" },
           }}
         >
-          <Typography sx={{ marginRight: "10px" }} variant="h6">
+          <Typography
+            sx={{ marginRight: "10px", fontFamily: "Montserrat, sans-serif" }}
+            variant="h6"
+          >
             Add Hackathon{" "}
           </Typography>
           <BsFillPlusCircleFill

@@ -26,6 +26,7 @@ import {
 } from "@mui/icons-material";
 import "../styles/JobDetail.css";
 import jsPDF from "jspdf";
+import "typeface-montserrat";
 
 const Keyresp = "Key Responsibilities: ";
 const skillsNeeded = "Required Skills: ";
@@ -142,7 +143,11 @@ const JobDetail = ({ jobs }) => {
   return (
     <Container className="job-detail">
       <Paper className="job-detail-paper">
-        <Typography variant="h4" component="h2">
+        <Typography
+          variant="h4"
+          component="h2"
+          sx={{ fontFamily: "Montserrat, sans-serif" }}
+        >
           <center>{job.jobTitle}</center>
         </Typography>
         <div className="job-header">
@@ -158,7 +163,11 @@ const JobDetail = ({ jobs }) => {
           <CorporateFare sx={{ mr: 1.5, color: "gray", fontSize: "30px" }} />
           <Typography
             variant="h5"
-            style={{ marginBottom: "16px", fontWeight: "500" }}
+            style={{
+              marginBottom: "16px",
+              fontWeight: "500",
+              fontFamily: "Montserrat, sans-serif",
+            }}
           >
             {job.companyName}
           </Typography>
@@ -167,7 +176,7 @@ const JobDetail = ({ jobs }) => {
         <Divider
           orientation="horizontal"
           flexItem
-          sx={{ borderColor: "gray" }}
+          sx={{ borderColor: "black" }}
         ></Divider>
 
         <div className="job-details-wrapper">
@@ -178,7 +187,11 @@ const JobDetail = ({ jobs }) => {
               "
             >
               <LocationOn sx={{ mr: 1, color: "gray" }} />
-              <Typography variant="h6" color="textSecondary">
+              <Typography
+                variant="h6"
+                color="textSecondary"
+                sx={{ fontFamily: "Montserrat, sans-serif" }}
+              >
                 {job.location}
               </Typography>
             </Box>
@@ -188,7 +201,11 @@ const JobDetail = ({ jobs }) => {
               "
             >
               <Work sx={{ mr: 1, color: "gray" }}></Work>
-              <Typography variant="h6" color="textSecondary">
+              <Typography
+                variant="h6"
+                color="textSecondary"
+                sx={{ fontFamily: "Montserrat, sans-serif" }}
+              >
                 {job.jobType}
               </Typography>
             </Box>
@@ -201,7 +218,11 @@ const JobDetail = ({ jobs }) => {
               "
             >
               <CurrencyRupee sx={{ mr: 1, color: "gray" }} />
-              <Typography variant="h6" color="textSecondary">
+              <Typography
+                variant="h6"
+                color="textSecondary"
+                sx={{ fontFamily: "Montserrat, sans-serif" }}
+              >
                 {job.salary}
               </Typography>
             </Box>
@@ -211,7 +232,11 @@ const JobDetail = ({ jobs }) => {
               "
             >
               <DateRange sx={{ mr: 1, color: "gray" }}></DateRange>
-              <Typography variant="h6" color="textSecondary">
+              <Typography
+                variant="h6"
+                color="textSecondary"
+                sx={{ fontFamily: "Montserrat, sans-serif" }}
+              >
                 {job.dateRecruitment}
               </Typography>
             </Box>
@@ -221,29 +246,48 @@ const JobDetail = ({ jobs }) => {
         <Divider
           orientation="horizontal"
           flexItem
-          sx={{ borderColor: "gray" }}
+          sx={{ borderColor: "black" }}
         ></Divider>
 
         <div className="job-description-section">
           <Typography
             variant="h5"
-            style={{ marginBottom: "16px", fontWeight: "500" }}
+            style={{
+              marginBottom: "16px",
+              fontWeight: "500",
+              fontFamily: "Montserrat, sans-serif",
+            }}
           >
             Job Description:
           </Typography>
 
-          <Typography sx={{ marginBottom: 3, textAlign: "justify" }}>
+          <Typography
+            sx={{
+              marginBottom: 3,
+              textAlign: "justify",
+              fontFamily: "Montserrat, sans-serif",
+            }}
+          >
             {descriptionSections}
           </Typography>
           <Box sx={{ marginBottom: 3 }}>
             <Typography
               variant="body3"
-              style={{ fontWeight: "500" }}
+              style={{
+                fontWeight: "500",
+                fontFamily: "Montserrat, sans-serif",
+              }}
               color="textSecondary"
             >
               {Keyresp}
             </Typography>
-            <ul style={{ paddingLeft: "20px", paddingTop: "10px" }}>
+            <ul
+              style={{
+                paddingLeft: "20px",
+                paddingTop: "10px",
+                fontFamily: "Montserrat, sans-serif",
+              }}
+            >
               {KR.map((section, index) => (
                 <li
                   key={index}
@@ -258,12 +302,21 @@ const JobDetail = ({ jobs }) => {
           <Box>
             <Typography
               variant="body3"
-              style={{ fontWeight: "500" }}
+              style={{
+                fontWeight: "500",
+                fontFamily: "Montserrat, sans-serif",
+              }}
               color="textSecondary"
             >
               {skillsNeeded}
             </Typography>
-            <ul style={{ paddingLeft: "20px", paddingTop: "10px" }}>
+            <ul
+              style={{
+                paddingLeft: "20px",
+                paddingTop: "10px",
+                fontFamily: "Montserrat, sans-serif",
+              }}
+            >
               {SN.map((section, index) => (
                 <li key={index} style={{ marginBottom: "8px" }}>
                   • {section}
@@ -274,25 +327,34 @@ const JobDetail = ({ jobs }) => {
           <Divider
             orientation="horizontal"
             flexItem
-            sx={{ borderColor: "gray", marginTop: 3, marginBottom: 2 }}
+            sx={{ borderColor: "black", marginTop: 3, marginBottom: 2 }}
           ></Divider>
           <Typography
             variant="h5"
-            style={{ marginTop: "24px", fontWeight: "500" }}
+            style={{
+              marginTop: "24px",
+              fontWeight: "500",
+              fontFamily: "Montserrat, sans-serif",
+            }}
           >
             Benefits:
           </Typography>
           <div className="benefits-section">
             {benefits.length > 0 &&
               benefits.map((benefit, index) => (
-                <Chip key={index} label={benefit} className="benefit-chip" />
+                <Chip
+                  key={index}
+                  label={benefit}
+                  className="benefit-chip"
+                  sx={{ fontFamily: "Montserrat, sans-serif" }}
+                />
               ))}
           </div>
         </div>
         <Divider
           orientation="horizontal"
           flexItem
-          sx={{ borderColor: "gray", marginTop: 3, marginBottom: 3 }}
+          sx={{ borderColor: "black", marginTop: 3, marginBottom: 3 }}
         ></Divider>
         <Box
           sx={{
@@ -315,7 +377,12 @@ const JobDetail = ({ jobs }) => {
               color="inherit"
             >
               {" "}
-              <Typography variant="body2">Visit Website</Typography>
+              <Typography
+                variant="body2"
+                sx={{ fontFamily: "Montserrat, sans-serif" }}
+              >
+                Visit Website
+              </Typography>
             </Link>
           </Button>
           <Button
@@ -331,7 +398,12 @@ const JobDetail = ({ jobs }) => {
               color="inherit"
             >
               {" "}
-              <Typography variant="body2">LinkedIn</Typography>
+              <Typography
+                variant="body2"
+                sx={{ fontFamily: "Montserrat, sans-serif" }}
+              >
+                LinkedIn
+              </Typography>
             </Link>
           </Button>
         </Box>
@@ -342,6 +414,7 @@ const JobDetail = ({ jobs }) => {
             color="primary"
             onClick={handleRoadmapClick}
             className="button"
+            sx={{ fontFamily: "Montserrat, sans-serif" }}
           >
             <strong>View Roadmap</strong>
           </Button>
@@ -362,6 +435,7 @@ const JobDetail = ({ jobs }) => {
               startIcon={<DownloadIcon />}
               onClick={handleDownloadAsPdf}
               className="download-button"
+              sx={{ fontFamily: "Montserrat, sans-serif" }}
             >
               Download
             </Button>

@@ -40,7 +40,13 @@ const StartupBanner = () => {
           marginBottom: "20px",
         }}
       >
-        <Typography variant="h2" color="aqua" gutterBottom align="center">
+        <Typography
+          variant="h2"
+          color="aqua"
+          gutterBottom
+          align="center"
+          sx={{ fontFamily: "Montserrat, sans-serif" }}
+        >
           Register Your Startup or Recommend One to Us
         </Typography>
 
@@ -54,7 +60,12 @@ const StartupBanner = () => {
             <Typography
               variant="body1"
               color="white"
-              sx={{ fontSize: "1.5rem", lineHeight: 1.5, textAlign: "justify" }}
+              sx={{
+                fontSize: "1.5rem",
+                lineHeight: 1.5,
+                textAlign: "justify",
+                fontFamily: "Montserrat, sans-serif",
+              }}
             >
               At Placement Bridge, we are committed to supporting innovative
               startups and helping them connect with top talent. Whether you're

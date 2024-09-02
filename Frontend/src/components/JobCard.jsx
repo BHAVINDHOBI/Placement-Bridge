@@ -10,6 +10,7 @@ import {
 } from "@mui/material";
 import { Link } from "react-router-dom";
 import "../styles/JobCard.css";
+import "typeface-montserrat";
 
 const JobCard = ({ job }) => {
   return (
@@ -23,12 +24,19 @@ const JobCard = ({ job }) => {
                 src={job.companyLogo}
                 alt={`${job.companyName} logo`}
                 className="company-logo"
-                sx={{ height: 200, width: 150 }}
+                sx={{
+                  height: 200,
+                  width: 150,
+                  fontFamily: "Montserrat, sans-serif",
+                }}
               />
               <Typography
                 variant="h6"
                 className="company-name"
-                sx={{ fontWeight: "Bold" }}
+                sx={{
+                  fontWeight: "Bold",
+                  fontFamily: "Montserrat, sans-serif",
+                }}
               >
                 {job.companyName}
               </Typography>
@@ -52,7 +60,7 @@ const JobCard = ({ job }) => {
             <Typography
               variant="h6"
               className="job-title"
-              sx={{ fontWeight: "Bold" }}
+              sx={{ fontWeight: "Bold", fontFamily: "Montserrat, sans-serif" }}
             >
               Recruiting for - {job.jobTitle}
             </Typography>
@@ -60,11 +68,15 @@ const JobCard = ({ job }) => {
             <Typography
               variant="h6"
               className="description-title"
-              sx={{ fontWeight: "Bold" }}
+              sx={{ fontWeight: "Bold", fontFamily: "Montserrat, sans-serif" }}
             >
               Description
             </Typography>
-            <Typography variant="body2" className="description-text">
+            <Typography
+              variant="body2"
+              className="description-text"
+              sx={{ fontFamily: "Montserrat, sans-serif" }}
+            >
               {job.companyDescription}
             </Typography>
 
@@ -73,12 +85,18 @@ const JobCard = ({ job }) => {
 
             <Grid container spacing={1} className="job-meta">
               <Grid item xs={6}>
-                <Typography variant="body2">
+                <Typography
+                  variant="body2"
+                  sx={{ fontFamily: "Montserrat, sans-serif" }}
+                >
                   <strong>Location:</strong> {job.location}
                 </Typography>
               </Grid>
               <Grid item xs={6}>
-                <Typography variant="body2">
+                <Typography
+                  variant="body2"
+                  sx={{ fontFamily: "Montserrat, sans-serif" }}
+                >
                   <strong>Employees:</strong> {job.totalEmployees}
                 </Typography>
               </Grid>
@@ -87,7 +105,11 @@ const JobCard = ({ job }) => {
             {/* View Details Button */}
             <Box display="flex" justifyContent="flex-start" mt={2}>
               <Link to={`/job/${job.id}`} className="view-details-link">
-                <Button variant="contained" color="primary">
+                <Button
+                  variant="contained"
+                  color="primary"
+                  sx={{ fontFamily: "Montserrat, sans-serif" }}
+                >
                   View Details
                 </Button>
               </Link>

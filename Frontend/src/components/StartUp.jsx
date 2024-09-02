@@ -11,6 +11,7 @@ import {
   IconButton,
 } from "@mui/material";
 
+import "typeface-montserrat";
 import StartUpCard from "./StartUpCard";
 import StartUps from "../data/StartUp.json";
 import { BsFillPlusCircleFill } from "react-icons/bs";
@@ -133,6 +134,7 @@ const StartUp = () => {
                 sx={{
                   marginLeft: 1,
                   marginRight: { xs: 3, md: 2 },
+                  fontFamily: "Montserrat, sans-serif",
                   fontSize: {
                     xs: "1.4rem", // Font size for extra-small devices (mobile)
                     sm: "1.7rem", // Font size for small devices (tablets)
@@ -167,9 +169,14 @@ const StartUp = () => {
               value={searchQuery}
               onChange={handleSearchChange}
               className="search-bar"
-              sx={{ width: "400px", marginLeft: "auto" }}
+              sx={{
+                width: "400px",
+                marginLeft: "auto",
+                fontFamily: "Montserrat, sans-serif",
+              }}
             />
           </Box>
+
           <Box
             sx={{
               marginTop: { xs: "50px", md: "50px" }, // Apply marginTop only on mobile (xs)
@@ -202,6 +209,41 @@ const StartUp = () => {
           </Box>
 
           <div className="main-container">
+            <Box
+              sx={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: {
+                  xs: "center",
+                  sm: "flex-end",
+                  md: "flex-end",
+                },
+                marginBottom: { xs: "10px", sm: "15px", md: "20px" },
+                marginRight: {
+                  xs: "-215px",
+                  sm: "85px",
+                  md: "120px",
+                  lg: "45px",
+                },
+              }}
+            >
+              <Typography
+                sx={{
+                  marginRight: "10px",
+                  fontFamily: "Montserrat, sans-serif",
+                  color: "White",
+                }}
+                variant="h6"
+              >
+                Add Startup{" "}
+              </Typography>
+              <BsFillPlusCircleFill
+                size={40}
+                color="aqua"
+                onClick={handleFabClick}
+                cursor="pointer"
+              />
+            </Box>
             {currentItems.map((startup, index) => (
               <React.Fragment key={index}>
                 <StartUpCard

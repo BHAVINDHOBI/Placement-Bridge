@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { Box, Typography } from "@mui/material";
 import StarryBackground from "./StarryBackground";
+import "typeface-montserrat";
 
 const Home = () => {
   useEffect(() => {
@@ -22,6 +23,7 @@ const Home = () => {
       <Box
         component="section"
         sx={{
+          fontFamily: "Montserrat, sans-serif",
           display: "flex",
           justifyContent: "space-between",
           alignItems: "center",
@@ -45,7 +47,8 @@ const Home = () => {
             variant="h2" // Increased text size
             component="div"
             sx={{
-              fontWeight: "bold",
+              fontFamily: "Montserrat, sans-serif",
+              fontWeight: 550,
               // Adjusted space below the heading
               textAlign: { xs: "center", md: "left" },
               fontSize: { xs: "2.2rem", md: "3.3rem" }, // Justify text alignment
@@ -57,6 +60,7 @@ const Home = () => {
             variant="h5" // Increased text size
             component="p"
             sx={{
+              fontFamily: "Montserrat, sans-serif",
               fontSize: { xs: "1.3rem", md: "1.5rem" },
               color: "#00d3e8",
               textAlign: { xs: "justify", md: "justify" }, // Justify text alignment

@@ -120,6 +120,7 @@ const JobList = ({ jobs }) => {
               sx={{
                 marginLeft: 1,
                 marginRight: { xs: 3, md: 2 },
+                fontFamily: "Montserrat, sans-serif",
                 fontSize: {
                   xs: "1.4rem", // Font size for extra-small devices (mobile)
                   sm: "1.7rem", // Font size for small devices (tablets)
@@ -154,7 +155,11 @@ const JobList = ({ jobs }) => {
             value={searchQuery}
             onChange={handleSearchChange}
             className="search-bar"
-            sx={{ width: "400px", marginLeft: "auto" }}
+            sx={{
+              width: "400px",
+              marginLeft: "auto",
+              fontFamily: "Montserrat, sans-serif",
+            }}
           />
         </Box>
         <Box

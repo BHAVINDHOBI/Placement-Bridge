@@ -72,7 +72,7 @@ const StartupForm = () => {
         gutterBottom
         sx={{
           color: "#000",
-          fontFamily: "Arial, sans-serif",
+          fontFamily: "Montserrat, sans-serif",
           fontWeight: "bold",
           fontSize: { xs: "1.5rem", sm: "2rem" },
         }}
@@ -116,6 +116,7 @@ const StartupForm = () => {
                     borderColor: "#000",
                   },
                 },
+                fontFamily: "Montserrat, sans-serif",
               }}
             />
           </Grid>
@@ -142,6 +143,7 @@ const StartupForm = () => {
                     borderColor: "#000",
                   },
                 },
+                fontFamily: "Montserrat, sans-serif",
               }}
             />
           </Grid>
@@ -170,6 +172,7 @@ const StartupForm = () => {
                     borderColor: "#000",
                   },
                 },
+                fontFamily: "Montserrat, sans-serif",
               }}
             />
           </Grid>
@@ -193,6 +196,7 @@ const StartupForm = () => {
                     borderColor: "#000",
                   },
                 },
+                fontFamily: "Montserrat, sans-serif",
               }}
             />
           </Grid>
@@ -216,6 +220,7 @@ const StartupForm = () => {
                     borderColor: "#000",
                   },
                 },
+                fontFamily: "Montserrat, sans-serif",
               }}
             />
           </Grid>
@@ -242,6 +247,7 @@ const StartupForm = () => {
                     borderColor: "#000",
                   },
                 },
+                fontFamily: "Montserrat, sans-serif",
               }}
             />
           </Grid>
@@ -268,6 +274,7 @@ const StartupForm = () => {
                     borderColor: "#000",
                   },
                 },
+                fontFamily: "Montserrat, sans-serif",
               }}
             />
           </Grid>
@@ -285,6 +292,7 @@ const StartupForm = () => {
               },
               width: { xs: "100px", sm: "120px" },
               fontSize: { xs: "0.8rem", sm: "1rem" },
+              fontFamily: "Montserrat, sans-serif",
             }}
             startIcon={<IoMdPaperPlane />}
           >
@@ -302,6 +310,7 @@ const StartupForm = () => {
               },
               width: { xs: "100px", sm: "120px" },
               fontSize: { xs: "0.8rem", sm: "1rem" },
+              fontFamily: "Montserrat, sans-serif",
             }}
             startIcon={<IoReloadSharp />}
           >
