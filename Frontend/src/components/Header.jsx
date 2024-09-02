@@ -41,7 +41,7 @@ const Header = () => {
 
   const handleSignOutClick = () => {
     localStorage.removeItem("token");
-    window.location.href = "/Login";
+    window.location.href = "/login";
   };
 
   const handleDrawerToggle = () => {
