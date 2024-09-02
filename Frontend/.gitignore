@@ -23,6 +23,5 @@ dist-ssr
 *.sln
 *.sw?
 
-src/data
 package-lock.json
 .env

@@ -13,7 +13,7 @@ import {
 
 import "typeface-montserrat";
 import StartUpCard from "./StartUpCard";
-import StartUps from "../data/StartUp.json";
+import StartUps from "../data/StartUp";
 import { BsFillPlusCircleFill } from "react-icons/bs";
 import { ArrowBack } from "@mui/icons-material";
 import { useNavigate } from "react-router-dom";
