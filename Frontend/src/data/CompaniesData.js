@@ -714,7 +714,7 @@ const companyData = [
   {
     id: "f2d3c18b5bfa4e5b9d9e96b8c8b792e17f5872c8",
     jobTitle: "Data Scientist",
-    companyLogo: companyImage.nextgensolution,
+    companyLogo: companyImage.nextgensol,
     companyName: "NextGen Solutions",
     dateRecruitment: "2024-08-25",
     salary: "18,00,000   25,00,000 per annum",
@@ -3593,7 +3593,7 @@ const companyData = [
   {
     id: "7d1f2d4b7f6a4ab8b79b3a1d290f8a223ee0984c",
     jobTitle: "Web Developer",
-    companyLogo: companyImage.NextGen,
+    companyLogo: companyImage.NextGenTechnologies,
     companyName: "NextGen Technologies",
     dateRecruitment: "Posted 1 week ago",
     salary: "8L – 15L",
@@ -3626,7 +3626,7 @@ const companyData = [
   {
     id: "8e2b3f6a7c5d4ab8b79b3a1d290f8a223ee0984d",
     jobTitle: "iOS Developer",
-    companyLogo: companyImage.Mobility,
+    companyLogo: companyImage.mobility,
     companyName: "Mobility Solutions Ltd.",
     dateRecruitment: "Posted 2 weeks ago",
     salary: "12L – 20L",
@@ -3659,7 +3659,7 @@ const companyData = [
   {
     id: "9f3b4d5a6e7c8b9a0c1d2e3f4g5h6i7j8k9l0m1n",
     jobTitle: "AI ML Engineer",
-    companyLogo: companyImage.ProAI,
+    companyLogo: companyImage.ProAi,
     companyName: "ProAI Solutions",
     dateRecruitment: "Posted 1 month ago",
     salary: "15L – 25L",
@@ -3693,7 +3693,7 @@ const companyData = [
   {
     id: "b3c4d5e6f7g8h9i0j1k2l3m4n5o6p7q8r9s0t1u",
     jobTitle: "Java Developer",
-    companyLogo: companyImage.Infogain,
+    companyLogo: companyImage.infogain,
     companyName: "Infogain",
     dateRecruitment: "Posted 2 days ago",
     salary: "9L – 17L",
