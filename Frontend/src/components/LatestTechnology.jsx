@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import TechnologyCard from "./LatestTechnologiesCard";
-import technologies from "../data/technologies.json";
+import technologies from "../data/technologies";
 import {
   Pagination,
   TextField,
