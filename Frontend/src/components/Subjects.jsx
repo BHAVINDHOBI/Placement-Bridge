@@ -125,7 +125,7 @@ const Subjects = () => {
                   marginLeft: 1,
                   fontFamily: "Montserrat, sans-serif",
                   fontSize: {
-                    xs: "1.4rem", // Font size for extra-small devices (mobile)
+                    xs: "1.3rem", // Font size for extra-small devices (mobile)
                     sm: "1.7rem", // Font size for small devices (tablets)
                     md: "2rem", // Font size for medium devices (desktop)
                   },
